@@ -12,7 +12,13 @@ public final class R {
         /**  list of 3- or 4-letter mnemonics for a 10-key numeric keypad 
  9 
          */
-        public static final int lockscreen_num_pad_klondike=0x7f080000;
+        public static final int lockscreen_num_pad_klondike=0x7f050002;
+        /**  Wi-Fi settings. The status messages when the network is unknown. 
+         */
+        public static final int wifi_status=0x7f050000;
+        /**  Wi-Fi settings. The status messages when the network is known. 
+         */
+        public static final int wifi_status_with_ssid=0x7f050001;
     }
     public static final class attr {
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -67,15 +73,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     public static final class bool {
         /**  Allow the menu hard key to be disabled in LockScreen on some devices [DO NOT TRANSLATE] 
          */
-        public static final int config_disableMenuKeyInLockScreen=0x7f060005;
+        public static final int config_disableMenuKeyInLockScreen=0x7f090005;
         /**  Alias used to reference framework configuration for screen rotation.  
          */
-        public static final int config_enableLockScreenRotation=0x7f060000;
+        public static final int config_enableLockScreenRotation=0x7f090000;
         /**  Alias used to reference framework configuration for translucent decor.  
          */
-        public static final int config_enableLockScreenTranslucentDecor=0x7f060001;
-        public static final int kg_show_ime_at_screen_on=0x7f060002;
-        public static final int kg_sim_puk_account_full_screen=0x7f060004;
+        public static final int config_enableLockScreenTranslucentDecor=0x7f090001;
+        public static final int kg_show_ime_at_screen_on=0x7f090002;
+        public static final int kg_sim_puk_account_full_screen=0x7f090004;
         /**  Carriers in this locale are sensitive to capitalization of carrier text. 
          This makes the entire interface consistent by switching back to normal case. 
  Carriers in this locale are sensitive to capitalization of carrier text. 
@@ -83,37 +89,39 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Carriers in this locale are sensitive to capitalization of carrier text. 
          This makes the entire interface consistent by switching back to normal case. 
          */
-        public static final int kg_use_all_caps=0x7f060003;
+        public static final int kg_use_all_caps=0x7f090003;
     }
     public static final class color {
-        public static final int clock_gray=0x7f040003;
+        public static final int clock_gray=0x7f080003;
         /**  Clock 
          */
-        public static final int clock_white=0x7f040002;
-        public static final int keyguard_sim_view_divider=0x7f040001;
+        public static final int clock_white=0x7f080002;
+        public static final int keyguard_sim_view_divider=0x7f080001;
         /**  Alias used to reference framework color for transparency. 
          */
-        public static final int transparent=0x7f040000;
+        public static final int transparent=0x7f080000;
     }
     public static final class dimen {
         /**  The y translation to apply at the start in appear animations. 
+ The y translation to apply at the start in appear animations. 
          */
-        public static final int appear_y_translation_start=0x7f0a0009;
+        public static final int appear_y_translation_start=0x7f060001;
         /**  Default clock parameters 
          */
-        public static final int bottom_text_spacing_digital=0x7f0a0006;
+        public static final int bottom_text_spacing_digital=0x7f060009;
         /**  The vertical margin between the date and the owner info. 
          */
-        public static final int date_owner_info_margin=0x7f0a000c;
+        public static final int date_owner_info_margin=0x7f06000e;
         /**  The translation for disappearing security views after having solved them. 
+ The translation for disappearing security views after having solved them. 
          */
-        public static final int disappear_y_translation=0x7f0a000d;
+        public static final int disappear_y_translation=0x7f060002;
         /**  EmergencyCarrierArea overlap - amount to overlap the emergency button and carrier text.
          Should be 0 on devices with plenty of room (e.g. tablets) 
  EmergencyCarrierArea overlap - amount to overlap the emergency button and carrier text.
          Should be 0 on devices with plenty of room (e.g. tablets) 
          */
-        public static final int eca_overlap=0x7f0a0005;
+        public static final int eca_overlap=0x7f060008;
         /**  Height of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) 
  Height of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) 
  Height of the sliding KeyguardSecurityContainer (includes 2x
@@ -122,110 +130,118 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         (includes 2x keyguard_security_view_margin) 
  Height of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) 
          */
-        public static final int keyguard_security_height=0x7f0a0002;
+        public static final int keyguard_security_height=0x7f060005;
         /**  Max Height of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) 
          */
-        public static final int keyguard_security_max_height=0x7f0a0003;
+        public static final int keyguard_security_max_height=0x7f060006;
         /**  Margin around the various security views 
  Margin around the various security views 
          */
-        public static final int keyguard_security_view_margin=0x7f0a0004;
+        public static final int keyguard_security_view_margin=0x7f060007;
         /**  Width of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) 
  Width of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) 
  Width of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) 
          */
-        public static final int keyguard_security_width=0x7f0a0001;
+        public static final int keyguard_security_width=0x7f060004;
         /**  Size of the generic status lines keyguard's status view  
  Size of the generic status lines keyguard's status view  
          */
-        public static final int kg_status_line_font_size=0x7f0a0000;
+        public static final int kg_status_line_font_size=0x7f060003;
         /**  The padding between chars of the password view. 
          */
-        public static final int password_char_padding=0x7f0a000b;
+        public static final int password_char_padding=0x7f06000d;
         /**  The size of the dots in the PIN unlock method. 
          */
-        public static final int password_dot_size=0x7f0a000a;
+        public static final int password_dot_size=0x7f06000c;
+        public static final int shortcut_picker_left_padding=0x7f060000;
         /**  Overload default clock widget parameters 
  Overload default clock widget parameters 
          */
-        public static final int widget_big_font_size=0x7f0a0008;
-        public static final int widget_label_font_size=0x7f0a0007;
+        public static final int widget_big_font_size=0x7f06000b;
+        public static final int widget_label_font_size=0x7f06000a;
     }
     public static final class drawable {
-        public static final int ic_access_alarms_big=0x7f020000;
-        public static final int ic_backspace_24dp=0x7f020001;
-        public static final int ic_done_wht=0x7f020002;
-        public static final int ic_lockscreen_ime=0x7f020003;
-        public static final int ic_lockscreen_sim=0x7f020004;
-        public static final int kg_security_lock_normal=0x7f020005;
-        public static final int ripple_drawable=0x7f020006;
+        public static final int activities_icon=0x7f020000;
+        public static final int ic_access_alarms_big=0x7f020001;
+        public static final int ic_backspace_24dp=0x7f020002;
+        public static final int ic_bt_cellphone=0x7f020003;
+        public static final int ic_bt_headphones_a2dp=0x7f020004;
+        public static final int ic_bt_headset_hfp=0x7f020005;
+        public static final int ic_bt_misc_hid=0x7f020006;
+        public static final int ic_bt_network_pan=0x7f020007;
+        public static final int ic_bt_pointing_hid=0x7f020008;
+        public static final int ic_done_wht=0x7f020009;
+        public static final int ic_lockscreen_ime=0x7f02000a;
+        public static final int ic_lockscreen_sim=0x7f02000b;
+        public static final int kg_security_lock_normal=0x7f02000c;
+        public static final int ripple_drawable=0x7f02000d;
     }
     public static final class id {
-        public static final int alarm_status=0x7f0c002c;
-        public static final int carrier_text=0x7f0c0000;
-        public static final int clock=0x7f0c0024;
-        public static final int clock_view=0x7f0c0025;
-        public static final int container=0x7f0c000d;
-        public static final int date_view=0x7f0c002b;
-        public static final int delete_button=0x7f0c0012;
-        public static final int digit_text=0x7f0c0006;
-        public static final int divider=0x7f0c0013;
-        public static final int emergency_call_button=0x7f0c0001;
-        public static final int key0=0x7f0c0021;
-        public static final int key1=0x7f0c0015;
-        public static final int key2=0x7f0c0016;
-        public static final int key3=0x7f0c0017;
-        public static final int key4=0x7f0c0019;
-        public static final int key5=0x7f0c001a;
-        public static final int key6=0x7f0c001b;
-        public static final int key7=0x7f0c001d;
-        public static final int key8=0x7f0c001e;
-        public static final int key9=0x7f0c001f;
-        public static final int key_enter=0x7f0c0022;
-        public static final int keyguard_clock_container=0x7f0c002e;
-        public static final int keyguard_host_view=0x7f0c0002;
-        public static final int keyguard_message_area=0x7f0c0005;
-        public static final int keyguard_password_view=0x7f0c0008;
-        public static final int keyguard_pattern_view=0x7f0c000c;
-        public static final int keyguard_pin_view=0x7f0c000f;
-        public static final int keyguard_security_container=0x7f0c0003;
-        public static final int keyguard_selector_fade_container=0x7f0c000b;
-        public static final int keyguard_sim=0x7f0c0027;
-        public static final int keyguard_sim_pin_view=0x7f0c0026;
-        public static final int keyguard_sim_puk_view=0x7f0c0029;
-        public static final int keyguard_status_view=0x7f0c002d;
-        public static final int klondike_text=0x7f0c0007;
-        public static final int lockPatternView=0x7f0c000e;
-        public static final int owner_info=0x7f0c002f;
-        public static final int passwordEntry=0x7f0c0009;
-        public static final int pinEntry=0x7f0c0011;
-        public static final int presentation=0x7f0c0023;
-        public static final int pukEntry=0x7f0c002a;
-        public static final int row0=0x7f0c0010;
-        public static final int row1=0x7f0c0014;
-        public static final int row2=0x7f0c0018;
-        public static final int row3=0x7f0c001c;
-        public static final int row4=0x7f0c0020;
-        public static final int simPinEntry=0x7f0c0028;
-        public static final int switch_ime_button=0x7f0c000a;
-        public static final int view_flipper=0x7f0c0004;
+        public static final int alarm_status=0x7f0d002c;
+        public static final int carrier_text=0x7f0d0000;
+        public static final int clock=0x7f0d0024;
+        public static final int clock_view=0x7f0d0025;
+        public static final int container=0x7f0d000d;
+        public static final int date_view=0x7f0d002b;
+        public static final int delete_button=0x7f0d0012;
+        public static final int digit_text=0x7f0d0006;
+        public static final int divider=0x7f0d0013;
+        public static final int emergency_call_button=0x7f0d0001;
+        public static final int key0=0x7f0d0021;
+        public static final int key1=0x7f0d0015;
+        public static final int key2=0x7f0d0016;
+        public static final int key3=0x7f0d0017;
+        public static final int key4=0x7f0d0019;
+        public static final int key5=0x7f0d001a;
+        public static final int key6=0x7f0d001b;
+        public static final int key7=0x7f0d001d;
+        public static final int key8=0x7f0d001e;
+        public static final int key9=0x7f0d001f;
+        public static final int key_enter=0x7f0d0022;
+        public static final int keyguard_clock_container=0x7f0d002e;
+        public static final int keyguard_host_view=0x7f0d0002;
+        public static final int keyguard_message_area=0x7f0d0005;
+        public static final int keyguard_password_view=0x7f0d0008;
+        public static final int keyguard_pattern_view=0x7f0d000c;
+        public static final int keyguard_pin_view=0x7f0d000f;
+        public static final int keyguard_security_container=0x7f0d0003;
+        public static final int keyguard_selector_fade_container=0x7f0d000b;
+        public static final int keyguard_sim=0x7f0d0027;
+        public static final int keyguard_sim_pin_view=0x7f0d0026;
+        public static final int keyguard_sim_puk_view=0x7f0d0029;
+        public static final int keyguard_status_view=0x7f0d002d;
+        public static final int klondike_text=0x7f0d0007;
+        public static final int lockPatternView=0x7f0d000e;
+        public static final int owner_info=0x7f0d002f;
+        public static final int passwordEntry=0x7f0d0009;
+        public static final int pinEntry=0x7f0d0011;
+        public static final int presentation=0x7f0d0023;
+        public static final int pukEntry=0x7f0d002a;
+        public static final int row0=0x7f0d0010;
+        public static final int row1=0x7f0d0014;
+        public static final int row2=0x7f0d0018;
+        public static final int row3=0x7f0d001c;
+        public static final int row4=0x7f0d0020;
+        public static final int simPinEntry=0x7f0d0028;
+        public static final int switch_ime_button=0x7f0d000a;
+        public static final int view_flipper=0x7f0d0004;
     }
     public static final class integer {
         /**  Alias used to reference framework activity duration.  
          */
-        public static final int config_activityDefaultDur=0x7f070000;
+        public static final int config_activityDefaultDur=0x7f0a0000;
         /**  Threshold in micro amperes above which a charger is rated as "fast" 
          */
-        public static final int config_chargingFastThreshold=0x7f070002;
+        public static final int config_chargingFastThreshold=0x7f0a0002;
         /**  Threshold in micro amperes below which a charger is rated as "slow" 
          */
-        public static final int config_chargingSlowlyThreshold=0x7f070001;
+        public static final int config_chargingSlowlyThreshold=0x7f0a0001;
         /**  Gravity to make KeyguardSelectorView work in multiple orientations
         0x31 == "top|center_horizontal" 
  Gravity to make KeyguardSelectorView work in multiple orientations
         0x13 == "left|center_vertical" 
          */
-        public static final int kg_selector_gravity=0x7f070003;
+        public static final int kg_selector_gravity=0x7f0a0003;
     }
     public static final class layout {
         public static final int keyguard_bouncer=0x7f030000;
@@ -293,7 +309,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Instructions telling the user remaining times when enter SIM PIN view.  
  Instructions telling the user remaining times when enter SIM PIN view.  
          */
-        public static final int kg_password_default_pin_message=0x7f090000;
+        public static final int kg_password_default_pin_message=0x7f0b0000;
         /**  Instructions telling the user that they entered the wrong SIM PIN while trying
          to unlock the keyguard.  Displayed in a dialog box.  
  Instructions telling the user that they entered the wrong SIM PIN while trying
@@ -305,7 +321,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Instructions telling the user that they entered the wrong SIM PIN while trying
          to unlock the keyguard.  Displayed in a dialog box.  
          */
-        public static final int kg_password_wrong_pin_code=0x7f090001;
+        public static final int kg_password_wrong_pin_code=0x7f0b0001;
         /**  Instructions telling the user that they entered the wrong puk while trying
          to unlock the keyguard.  Displayed in a dialog box.  
  Instructions telling the user that they entered the wrong puk while trying
@@ -315,45 +331,218 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Instructions telling the user that they entered the wrong puk while trying
          to unlock the keyguard.  Displayed in a dialog box.  
          */
-        public static final int kg_password_wrong_puk_code=0x7f090002;
+        public static final int kg_password_wrong_puk_code=0x7f0b0002;
         /**  An explanation text that the password needs to be entered since it hasn't been entered in a while. [CHAR LIMIT=80]
          */
-        public static final int kg_prompt_reason_time_password=0x7f090005;
+        public static final int kg_prompt_reason_time_password=0x7f0b0005;
         /**  An explanation text that the pattern needs to be solved since it hasn't been solved in a while. [CHAR LIMIT=80]
          */
-        public static final int kg_prompt_reason_time_pattern=0x7f090003;
+        public static final int kg_prompt_reason_time_pattern=0x7f0b0003;
         /**  An explanation text that the pin needs to be entered since it hasn't been entered in a while. [CHAR LIMIT=80]
          */
-        public static final int kg_prompt_reason_time_pin=0x7f090004;
+        public static final int kg_prompt_reason_time_pin=0x7f0b0004;
     }
     public static final class string {
         /**  Skeleton string format for displaying the date. 
          */
-        public static final int abbrev_wday_month_day_no_year=0x7f050005;
+        public static final int abbrev_wday_month_day_no_year=0x7f07005b;
         /**  Skeleton string format for displaying the date when an alarm is set. 
          */
-        public static final int abbrev_wday_month_day_no_year_alarm=0x7f050006;
+        public static final int abbrev_wday_month_day_no_year_alarm=0x7f07005c;
         /**  Content description of the switch input method button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the switch input method button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_ime_switch_button=0x7f050053;
+        public static final int accessibility_ime_switch_button=0x7f0700a9;
+        /**  Content description of the WIFI signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
+         */
+        public static final int accessibility_no_wifi=0x7f070051;
+        /**  Content description of the WIFI signal when WIFI is disabled for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
+         */
+        public static final int accessibility_wifi_off=0x7f070050;
+        /**  Content description of the WIFI signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
+         */
+        public static final int accessibility_wifi_one_bar=0x7f070052;
+        /**  Content description of the WIFI signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
+         */
+        public static final int accessibility_wifi_signal_full=0x7f070055;
+        /**  Content description of the WIFI signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
+         */
+        public static final int accessibility_wifi_three_bars=0x7f070054;
+        /**  Content description of the WIFI signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
+         */
+        public static final int accessibility_wifi_two_bars=0x7f070053;
         /**  Description of airplane mode 
          */
-        public static final int airplane_mode=0x7f050054;
+        public static final int airplane_mode=0x7f0700aa;
         /**  App label in the manifest  
  App label in the manifest  
  App label in the manifest  
          */
-        public static final int app_name=0x7f050009;
+        public static final int app_name=0x7f07005f;
+        /**  Status message of Wi-Fi when network has matching passpoint credentials. [CHAR LIMIT=NONE] 
+         */
+        public static final int available_via_passpoint=0x7f07001e;
+        /**  Bluetooth settings.  Connection options screen.  The summary for the A2DP checkbox preference when A2DP is connected. 
+         */
+        public static final int bluetooth_a2dp_profile_summary_connected=0x7f070036;
+        /**  Bluetooth settings.  Connection options screen.  The summary for the A2DP checkbox preference that describes how checking it will set the A2DP profile as preferred. 
+         */
+        public static final int bluetooth_a2dp_profile_summary_use_for=0x7f070043;
+        /**  Bluetooth settings.  Message when connected to a device. [CHAR LIMIT=40] 
+         */
+        public static final int bluetooth_connected=0x7f070025;
+        /**  Bluetooth settings.  Message when connected to a device, except for media audio. [CHAR LIMIT=40] 
+         */
+        public static final int bluetooth_connected_no_a2dp=0x7f070028;
+        /**  Bluetooth settings.  Message when connected to a device, except for phone audio. [CHAR LIMIT=40] 
+         */
+        public static final int bluetooth_connected_no_headset=0x7f070027;
+        /**  Bluetooth settings.  Message when connected to a device, except for phone/media audio. [CHAR LIMIT=40] 
+         */
+        public static final int bluetooth_connected_no_headset_no_a2dp=0x7f07002a;
+        /**  Bluetooth settings.  Message when connected to a device, except for map. [CHAR LIMIT=40] 
+         */
+        public static final int bluetooth_connected_no_map=0x7f070029;
+        /**  Bluetooth settings.  Message when connecting to a device 
+         */
+        public static final int bluetooth_connecting=0x7f070024;
+        /**  Bluetooth settings.  Message when a device is disconnected 
+         */
+        public static final int bluetooth_disconnected=0x7f070022;
+        /**  Bluetooth settings.  Message when disconnecting from a device 
+         */
+        public static final int bluetooth_disconnecting=0x7f070023;
+        /**  Bluetooth settings.  Connection options screen.  The summary for the DUN checkbox preference when DUN is connected. 
+         */
+        public static final int bluetooth_dun_profile_summary_connected=0x7f07003f;
+        /**  Bluetooth settings. Connection options screen.  The summary for the dun checkbox preference that describes how checking it will set the dun profile as preferred. 
+         */
+        public static final int bluetooth_dun_profile_summary_use_for=0x7f070047;
+        /**  Bluetooth settings.  Connection options screen.  The summary for the headset checkbox preference when headset is connected. 
+         */
+        public static final int bluetooth_headset_profile_summary_connected=0x7f070037;
+        /**  Bluetooth settings.  Connection options screen.  The summary for the headset checkbox preference that describes how checking it will set the headset profile as preferred. 
+         */
+        public static final int bluetooth_headset_profile_summary_use_for=0x7f070044;
+        /**  Bluetooth settings. Connection options screen. The summary for the HID checkbox preference when HID is connected. 
+         */
+        public static final int bluetooth_hid_profile_summary_connected=0x7f07003c;
+        /**  Bluetooth settings. Connection options screen. The summary
+         for the HID checkbox preference that describes how checking it
+         will set the HID profile as preferred. 
+         */
+        public static final int bluetooth_hid_profile_summary_use_for=0x7f070046;
+        /**  Bluetooth settings.  Connection options screen.  The summary for the map checkbox preference when map is connected. 
+         */
+        public static final int bluetooth_map_profile_summary_connected=0x7f070039;
+        /**  Bluetooth settings. Connection options screen.  The summary for the map checkbox preference that describes how checking it will set the map profile as preferred. 
+         */
+        public static final int bluetooth_map_profile_summary_use_for=0x7f070041;
+        /**  Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference when OPP is connected. 
+         */
+        public static final int bluetooth_opp_profile_summary_connected=0x7f070038;
+        /**  Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference when OPP is not connected. 
+         */
+        public static final int bluetooth_opp_profile_summary_not_connected=0x7f07003b;
+        /**  Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference that describes how checking it will set the OPP profile as preferred. 
+         */
+        public static final int bluetooth_opp_profile_summary_use_for=0x7f070045;
+        /** Bluetooth settings screen, summary text under individual Bluetooth devices when pairing 
+         */
+        public static final int bluetooth_pairing=0x7f070026;
+        /**  Button text for accepting an incoming pairing request. [CHAR LIMIT=20] 
+         */
+        public static final int bluetooth_pairing_accept=0x7f070048;
+        /**  Button text for accepting an incoming pairing request in all caps. [CHAR LIMIT=20] 
+         */
+        public static final int bluetooth_pairing_accept_all_caps=0x7f070049;
+        /**  Button text for declining an incoming pairing request. [CHAR LIMIT=20] 
+         */
+        public static final int bluetooth_pairing_decline=0x7f07004a;
+        /**  Message for the error dialog when BT pairing fails because the other device is down. 
+         */
+        public static final int bluetooth_pairing_device_down_error_message=0x7f07004e;
+        /**  Message for the error dialog when BT pairing fails generically. 
+         */
+        public static final int bluetooth_pairing_error_message=0x7f07004c;
+        /**  Message for the error dialog when BT pairing fails because the PIN /
+    Passkey entered is incorrect. 
+         */
+        public static final int bluetooth_pairing_pin_error_message=0x7f07004d;
+        /**  Message for the error dialog when BT pairing fails because the other device rejected the pairing. 
+         */
+        public static final int bluetooth_pairing_rejected_error_message=0x7f07004f;
+        /**  Message in pairing dialogs.  [CHAR LIMIT=NONE] 
+         */
+        public static final int bluetooth_pairing_will_share_phonebook=0x7f07004b;
+        /**  Bluetooth settings. Connection options screen. The summary for the checkbox preference when PAN is connected (NAP role). [CHAR LIMIT=25]
+         */
+        public static final int bluetooth_pan_nap_profile_summary_connected=0x7f07003e;
+        /**  Bluetooth settings. Connection options screen. The summary
+         for the PAN checkbox preference that describes how checking it
+         will set the PAN profile as preferred. 
+         */
+        public static final int bluetooth_pan_profile_summary_use_for=0x7f070040;
+        /**  Bluetooth settings. Connection options screen. The summary for the checkbox preference when PAN is connected (user role). [CHAR LIMIT=25]
+         */
+        public static final int bluetooth_pan_user_profile_summary_connected=0x7f07003d;
+        /**  Bluetooth settings.  The user-visible string that is used whenever referring to the A2DP profile. 
+         */
+        public static final int bluetooth_profile_a2dp=0x7f07002b;
+        /**  Bluetooth settings. The user-visible string that is used whenever referring to the dun profile. 
+         */
+        public static final int bluetooth_profile_dun=0x7f070035;
+        /**  Bluetooth settings.  The user-visible string that is used whenever referring to the headset or handsfree profile. 
+         */
+        public static final int bluetooth_profile_headset=0x7f07002c;
+        /**  Bluetooth settings. The user-visible string that is used whenever referring to the HID profile. 
+         */
+        public static final int bluetooth_profile_hid=0x7f07002e;
+        /**  Bluetooth settings. The user-visible string that is used whenever referring to the map profile. 
+         */
+        public static final int bluetooth_profile_map=0x7f070033;
+        /**  Bluetooth settings.  The user-visible string that is used whenever referring to the OPP profile. 
+         */
+        public static final int bluetooth_profile_opp=0x7f07002d;
+        /**  Bluetooth settings. The user-visible string that is used whenever referring to the PAN profile (accessing Internet through remote device). [CHAR LIMIT=40] 
+         */
+        public static final int bluetooth_profile_pan=0x7f07002f;
+        /**  Bluetooth settings. The user-visible string that is used whenever referring to the PAN profile (sharing this device's Internet connection). [CHAR LIMIT=40] 
+         */
+        public static final int bluetooth_profile_pan_nap=0x7f070032;
+        /**  Bluetooth settings. The user-visible string that is used whenever referring to the PBAP profile. [CHAR LIMIT=40] 
+         */
+        public static final int bluetooth_profile_pbap=0x7f070030;
+        /**  Bluetooth settings. The user-visible summary string that is used whenever referring to the PBAP profile (sharing contacts). [CHAR LIMIT=60] 
+         */
+        public static final int bluetooth_profile_pbap_summary=0x7f070031;
+        /**  Bluetooth settings. The user-visible string that is used whenever referring to the SAP profile (sharing SIM card). 
+         */
+        public static final int bluetooth_profile_sap=0x7f070034;
+        /**  Bluetooth settings.  Connection options screen.  The summary for the sap checkbox preference when SAP is connected. 
+         */
+        public static final int bluetooth_sap_profile_summary_connected=0x7f07003a;
+        /**  Bluetooth settings.  Connection options screen.  The summary for the sap checkbox preference that describes how checking it will set the sap profile as preferred. 
+         */
+        public static final int bluetooth_sap_profile_summary_use_for=0x7f070042;
+        /**  Package name for Certinstaller app
+         */
+        public static final int certinstaller_package=0x7f070020;
         /**  Skeleton string format for displaying the time in 12-hour format. 
          */
-        public static final int clock_12hr_format=0x7f050007;
+        public static final int clock_12hr_format=0x7f07005d;
         /**  Skeleton string format for displaying the time in 24-hour format. 
          */
-        public static final int clock_24hr_format=0x7f050008;
+        public static final int clock_24hr_format=0x7f07005e;
+        /**  Status message of Wi-Fi when it is connected by Passpoint configuration. [CHAR LIMIT=NONE] 
+         */
+        public static final int connected_via_passpoint=0x7f07001d;
+        /**  Status message of Wi-Fi when it is connected by a Wi-Fi assistant application. [CHAR LIMIT=NONE] 
+         */
+        public static final int connected_via_wfa=0x7f07001c;
         /**  Fingerprint hint message when finger was not recognized.
          */
-        public static final int fingerprint_not_recognized=0x7f05005e;
+        public static final int fingerprint_not_recognized=0x7f0700b4;
         /**  Description of the Delete button in a KeyboardView. [CHAR LIMIT=NONE] 
  KeyguardPinView - accessibility support 
  Description of the Delete button in a KeyboardView. [CHAR LIMIT=NONE] 
@@ -405,13 +594,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  KeyguardPinView - accessibility support 
  Description of the Delete button in a KeyboardView. [CHAR LIMIT=NONE] 
          */
-        public static final int keyboardview_keycode_delete=0x7f05002d;
+        public static final int keyboardview_keycode_delete=0x7f070083;
         /**  Description of the Enter button in a KeyboardView. [CHAR LIMIT=NONE] 
  Description of the Enter button in a KeyboardView. [CHAR LIMIT=NONE] 
  Description of the Enter button in a KeyboardView. [CHAR LIMIT=NONE] 
  Description of the Enter button in a KeyboardView. [CHAR LIMIT=NONE] 
          */
-        public static final int keyboardview_keycode_enter=0x7f05002e;
+        public static final int keyboardview_keycode_enter=0x7f070084;
         /**  Accessibility description for the text view that indicates when the next alarm is set (not shown on screen). [CHAR_LIMIT=none] 
  Accessibility description for the text view that indicates when the next alarm is set (not shown on screen). [CHAR_LIMIT=none] 
  Accessibility description of the PIN password view. [CHAR_LIMIT=none] 
@@ -419,21 +608,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Accessibility description of the SIM PUK password view. [CHAR_LIMIT=none] 
  Accessibility description for the text view that indicates when the next alarm is set (not shown on screen). [CHAR_LIMIT=none] 
          */
-        public static final int keyguard_accessibility_next_alarm=0x7f05002c;
+        public static final int keyguard_accessibility_next_alarm=0x7f070082;
         /**  Accessibility description of the password lock. [CHAR_LIMIT=none] 
  Accessibility description of the password lock. [CHAR_LIMIT=none] 
  Accessibility description of the password lock. [CHAR_LIMIT=none] 
  Accessibility description of the password lock. [CHAR_LIMIT=none] 
  Accessibility description of the password lock. [CHAR_LIMIT=none] 
          */
-        public static final int keyguard_accessibility_password_unlock=0x7f050026;
+        public static final int keyguard_accessibility_password_unlock=0x7f07007c;
         /**  Accessibility description of the unlock pattern area. [CHAR_LIMIT=none] 
  Accessibility description of the unlock pattern area. [CHAR_LIMIT=none] 
  Accessibility description of the unlock pattern area. [CHAR_LIMIT=none] 
  Accessibility description of the unlock pattern area. [CHAR_LIMIT=none] 
  Accessibility description of the unlock pattern area. [CHAR_LIMIT=none] 
          */
-        public static final int keyguard_accessibility_pattern_area=0x7f050027;
+        public static final int keyguard_accessibility_pattern_area=0x7f07007d;
         /**  Time format strings for fall-back clock widget 
  Time format strings for fall-back clock widget 
  Time format strings for fall-back clock widget 
@@ -443,33 +632,33 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Time format strings for fall-back clock widget 
  Time format strings for fall-back clock widget 
          */
-        public static final int keyguard_accessibility_pattern_unlock=0x7f050024;
+        public static final int keyguard_accessibility_pattern_unlock=0x7f07007a;
         /**  Accessibility description of the PIN password view. [CHAR_LIMIT=none] 
  Accessibility description of the PIN password view. [CHAR_LIMIT=none] 
          */
-        public static final int keyguard_accessibility_pin_area=0x7f050029;
+        public static final int keyguard_accessibility_pin_area=0x7f07007f;
         /**  Accessibility description of the pin lock. [CHAR_LIMIT=none] 
  Accessibility description of the pin lock. [CHAR_LIMIT=none] 
  Accessibility description of the pin lock. [CHAR_LIMIT=none] 
  Accessibility description of the pin lock. [CHAR_LIMIT=none] 
  Accessibility description of the pin lock. [CHAR_LIMIT=none] 
          */
-        public static final int keyguard_accessibility_pin_unlock=0x7f050025;
+        public static final int keyguard_accessibility_pin_unlock=0x7f07007b;
         /**  Accessibility description of the SIM PIN password view. [CHAR_LIMIT=none] 
  Accessibility description of the SIM PIN password view. [CHAR_LIMIT=none] 
          */
-        public static final int keyguard_accessibility_sim_pin_area=0x7f05002a;
+        public static final int keyguard_accessibility_sim_pin_area=0x7f070080;
         /**  Accessibility description of the SIM PUK password view. [CHAR_LIMIT=none] 
  Accessibility description of the SIM PUK password view. [CHAR_LIMIT=none] 
          */
-        public static final int keyguard_accessibility_sim_puk_area=0x7f05002b;
+        public static final int keyguard_accessibility_sim_puk_area=0x7f070081;
         /**  Accessibility description of the unlock slide area. [CHAR_LIMIT=none] 
  Accessibility description of the unlock slide area. [CHAR_LIMIT=none] 
  Accessibility description of the unlock slide area. [CHAR_LIMIT=none] 
  Accessibility description of the unlock slide area. [CHAR_LIMIT=none] 
  Accessibility description of the unlock slide area. [CHAR_LIMIT=none] 
          */
-        public static final int keyguard_accessibility_slide_area=0x7f050028;
+        public static final int keyguard_accessibility_slide_area=0x7f07007e;
         /**  On the keyguard screen, it shows the carrier the phone is connected to.
         This is displayed if the phone is not connected to a carrier.
  On the keyguard screen, it shows the carrier the phone is connected to.
@@ -535,7 +724,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  On the keyguard screen, it shows the carrier the phone is connected to.
         This is displayed if the phone is not connected to a carrier.
          */
-        public static final int keyguard_carrier_default=0x7f050052;
+        public static final int keyguard_carrier_default=0x7f0700a8;
         /**  When the lock screen is showing, the phone is plugged in and the battery is fully
          charged, say that it is charged. 
  When the lock screen is showing, the phone is plugged in and the battery is fully
@@ -547,7 +736,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  When the lock screen is showing, the phone is plugged in and the battery is fully
          charged, say that it is charged. 
          */
-        public static final int keyguard_charged=0x7f050012;
+        public static final int keyguard_charged=0x7f070068;
         /**  On the keyguard screen, when pattern lock is disabled, only tell them to press menu to unlock.  This is shown in small font at the bottom. 
  On the keyguard screen, when pattern lock is disabled, only tell them to press menu to unlock.  This is shown in small font at the bottom. 
  When the lock screen is showing and the phone plugged in, and the battery
@@ -562,7 +751,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  On the keyguard screen, when pattern lock is disabled, only tell them to press menu to unlock.  This is shown in small font at the bottom. 
  On the keyguard screen, when pattern lock is disabled, only tell them to press menu to unlock.  This is shown in small font at the bottom. 
          */
-        public static final int keyguard_instructions_when_pattern_disabled=0x7f050017;
+        public static final int keyguard_instructions_when_pattern_disabled=0x7f07006d;
         /**  When the lock screen is showing and the battery is low, warn user to plug
          in the phone soon. 
  When the lock screen is showing and the battery is low, warn user to plug
@@ -582,21 +771,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  When the lock screen is showing and the battery is low, warn user to plug
          in the phone soon. 
          */
-        public static final int keyguard_low_battery=0x7f050016;
+        public static final int keyguard_low_battery=0x7f07006c;
         /**  Shown to ask the user to insert a SIM card. 
  Shown to ask the user to insert a SIM card. 
  Shown to ask the user to insert a SIM card. 
  Shown to ask the user to insert a SIM card. 
  Shown to ask the user to insert a SIM card. 
          */
-        public static final int keyguard_missing_sim_instructions=0x7f05001b;
+        public static final int keyguard_missing_sim_instructions=0x7f070071;
         /**  Shown to ask the user to insert a SIM card when sim is missing or not readable. 
  Shown to ask the user to insert a SIM card when sim is missing or not readable. 
  Shown to ask the user to insert a SIM card when sim is missing or not readable. 
  Shown to ask the user to insert a SIM card when sim is missing or not readable. 
  Shown to ask the user to insert a SIM card when sim is missing or not readable. 
          */
-        public static final int keyguard_missing_sim_instructions_long=0x7f05001c;
+        public static final int keyguard_missing_sim_instructions_long=0x7f070072;
         /**  Shown when there is no SIM card. 
  Shown when there is no SIM card. 
  Shown when there is no SIM card. 
@@ -607,14 +796,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Shown when there is no SIM card. 
  Shown when there is no SIM card. 
          */
-        public static final int keyguard_missing_sim_message=0x7f05001a;
+        public static final int keyguard_missing_sim_message=0x7f070070;
         /**  Shown when there is no SIM card. 
  Shown when there is no SIM card. 
  Shown when there is no SIM card. 
  Shown when there is no SIM card. 
  Shown when there is no SIM card. 
          */
-        public static final int keyguard_missing_sim_message_short=0x7f050019;
+        public static final int keyguard_missing_sim_message_short=0x7f07006f;
         /**  When the user inserts a sim card from an unsupported network, it becomes network locked 
  SIM messages 
  When the user inserts a sim card from an unsupported network, it becomes network locked 
@@ -625,7 +814,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  SIM messages 
  When the user inserts a sim card from an unsupported network, it becomes network locked 
          */
-        public static final int keyguard_network_locked_message=0x7f050018;
+        public static final int keyguard_network_locked_message=0x7f07006e;
         /**  Instructions telling the user to enter their text password to unlock the keyguard.
          Displayed in one line in a large font.  
  Instructions telling the user to enter their text password to unlock the keyguard.
@@ -637,7 +826,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Instructions telling the user to enter their text password to unlock the keyguard.
          Displayed in one line in a large font.  
          */
-        public static final int keyguard_password_enter_password_code=0x7f05000f;
+        public static final int keyguard_password_enter_password_code=0x7f070065;
         /**  Instructions telling the user to enter their SIM PIN to unlock the keyguard.
          Displayed in one line in a large font.  
  Instructions telling the user to enter their SIM PIN to unlock the keyguard.
@@ -651,7 +840,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Instructions telling the user to enter their SIM PIN to unlock the keyguard.
          Displayed in one line in a large font.  
          */
-        public static final int keyguard_password_enter_pin_code=0x7f05000a;
+        public static final int keyguard_password_enter_pin_code=0x7f070060;
         /**  Instructions telling the user to enter their PIN password to unlock the keyguard.
          Displayed in one line in a large font.  
  Instructions telling the user to enter their PIN password to unlock the keyguard.
@@ -663,14 +852,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Instructions telling the user to enter their PIN password to unlock the keyguard.
          Displayed in one line in a large font.  
          */
-        public static final int keyguard_password_enter_pin_password_code=0x7f050010;
+        public static final int keyguard_password_enter_pin_password_code=0x7f070066;
         /**  Prompt to enter New SIM PIN in Edit Text Box in unlock screen 
  Prompt to enter New SIM PIN in Edit Text Box in unlock screen 
  Prompt to enter New SIM PIN in Edit Text Box in unlock screen 
  Prompt to enter New SIM PIN in Edit Text Box in unlock screen 
  Prompt to enter New SIM PIN in Edit Text Box in unlock screen 
          */
-        public static final int keyguard_password_enter_pin_prompt=0x7f05000d;
+        public static final int keyguard_password_enter_pin_prompt=0x7f070063;
         /**  Instructions telling the user to enter their SIM PUK to unlock the keyguard.
          Displayed in one line in a large font.  
  Instructions telling the user to enter their SIM PUK to unlock the keyguard.
@@ -682,21 +871,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Instructions telling the user to enter their SIM PUK to unlock the keyguard.
          Displayed in one line in a large font.  
          */
-        public static final int keyguard_password_enter_puk_code=0x7f05000b;
+        public static final int keyguard_password_enter_puk_code=0x7f070061;
         /**  Prompt to enter SIM PUK in Edit Text Box in unlock screen 
  Prompt to enter SIM PUK in Edit Text Box in unlock screen 
  Prompt to enter SIM PUK in Edit Text Box in unlock screen 
  Prompt to enter SIM PUK in Edit Text Box in unlock screen 
  Prompt to enter SIM PUK in Edit Text Box in unlock screen 
          */
-        public static final int keyguard_password_enter_puk_prompt=0x7f05000c;
+        public static final int keyguard_password_enter_puk_prompt=0x7f070062;
         /**  Displayed as hint in passwordEntry EditText on PasswordUnlockScreen [CHAR LIMIT=30]
  Displayed as hint in passwordEntry EditText on PasswordUnlockScreen [CHAR LIMIT=30]
  Displayed as hint in passwordEntry EditText on PasswordUnlockScreen [CHAR LIMIT=30]
  Displayed as hint in passwordEntry EditText on PasswordUnlockScreen [CHAR LIMIT=30]
  Displayed as hint in passwordEntry EditText on PasswordUnlockScreen [CHAR LIMIT=30]
          */
-        public static final int keyguard_password_entry_touch_hint=0x7f05000e;
+        public static final int keyguard_password_entry_touch_hint=0x7f070064;
         /**  Instructions telling the user that they entered the wrong pin while trying
          to unlock the keyguard.  Displayed in one line in a large font.  
  Instructions telling the user that they entered the wrong pin while trying
@@ -708,21 +897,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Instructions telling the user that they entered the wrong pin while trying
          to unlock the keyguard.  Displayed in one line in a large font.  
          */
-        public static final int keyguard_password_wrong_pin_code=0x7f050011;
+        public static final int keyguard_password_wrong_pin_code=0x7f070067;
         /**  Shown to inform the user to SIM card is permanently disabled. 
  Shown to inform the user to SIM card is permanently disabled. 
  Shown to inform the user to SIM card is permanently disabled. 
  Shown to inform the user to SIM card is permanently disabled. 
  Shown to inform the user to SIM card is permanently disabled. 
          */
-        public static final int keyguard_permanent_disabled_sim_instructions=0x7f05001e;
+        public static final int keyguard_permanent_disabled_sim_instructions=0x7f070074;
         /**  Shown when SIM card is permanently disabled. 
  Shown when SIM card is permanently disabled. 
  Shown when SIM card is permanently disabled. 
  Shown when SIM card is permanently disabled. 
  Shown when SIM card is permanently disabled. 
          */
-        public static final int keyguard_permanent_disabled_sim_message_short=0x7f05001d;
+        public static final int keyguard_permanent_disabled_sim_message_short=0x7f070073;
         /**  When the user inserts a sim card with some personalization enabled 
  When the user inserts a sim card with some personalization enabled 
  When the user inserts a sim card with some personalization enabled 
@@ -773,7 +962,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  When the user inserts a sim card with some personalization enabled 
  When the user inserts a sim card with some personalization enabled 
          */
-        public static final int keyguard_perso_locked_message=0x7f050002;
+        public static final int keyguard_perso_locked_message=0x7f070058;
         /**  When the lock screen is showing and the phone plugged in, and the battery
          is not fully charged, say that it's charging.  
  When the lock screen is showing and the phone plugged in, and the battery
@@ -799,33 +988,33 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  When the lock screen is showing and the phone plugged in, and the battery
          is not fully charged, say that it's charging.  
          */
-        public static final int keyguard_plugged_in=0x7f050013;
+        public static final int keyguard_plugged_in=0x7f070069;
         /**  When the lock screen is showing and the phone plugged in, and the battery
          is not fully charged, and it's plugged into a fast charger, say that it's charging fast.  
  When the lock screen is showing and the phone plugged in, and the battery
          is not fully charged, and it's plugged into a fast charger, say that it's charging fast.  
          */
-        public static final int keyguard_plugged_in_charging_fast=0x7f050014;
+        public static final int keyguard_plugged_in_charging_fast=0x7f07006a;
         /**  When the lock screen is showing and the phone plugged in, and the battery
          is not fully charged, and it's plugged into a slow charger, say that it's charging slowly.  
  When the lock screen is showing and the phone plugged in, and the battery
          is not fully charged, and it's plugged into a slow charger, say that it's charging slowly.  
          */
-        public static final int keyguard_plugged_in_charging_slowly=0x7f050015;
+        public static final int keyguard_plugged_in_charging_slowly=0x7f07006b;
         /**  Shown to tell the user that their SIM is locked and they must unlock it. 
  Shown to tell the user that their SIM is locked and they must unlock it. 
  Shown to tell the user that their SIM is locked and they must unlock it. 
  Shown to tell the user that their SIM is locked and they must unlock it. 
  Shown to tell the user that their SIM is locked and they must unlock it. 
          */
-        public static final int keyguard_sim_locked_message=0x7f05001f;
+        public static final int keyguard_sim_locked_message=0x7f070075;
         /**  When the user enters a wrong sim pin too many times, it becomes PUK locked (Pin Unlock Kode) 
  When the user enters a wrong sim pin too many times, it becomes PUK locked (Pin Unlock Kode) 
  When the user enters a wrong sim pin too many times, it becomes PUK locked (Pin Unlock Kode) 
  When the user enters a wrong sim pin too many times, it becomes PUK locked (Pin Unlock Kode) 
  When the user enters a wrong sim pin too many times, it becomes PUK locked (Pin Unlock Kode) 
          */
-        public static final int keyguard_sim_puk_locked_message=0x7f050020;
+        public static final int keyguard_sim_puk_locked_message=0x7f070076;
         /**  For the unlock screen, When the user enters a sim unlock code, it takes a little while to check
          whether it is valid, and to unlock the sim if it is valid.  we display a
          progress dialog in the meantime.  this is the emssage. 
@@ -842,30 +1031,30 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          whether it is valid, and to unlock the sim if it is valid.  we display a
          progress dialog in the meantime.  this is the emssage. 
          */
-        public static final int keyguard_sim_unlock_progress_dialog_message=0x7f050021;
+        public static final int keyguard_sim_unlock_progress_dialog_message=0x7f070077;
         /**  Time format strings for fall-back clock widget 
          */
-        public static final int keyguard_widget_12_hours_format=0x7f050022;
+        public static final int keyguard_widget_12_hours_format=0x7f070078;
         /**  Time format strings for fall-back clock widget 
          */
-        public static final int keyguard_widget_24_hours_format=0x7f050023;
+        public static final int keyguard_widget_24_hours_format=0x7f070079;
         /**  Message shown when the user needs to confirm the PIN they just entered in the PUK screen 
  Message shown when the user needs to confirm the PIN they just entered in the PUK screen 
  Message shown when the user needs to confirm the PIN they just entered in the PUK screen 
  Message shown when the user needs to confirm the PIN they just entered in the PUK screen 
  Message shown when the user needs to confirm the PIN they just entered in the PUK screen 
          */
-        public static final int kg_enter_confirm_pin_hint=0x7f05003c;
+        public static final int kg_enter_confirm_pin_hint=0x7f070092;
         /**  Message shown when user is almost at the limit of password attempts where the profile will be removed. [CHAR LIMIT=none] 
  Message shown when user is almost at the limit of password attempts where the profile will be removed. [CHAR LIMIT=none] 
  Message shown when user is almost at the limit of password attempts where the profile will be removed. [CHAR LIMIT=none] 
          */
-        public static final int kg_failed_attempts_almost_at_erase_profile=0x7f05004a;
+        public static final int kg_failed_attempts_almost_at_erase_profile=0x7f0700a0;
         /**  Message shown when user is almost at the limit of password attempts where the user will be removed. [CHAR LIMIT=none] 
  Message shown when user is almost at the limit of password attempts where the user will be removed. [CHAR LIMIT=none] 
  Message shown when user is almost at the limit of password attempts where the user will be removed. [CHAR LIMIT=none] 
          */
-        public static final int kg_failed_attempts_almost_at_erase_user=0x7f050048;
+        public static final int kg_failed_attempts_almost_at_erase_user=0x7f07009e;
         /**  Message shown in dialog when user is almost at the limit where they will be
     locked out and may have to enter an alternate username/password to unlock the phone 
  Message shown in dialog when user is almost at the limit where they will be
@@ -918,30 +1107,30 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Message shown in dialog when user is almost at the limit where they will be
     locked out and may have to enter an alternate username/password to unlock the phone 
          */
-        public static final int kg_failed_attempts_almost_at_login=0x7f05004c;
+        public static final int kg_failed_attempts_almost_at_login=0x7f0700a2;
         /**  Message shown when user is almost at the limit of password attempts where the device will be wiped. [CHAR LIMIT=none] 
  Message shown when user is almost at the limit of password attempts where the device will be wiped. [CHAR LIMIT=none] 
  Message shown when user is almost at the limit of password attempts where the device will be wiped. [CHAR LIMIT=none] 
  Message shown when user is almost at the limit of password attempts where the device will be wiped. [CHAR LIMIT=none] 
  Message shown when user is almost at the limit of password attempts where the device will be wiped. [CHAR LIMIT=none] 
          */
-        public static final int kg_failed_attempts_almost_at_wipe=0x7f050046;
+        public static final int kg_failed_attempts_almost_at_wipe=0x7f07009c;
         /**  Message shown in dialog when user has exceeded the maximum attempts and the profile will be removed. [CHAR LIMIT=none] 
  Message shown in dialog when user has exceeded the maximum attempts and the profile will be removed. [CHAR LIMIT=none] 
  Message shown in dialog when user has exceeded the maximum attempts and the profile will be removed. [CHAR LIMIT=none] 
          */
-        public static final int kg_failed_attempts_now_erasing_profile=0x7f05004b;
+        public static final int kg_failed_attempts_now_erasing_profile=0x7f0700a1;
         /**  Message shown in dialog when user has exceeded the maximum attempts and the user will be removed. [CHAR LIMIT=none] 
  Message shown in dialog when user has exceeded the maximum attempts and the user will be removed. [CHAR LIMIT=none] 
  Message shown in dialog when user has exceeded the maximum attempts and the user will be removed. [CHAR LIMIT=none] 
          */
-        public static final int kg_failed_attempts_now_erasing_user=0x7f050049;
+        public static final int kg_failed_attempts_now_erasing_user=0x7f07009f;
         /**  Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped [CHAR LIMIT=none] 
  Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped [CHAR LIMIT=none] 
  Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped [CHAR LIMIT=none] 
  Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped [CHAR LIMIT=none] 
          */
-        public static final int kg_failed_attempts_now_wiping=0x7f050047;
+        public static final int kg_failed_attempts_now_wiping=0x7f07009d;
         /**  Message shown in pattern unlock after some number of unsuccessful attempts 
  Message shown in pattern unlock after some number of unsuccessful attempts 
  Description of the Enter button in a KeyboardView. [CHAR LIMIT=NONE] 
@@ -949,21 +1138,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Message shown in pattern unlock after some number of unsuccessful attempts 
  Message shown in pattern unlock after some number of unsuccessful attempts 
          */
-        public static final int kg_forgot_pattern_button_text=0x7f05002f;
+        public static final int kg_forgot_pattern_button_text=0x7f070085;
         /**  String shown in PUK screen when PIN codes don't match 
  String shown in PUK screen when PIN codes don't match 
  String shown in PUK screen when PIN codes don't match 
  String shown in PUK screen when PIN codes don't match 
  String shown in PUK screen when PIN codes don't match 
          */
-        public static final int kg_invalid_confirm_pin_hint=0x7f050041;
+        public static final int kg_invalid_confirm_pin_hint=0x7f070097;
         /**  Message shown when the user enters an invalid PUK code 
  Message shown when the user enters an invalid PUK code 
  Message shown when the user enters an invalid PUK code 
  Message shown when the user enters an invalid PUK code 
  Message shown when the user enters an invalid PUK code 
          */
-        public static final int kg_invalid_puk=0x7f050040;
+        public static final int kg_invalid_puk=0x7f070096;
         /**  Shown in the KeyguardSimPinView when entry length is too short. 
  Shown in the KeyguardSimPinView when entry length is too short. 
  Instructions telling the user remaining times when enter SIM PIN view.  
@@ -1020,35 +1209,35 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Instructions telling the user remaining times when enter SIM PIN view.  
  Shown in the KeyguardSimPinView when entry length is too short. 
          */
-        public static final int kg_invalid_sim_length=0x7f050004;
+        public static final int kg_invalid_sim_length=0x7f07005a;
         /**  Message shown when the user enters an invalid SIM pin password in PUK screen 
  Message shown when the user enters an invalid SIM pin password in PUK screen 
  Message shown when the user enters an invalid SIM pin password in PUK screen 
  Message shown when the user enters an invalid SIM pin password in PUK screen 
  Message shown when the user enters an invalid SIM pin password in PUK screen 
          */
-        public static final int kg_invalid_sim_pin_hint=0x7f05003e;
+        public static final int kg_invalid_sim_pin_hint=0x7f070094;
         /**  Message shown when the user enters an invalid PUK code in the PUK screen 
  Message shown when the user enters an invalid PUK code in the PUK screen 
  Message shown when the user enters an invalid PUK code in the PUK screen 
  Message shown when the user enters an invalid PUK code in the PUK screen 
  Message shown when the user enters an invalid PUK code in the PUK screen 
          */
-        public static final int kg_invalid_sim_puk_hint=0x7f05003f;
+        public static final int kg_invalid_sim_puk_hint=0x7f070095;
         /**  Message shown when the user exceeds the maximum number of pattern attempts 
  Message shown when the user exceeds the maximum number of pattern attempts 
  Message shown when the user exceeds the maximum number of pattern attempts 
  Message shown when the user exceeds the maximum number of pattern attempts 
  Message shown when the user exceeds the maximum number of pattern attempts 
          */
-        public static final int kg_login_too_many_attempts=0x7f050042;
+        public static final int kg_login_too_many_attempts=0x7f070098;
         /**  Instructions for using the password unlock screen 
  Instructions for using the password unlock screen 
  Instructions for using the password unlock screen 
  Instructions for using the password unlock screen 
  Instructions for using the password unlock screen 
          */
-        public static final int kg_password_instructions=0x7f050038;
+        public static final int kg_password_instructions=0x7f07008e;
         /**  Instructions telling the user that the operation to unlock the keyguard
          with SIM PIN failed. Displayed in one line in a large font.  
  Instructions telling the user that the operation to unlock the keyguard
@@ -1062,7 +1251,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Instructions telling the user that the operation to unlock the keyguard
          with SIM PIN failed. Displayed in one line in a large font.  
          */
-        public static final int kg_password_pin_failed=0x7f05004f;
+        public static final int kg_password_pin_failed=0x7f0700a5;
         /**  Instructions telling the user that the operation to unlock the keyguard
          with PUK failed. Displayed in one line in a large font.  
  Instructions telling the user that the operation to unlock the keyguard
@@ -1074,7 +1263,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Instructions telling the user that the operation to unlock the keyguard
          with PUK failed. Displayed in one line in a large font.  
          */
-        public static final int kg_password_puk_failed=0x7f050050;
+        public static final int kg_password_puk_failed=0x7f0700a6;
         /**  Instructions telling the user that they entered the wrong SIM PIN for the last time.
          Displayed in a dialog box.  
  Instructions telling the user that they entered the wrong SIM PIN for the last time.
@@ -1086,7 +1275,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Instructions telling the user that they entered the wrong SIM PIN for the last time.
          Displayed in a dialog box.  
          */
-        public static final int kg_password_wrong_pin_code_pukked=0x7f05004d;
+        public static final int kg_password_wrong_pin_code_pukked=0x7f0700a3;
         /**  Instructions telling the user that they have exhausted SIM PUK retries and the SIM is now unusable.
          Displayed in a dialog box.  
  Instructions telling the user that they have exhausted SIM PUK retries and the SIM is now unusable.
@@ -1098,21 +1287,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Instructions telling the user that they have exhausted SIM PUK retries and the SIM is now unusable.
          Displayed in a dialog box.  
          */
-        public static final int kg_password_wrong_puk_code_dead=0x7f05004e;
+        public static final int kg_password_wrong_puk_code_dead=0x7f0700a4;
         /**  Instructions for using the pattern unlock screen 
  Instructions for using the pattern unlock screen 
  Instructions for using the pattern unlock screen 
  Instructions for using the pattern unlock screen 
  Instructions for using the pattern unlock screen 
          */
-        public static final int kg_pattern_instructions=0x7f050034;
+        public static final int kg_pattern_instructions=0x7f07008a;
         /**  Notification telling the user that the PIN1 they entered is valid 
  Notification telling the user that the PIN1 they entered is valid 
  Notification telling the user that the PIN1 they entered is valid 
  Notification telling the user that the PIN1 they entered is valid 
  Notification telling the user that the PIN1 they entered is valid 
          */
-        public static final int kg_pin_accepted=0x7f050051;
+        public static final int kg_pin_accepted=0x7f0700a7;
         /**  Instructions for using the PIN unlock screen 
  Instructions for using the PIN unlock screen 
  Instructions for using the SIM PIN unlock screen when there's more than one SIM 
@@ -1122,34 +1311,34 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Instructions for using the SIM PIN unlock screen when there's more than one SIM 
  Instructions for using the PIN unlock screen 
          */
-        public static final int kg_pin_instructions=0x7f050037;
+        public static final int kg_pin_instructions=0x7f07008d;
         /**  An explanation text that the password needs to be entered since the device has just been restarted. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_restart_password=0x7f050057;
+        public static final int kg_prompt_reason_restart_password=0x7f0700ad;
         /**  An explanation text that the pattern needs to be solved since the device has just been restarted. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_restart_pattern=0x7f050055;
+        public static final int kg_prompt_reason_restart_pattern=0x7f0700ab;
         /**  An explanation text that the pin needs to be entered since the device has just been restarted. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_restart_pin=0x7f050056;
+        public static final int kg_prompt_reason_restart_pin=0x7f0700ac;
         /**  An explanation text that the password needs to be entered since profiles have just been switched. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_switch_profiles_password=0x7f05005d;
+        public static final int kg_prompt_reason_switch_profiles_password=0x7f0700b3;
         /**  An explanation text that the pattern needs to be solved since profiles have just been switched. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_switch_profiles_pattern=0x7f05005b;
+        public static final int kg_prompt_reason_switch_profiles_pattern=0x7f0700b1;
         /**  An explanation text that the pin needs to be entered since profiles have just been switched. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_switch_profiles_pin=0x7f05005c;
+        public static final int kg_prompt_reason_switch_profiles_pin=0x7f0700b2;
         /**  An explanation text that the password needs to be entered since the user hasn't used strong authentication since quite some time. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_timeout_password=0x7f05005a;
+        public static final int kg_prompt_reason_timeout_password=0x7f0700b0;
         /**  An explanation text that the pattern needs to be solved since the user hasn't used strong authentication since quite some time. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_timeout_pattern=0x7f050058;
+        public static final int kg_prompt_reason_timeout_pattern=0x7f0700ae;
         /**  An explanation text that the pin needs to be entered since the user hasn't used strong authentication since quite some time. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_timeout_pin=0x7f050059;
+        public static final int kg_prompt_reason_timeout_pin=0x7f0700af;
         /**  Hint shown in the PUK unlock screen PIN TextView 
  Hint shown in the PUK unlock screen PIN TextView 
  Hint shown when there are multiple SIMs in the device to ask the user to enter the PUK code given to them by their provider 
@@ -1159,79 +1348,79 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Hint shown when there are multiple SIMs in the device to ask the user to enter the PUK code given to them by their provider 
  Hint shown in the PUK unlock screen PIN TextView 
          */
-        public static final int kg_puk_enter_pin_hint=0x7f05003b;
+        public static final int kg_puk_enter_pin_hint=0x7f070091;
         /**  Hint shown in the PUK screen that asks the user to enter the PUK code given to them by their provider 
  Hint shown in the PUK screen that asks the user to enter the PUK code given to them by their provider 
  Hint shown in the PUK screen that asks the user to enter the PUK code given to them by their provider 
  Hint shown in the PUK screen that asks the user to enter the PUK code given to them by their provider 
  Hint shown in the PUK screen that asks the user to enter the PUK code given to them by their provider 
          */
-        public static final int kg_puk_enter_puk_hint=0x7f050039;
+        public static final int kg_puk_enter_puk_hint=0x7f07008f;
         /**  Hint shown when there are multiple SIMs in the device to ask the user to enter the PUK code given to them by their provider 
  Hint shown when there are multiple SIMs in the device to ask the user to enter the PUK code given to them by their provider 
          */
-        public static final int kg_puk_enter_puk_hint_multi=0x7f05003a;
+        public static final int kg_puk_enter_puk_hint_multi=0x7f070090;
         /**  Instructions for using the SIM PIN unlock screen 
  Instructions for using the SIM PIN unlock screen 
  Instructions for using the SIM PIN unlock screen 
  Instructions for using the SIM PIN unlock screen 
  Instructions for using the SIM PIN unlock screen 
          */
-        public static final int kg_sim_pin_instructions=0x7f050035;
+        public static final int kg_sim_pin_instructions=0x7f07008b;
         /**  Instructions for using the SIM PIN unlock screen when there's more than one SIM 
  Instructions for using the SIM PIN unlock screen when there's more than one SIM 
          */
-        public static final int kg_sim_pin_instructions_multi=0x7f050036;
+        public static final int kg_sim_pin_instructions_multi=0x7f07008c;
         /**  Message shown in dialog while the device is unlocking the SIM card 
  Message shown in dialog while the device is unlocking the SIM card 
  Message shown in dialog while the device is unlocking the SIM card 
  Message shown in dialog while the device is unlocking the SIM card 
  Message shown in dialog while the device is unlocking the SIM card 
          */
-        public static final int kg_sim_unlock_progress_dialog_message=0x7f05003d;
+        public static final int kg_sim_unlock_progress_dialog_message=0x7f070093;
         /**  Countdown message shown after too many failed unlock attempts 
  Countdown message shown after too many failed unlock attempts 
  Countdown message shown after too many failed unlock attempts 
  Countdown message shown after too many failed unlock attempts 
  Countdown message shown after too many failed unlock attempts 
          */
-        public static final int kg_too_many_failed_attempts_countdown=0x7f050033;
+        public static final int kg_too_many_failed_attempts_countdown=0x7f070089;
         /**  Message shown in dialog when max number of attempts are reached for password screen of keyguard 
  Message shown in dialog when max number of attempts are reached for password screen of keyguard 
  Message shown in dialog when max number of attempts are reached for password screen of keyguard 
  Message shown in dialog when max number of attempts are reached for password screen of keyguard 
  Message shown in dialog when max number of attempts are reached for password screen of keyguard 
          */
-        public static final int kg_too_many_failed_password_attempts_dialog_message=0x7f050044;
-        public static final int kg_too_many_failed_pattern_attempts_dialog_message=0x7f050045;
+        public static final int kg_too_many_failed_password_attempts_dialog_message=0x7f07009a;
+        public static final int kg_too_many_failed_pattern_attempts_dialog_message=0x7f07009b;
         /**  Message shown in dialog when max number of attempts are reached for PIN screen of keyguard 
  Message shown in dialog when max number of attempts are reached for PIN screen of keyguard 
  Message shown in dialog when max number of attempts are reached for PIN screen of keyguard 
  Message shown in dialog when max number of attempts are reached for PIN screen of keyguard 
  Message shown in dialog when max number of attempts are reached for PIN screen of keyguard 
          */
-        public static final int kg_too_many_failed_pin_attempts_dialog_message=0x7f050043;
+        public static final int kg_too_many_failed_pin_attempts_dialog_message=0x7f070099;
         /**  Message shown when user enters wrong password 
  Message shown when user enters wrong password 
  Message shown when user enters wrong password 
  Message shown when user enters wrong password 
  Message shown when user enters wrong password 
          */
-        public static final int kg_wrong_password=0x7f050031;
+        public static final int kg_wrong_password=0x7f070087;
         /**  Message shown when user enters wrong pattern 
  Message shown when user enters wrong pattern 
  Message shown when user enters wrong pattern 
  Message shown when user enters wrong pattern 
  Message shown when user enters wrong pattern 
          */
-        public static final int kg_wrong_pattern=0x7f050030;
+        public static final int kg_wrong_pattern=0x7f070086;
         /**  Message shown when user enters wrong PIN 
  Message shown when user enters wrong PIN 
  Message shown when user enters wrong PIN 
  Message shown when user enters wrong PIN 
  Message shown when user enters wrong PIN 
          */
-        public static final int kg_wrong_pin=0x7f050032;
+        public static final int kg_wrong_pin=0x7f070088;
         /**  Shown in the lock screen when there is SIM card IO error. 
  Shown in the lock screen when there is SIM card IO error. 
  Shown in the lock screen when there is SIM card IO error. 
@@ -1309,26 +1498,110 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  When the user inserts a sim card with some personalization enabled 
  Shown in the lock screen when there is SIM card IO error. 
          */
-        public static final int lockscreen_sim_error_message_short=0x7f050003;
+        public static final int lockscreen_sim_error_message_short=0x7f070059;
+        public static final int lockscreen_targets_message=0x7f070004;
         /**  Alias used to reference framework "OK" string in keyguard.  
          */
-        public static final int ok=0x7f050000;
+        public static final int ok=0x7f070056;
+        public static final int picker_activities=0x7f070001;
+        public static final int profile_applist_title=0x7f070000;
+        /**  Summary for saved networks 
+         */
+        public static final int saved_network=0x7f07001b;
+        public static final int select_custom_activity_title=0x7f070003;
+        public static final int select_custom_app_title=0x7f070002;
+        /**  Package name for Settings app
+         */
+        public static final int settings_package=0x7f07001f;
         /**  Alias used to reference framework "OK" string in keyguard.  
          */
-        public static final int system_ui_date_pattern=0x7f050001;
+        public static final int system_ui_date_pattern=0x7f070057;
+        /**  Summary for Connected wifi network without internet 
+         */
+        public static final int wifi_connected_no_internet=0x7f070021;
+        /**  Status for networks disabled for unknown reason 
+         */
+        public static final int wifi_disabled_generic=0x7f070015;
+        /**  Status for networked disabled from a DNS or DHCP failure 
+         */
+        public static final int wifi_disabled_network_failure=0x7f070016;
+        /**  Status for networks disabled from authentication failure (wrong password
+         or certificate). 
+         */
+        public static final int wifi_disabled_password_failure=0x7f070018;
+        /**  Status for networked disabled from a wifi association failure 
+         */
+        public static final int wifi_disabled_wifi_failure=0x7f070017;
+        /**  Toast message when Wi-Fi cannot scan for networks 
+         */
+        public static final int wifi_fail_to_scan=0x7f070005;
+        /**  Summary for the remembered network but no internet connection was detected. 
+         */
+        public static final int wifi_no_internet=0x7f07001a;
+        /**  Summary for the remembered network but currently not in range. 
+         */
+        public static final int wifi_not_in_range=0x7f070019;
+        /**  Summary for the remembered network. 
+         */
+        public static final int wifi_remembered=0x7f070014;
+        /**  Do not translate.  Concise terminology for wifi with 802.1x EAP security 
+         */
+        public static final int wifi_security_eap=0x7f070012;
+        /**  Used in Wi-Fi settings dialogs when Wi-Fi does not have any security. 
+         */
+        public static final int wifi_security_none=0x7f07000c;
+        /**  Do not translate.  Concise terminology for Passpoint network 
+         */
+        public static final int wifi_security_passpoint=0x7f070013;
+        /**  Do not translate.  Terminology for wifi with unknown PSK type 
+         */
+        public static final int wifi_security_psk_generic=0x7f070011;
+        /**  Do not translate.  Concise terminology for wifi with 802.1x EAP security 
+         */
+        public static final int wifi_security_short_eap=0x7f07000b;
+        /**  Do not translate.  Concise terminology for wifi with unknown PSK type 
+         */
+        public static final int wifi_security_short_psk_generic=0x7f07000a;
+        /**  Do not translate.  Concise terminology for wifi with WEP security 
+         */
+        public static final int wifi_security_short_wep=0x7f070006;
+        /**  Do not translate.  Concise terminology for wifi with WPA security 
+         */
+        public static final int wifi_security_short_wpa=0x7f070007;
+        /**  Do not translate.  Concise terminology for wifi with WPA2 security 
+         */
+        public static final int wifi_security_short_wpa2=0x7f070008;
+        /**  Do not translate.  Concise terminology for wifi with both WPA/WPA2 security 
+         */
+        public static final int wifi_security_short_wpa_wpa2=0x7f070009;
+        /**  Do not translate.  Terminology for wifi with WEP security 
+         */
+        public static final int wifi_security_wep=0x7f07000d;
+        /**  Do not translate.  Terminology for wifi with WPA security 
+         */
+        public static final int wifi_security_wpa=0x7f07000e;
+        /**  Do not translate.  Terminology for wifi with WPA2 security 
+         */
+        public static final int wifi_security_wpa2=0x7f07000f;
+        /**  Do not translate.  Terminology for wifi with both WPA/WPA2 security, or unknown 
+         */
+        public static final int wifi_security_wpa_wpa2=0x7f070010;
     }
     public static final class style {
-        public static final int BouncerSecurityContainer=0x7f0b0004;
-        public static final int PasswordTheme=0x7f0b0005;
+        public static final int BouncerSecurityContainer=0x7f0c0004;
+        public static final int PasswordTheme=0x7f0c0005;
         /**  Keyguard PIN pad styles 
          */
-        public static final int Widget_TextView_NumPadKey=0x7f0b0000;
-        public static final int Widget_TextView_NumPadKey_Klondike=0x7f0b0001;
-        public static final int keyguard_presentation_theme=0x7f0b0006;
-        public static final int widget_big_thin=0x7f0b0003;
+        public static final int Widget_TextView_NumPadKey=0x7f0c0000;
+        public static final int Widget_TextView_NumPadKey_Klondike=0x7f0c0001;
+        public static final int keyguard_presentation_theme=0x7f0c0006;
+        public static final int widget_big_thin=0x7f0c0003;
         /**  Built-in clock widget stuff 
          */
-        public static final int widget_label=0x7f0b0002;
+        public static final int widget_label=0x7f0c0002;
+    }
+    public static final class xml {
+        public static final int timezones=0x7f040000;
     }
     public static final class styleable {
         /** Attributes that can be used with a CarrierText.

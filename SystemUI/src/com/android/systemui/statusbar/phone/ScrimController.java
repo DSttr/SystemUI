@@ -436,7 +436,7 @@ public class ScrimController implements ViewTreeObserver.OnPreDrawListener,
             if (animate || alpha == mCurrentHeadsUpAlpha) {
                 previousAnimator.cancel();
             } else {
-                animEndValue = StackStateAnimator.getChildTag(mHeadsUpScrim, TAG_HUN_END_ALPHA);
+                animEndValue = StackStateAnimator.getChildTag2(mHeadsUpScrim, TAG_HUN_END_ALPHA);
             }
         }
         if (alpha != mCurrentHeadsUpAlpha && alpha != animEndValue) {
@@ -446,9 +446,9 @@ public class ScrimController implements ViewTreeObserver.OnPreDrawListener,
                 mHeadsUpScrim.setTag(TAG_HUN_END_ALPHA, alpha);
             } else {
                 if (previousAnimator != null) {
-                    float previousStartValue = StackStateAnimator.getChildTag(mHeadsUpScrim,
+                    float previousStartValue = StackStateAnimator.getChildTag2(mHeadsUpScrim,
                             TAG_HUN_START_ALPHA);
-                    float previousEndValue = StackStateAnimator.getChildTag(mHeadsUpScrim,
+                    float previousEndValue = StackStateAnimator.getChildTag2(mHeadsUpScrim,
                            TAG_HUN_END_ALPHA);
                     // we need to increase all animation keyframes of the previous animator by the
                     // relative change to the end value

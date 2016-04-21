@@ -976,9 +976,15 @@ public class StackStateAnimator {
         if (heightAnimator == null) {
             return view.getActualHeight();
         } else {
-            return getChildTag(view, TAG_END_HEIGHT);
+            return getChildTag2(view, TAG_END_HEIGHT);
         }
     }
+
+	public static int getChildTag2(View child, int tag)
+	{
+		// TODO: Implement this method
+		return child.getTag(tag);
+	}
 
     public void setHeadsUpAppearHeightBottom(int headsUpAppearHeightBottom) {
         mHeadsUpAppearHeightBottom = headsUpAppearHeightBottom;
