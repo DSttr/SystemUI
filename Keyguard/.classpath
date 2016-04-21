@@ -4,5 +4,5 @@
 <classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 <classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 <classpathentry kind="output" path="bin"/>
-<classpathentry kind="lib" path="/sdcard/OASVNlite/.cm-13.0-ZNH0E/Libs/org.cyanogenmod.platform.jar"/>
+<classpathentry kind="lib" path="/sdcard/AppProjects/.MOD/SystemUI/Libs/org.cyanogenmod.platform.jar"/>
 </classpath>

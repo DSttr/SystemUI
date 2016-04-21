@@ -239,14 +239,20 @@ public class StorageNotification extends SystemUI {
     }
 
     private void onVolumeStateChangedInternal(VolumeInfo vol) {
-        switch (vol.getType()) {
+        /*switch (vol.getType()) {
             case VolumeInfo.TYPE_PRIVATE:
                 onPrivateVolumeStateChangedInternal(vol);
                 break;
             case VolumeInfo.TYPE_PUBLIC:
                 onPublicVolumeStateChangedInternal(vol);
                 break;
-        }
+        }*/
+		
+		if (vol.getType()==VolumeInfo.TYPE_PRIVATE){
+			onPrivateVolumeStateChangedInternal(vol);
+		}else if(vol.getType()==VolumeInfo.TYPE_PUBLIC){
+		onPublicVolumeStateChangedInternal(vol);
+		}
     }
 
     private void onPrivateVolumeStateChangedInternal(VolumeInfo vol) {
@@ -598,7 +604,7 @@ public class StorageNotification extends SystemUI {
 
     private PendingIntent buildVolumeSettingsPendingIntent(VolumeInfo vol) {
         final Intent intent = new Intent();
-        switch (vol.getType()) {
+        /*switch (vol.getType()) {
             case VolumeInfo.TYPE_PRIVATE:
                 intent.setClassName("com.android.settings",
                         "com.android.settings.Settings$PrivateVolumeSettingsActivity");
@@ -609,7 +615,14 @@ public class StorageNotification extends SystemUI {
                 break;
             default:
                 return null;
-        }
+        }*/
+		if (vol.getType()==VolumeInfo.TYPE_PRIVATE) {
+			intent.setClassName("com.android.settings",
+								"com.android.settings.Settings$PrivateVolumeSettingsActivity");
+		}else if(vol.getType()== VolumeInfo.TYPE_PUBLIC){
+			intent.setClassName("com.android.settings",
+								"com.android.settings.Settings$PublicVolumeSettingsActivity");
+		}
         intent.putExtra(VolumeInfo.EXTRA_VOLUME_ID, vol.getId());
 
         final int requestKey = vol.getId().hashCode();
