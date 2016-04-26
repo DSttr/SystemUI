@@ -3047,7 +3047,7 @@ containing a value of this type.
         /**  Alias used to reference one of two possible layouts in keyguard.  
  Alias used to reference one of two possible layouts in keyguard.  
          */
-        public static final int keyguard_eca=0x7f04005d;
+        public static final int keyguard_eca=0x7f04005e;
         public static final int keyguard_emergency_carrier_area=0x7f040006;
         public static final int keyguard_host_view=0x7f040007;
         public static final int keyguard_message_area=0x7f040008;
@@ -3129,12 +3129,13 @@ containing a value of this type.
         public static final int super_status_bar=0x7f040054;
         public static final int system_icons=0x7f040055;
         public static final int tuner_qs=0x7f040056;
-        public static final int unlock_fab=0x7f040057;
-        public static final int volume_dialog=0x7f040058;
-        public static final int volume_dialog_row=0x7f040059;
-        public static final int volume_zen_footer=0x7f04005a;
-        public static final int zen_mode_condition=0x7f04005b;
-        public static final int zen_mode_panel=0x7f04005c;
+        public static final int unknown_layout=0x7f040057;
+        public static final int unlock_fab=0x7f040058;
+        public static final int volume_dialog=0x7f040059;
+        public static final int volume_dialog_row=0x7f04005a;
+        public static final int volume_zen_footer=0x7f04005b;
+        public static final int zen_mode_condition=0x7f04005c;
+        public static final int zen_mode_panel=0x7f04005d;
     }
     public static final class menu {
         public static final int recent_popup_menu=0x7f120000;
@@ -3830,7 +3831,7 @@ containing a value of this type.
  CellularTile data sim not configured state string 
  Content description of the dock battery level icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_dock_battery_level=0x7f09013a;
+        public static final int accessibility_dock_battery_level=0x7f090136;
         public static final int accessibility_dpad_left=0x7f0900c9;
         public static final int accessibility_dpad_right=0x7f0900ca;
         /**  Content description of the Ethernet connection when connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -4726,6 +4727,7 @@ containing a value of this type.
  Content description of the caffeine tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the caffeine tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the caffeine tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
+ Content description of the caffeine tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when ambient display changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when ambient display changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the heads up tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -4786,6 +4788,7 @@ containing a value of this type.
          */
         public static final int accessibility_quick_settings_caffeine_off=0x7f090138;
         /**  Content description of the caffeine tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
+ Content description of the caffeine tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the caffeine tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the caffeine tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the caffeine tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -10043,8 +10046,8 @@ containing a value of this type.
  Shows to explain the double tap interaction with notifications: After tapping a notification on Keyguard, this will explain users to tap again to launch a notification. [CHAR LIMIT=60] 
          */
         public static final int notification_tap_again=0x7f090264;
-        public static final int notifications_off_text=0x7f0902e4;
-        public static final int notifications_off_title=0x7f0902e3;
+        public static final int notifications_off_text=0x7f0902e3;
+        public static final int notifications_off_title=0x7f0902e2;
         /**  Alias used to reference framework "OK" string in keyguard.  
          */
         public static final int ok=0x7f090000;
@@ -10109,8 +10112,9 @@ containing a value of this type.
  Play queue 
  Play queue 
  Play queue 
+ Play queue 
          */
-        public static final int play_queue_extention=0x7f09013b;
+        public static final int play_queue_extention=0x7f090137;
         public static final int profile_applist_title=0x7f09005f;
         /**  Footer profile owned text [CHAR LIMIT=50] 
  Footer profile owned text [CHAR LIMIT=50] 
@@ -10149,7 +10153,7 @@ containing a value of this type.
  quick settings battery saver label to show when device is charging and tile is disabled 
  quick settings battery saver label to show when device is charging and tile is disabled 
          */
-        public static final int quick_settings_battery_saver_label_charging=0x7f090136;
+        public static final int quick_settings_battery_saver_label_charging=0x7f09013b;
         /**  QuickSettings: Bluetooth detail panel, text when there are no items [CHAR LIMIT=NONE] 
  QuickSettings: Bluetooth detail panel, text when there are no items [CHAR LIMIT=NONE] 
  QuickSettings: Bluetooth detail panel, text when there are no items [CHAR LIMIT=NONE] 
@@ -10227,7 +10231,8 @@ containing a value of this type.
  QuickSettings: Brightness [CHAR LIMIT=NONE] 
          */
         public static final int quick_settings_brightness_label=0x7f09021f;
-        /**  quick settings battery saver label to show when device is charging and tile is disabled 
+        /**  Content description of the battery saver tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
+ quick settings battery saver label to show when device is charging and tile is disabled 
  quick settings battery saver label to show when device is charging and tile is disabled 
  quick settings battery saver label to show when device is charging and tile is disabled 
  quick settings battery saver label to show when device is charging and tile is disabled 
@@ -10249,7 +10254,7 @@ containing a value of this type.
  Screen pinning dialog description (for devices without navbar) 
  quick settings battery saver label to show when device is charging and tile is disabled 
          */
-        public static final int quick_settings_caffeine_label=0x7f090137;
+        public static final int quick_settings_caffeine_label=0x7f09013a;
         public static final int quick_settings_cannot_delete_edit_tile=0x7f0900d9;
         /**  QuickSettings: Cast detail panel, text when there are no items [CHAR LIMIT=NONE] 
  QuickSettings: Cast detail panel, text when there are no items [CHAR LIMIT=NONE] 
@@ -12337,7 +12342,7 @@ containing a value of this type.
         /**  Rotation lock toast text: shown when rotation lock is turned on in landscape orientation.
          
          */
-        public static final int toast_rotation_locked=0x7f0902e2;
+        public static final int toast_rotation_locked=0x7f0902e5;
         /**  Warning for users entering the System UI tuner [CHAR LIMIT=NONE]
          */
         public static final int tuner_persistent_warning=0x7f0902da;
@@ -12350,6 +12355,7 @@ containing a value of this type.
         /**  Title of warning when entering System UI tuner for first time [CHAR LIMIT=NONE] 
          */
         public static final int tuner_warning_title=0x7f0902d8;
+        public static final int unknown_strings=0x7f0902e4;
         /**  Click action label for accessibility for the unlock button. [CHAR LIMIT=NONE] 
  Content description of the unlock button when fingerpint is on (not shown on the screen). [CHAR LIMIT=NONE] 
  Accessibility action of the unlock button when fingerpint is on (not shown on the screen). [CHAR LIMIT=NONE] 

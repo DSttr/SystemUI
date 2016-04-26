@@ -249,4 +249,14 @@
 
     <!-- CellularTile data sim not configured state string -->
     <string name="data_sim_not_configured">No data SIM</string>
+	<string name="accessibility_dock_battery_level">Dok Battery <xliff:g id="number">%d</xliff:g> persent.</string>
+	<!-- Play queue -->
+	<string name="play_queue_extention">Wys speel ry</string>
+	<!-- Content description of the caffeine tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] -->
+	<string name="accessibility_quick_settings_caffeine_off">Kafeïen af.</string>
+	<!-- Content description of the caffeine tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] -->
+	<string name="accessibility_quick_settings_caffeine_on">Kafeïen aan.</string>
+	<!-- Content description of the battery saver tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] -->
+	<string name="quick_settings_caffeine_label">Kafeïen</string>
+	 <string name="quick_settings_battery_saver_label_charging">Battery bespaarder (laai)</string>
 </resources>
