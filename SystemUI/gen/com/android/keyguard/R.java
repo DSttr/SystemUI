@@ -195,12 +195,12 @@ public final class R {
         public static final int wallpaper_recents_launch_from_launcher_exit=0x7f0500b7;
     }
     public static final class array {
-        public static final int batterymeter_bolt_points=0x7f080005;
+        public static final int batterymeter_bolt_points=0x7f0c0005;
         /**  BatteryMeterView parameters 
          */
-        public static final int batterymeter_color_levels=0x7f080003;
-        public static final int batterymeter_color_values=0x7f080004;
-        public static final int batterymeter_inverted_bolt_points=0x7f080006;
+        public static final int batterymeter_color_levels=0x7f0c0003;
+        public static final int batterymeter_color_values=0x7f0c0004;
+        public static final int batterymeter_inverted_bolt_points=0x7f0c0006;
         /**  Cardinal directions for the compass tile 
  North west 
  Cardinal directions for the compass tile 
@@ -328,40 +328,40 @@ public final class R {
  Cardinal directions for the compass tile 
  North west 
          */
-        public static final int cardinal_directions=0x7f080007;
-        public static final int dynamic_qs_tiles_icons_resources_ids=0x7f08000b;
+        public static final int cardinal_directions=0x7f0c0007;
+        public static final int dynamic_qs_tiles_icons_resources_ids=0x7f0c000b;
         /**  Dynamic tiles 
          */
-        public static final int dynamic_qs_tiles_labels=0x7f08000a;
-        public static final int dynamic_qs_tiles_values=0x7f08000c;
+        public static final int dynamic_qs_tiles_labels=0x7f0c000a;
+        public static final int dynamic_qs_tiles_values=0x7f0c000c;
         /**  LiveDisplay announcement
          */
-        public static final int live_display_announcement=0x7f08000f;
+        public static final int live_display_announcement=0x7f0c000f;
         /**  LiveDisplay description
          */
-        public static final int live_display_description=0x7f08000e;
+        public static final int live_display_description=0x7f0c000e;
         /**  LiveDisplay drawables 
          */
-        public static final int live_display_drawables=0x7f08000d;
+        public static final int live_display_drawables=0x7f0c000d;
         /**  list of 3- or 4-letter mnemonics for a 10-key numeric keypad 
  9 
          */
-        public static final int lockscreen_num_pad_klondike=0x7f080002;
+        public static final int lockscreen_num_pad_klondike=0x7f0c0000;
         /**  Performance profiles announcement
          */
-        public static final int perf_profile_announcement=0x7f080009;
+        public static final int perf_profile_announcement=0x7f0c0009;
         /**  Performance profiles description
          */
-        public static final int perf_profile_description=0x7f080008;
+        public static final int perf_profile_description=0x7f0c0008;
         /**  STREAM_TTS 
          */
-        public static final int volume_stream_titles=0x7f080010;
+        public static final int volume_stream_titles=0x7f0c0010;
         /**  Wi-Fi settings. The status messages when the network is unknown. 
          */
-        public static final int wifi_status=0x7f080000;
+        public static final int wifi_status=0x7f0c0001;
         /**  Wi-Fi settings. The status messages when the network is known. 
          */
-        public static final int wifi_status_with_ssid=0x7f080001;
+        public static final int wifi_status_with_ssid=0x7f0c0002;
     }
     public static final class attr {
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
@@ -762,106 +762,106 @@ containing a value of this type.
         public static final int verticalSpacing=0x7f01001a;
     }
     public static final class bool {
-        public static final int config_dead_zone_flash=0x7f0c0012;
+        public static final int config_dead_zone_flash=0x7f0a0012;
         /**  Allow the menu hard key to be disabled in LockScreen on some devices [DO NOT TRANSLATE] 
          */
-        public static final int config_disableMenuKeyInLockScreen=0x7f0c0005;
+        public static final int config_disableMenuKeyInLockScreen=0x7f0a0005;
         /**  Whether to enable KeyguardService or not 
          */
-        public static final int config_enableKeyguardService=0x7f0c0018;
+        public static final int config_enableKeyguardService=0x7f0a0018;
         /**  Alias used to reference framework configuration for screen rotation.  
          */
-        public static final int config_enableLockScreenRotation=0x7f0c0000;
+        public static final int config_enableLockScreenRotation=0x7f0a0000;
         /**  Alias used to reference framework configuration for translucent decor.  
          */
-        public static final int config_enableLockScreenTranslucentDecor=0x7f0c0001;
+        public static final int config_enableLockScreenTranslucentDecor=0x7f0a0001;
         /**  Control whether status bar should distinguish HSPA data icon form UMTS
     data icon on devices 
          */
-        public static final int config_hspa_data_distinguishable=0x7f0c000b;
+        public static final int config_hspa_data_distinguishable=0x7f0a000b;
         /**  Show camera affordance on Keyguard 
          */
-        public static final int config_keyguardShowCameraAffordance=0x7f0c0010;
+        public static final int config_keyguardShowCameraAffordance=0x7f0a0010;
         /**  Set to true to enable the user switcher on the keyguard. 
  Set to true to enable the user switcher on the keyguard. 
          */
-        public static final int config_keyguardUserSwitcher=0x7f0c0019;
+        public static final int config_keyguardUserSwitcher=0x7f0a0019;
         /**  Whether to clip notification contents with a rounded rectangle. Might be expensive on
          certain GPU's and thus can be turned off with only minimal visual impact. 
          */
-        public static final int config_notifications_round_rect_clipping=0x7f0c000a;
+        public static final int config_notifications_round_rect_clipping=0x7f0a000a;
         /**  Whether to use cheap, less good looking shadows for recents 
          */
-        public static final int config_recents_fake_shadows=0x7f0c0009;
+        public static final int config_recents_fake_shadows=0x7f0a0009;
         /**  Whether we're using the tablet-optimized recents interface (we use this
      value at runtime for some things) 
  Whether we're using the tablet-optimized recents interface (we use this
      value at runtime for some things) 
          */
-        public static final int config_recents_interface_for_tablets=0x7f0c0006;
+        public static final int config_recents_interface_for_tablets=0x7f0a0006;
         /**  Whether recents thumbnails should stretch in both x and y to fill their
      ImageView 
  Whether recents thumbnails should stretch in both x and y to fill their
      ImageView 
          */
-        public static final int config_recents_thumbnail_image_fits_to_xy=0x7f0c0007;
+        public static final int config_recents_thumbnail_image_fits_to_xy=0x7f0a0007;
         /**  Whether recents should use hardware layers for its taskviews. This flag can be enabled
     for devices where the java drawing of round rects may be slow 
          */
-        public static final int config_recents_use_hardware_layers=0x7f0c0008;
+        public static final int config_recents_use_hardware_layers=0x7f0a0008;
         /**  Should "4G" be shown instead of "LTE" when the network is NETWORK_TYPE_LTE? 
          */
-        public static final int config_show4GForLTE=0x7f0c0014;
+        public static final int config_show4GForLTE=0x7f0a0014;
         /**  When true, show 1/2G networks as 3G. 
          */
-        public static final int config_showMin3G=0x7f0c000e;
+        public static final int config_showMin3G=0x7f0a000e;
         /**  Show phone (voice) signal strength instead of data in mobile RSSI. 
          */
-        public static final int config_showPhoneRSSIForData=0x7f0c000d;
+        public static final int config_showPhoneRSSIForData=0x7f0a000d;
         /**  Show rotation lock toggle in System UI
          */
-        public static final int config_showRotationLock=0x7f0c000f;
+        public static final int config_showRotationLock=0x7f0a000f;
         /**  Whether or not we also show rsrp level for LTE. 
          */
-        public static final int config_showRsrpSignalLevelforLTE=0x7f0c0015;
+        public static final int config_showRsrpSignalLevelforLTE=0x7f0a0015;
         /**  Whether or not we show the number in the bar. 
          */
-        public static final int config_statusBarShowNumber=0x7f0c000c;
+        public static final int config_statusBarShowNumber=0x7f0a000c;
         /**  Whether we should use SRC drawing mode when drawing the scrim behind. If this flag is set,
          we change the canvas opacity so libhwui doesn't call glClear on our surface, and then we
          draw the scrim with SRC to overwrite the whole buffer, which saves us a layer of overdraw.
          However, SRC performs poorly on some devices, where it is more efficient to
          glClear + SRC_OVER, in which case this flag should be disabled. 
          */
-        public static final int config_status_bar_scrim_behind_use_src=0x7f0c0011;
-        public static final int default_circle_indicator_centered=0x7f0c0023;
-        public static final int default_circle_indicator_snap=0x7f0c0024;
+        public static final int config_status_bar_scrim_behind_use_src=0x7f0a0011;
+        public static final int default_circle_indicator_centered=0x7f0a0023;
+        public static final int default_circle_indicator_snap=0x7f0a0024;
         /**  Doze: does this device support STATE_DOZE and STATE_DOZE_SUSPEND?  
          */
-        public static final int doze_display_state_supported=0x7f0c001a;
+        public static final int doze_display_state_supported=0x7f0a001a;
         /**  Doze: can we assume the pickup sensor includes a proximity check? 
          */
-        public static final int doze_pickup_performs_proximity_check=0x7f0c0020;
+        public static final int doze_pickup_performs_proximity_check=0x7f0a0020;
         /**  Doze: check proximity sensor before pulsing? 
          */
-        public static final int doze_proximity_check_before_pulse=0x7f0c001d;
+        public static final int doze_proximity_check_before_pulse=0x7f0a001d;
         /**  Doze: check proximity sensor before pulsing from intent? 
          */
-        public static final int doze_proximity_check_before_pulse_intent=0x7f0c001e;
+        public static final int doze_proximity_check_before_pulse_intent=0x7f0a001e;
         /**  Doze: should notifications be used as a pulse signal? 
          */
-        public static final int doze_pulse_on_notifications=0x7f0c001f;
+        public static final int doze_pulse_on_notifications=0x7f0a001f;
         /**  Doze: should the pickup sensor be used as a pulse signal? 
          */
-        public static final int doze_pulse_on_pick_up=0x7f0c001c;
+        public static final int doze_pulse_on_pick_up=0x7f0a001c;
         /**  Doze: should the significant motion sensor be used as a pulse signal? 
          */
-        public static final int doze_pulse_on_significant_motion=0x7f0c001b;
+        public static final int doze_pulse_on_significant_motion=0x7f0a001b;
         /**  Enable the default volume dialog 
          */
-        public static final int enable_volume_ui=0x7f0c0021;
-        public static final int kg_show_ime_at_screen_on=0x7f0c0002;
-        public static final int kg_sim_puk_account_full_screen=0x7f0c0004;
+        public static final int enable_volume_ui=0x7f0a0021;
+        public static final int kg_show_ime_at_screen_on=0x7f0a0002;
+        public static final int kg_sim_puk_account_full_screen=0x7f0a0004;
         /**  Carriers in this locale are sensitive to capitalization of carrier text. 
          This makes the entire interface consistent by switching back to normal case. 
  Carriers in this locale are sensitive to capitalization of carrier text. 
@@ -869,478 +869,478 @@ containing a value of this type.
  Carriers in this locale are sensitive to capitalization of carrier text. 
          This makes the entire interface consistent by switching back to normal case. 
          */
-        public static final int kg_use_all_caps=0x7f0c0003;
+        public static final int kg_use_all_caps=0x7f0a0003;
         /**  Whether or not the RSSI tile is capitalized or not. 
  Whether or not the RSSI tile is capitalized or not. 
  Whether or not the RSSI tile is capitalized or not. 
  Whether or not the RSSI tile is capitalized or not. 
          */
-        public static final int quick_settings_rssi_tile_capitalization=0x7f0c0013;
+        public static final int quick_settings_rssi_tile_capitalization=0x7f0a0013;
         /**  Transposes the nav bar in landscape (only used for purposes of layout). 
  Transposes the nav bar in landscape (only used for purposes of layout). 
  Transposes the nav bar in landscape (only used for purposes of layout). 
          */
-        public static final int recents_has_transposed_nav_bar=0x7f0c0017;
+        public static final int recents_has_transposed_nav_bar=0x7f0a0017;
         /**  Transposes the search bar layout in landscape. 
  Transposes the search bar layout in landscape. 
  Transposes the search bar layout in landscape. 
          */
-        public static final int recents_has_transposed_search_bar=0x7f0c0016;
+        public static final int recents_has_transposed_search_bar=0x7f0a0016;
         /**  Transposes the search bar layout in landscape 
          */
-        public static final int recents_transpose_search_layout_with_orientation=0x7f0c0022;
+        public static final int recents_transpose_search_layout_with_orientation=0x7f0a0022;
     }
     public static final class color {
-        public static final int assist_orb_color=0x7f0b006d;
+        public static final int assist_orb_color=0x7f08006d;
         /**  Battery base color 
          */
-        public static final int batterymeter_base_color=0x7f0b000f;
-        public static final int batterymeter_bolt_color=0x7f0b0041;
+        public static final int batterymeter_base_color=0x7f08000f;
+        public static final int batterymeter_bolt_color=0x7f080041;
         /**  30% white 
          */
-        public static final int batterymeter_charge_color=0x7f0b0040;
-        public static final int batterymeter_frame_color=0x7f0b003f;
-        public static final int clock_gray=0x7f0b0003;
+        public static final int batterymeter_charge_color=0x7f080040;
+        public static final int batterymeter_frame_color=0x7f08003f;
+        public static final int clock_gray=0x7f080003;
         /**  Clock 
          */
-        public static final int clock_white=0x7f0b0002;
+        public static final int clock_white=0x7f080002;
         /**  The color of the circle around the primary user in the user switcher 
          */
-        public static final int current_user_border_color=0x7f0b0068;
-        public static final int dark_mode_icon_color_dual_tone_background=0x7f0b007a;
-        public static final int dark_mode_icon_color_dual_tone_fill=0x7f0b007b;
+        public static final int current_user_border_color=0x7f080068;
+        public static final int dark_mode_icon_color_dual_tone_background=0x7f08007a;
+        public static final int dark_mode_icon_color_dual_tone_fill=0x7f08007b;
         /**  blue grey 200 
          */
-        public static final int dark_mode_icon_color_single_tone=0x7f0b0079;
+        public static final int dark_mode_icon_color_single_tone=0x7f080079;
         /**  60% white 
          */
-        public static final int data_usage_graph_track=0x7f0b0052;
+        public static final int data_usage_graph_track=0x7f080052;
         /**  20% white 
          */
-        public static final int data_usage_graph_warning=0x7f0b0053;
+        public static final int data_usage_graph_warning=0x7f080053;
         /**  60% deep teal 500 
          */
-        public static final int data_usage_secondary=0x7f0b0051;
-        public static final int default_circle_indicator_fill_color=0x7f0b0084;
-        public static final int default_circle_indicator_page_color=0x7f0b0085;
-        public static final int default_circle_indicator_stroke_color=0x7f0b0086;
-        public static final int doze_small_icon_background_color=0x7f0b006f;
+        public static final int data_usage_secondary=0x7f080051;
+        public static final int default_circle_indicator_fill_color=0x7f080084;
+        public static final int default_circle_indicator_page_color=0x7f080085;
+        public static final int default_circle_indicator_stroke_color=0x7f080086;
+        public static final int doze_small_icon_background_color=0x7f08006f;
         /**  Shadow color for the furthest pixels around the fake shadow for recents. 
          */
-        public static final int fake_shadow_end_color=0x7f0b0072;
+        public static final int fake_shadow_end_color=0x7f080072;
         /**  Shadow color for the first pixels around the fake shadow for recents. 
          */
-        public static final int fake_shadow_start_color=0x7f0b0071;
-        public static final int header_debug_info_text_color=0x7f0b0032;
-        public static final int keyguard_affordance=0x7f0b005f;
-        public static final int keyguard_carrier_text_color=0x7f0b0021;
-        public static final int keyguard_indication_text_color=0x7f0b002a;
+        public static final int fake_shadow_start_color=0x7f080071;
+        public static final int header_debug_info_text_color=0x7f080032;
+        public static final int keyguard_affordance=0x7f08005f;
+        public static final int keyguard_carrier_text_color=0x7f080021;
+        public static final int keyguard_indication_text_color=0x7f08002a;
         /**  not so muted after all 
  Tint color for the content on the notification overflow card. 
          */
-        public static final int keyguard_overflow_content_color=0x7f0b0056;
-        public static final int keyguard_overflow_number_text_color=0x7f0b0020;
-        public static final int keyguard_sim_view_divider=0x7f0b0001;
-        public static final int keyguard_user_switcher_background_gradient_color=0x7f0b006e;
-        public static final int light_mode_icon_color_dual_tone_background=0x7f0b007d;
-        public static final int light_mode_icon_color_dual_tone_fill=0x7f0b007e;
-        public static final int light_mode_icon_color_single_tone=0x7f0b007c;
-        public static final int lockscreen_message_text_color=0x7f0b002d;
-        public static final int lockscreen_middle_button_tint_color=0x7f0b002e;
-        public static final int mland_scorefield_text_color=0x7f0b0029;
+        public static final int keyguard_overflow_content_color=0x7f080056;
+        public static final int keyguard_overflow_number_text_color=0x7f080020;
+        public static final int keyguard_sim_view_divider=0x7f080001;
+        public static final int keyguard_user_switcher_background_gradient_color=0x7f08006e;
+        public static final int light_mode_icon_color_dual_tone_background=0x7f08007d;
+        public static final int light_mode_icon_color_dual_tone_fill=0x7f08007e;
+        public static final int light_mode_icon_color_single_tone=0x7f08007c;
+        public static final int lockscreen_message_text_color=0x7f08002d;
+        public static final int lockscreen_middle_button_tint_color=0x7f08002e;
+        public static final int mland_scorefield_text_color=0x7f080029;
         /**  Navigation button ripple color 
          */
-        public static final int navbutton_ripple_color=0x7f0b0011;
-        public static final int navigation_bar_background_opaque=0x7f0b0008;
-        public static final int navigation_bar_background_semi_transparent=0x7f0b0009;
-        public static final int navigation_bar_background_transparent=0x7f0b000a;
+        public static final int navbutton_ripple_color=0x7f080011;
+        public static final int navigation_bar_background_opaque=0x7f080008;
+        public static final int navigation_bar_background_semi_transparent=0x7f080009;
+        public static final int navigation_bar_background_transparent=0x7f08000a;
         /**  The color of the navigation bar icons. Need to be in sync with ic_sysbar_* 
          */
-        public static final int navigation_bar_icon_color=0x7f0b0070;
-        public static final int no_notifications_text_color=0x7f0b001f;
+        public static final int navigation_bar_icon_color=0x7f080070;
+        public static final int no_notifications_text_color=0x7f08001f;
         /**  Color for the "No recent apps" text in the recent apps list. 
          */
-        public static final int no_recent_apps=0x7f0b0004;
-        public static final int no_recent_apps_text_color=0x7f0b001e;
+        public static final int no_recent_apps=0x7f080004;
+        public static final int no_recent_apps_text_color=0x7f08001e;
         /**  The "inside" of a notification, reached via longpress 
          */
-        public static final int notification_guts_bg_color=0x7f0b0069;
-        public static final int notification_guts_btn_color=0x7f0b006c;
-        public static final int notification_guts_text_color=0x7f0b006b;
-        public static final int notification_guts_title_color=0x7f0b006a;
+        public static final int notification_guts_bg_color=0x7f080069;
+        public static final int notification_guts_btn_color=0x7f08006c;
+        public static final int notification_guts_text_color=0x7f08006b;
+        public static final int notification_guts_title_color=0x7f08006a;
         /**  Color for notification icons 
          */
-        public static final int notification_icon_color=0x7f0b0010;
+        public static final int notification_icon_color=0x7f080010;
         /**  The color of the legacy notification background 
          */
-        public static final int notification_legacy_background_color=0x7f0b0060;
-        public static final int notification_list_shadow_top=0x7f0b003e;
+        public static final int notification_legacy_background_color=0x7f080060;
+        public static final int notification_list_shadow_top=0x7f08003e;
         /**  The color of the material notification background 
          */
-        public static final int notification_material_background_color=0x7f0b0061;
+        public static final int notification_material_background_color=0x7f080061;
         /**  The color of the material notification background when dimmed 
          */
-        public static final int notification_material_background_dimmed_color=0x7f0b0062;
+        public static final int notification_material_background_dimmed_color=0x7f080062;
         /**  The color of the material notification background when low priority 
          */
-        public static final int notification_material_background_low_priority_color=0x7f0b0063;
+        public static final int notification_material_background_low_priority_color=0x7f080063;
         /**  The color of the material notification background for media notifications when no custom
          color is specified 
          */
-        public static final int notification_material_background_media_default_color=0x7f0b0064;
-        public static final int notification_panel_solid_background=0x7f0b003c;
+        public static final int notification_material_background_media_default_color=0x7f080064;
+        public static final int notification_panel_solid_background=0x7f08003c;
         /**  The color of the ripples on the low priority notifications 
          */
-        public static final int notification_ripple_color_low_priority=0x7f0b0066;
+        public static final int notification_ripple_color_low_priority=0x7f080066;
         /**  The color of the ripples on the tinted notifications 
          */
-        public static final int notification_ripple_tinted_color=0x7f0b0067;
+        public static final int notification_ripple_tinted_color=0x7f080067;
         /**  The color of the ripples on the untinted notifications 
          */
-        public static final int notification_ripple_untinted_color=0x7f0b0065;
-        public static final int play_button_image_tint_color=0x7f0b002f;
-        public static final int play_button_text_color=0x7f0b0030;
-        public static final int qs_batterymeter_frame_color=0x7f0b0042;
+        public static final int notification_ripple_untinted_color=0x7f080065;
+        public static final int play_button_image_tint_color=0x7f08002f;
+        public static final int play_button_text_color=0x7f080030;
+        public static final int qs_batterymeter_frame_color=0x7f080042;
         /**  14% blue grey 200 
          */
-        public static final int qs_detail_button=0x7f0b004d;
+        public static final int qs_detail_button=0x7f08004d;
         /**  100% blue grey 200 
          */
-        public static final int qs_detail_button_white=0x7f0b004e;
+        public static final int qs_detail_button_white=0x7f08004e;
         /**  60% white 
          */
-        public static final int qs_detail_empty=0x7f0b004c;
-        public static final int qs_detail_progress_track=0x7f0b0050;
+        public static final int qs_detail_empty=0x7f08004c;
+        public static final int qs_detail_progress_track=0x7f080050;
         /**  70% white 
          */
-        public static final int qs_detail_transition=0x7f0b004f;
+        public static final int qs_detail_transition=0x7f08004f;
         /**  QS Detailed View Text and Icon Colors 
          */
-        public static final int qs_detailed_default_text_color=0x7f0b0033;
-        public static final int qs_detailed_expansion_indicator_color=0x7f0b0034;
-        public static final int qs_detailed_icon_tint_color=0x7f0b0036;
-        public static final int qs_detailed_title_text_color=0x7f0b0035;
-        public static final int qs_edit_header_instruction_text_color=0x7f0b0018;
-        public static final int qs_row_text_color=0x7f0b0019;
+        public static final int qs_detailed_default_text_color=0x7f080033;
+        public static final int qs_detailed_expansion_indicator_color=0x7f080034;
+        public static final int qs_detailed_icon_tint_color=0x7f080036;
+        public static final int qs_detailed_title_text_color=0x7f080035;
+        public static final int qs_edit_header_instruction_text_color=0x7f080018;
+        public static final int qs_row_text_color=0x7f080019;
         /**  70% white 
          */
-        public static final int qs_subhead=0x7f0b004b;
+        public static final int qs_subhead=0x7f08004b;
         /**  deep orange 600 
          */
-        public static final int qs_text=0x7f0b0048;
-        public static final int qs_tile_divider=0x7f0b0049;
-        public static final int qs_tile_edit_header_instruction_text_color=0x7f0b0028;
+        public static final int qs_text=0x7f080048;
+        public static final int qs_tile_divider=0x7f080049;
+        public static final int qs_tile_edit_header_instruction_text_color=0x7f080028;
         /**  QS Settings Text Colors 
          */
-        public static final int qs_tile_reset_to_default_text_color=0x7f0b0016;
+        public static final int qs_tile_reset_to_default_text_color=0x7f080016;
         /**  16% white 
          */
-        public static final int qs_tile_text=0x7f0b004a;
+        public static final int qs_tile_text=0x7f08004a;
         /**  Quick tile text color when the tile is disabled 
          */
-        public static final int qs_tile_text_disabled=0x7f0b0037;
+        public static final int qs_tile_text_disabled=0x7f080037;
         /**  tint to color trash can when tile is hovering over it 
          */
-        public static final int qs_tile_trash_delete_tint=0x7f0b001b;
+        public static final int qs_tile_trash_delete_tint=0x7f08001b;
         /**  Tint to color trash can when hovering edit tile, user cannot delete it.
          Transparent because we have an animation by default. 
          */
-        public static final int qs_tile_trash_delete_tint_warning=0x7f0b001c;
+        public static final int qs_tile_trash_delete_tint_warning=0x7f08001c;
         /**  natural color of the trash can 
          */
-        public static final int qs_tile_trash_normal_tint=0x7f0b001a;
-        public static final int qs_title_text_color=0x7f0b0017;
-        public static final int qs_user_detail_icon_muted=0x7f0b0055;
-        public static final int qs_user_detail_name=0x7f0b0087;
-        public static final int quick_settings_panel_background=0x7f0b002c;
+        public static final int qs_tile_trash_normal_tint=0x7f08001a;
+        public static final int qs_title_text_color=0x7f080017;
+        public static final int qs_user_detail_icon_muted=0x7f080055;
+        public static final int qs_user_detail_name=0x7f080087;
+        public static final int quick_settings_panel_background=0x7f08002c;
         /**  QS Toast Text color 
          */
-        public static final int quick_settings_toast_color=0x7f0b0014;
-        public static final int recents_empty_background_color=0x7f0b0027;
-        public static final int recents_empty_message_text_color=0x7f0b0024;
-        public static final int recents_search_bar_label_text_color=0x7f0b0026;
+        public static final int quick_settings_toast_color=0x7f080014;
+        public static final int recents_empty_background_color=0x7f080027;
+        public static final int recents_empty_message_text_color=0x7f080024;
+        public static final int recents_search_bar_label_text_color=0x7f080026;
         /**  The recents task bar dark dismiss icon color to be drawn on top of light backgrounds. 
          */
-        public static final int recents_task_bar_dark_dismiss_color=0x7f0b005b;
+        public static final int recents_task_bar_dark_dismiss_color=0x7f08005b;
         /**  The recents task bar dark text color to be drawn on top of light backgrounds. 
          */
-        public static final int recents_task_bar_dark_text_color=0x7f0b0059;
+        public static final int recents_task_bar_dark_text_color=0x7f080059;
         /**  The default recents task bar background color. 
          */
-        public static final int recents_task_bar_default_background_color=0x7f0b0057;
+        public static final int recents_task_bar_default_background_color=0x7f080057;
         /**  The recents task bar highlight color. 
          */
-        public static final int recents_task_bar_highlight_color=0x7f0b005c;
+        public static final int recents_task_bar_highlight_color=0x7f08005c;
         /**  The recents task bar light dismiss icon color to be drawn on top of dark backgrounds. 
          */
-        public static final int recents_task_bar_light_dismiss_color=0x7f0b005a;
+        public static final int recents_task_bar_light_dismiss_color=0x7f08005a;
         /**  The recents task bar light text color to be drawn on top of dark backgrounds. 
          */
-        public static final int recents_task_bar_light_text_color=0x7f0b0058;
+        public static final int recents_task_bar_light_text_color=0x7f080058;
         /**  The lock to task button background color. 
          */
-        public static final int recents_task_view_lock_to_app_button_background_color=0x7f0b005d;
+        public static final int recents_task_view_lock_to_app_button_background_color=0x7f08005d;
         /**  The lock to task button foreground color. 
          */
-        public static final int recents_task_view_lock_to_app_button_color=0x7f0b005e;
-        public static final int screen_pinning_cancel_button_text_color=0x7f0b0023;
-        public static final int screen_pinning_description_text_color=0x7f0b0022;
-        public static final int screen_pinning_nav_icon_highlight_outer=0x7f0b0073;
-        public static final int screen_pinning_primary_text=0x7f0b0083;
+        public static final int recents_task_view_lock_to_app_button_color=0x7f08005e;
+        public static final int screen_pinning_cancel_button_text_color=0x7f080023;
+        public static final int screen_pinning_description_text_color=0x7f080022;
+        public static final int screen_pinning_nav_icon_highlight_outer=0x7f080073;
+        public static final int screen_pinning_primary_text=0x7f080083;
         /**  25% deep teal 200 
          */
-        public static final int screen_pinning_request_bg=0x7f0b0074;
+        public static final int screen_pinning_request_bg=0x7f080074;
         /**  deep teal 500 
          */
-        public static final int screen_pinning_request_window_bg=0x7f0b0075;
+        public static final int screen_pinning_request_window_bg=0x7f080075;
         /**  8% white 
          */
-        public static final int segmented_button_selected=0x7f0b0077;
-        public static final int segmented_button_text_selector=0x7f0b0088;
-        public static final int segmented_button_unselected=0x7f0b0078;
-        public static final int segmented_buttons_background=0x7f0b0076;
-        public static final int speedbump_line_divider=0x7f0b002b;
+        public static final int segmented_button_selected=0x7f080077;
+        public static final int segmented_button_text_selector=0x7f080088;
+        public static final int segmented_button_unselected=0x7f080078;
+        public static final int segmented_buttons_background=0x7f080076;
+        public static final int speedbump_line_divider=0x7f08002b;
         /**  Expanded Status Bar Alarm Status Text Color 
          */
-        public static final int status_bar_alarm_status_text_color=0x7f0b0012;
+        public static final int status_bar_alarm_status_text_color=0x7f080012;
         /**  Colors for the system bars 
          */
-        public static final int status_bar_background_opaque=0x7f0b0005;
-        public static final int status_bar_background_semi_transparent=0x7f0b0006;
-        public static final int status_bar_background_transparent=0x7f0b0007;
+        public static final int status_bar_background_opaque=0x7f080005;
+        public static final int status_bar_background_semi_transparent=0x7f080006;
+        public static final int status_bar_background_transparent=0x7f080007;
         /**  Expanded Status Bar Battery Level Text Color 
          */
-        public static final int status_bar_battery_level_text_color=0x7f0b0013;
-        public static final int status_bar_clock_color=0x7f0b0054;
-        public static final int status_bar_recents_app_label_color=0x7f0b003d;
-        public static final int status_bar_temperature_location_text_color=0x7f0b000c;
+        public static final int status_bar_battery_level_text_color=0x7f080013;
+        public static final int status_bar_clock_color=0x7f080054;
+        public static final int status_bar_recents_app_label_color=0x7f08003d;
+        public static final int status_bar_temperature_location_text_color=0x7f08000c;
         /**  Expanded Status Bar Weather Text Colors 
  Expanded Status Bar Weather Text Colors 
          */
-        public static final int status_bar_temperature_text_color=0x7f0b000b;
-        public static final int system_accent_color=0x7f0b0046;
-        public static final int system_bar_background_opaque=0x7f0b0039;
-        public static final int system_bar_background_semi_transparent=0x7f0b003a;
+        public static final int status_bar_temperature_text_color=0x7f08000b;
+        public static final int system_accent_color=0x7f080046;
+        public static final int system_bar_background_opaque=0x7f080039;
+        public static final int system_bar_background_semi_transparent=0x7f08003a;
         /**  40% black 
          */
-        public static final int system_bar_background_transparent=0x7f0b003b;
-        public static final int system_primary_color=0x7f0b0043;
+        public static final int system_bar_background_transparent=0x7f08003b;
+        public static final int system_primary_color=0x7f080043;
         /**  blue grey 900 
          */
-        public static final int system_primary_color_translucent=0x7f0b0044;
+        public static final int system_primary_color_translucent=0x7f080044;
         /**  blue grey 900 
          */
-        public static final int system_secondary_color=0x7f0b0045;
+        public static final int system_secondary_color=0x7f080045;
         /**  deep teal 200 
          */
-        public static final int system_warning_color=0x7f0b0047;
-        public static final int task_view_header_text_color=0x7f0b0025;
+        public static final int system_warning_color=0x7f080047;
+        public static final int task_view_header_text_color=0x7f080025;
         /**  More exposed hard coded colors 
          */
-        public static final int toggle_slider_text_color=0x7f0b001d;
+        public static final int toggle_slider_text_color=0x7f08001d;
         /**  Alias used to reference framework color for transparency. 
          */
-        public static final int transparent=0x7f0b0000;
+        public static final int transparent=0x7f080000;
         /**  SystemUI Tuner Icon Tint Color 
          */
-        public static final int tuner_icon_tint=0x7f0b0015;
+        public static final int tuner_icon_tint=0x7f080015;
         /**  tint of the Visualizer tile 
          */
-        public static final int visualizer_fill_color=0x7f0b000d;
+        public static final int visualizer_fill_color=0x7f08000d;
         /**  deep teal 500 
          */
-        public static final int volume_icon_color=0x7f0b0080;
+        public static final int volume_icon_color=0x7f080080;
         /**  Background of the volume panel. See also: volume_dialog_background 
          */
-        public static final int volume_panel_background_color=0x7f0b000e;
-        public static final int volume_settings_icon_color=0x7f0b0081;
+        public static final int volume_panel_background_color=0x7f08000e;
+        public static final int volume_settings_icon_color=0x7f080081;
         /**  Active color for volume slider 
          */
-        public static final int volume_slider_active=0x7f0b0038;
-        public static final int volume_slider_inactive=0x7f0b0082;
-        public static final int zen_ic_close_tint_color=0x7f0b0031;
-        public static final int zen_introduction_message_background=0x7f0b007f;
+        public static final int volume_slider_active=0x7f080038;
+        public static final int volume_slider_inactive=0x7f080082;
+        public static final int zen_ic_close_tint_color=0x7f080031;
+        public static final int zen_introduction_message_background=0x7f08007f;
     }
     public static final class dimen {
-        public static final int G=0x7f09010f;
+        public static final int G=0x7f0e010f;
         /**  The y translation to apply at the start in appear animations. 
  The y translation to apply at the start in appear animations. 
          */
-        public static final int appear_y_translation_start=0x7f090001;
+        public static final int appear_y_translation_start=0x7f0e0009;
         /**  Thickness of the shadows of the assist disclosure beams 
          */
-        public static final int assist_disclosure_shadow_thickness=0x7f0900f5;
+        public static final int assist_disclosure_shadow_thickness=0x7f0e00f5;
         /**  Thickness of the assist disclosure beams 
          */
-        public static final int assist_disclosure_thickness=0x7f0900f4;
+        public static final int assist_disclosure_thickness=0x7f0e00f4;
         /**  The margin to the edge of the screen from where the orb starts to appear 
          */
-        public static final int assist_orb_base_margin=0x7f0900ca;
+        public static final int assist_orb_base_margin=0x7f0e00ca;
         /**  The elevation of the orb 
          */
-        public static final int assist_orb_elevation=0x7f0900cc;
+        public static final int assist_orb_elevation=0x7f0e00cc;
         /**  The height of the scrim behind the search panel circle. Should be navigation_bar_height
          + 8dp. 
          */
-        public static final int assist_orb_navbar_scrim_height=0x7f0900ce;
+        public static final int assist_orb_navbar_scrim_height=0x7f0e00ce;
         /**  The height of the scrim behind the orb. 
          */
-        public static final int assist_orb_scrim_height=0x7f0900cd;
+        public static final int assist_orb_scrim_height=0x7f0e00cd;
         /**  The diameter of the search panel circle. 
          */
-        public static final int assist_orb_size=0x7f0900c9;
+        public static final int assist_orb_size=0x7f0e00c9;
         /**  The amount the orb translates when appearing 
          */
-        public static final int assist_orb_travel_distance=0x7f0900cb;
+        public static final int assist_orb_travel_distance=0x7f0e00cb;
         /**  Battery level text padding end when in expanded QS and on Keyguard 
          */
-        public static final int battery_level_padding_end=0x7f0900c1;
+        public static final int battery_level_padding_end=0x7f0e00c1;
         /**  The text size for battery level 
          */
-        public static final int battery_level_text_size=0x7f0900d4;
-        public static final int battery_margin_bottom=0x7f0900da;
-        public static final int blinds_pop_threshold=0x7f090057;
-        public static final int boost_dv=0x7f0900ff;
-        public static final int borderless_button_radius=0x7f090071;
+        public static final int battery_level_text_size=0x7f0e00d4;
+        public static final int battery_margin_bottom=0x7f0e00da;
+        public static final int blinds_pop_threshold=0x7f0e0057;
+        public static final int boost_dv=0x7f0e00ff;
+        public static final int borderless_button_radius=0x7f0e0071;
         /**  Space reserved for the cards behind the top card in the bottom stack 
          */
-        public static final int bottom_stack_peek_amount=0x7f09008c;
+        public static final int bottom_stack_peek_amount=0x7f0e008c;
         /**  The height of the area before the bottom stack in which the notifications slow down 
          */
-        public static final int bottom_stack_slow_down_length=0x7f09008e;
+        public static final int bottom_stack_slow_down_length=0x7f0e008e;
         /**  Default clock parameters 
          */
-        public static final int bottom_text_spacing_digital=0x7f090009;
-        public static final int building_height_min=0x7f090108;
-        public static final int building_width_max=0x7f090107;
-        public static final int building_width_min=0x7f090106;
+        public static final int bottom_text_spacing_digital=0x7f0e0006;
+        public static final int building_height_min=0x7f0e0108;
+        public static final int building_width_max=0x7f0e0107;
+        public static final int building_width_min=0x7f0e0106;
         /**  fill_horizontal|top 
  Height of the carrier/wifi name label 
          */
-        public static final int carrier_label_height=0x7f090054;
+        public static final int carrier_label_height=0x7f0e0054;
         /**  The top padding of the clear all button 
          */
-        public static final int clear_all_padding_top=0x7f0900c2;
+        public static final int clear_all_padding_top=0x7f0e00c2;
         /**  The padding bottom of the clock group when QS is collapsed. 
          */
-        public static final int clock_collapsed_bottom_margin=0x7f0900b5;
+        public static final int clock_collapsed_bottom_margin=0x7f0e00b5;
         /**  The padding bottom of the clock group when QS is collapsed for large text 
          */
-        public static final int clock_collapsed_bottom_margin_large_text=0x7f0900b6;
+        public static final int clock_collapsed_bottom_margin_large_text=0x7f0e00b6;
         /**  The padding bottom of the clock group when QS is expanded. 
          */
-        public static final int clock_expanded_bottom_margin=0x7f0900b4;
+        public static final int clock_expanded_bottom_margin=0x7f0e00b4;
         /**  Height of the draggable handle at the bottom of the phone notification panel 
          */
-        public static final int close_handle_height=0x7f09004c;
+        public static final int close_handle_height=0x7f0e004c;
         /**  Amount of close_handle that will NOT overlap the notification list 
          */
-        public static final int close_handle_underlap=0x7f09004d;
-        public static final int cloud_size_max=0x7f09010a;
-        public static final int cloud_size_min=0x7f090109;
-        public static final int data_usage_graph_marker_width=0x7f0900b3;
+        public static final int close_handle_underlap=0x7f0e004d;
+        public static final int cloud_size_max=0x7f0e010a;
+        public static final int cloud_size_min=0x7f0e0109;
+        public static final int data_usage_graph_marker_width=0x7f0e00b3;
         /**  The vertical margin between the date and the owner info. 
          */
-        public static final int date_owner_info_margin=0x7f09000e;
-        public static final int default_circle_indicator_radius=0x7f090116;
-        public static final int default_circle_indicator_stroke_width=0x7f090117;
+        public static final int date_owner_info_margin=0x7f0e000c;
+        public static final int default_circle_indicator_radius=0x7f0e0116;
+        public static final int default_circle_indicator_stroke_width=0x7f0e0117;
         /**  used by DessertCase 
          */
-        public static final int dessert_case_cell_size=0x7f090077;
-        public static final int detail_exterior_padding=0x7f090020;
-        public static final int detail_radio_group_padding=0x7f090010;
-        public static final int detail_radio_group_padding_left=0x7f09000f;
+        public static final int dessert_case_cell_size=0x7f0e0077;
+        public static final int detail_exterior_padding=0x7f0e0020;
+        public static final int detail_radio_group_padding=0x7f0e0010;
+        public static final int detail_radio_group_padding_left=0x7f0e000f;
         /**  The translation for disappearing security views after having solved them. 
  The translation for disappearing security views after having solved them. 
          */
-        public static final int disappear_y_translation=0x7f090002;
+        public static final int disappear_y_translation=0x7f0e000d;
         /**  EmergencyCarrierArea overlap - amount to overlap the emergency button and carrier text.
          Should be 0 on devices with plenty of room (e.g. tablets) 
  EmergencyCarrierArea overlap - amount to overlap the emergency button and carrier text.
          Should be 0 on devices with plenty of room (e.g. tablets) 
          */
-        public static final int eca_overlap=0x7f090008;
+        public static final int eca_overlap=0x7f0e0005;
         /**  The width of the region on the left/right edge of the screen for performing the camera/
          phone hints. 
  The width of the region on the left/right edge of the screen for performing the camera/
      phone hints. 
          */
-        public static final int edge_tap_area_width=0x7f0900a7;
+        public static final int edge_tap_area_width=0x7f0e00a7;
         /**  Inset shadow for FakeShadowDrawable. It is used to avoid gaps between the card
          and the shadow. 
          */
-        public static final int fake_shadow_inset=0x7f0900df;
-        public static final int fake_shadow_size=0x7f0900e0;
+        public static final int fake_shadow_inset=0x7f0e00df;
+        public static final int fake_shadow_size=0x7f0e00e0;
         /**  Padding to be used on the bottom of the fingerprint icon on Keyguard so it better aligns
          with the other icons. 
          */
-        public static final int fingerprint_icon_additional_padding=0x7f0900ed;
+        public static final int fingerprint_icon_additional_padding=0x7f0e00ed;
         /**  The padding on the global screenshot background image 
          */
-        public static final int global_screenshot_bg_padding=0x7f090044;
+        public static final int global_screenshot_bg_padding=0x7f0e0044;
         /**  Default glow radius for GlowPadView 
          */
-        public static final int glowpadview_glow_radius=0x7f090078;
+        public static final int glowpadview_glow_radius=0x7f0e0078;
         /**  Default distance from each snap target that GlowPadView considers a "hit" 
          */
-        public static final int glowpadview_inner_radius=0x7f090079;
+        public static final int glowpadview_inner_radius=0x7f0e0079;
         /**  Additional translation (downwards) for appearing notifications when going to the full shade
          from Keyguard. 
          */
-        public static final int go_to_full_shade_appearing_translation=0x7f0900c8;
+        public static final int go_to_full_shade_appearing_translation=0x7f0e00c8;
         /**  Margin on the left side of the battery % in the header. 
          */
-        public static final int header_battery_margin_expanded=0x7f0900c5;
+        public static final int header_battery_margin_expanded=0x7f0e00c5;
         /**  Margin on the left side of the battery % when on Keyguard. 
          */
-        public static final int header_battery_margin_keyguard=0x7f0900c6;
+        public static final int header_battery_margin_keyguard=0x7f0e00c6;
         /**  Distance between notifications and header when they are considered to be colliding. 
          */
-        public static final int header_notifications_collide_distance=0x7f0900a3;
-        public static final int heads_up_scrim_height=0x7f09009e;
+        public static final int header_notifications_collide_distance=0x7f0e00a3;
+        public static final int heads_up_scrim_height=0x7f0e009e;
         /**  The grow amount for the camera and phone circles when hinting 
          */
-        public static final int hint_grow_amount_sideways=0x7f0900a2;
+        public static final int hint_grow_amount_sideways=0x7f0e00a2;
         /**  Move distance for the unlock hint animation on the lockscreen 
          */
-        public static final int hint_move_distance=0x7f0900a6;
-        public static final int hud_z=0x7f090115;
+        public static final int hint_move_distance=0x7f0e00a6;
+        public static final int hud_z=0x7f0e0115;
         /**  The maximum width of the navigation bar ripples. 
          */
-        public static final int key_button_ripple_max_width=0x7f0900de;
+        public static final int key_button_ripple_max_width=0x7f0e00de;
         /**  The width/height of the phone/camera/unlock icon view on keyguard. 
  The width/height of the phone/camera/unlock icon on keyguard. 
          */
-        public static final int keyguard_affordance_height=0x7f0900cf;
+        public static final int keyguard_affordance_height=0x7f0e00cf;
         /**  The width/height of the phone/camera/unlock icon drawable on keyguard. 
          */
-        public static final int keyguard_affordance_icon_height=0x7f0900d1;
-        public static final int keyguard_affordance_icon_width=0x7f0900d2;
+        public static final int keyguard_affordance_icon_height=0x7f0e00d1;
+        public static final int keyguard_affordance_icon_width=0x7f0e00d2;
         /**  The minimum background radius when swiping to a side for the camera / phone affordances. 
          */
-        public static final int keyguard_affordance_min_background_radius=0x7f0900a0;
+        public static final int keyguard_affordance_min_background_radius=0x7f0e00a0;
         /**  The size of the touch targets on the keyguard for the affordances. 
          */
-        public static final int keyguard_affordance_touch_target_size=0x7f0900a1;
-        public static final int keyguard_affordance_width=0x7f0900d0;
+        public static final int keyguard_affordance_touch_target_size=0x7f0e00a1;
+        public static final int keyguard_affordance_width=0x7f0e00d0;
         /**  Margin on the left side of the carrier text on Keyguard 
  Margin on the left side of the carrier text on Keyguard 
          */
-        public static final int keyguard_carrier_text_margin=0x7f0900c4;
-        public static final int keyguard_clock_notifications_margin_max=0x7f09009d;
+        public static final int keyguard_carrier_text_margin=0x7f0e00c4;
+        public static final int keyguard_clock_notifications_margin_max=0x7f0e009d;
         /**  The margin between the clock and the notifications on Keyguard. See
          keyguard_clock_height_fraction_* for the difference between min and max.
  The margin between the clock and the notifications on Keyguard. See
          keyguard_clock_height_fraction_* for the difference between min and max.
          */
-        public static final int keyguard_clock_notifications_margin_min=0x7f09009c;
+        public static final int keyguard_clock_notifications_margin_min=0x7f0e009c;
         /**  Minimum distance the user has to drag down to go to the full shade. 
          */
-        public static final int keyguard_drag_down_min_distance=0x7f09009b;
-        public static final int keyguard_indication_margin_bottom=0x7f0900d3;
+        public static final int keyguard_drag_down_min_distance=0x7f0e009b;
+        public static final int keyguard_indication_margin_bottom=0x7f0e00d3;
         /**  The minimum amount the user needs to swipe to go to the camera / phone. 
          */
-        public static final int keyguard_min_swipe_amount=0x7f09009f;
+        public static final int keyguard_min_swipe_amount=0x7f0e009f;
         /**  Height of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) 
  Height of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) 
  Height of the sliding KeyguardSecurityContainer (includes 2x
@@ -1349,117 +1349,117 @@ containing a value of this type.
         (includes 2x keyguard_security_view_margin) 
  Height of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) 
          */
-        public static final int keyguard_security_height=0x7f090005;
+        public static final int keyguard_security_height=0x7f0e0002;
         /**  Max Height of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) 
          */
-        public static final int keyguard_security_max_height=0x7f090006;
+        public static final int keyguard_security_max_height=0x7f0e0003;
         /**  Margin around the various security views 
  Margin around the various security views 
          */
-        public static final int keyguard_security_view_margin=0x7f090007;
+        public static final int keyguard_security_view_margin=0x7f0e0004;
         /**  Width of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) 
  Width of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) 
  Width of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) 
          */
-        public static final int keyguard_security_width=0x7f090004;
+        public static final int keyguard_security_width=0x7f0e0001;
         /**  The thickness of the colored border around the current user. 
          */
-        public static final int keyguard_user_switcher_border_thickness=0x7f0900b2;
+        public static final int keyguard_user_switcher_border_thickness=0x7f0e00b2;
         /**  Size of the generic status lines keyguard's status view  
  Size of the generic status lines keyguard's status view  
          */
-        public static final int kg_status_line_font_size=0x7f090003;
-        public static final int lockscreen_icon_side_padding=0x7f090019;
-        public static final int lockscreen_icon_size=0x7f09001a;
+        public static final int kg_status_line_font_size=0x7f0e0000;
+        public static final int lockscreen_icon_side_padding=0x7f0e0019;
+        public static final int lockscreen_icon_size=0x7f0e001a;
         /**  Padding between icon and text for managed profile toast 
          */
-        public static final int managed_profile_toast_padding=0x7f0900f3;
+        public static final int managed_profile_toast_padding=0x7f0e00f3;
         /**  Width for the notification panel and related windows 
          */
-        public static final int match_parent=0x7f090051;
+        public static final int match_parent=0x7f0e0051;
         /**  Largest size an avatar might need to be drawn in the user picker, status bar, or
          quick settings header 
          */
-        public static final int max_avatar_size=0x7f0900c3;
-        public static final int max_v=0x7f090110;
+        public static final int max_avatar_size=0x7f0e00c3;
+        public static final int max_v=0x7f0e0110;
         /**  bottom_stack_peek_amount + notification_min_height
          + notification_collapse_second_card_padding 
          */
-        public static final int min_stack_height=0x7f09008d;
+        public static final int min_stack_height=0x7f0e008d;
         /**  The minimum amount of top overscroll to go to the quick settings. 
          */
-        public static final int min_top_overscroll_to_qs=0x7f090094;
-        public static final int moon_size=0x7f09010c;
+        public static final int min_top_overscroll_to_qs=0x7f0e0094;
+        public static final int moon_size=0x7f0e010c;
         /**  The width of user avatar when collapsed 
          */
-        public static final int multi_user_avatar_collapsed_size=0x7f0900ba;
+        public static final int multi_user_avatar_collapsed_size=0x7f0e00ba;
         /**  The width of user avatar when expanded 
          */
-        public static final int multi_user_avatar_expanded_size=0x7f0900bc;
+        public static final int multi_user_avatar_expanded_size=0x7f0e00bc;
         /**  The width of user avatar when on Keyguard 
  The width of user avatar when on Keyguard 
          */
-        public static final int multi_user_avatar_keyguard_size=0x7f0900bb;
+        public static final int multi_user_avatar_keyguard_size=0x7f0e00bb;
         /**  end margin for multi user switch in collapsed quick settings 
          */
-        public static final int multi_user_switch_collapsed_margin=0x7f0900af;
+        public static final int multi_user_switch_collapsed_margin=0x7f0e00af;
         /**  end margin for multi user switch in expanded quick settings 
          */
-        public static final int multi_user_switch_expanded_margin=0x7f0900ae;
+        public static final int multi_user_switch_expanded_margin=0x7f0e00ae;
         /**  end margin for multi user switch in collapsed quick settings 
  end margin for multi user switch in collapsed quick settings 
          */
-        public static final int multi_user_switch_keyguard_margin=0x7f0900b0;
+        public static final int multi_user_switch_keyguard_margin=0x7f0e00b0;
         /**  The width of the multi user switch on keyguard and collapsed QS header. 
          */
-        public static final int multi_user_switch_width_collapsed=0x7f0900b7;
+        public static final int multi_user_switch_width_collapsed=0x7f0e00b7;
         /**  The width of the multi user switch in expanded QS header. 
          */
-        public static final int multi_user_switch_width_expanded=0x7f0900b8;
+        public static final int multi_user_switch_width_expanded=0x7f0e00b8;
         /**  The width of user avatar when on Keyguard 
  The width of user avatar when on Keyguard 
          */
-        public static final int multi_user_switch_width_keyguard=0x7f0900b9;
+        public static final int multi_user_switch_width_keyguard=0x7f0e00b9;
         /**  Diameter of outer shape drawable shown in navbar search
  Diameter of outer shape drawable shown in navbar search
          */
-        public static final int navbar_search_outerring_diameter=0x7f090049;
+        public static final int navbar_search_outerring_diameter=0x7f0e0049;
         /**  Diameter of outer shape drawable shown in navbar search. Should be 1/2 of above value 
  Diameter of outer shape drawable shown in navbar search. Should be 1/2 of above value. 
          */
-        public static final int navbar_search_outerring_radius=0x7f09004a;
+        public static final int navbar_search_outerring_radius=0x7f0e004a;
         /**  Height of search panel including navigation bar height 
  Height of search panel including navigation bar height 
          */
-        public static final int navbar_search_panel_height=0x7f09004b;
+        public static final int navbar_search_panel_height=0x7f0e004b;
         /**  Default distance beyond which snaps to the matching target 
          */
-        public static final int navbar_search_snap_margin=0x7f090048;
+        public static final int navbar_search_snap_margin=0x7f0e0048;
         /**  thickness (height) of the dead zone at the top of the navigation bar,
          reducing false presses on navbar buttons; approx 2mm 
          */
-        public static final int navigation_bar_deadzone_size=0x7f090038;
+        public static final int navigation_bar_deadzone_size=0x7f0e0038;
         /**  size of the dead zone when touches have recently occurred elsewhere on screen 
          */
-        public static final int navigation_bar_deadzone_size_max=0x7f090039;
-        public static final int navigation_bar_height=0x7f0900fc;
+        public static final int navigation_bar_deadzone_size_max=0x7f0e0039;
+        public static final int navigation_bar_height=0x7f0e00fc;
         /**  Minimum swipe distance to catch the swipe gestures to invoke assist or switch tasks. 
          */
-        public static final int navigation_bar_min_swipe_distance=0x7f090037;
+        public static final int navigation_bar_min_swipe_distance=0x7f0e0037;
         /**  thickness (height) of the navigation bar on phones that require it 
  thickness (width) of the navigation bar on phones that require it 
          */
-        public static final int navigation_bar_size=0x7f090036;
+        public static final int navigation_bar_size=0x7f0e0036;
         /**  The width of the view containing the menu/ime navigation bar icons 
  The width of the view containing the menu/ime navigation bar icons 
  The width of the view containing the menu/ime navigation bar icons 
          */
-        public static final int navigation_extra_key_width=0x7f090046;
+        public static final int navigation_extra_key_width=0x7f0e0046;
         /**  The width of the view containing navigation buttons 
  The width of the view containing navigation buttons 
  The width of the view containing navigation buttons 
          */
-        public static final int navigation_key_width=0x7f090045;
+        public static final int navigation_key_width=0x7f0e0045;
         /**  The padding on the side of the navigation bar. Must be greater than or equal to
          navigation_extra_key_width 
  The padding on the side of the navigation bar. Must be greater than or equal to
@@ -1467,255 +1467,255 @@ containing a value of this type.
  The padding on the side of the navigation bar. Must be greater than or equal to
          navigation_extra_key_width 
          */
-        public static final int navigation_side_padding=0x7f090047;
+        public static final int navigation_side_padding=0x7f0e0047;
         /**  Padding for signal cluster and battery icon when there are not icons in signal cluster 
          */
-        public static final int no_signal_cluster_battery_padding=0x7f0900e2;
+        public static final int no_signal_cluster_battery_padding=0x7f0e00e2;
         /**  The vertical distance from which the notification appear when children are expanded 
          */
-        public static final int notification_appear_distance=0x7f0900ad;
+        public static final int notification_appear_distance=0x7f0e00ad;
         /**  height of the bottom decor below the notification if present (eg. an expand action) 
          */
-        public static final int notification_bottom_decor_height=0x7f0900aa;
+        public static final int notification_bottom_decor_height=0x7f0e00aa;
         /**  The height of the divider between the notfication children 
          */
-        public static final int notification_children_divider_height=0x7f0900ac;
+        public static final int notification_children_divider_height=0x7f0e00ac;
         /**  The padding between notification children 
          */
-        public static final int notification_children_padding=0x7f0900ab;
+        public static final int notification_children_padding=0x7f0e00ab;
         /**  The padding to the second card when the notifications collapse. 
          */
-        public static final int notification_collapse_second_card_padding=0x7f090095;
+        public static final int notification_collapse_second_card_padding=0x7f0e0095;
         /**  half the distance between notifications in the panel 
          */
-        public static final int notification_divider_height=0x7f090043;
+        public static final int notification_divider_height=0x7f0e0043;
         /**  Side padding for the status bar header 
          */
-        public static final int notification_header_side_padding=0x7f090015;
+        public static final int notification_header_side_padding=0x7f0e0015;
         /**  radius of the corners of the material rounded rect background 
          */
-        public static final int notification_material_rounded_rect_radius=0x7f0900a8;
+        public static final int notification_material_rounded_rect_radius=0x7f0e00a8;
         /**  radius of the corners of the material rounded rect background but negative
          */
-        public static final int notification_material_rounded_rect_radius_negative=0x7f0900a9;
+        public static final int notification_material_rounded_rect_radius_negative=0x7f0e00a9;
         /**  Themes: radius of the corners of the notification dropshadow
          See also: notification_material_rounded_rect_radius
     
          */
-        public static final int notification_material_shadow_rounded_rect_radius=0x7f090011;
+        public static final int notification_material_shadow_rounded_rect_radius=0x7f0e0011;
         /**  Height of a large notification in the status bar 
          */
-        public static final int notification_max_height=0x7f09003d;
+        public static final int notification_max_height=0x7f0e003d;
         /**  Height of a medium notification in the status bar 
          */
-        public static final int notification_mid_height=0x7f09003e;
+        public static final int notification_mid_height=0x7f0e003e;
         /**  Height of a small notification in the status bar 
          */
-        public static final int notification_min_height=0x7f09003c;
+        public static final int notification_min_height=0x7f0e003c;
         /**  The padding between the individual notification cards. 
          */
-        public static final int notification_padding=0x7f090093;
+        public static final int notification_padding=0x7f0e0093;
         /**  The padding between the individual notification cards when dimmed. 
          */
-        public static final int notification_padding_dimmed=0x7f090092;
+        public static final int notification_padding_dimmed=0x7f0e0092;
         /**  The minimum height of the notification panel window 
          */
-        public static final int notification_panel_min_height=0x7f0900f8;
+        public static final int notification_panel_min_height=0x7f0e00f8;
         /**  Minimum fraction of the screen that should be taken up by the notification panel.
          Not used at this screen size. 
  Minimum fraction of the screen that should be taken up by the notification panel. 
          */
-        public static final int notification_panel_min_height_frac=0x7f090056;
+        public static final int notification_panel_min_height_frac=0x7f0e0056;
         /**  Minimum margin of the notification panel on the side, when being positioned dynamically 
          */
-        public static final int notification_panel_min_side_margin=0x7f0900ee;
+        public static final int notification_panel_min_side_margin=0x7f0e00ee;
         /**  includes notification_side_padding on each side 
  Standard notification width + gravity 
  Standard notification width + gravity 
          */
-        public static final int notification_panel_width=0x7f090053;
+        public static final int notification_panel_width=0x7f0e0053;
         /**  Distance after which the scrim starts fading in when dragging down the quick settings 
          */
-        public static final int notification_scrim_wait_distance=0x7f0900a5;
+        public static final int notification_scrim_wait_distance=0x7f0e00a5;
         /**  The side padding of the notifications
          */
-        public static final int notification_side_padding=0x7f090090;
+        public static final int notification_side_padding=0x7f0e0090;
         /**  Height of a the summary ("more card") notification on keyguard. 
          */
-        public static final int notification_summary_height=0x7f09003f;
-        public static final int notifications_top_padding=0x7f09009a;
-        public static final int obstacle_gap=0x7f090104;
-        public static final int obstacle_height_min=0x7f090105;
-        public static final int obstacle_spacing=0x7f0900fd;
-        public static final int obstacle_stem_width=0x7f090103;
-        public static final int obstacle_width=0x7f090102;
-        public static final int obstacle_z=0x7f090112;
+        public static final int notification_summary_height=0x7f0e003f;
+        public static final int notifications_top_padding=0x7f0e009a;
+        public static final int obstacle_gap=0x7f0e0104;
+        public static final int obstacle_height_min=0x7f0e0105;
+        public static final int obstacle_spacing=0x7f0e00fd;
+        public static final int obstacle_stem_width=0x7f0e0103;
+        public static final int obstacle_width=0x7f0e0102;
+        public static final int obstacle_z=0x7f0e0112;
         /**  The distance you can pull a notification before it pops open 
          */
-        public static final int one_finger_pop_limit=0x7f090055;
+        public static final int one_finger_pop_limit=0x7f0e0055;
         /**  Bottom margin (from display edge) for status bar panels 
          */
-        public static final int panel_float=0x7f0900f9;
+        public static final int panel_float=0x7f0e00f9;
         /**  The padding between chars of the password view. 
          */
-        public static final int password_char_padding=0x7f09000d;
+        public static final int password_char_padding=0x7f0e000b;
         /**  The size of the dots in the PIN unlock method. 
          */
-        public static final int password_dot_size=0x7f09000c;
+        public static final int password_dot_size=0x7f0e000a;
         /**  How far to slide the panel out when you touch it 
  On tablets this is just the close_handle_height 
          */
-        public static final int peek_height=0x7f0900f7;
+        public static final int peek_height=0x7f0e00f7;
         /**  Amount to offset bottom of notification peek window from top of status bar. 
          */
-        public static final int peek_window_y_offset=0x7f090035;
-        public static final int phone_bottom_padding=0x7f09001c;
-        public static final int phone_height=0x7f09001e;
-        public static final int phone_side_padding=0x7f09001b;
-        public static final int phone_width=0x7f09001d;
-        public static final int player_hit_size=0x7f090100;
-        public static final int player_size=0x7f090101;
-        public static final int player_z=0x7f090113;
-        public static final int player_z_boost=0x7f090114;
+        public static final int peek_window_y_offset=0x7f0e0035;
+        public static final int phone_bottom_padding=0x7f0e001c;
+        public static final int phone_height=0x7f0e001e;
+        public static final int phone_side_padding=0x7f0e001b;
+        public static final int phone_width=0x7f0e001d;
+        public static final int player_hit_size=0x7f0e0100;
+        public static final int player_size=0x7f0e0101;
+        public static final int player_z=0x7f0e0113;
+        public static final int player_z_boost=0x7f0e0114;
         /**  The size of the gesture span needed to activate the "pull" notification expansion 
          */
-        public static final int pull_span_min=0x7f090058;
-        public static final int qs_brightness_padding_top=0x7f090068;
-        public static final int qs_data_usage_text_size=0x7f09006e;
-        public static final int qs_data_usage_usage_text_size=0x7f09006f;
+        public static final int pull_span_min=0x7f0e0058;
+        public static final int qs_brightness_padding_top=0x7f0e0068;
+        public static final int qs_data_usage_text_size=0x7f0e006e;
+        public static final int qs_data_usage_usage_text_size=0x7f0e006f;
         /**  The font size of the date in QS 
          */
-        public static final int qs_date_collapsed_size=0x7f0900c0;
-        public static final int qs_detail_button_text_size=0x7f09006a;
-        public static final int qs_detail_empty_text_size=0x7f09006d;
-        public static final int qs_detail_header_text_size=0x7f090069;
-        public static final int qs_detail_item_height=0x7f090067;
-        public static final int qs_detail_item_height_twoline=0x7f09001f;
-        public static final int qs_detail_item_primary_text_size=0x7f09006b;
-        public static final int qs_detail_item_secondary_text_size=0x7f09006c;
-        public static final int qs_dual_tile_height=0x7f09005e;
-        public static final int qs_dual_tile_padding_horizontal=0x7f090060;
-        public static final int qs_dual_tile_padding_vertical=0x7f09005f;
+        public static final int qs_date_collapsed_size=0x7f0e00c0;
+        public static final int qs_detail_button_text_size=0x7f0e006a;
+        public static final int qs_detail_empty_text_size=0x7f0e006d;
+        public static final int qs_detail_header_text_size=0x7f0e0069;
+        public static final int qs_detail_item_height=0x7f0e0067;
+        public static final int qs_detail_item_height_twoline=0x7f0e001f;
+        public static final int qs_detail_item_primary_text_size=0x7f0e006b;
+        public static final int qs_detail_item_secondary_text_size=0x7f0e006c;
+        public static final int qs_dual_tile_height=0x7f0e005e;
+        public static final int qs_dual_tile_padding_horizontal=0x7f0e0060;
+        public static final int qs_dual_tile_padding_vertical=0x7f0e005f;
         /**  The font size of the "emergency calls only" label in QS 
          */
-        public static final int qs_emergency_calls_only_text_size=0x7f0900bf;
+        public static final int qs_emergency_calls_only_text_size=0x7f0e00bf;
         /**  Lockscreen falsing threshold for quick settings. 
          */
-        public static final int qs_falsing_threshold=0x7f090098;
-        public static final int qs_panel_padding=0x7f09005d;
-        public static final int qs_panel_padding_bottom=0x7f090066;
+        public static final int qs_falsing_threshold=0x7f0e0098;
+        public static final int qs_panel_padding=0x7f0e005d;
+        public static final int qs_panel_padding_bottom=0x7f0e0066;
         /**  height of the qs page indicator 
          */
-        public static final int qs_panel_page_indicator_height=0x7f090018;
+        public static final int qs_panel_page_indicator_height=0x7f0e0018;
         /**  Side padding for the Quick Settings panel 
          */
-        public static final int qs_panel_side_padding=0x7f090016;
+        public static final int qs_panel_side_padding=0x7f0e0016;
         /**  How far the expanded QS panel peeks from the header in collapsed state. 
          */
-        public static final int qs_peek_height=0x7f090072;
-        public static final int qs_tile_divider_height=0x7f09005c;
-        public static final int qs_tile_height=0x7f090059;
-        public static final int qs_tile_icon_size=0x7f09005a;
-        public static final int qs_tile_padding_below_icon=0x7f090063;
-        public static final int qs_tile_padding_bottom=0x7f090064;
-        public static final int qs_tile_padding_top=0x7f090061;
-        public static final int qs_tile_padding_top_large_text=0x7f090062;
-        public static final int qs_tile_spacing=0x7f090065;
-        public static final int qs_tile_text_size=0x7f09005b;
+        public static final int qs_peek_height=0x7f0e0072;
+        public static final int qs_tile_divider_height=0x7f0e005c;
+        public static final int qs_tile_height=0x7f0e0059;
+        public static final int qs_tile_icon_size=0x7f0e005a;
+        public static final int qs_tile_padding_below_icon=0x7f0e0063;
+        public static final int qs_tile_padding_bottom=0x7f0e0064;
+        public static final int qs_tile_padding_top=0x7f0e0061;
+        public static final int qs_tile_padding_top_large_text=0x7f0e0062;
+        public static final int qs_tile_spacing=0x7f0e0065;
+        public static final int qs_tile_text_size=0x7f0e005b;
         /**  The font size of the time when collapsed in QS 
          */
-        public static final int qs_time_collapsed_size=0x7f0900bd;
+        public static final int qs_time_collapsed_size=0x7f0e00bd;
         /**  The font size of the time when expanded in QS 
          */
-        public static final int qs_time_expanded_size=0x7f0900be;
+        public static final int qs_time_expanded_size=0x7f0e00be;
         /**  The dimesnsions of the dismiss all recents button. 
          */
-        public static final int recents_dismiss_all_button_size=0x7f090087;
+        public static final int recents_dismiss_all_button_size=0x7f0e0087;
         /**  The size of the lock-to-app button icon. 
          */
-        public static final int recents_lock_to_app_icon_size=0x7f09008a;
+        public static final int recents_lock_to_app_icon_size=0x7f0e008a;
         /**  The size of the lock-to-app button. 
          */
-        public static final int recents_lock_to_app_size=0x7f090089;
+        public static final int recents_lock_to_app_size=0x7f0e0089;
         /**  The height of the search bar space. 
  The height of the search bar space. 
          */
-        public static final int recents_search_bar_space_height=0x7f090083;
+        public static final int recents_search_bar_space_height=0x7f0e0083;
         /**  The overscroll percentage allowed on the stack. 
          */
-        public static final int recents_stack_overscroll_percentage=0x7f090085;
+        public static final int recents_stack_overscroll_percentage=0x7f0e0085;
         /**  The top offset for the task stack. 
          */
-        public static final int recents_stack_top_padding=0x7f090086;
+        public static final int recents_stack_top_padding=0x7f0e0086;
         /**  The side padding for the task stack as a percentage of the width. 
  The side padding for the task stack as a percentage of the width. 
  The side padding for the task stack as a percentage of the width. 
  The side padding for the task stack as a percentage of the width. 
          */
-        public static final int recents_stack_width_padding_percentage=0x7f090084;
+        public static final int recents_stack_width_padding_percentage=0x7f0e0084;
         /**  The min alpha to apply to a task affiliation group color. 
          */
-        public static final int recents_task_affiliation_color_min_alpha_percentage=0x7f090088;
+        public static final int recents_task_affiliation_color_min_alpha_percentage=0x7f0e0088;
         /**  The height of a task view bar. 
          */
-        public static final int recents_task_bar_height=0x7f090082;
+        public static final int recents_task_bar_height=0x7f0e0082;
         /**  The amount to offset when animating into an affiliate group. 
          */
-        public static final int recents_task_view_affiliate_group_enter_offset=0x7f090080;
+        public static final int recents_task_view_affiliate_group_enter_offset=0x7f0e0080;
         /**  The size of the application icon in the recents task view. 
          */
-        public static final int recents_task_view_application_icon_size=0x7f09007a;
+        public static final int recents_task_view_application_icon_size=0x7f0e007a;
         /**  The amount of highlight to make on each task view. 
          */
-        public static final int recents_task_view_highlight=0x7f09007f;
+        public static final int recents_task_view_highlight=0x7f0e007f;
         /**  The amount to translate when animating the removal of a task. 
          */
-        public static final int recents_task_view_remove_anim_translation_x=0x7f09007e;
+        public static final int recents_task_view_remove_anim_translation_x=0x7f0e007e;
         /**  The radius of the rounded corners on a task view. 
  The radius of the rounded corners on a task view. 
          */
-        public static final int recents_task_view_rounded_corners_radius=0x7f09007b;
+        public static final int recents_task_view_rounded_corners_radius=0x7f0e007b;
         /**  The alpha to apply to a task thumbnail. 
          */
-        public static final int recents_task_view_thumbnail_alpha=0x7f090081;
+        public static final int recents_task_view_thumbnail_alpha=0x7f0e0081;
         /**  The max translation in the Z index for the last task. 
          */
-        public static final int recents_task_view_z_max=0x7f09007d;
+        public static final int recents_task_view_z_max=0x7f0e007d;
         /**  The min translation in the Z index for the last task. 
          */
-        public static final int recents_task_view_z_min=0x7f09007c;
-        public static final int scenery_z=0x7f090111;
+        public static final int recents_task_view_z_min=0x7f0e007c;
+        public static final int scenery_z=0x7f0e0111;
         /**  Screen pinning inner nav bar outer circle size 
          */
-        public static final int screen_pinning_nav_highlight_outer_size=0x7f0900ec;
+        public static final int screen_pinning_nav_highlight_outer_size=0x7f0e00ec;
         /**  Screen pinning inner nav bar circle size 
          */
-        public static final int screen_pinning_nav_highlight_size=0x7f0900eb;
+        public static final int screen_pinning_nav_highlight_size=0x7f0e00eb;
         /**  Screen pinning request nav button circle heights 
          */
-        public static final int screen_pinning_request_button_height=0x7f0900e4;
+        public static final int screen_pinning_request_button_height=0x7f0e00e4;
         /**  Screen pinning request nav button circle widths 
  Screen pinning request bottom button circle widths 
  Screen pinning request bottom button circle widths 
          */
-        public static final int screen_pinning_request_button_width=0x7f0900e5;
+        public static final int screen_pinning_request_button_width=0x7f0e00e5;
         /**  Screen pinning request controls padding on bigger screens 
  Screen pinning request, controls padding on bigger screens, bigger nav bar 
  Screen pinning request, controls padding on bigger screens, bigger nav bar 
          */
-        public static final int screen_pinning_request_frame_padding=0x7f0900ea;
+        public static final int screen_pinning_request_frame_padding=0x7f0e00ea;
         /**  Screen pinning request padding on top of inner circle 
          */
-        public static final int screen_pinning_request_inner_padding=0x7f0900e6;
+        public static final int screen_pinning_request_inner_padding=0x7f0e00e6;
         /**  Screen pinning request padding on top of icons 
          */
-        public static final int screen_pinning_request_nav_icon_padding=0x7f0900e7;
+        public static final int screen_pinning_request_nav_icon_padding=0x7f0e00e7;
         /**  Screen pinning request padding on side of icons
          (makes the width match the nav bar)
  Screen pinning request padding on side of icons
          (makes the width match the nav bar)
          */
-        public static final int screen_pinning_request_nav_side_padding=0x7f0900e8;
+        public static final int screen_pinning_request_nav_side_padding=0x7f0e00e8;
         /**  Screen pinning request side views to match nav bar
          navigation_side_padding - 3 / 2 * (screen_pinning_request_button_width
                                                 - navigation_key_width) 
@@ -1729,47 +1729,47 @@ containing a value of this type.
          In sw600dp we want the buttons centered so this fills the space,
          (screen_pinning_request_width - 3 * screen_pinning_request_button_width) / 2 
          */
-        public static final int screen_pinning_request_side_width=0x7f0900e9;
+        public static final int screen_pinning_request_side_width=0x7f0e00e9;
         /**  Screen pinning request width 
  Screen pinning request width 
  Screen pinning request width (just a little bit bigger than the three buttons here 
          */
-        public static final int screen_pinning_request_width=0x7f0900e3;
+        public static final int screen_pinning_request_width=0x7f0e00e3;
         /**  Extra padding between multiple phone signal icons. 
          */
-        public static final int secondary_telephony_padding=0x7f0900dc;
-        public static final int segmented_button_spacing=0x7f090070;
-        public static final int shortcut_picker_left_padding=0x7f090000;
+        public static final int secondary_telephony_padding=0x7f0e00dc;
+        public static final int segmented_button_spacing=0x7f0e0070;
+        public static final int shortcut_picker_left_padding=0x7f0e000e;
         /**  Padding between signal cluster and battery icon 
          */
-        public static final int signal_cluster_battery_padding=0x7f0900e1;
+        public static final int signal_cluster_battery_padding=0x7f0e00e1;
         /**  The height of the speed bump view. 
          */
-        public static final int speed_bump_height=0x7f090096;
-        public static final int standard_notification_panel_width=0x7f090052;
-        public static final int star_size_max=0x7f09010e;
-        public static final int star_size_min=0x7f09010d;
+        public static final int speed_bump_height=0x7f0e0096;
+        public static final int standard_notification_panel_width=0x7f0e0052;
+        public static final int star_size_max=0x7f0e010e;
+        public static final int star_size_min=0x7f0e010d;
         /**  The font size for the clock 
          */
-        public static final int status_bar_clock_size=0x7f09003b;
-        public static final int status_bar_expanded_header_elevation=0x7f090013;
+        public static final int status_bar_clock_size=0x7f0e003b;
+        public static final int status_bar_expanded_header_elevation=0x7f0e0013;
         /**  Height of the status bar header bar 
          */
-        public static final int status_bar_header_height=0x7f09004e;
+        public static final int status_bar_header_height=0x7f0e004e;
         /**  Height of the status bar header bar when expanded 
          */
-        public static final int status_bar_header_height_expanded=0x7f09004f;
+        public static final int status_bar_header_height_expanded=0x7f0e004f;
         /**  Height of the status bar header bar when on Keyguard 
  Height of the status bar header bar when on Keyguard 
          */
-        public static final int status_bar_header_height_keyguard=0x7f090050;
-        public static final int status_bar_height=0x7f0900fb;
+        public static final int status_bar_header_height_keyguard=0x7f0e0050;
+        public static final int status_bar_height=0x7f0e00fb;
         /**  opacity at which Notification icons will be drawn in the status bar 
          */
-        public static final int status_bar_icon_drawing_alpha=0x7f090041;
+        public static final int status_bar_icon_drawing_alpha=0x7f0e0041;
         /**  size at which Notification icons will be drawn in the status bar 
          */
-        public static final int status_bar_icon_drawing_size=0x7f090040;
+        public static final int status_bar_icon_drawing_size=0x7f0e0040;
         /**  gap on either side of status bar notification icons 
  ======================================== 
  The following resources were recently moved from sw600dp; there may
@@ -1777,179 +1777,179 @@ containing a value of this type.
  ======================================== 
  gap on either side of status bar notification icons 
          */
-        public static final int status_bar_icon_padding=0x7f090042;
+        public static final int status_bar_icon_padding=0x7f0e0042;
         /**  Height of notification icons in the status bar 
          */
-        public static final int status_bar_icon_size=0x7f09003a;
+        public static final int status_bar_icon_size=0x7f0e003a;
         /**  Size of application description text 
  Size of application description text 
          */
-        public static final int status_bar_recents_app_description_text_size=0x7f090029;
+        public static final int status_bar_recents_app_description_text_size=0x7f0e0029;
         /**  Where to place the app icon over the thumbnail 
  Where to place the app icon over the thumbnail 
  Where to place the app icon over the thumbnail 
          */
-        public static final int status_bar_recents_app_icon_left_margin=0x7f090033;
+        public static final int status_bar_recents_app_icon_left_margin=0x7f0e0033;
         /**  Upper height limit for application icon 
  Upper height limit for application icon 
          */
-        public static final int status_bar_recents_app_icon_max_height=0x7f090024;
+        public static final int status_bar_recents_app_icon_max_height=0x7f0e0024;
         /**  Recent Applications parameters 
  Upper width limit for application icon 
  Upper width limit for application icon 
          */
-        public static final int status_bar_recents_app_icon_max_width=0x7f090023;
-        public static final int status_bar_recents_app_icon_top_margin=0x7f090034;
+        public static final int status_bar_recents_app_icon_max_width=0x7f0e0023;
+        public static final int status_bar_recents_app_icon_top_margin=0x7f0e0034;
         /**  When recents first appears, how far the icon and label of the primary activity
          travel 
          */
-        public static final int status_bar_recents_app_icon_translate_distance=0x7f090032;
+        public static final int status_bar_recents_app_icon_translate_distance=0x7f0e0032;
         /**  Left margin of application label text 
  Left margin of application label text 
  Left margin for application label 
          */
-        public static final int status_bar_recents_app_label_left_margin=0x7f090030;
+        public static final int status_bar_recents_app_label_left_margin=0x7f0e0030;
         /**  Size of application label text 
  Size of application label text 
          */
-        public static final int status_bar_recents_app_label_text_size=0x7f090028;
+        public static final int status_bar_recents_app_label_text_size=0x7f0e0028;
         /**  Width of application label text 
  Width of application label text 
  Recent Applications parameters 
  Recent Applications parameters 
  Width of application label text 
          */
-        public static final int status_bar_recents_app_label_width=0x7f09002f;
+        public static final int status_bar_recents_app_label_width=0x7f0e002f;
         /**  Padding between recents items 
  Padding between recents items 
          */
-        public static final int status_bar_recents_item_padding=0x7f090031;
+        public static final int status_bar_recents_item_padding=0x7f0e0031;
         /**  Margin between recents container and glow on the right 
  Margin between recents container and glow on the right 
          */
-        public static final int status_bar_recents_right_glow_margin=0x7f09002c;
+        public static final int status_bar_recents_right_glow_margin=0x7f0e002c;
         /**  Size of fading edge for scrolling 
  Size of fading edge for scrolling 
          */
-        public static final int status_bar_recents_scroll_fading_edge_length=0x7f09002b;
+        public static final int status_bar_recents_scroll_fading_edge_length=0x7f0e002b;
         /**  Padding for text descriptions 
  Padding for text descriptions 
  Padding for text descriptions 
          */
-        public static final int status_bar_recents_text_description_padding=0x7f09002e;
+        public static final int status_bar_recents_text_description_padding=0x7f0e002e;
         /**  Size of fading edge for text 
  Size of fading edge for text 
          */
-        public static final int status_bar_recents_text_fading_edge_length=0x7f09002a;
-        public static final int status_bar_recents_thumbnail_bg_padding=0x7f090027;
-        public static final int status_bar_recents_thumbnail_height=0x7f090026;
+        public static final int status_bar_recents_text_fading_edge_length=0x7f0e002a;
+        public static final int status_bar_recents_thumbnail_bg_padding=0x7f0e0027;
+        public static final int status_bar_recents_thumbnail_height=0x7f0e0026;
         /**  How far the thumbnail for a recent app appears from left edge 
  Recent Applications parameters 
  How far the thumbnail for a recent app appears from left edge 
  Recent Applications parameters 
  How far the thumbnail for a recent app appears from left edge 
          */
-        public static final int status_bar_recents_thumbnail_left_margin=0x7f09002d;
+        public static final int status_bar_recents_thumbnail_left_margin=0x7f0e002d;
         /**  How far the thumbnail for a recent app appears from top edge 
          */
-        public static final int status_bar_recents_thumbnail_top_margin=0x7f0900f6;
+        public static final int status_bar_recents_thumbnail_top_margin=0x7f0e00f6;
         /**  Size of application thumbnail 
  Size of application thumbnail 
  Size of application icon 
          */
-        public static final int status_bar_recents_thumbnail_width=0x7f090025;
+        public static final int status_bar_recents_thumbnail_width=0x7f0e0025;
         /**  Width of recents panel 
          */
-        public static final int status_bar_recents_width=0x7f0900fa;
+        public static final int status_bar_recents_width=0x7f0e00fa;
         /**  Padding end for weather text 
          */
-        public static final int status_bar_weather_padding_end=0x7f090017;
-        public static final int sun_size=0x7f09010b;
+        public static final int status_bar_weather_padding_end=0x7f0e0017;
+        public static final int sun_size=0x7f0e010b;
         /**  Falsing threshold used when dismissing notifications from the lockscreen. 
          */
-        public static final int swipe_helper_falsing_threshold=0x7f090099;
+        public static final int swipe_helper_falsing_threshold=0x7f0e0099;
         /**  Margin on the right side of the system icon group on Keyguard. 
  Margin on the right side of the system icon group on Keyguard. 
          */
-        public static final int system_icons_keyguard_padding_end=0x7f0900c7;
+        public static final int system_icons_keyguard_padding_end=0x7f0e00c7;
         /**  end margin for system icons if multi user switch is hidden 
          */
-        public static final int system_icons_switcher_hidden_expanded_margin=0x7f0900b1;
+        public static final int system_icons_switcher_hidden_expanded_margin=0x7f0e00b1;
         /**  Space reserved for the cards behind the top card in the top stack 
          */
-        public static final int top_stack_peek_amount=0x7f09008b;
+        public static final int top_stack_peek_amount=0x7f0e008b;
         /**  The height of the area before the top stack in which the notifications slow down 
          */
-        public static final int top_stack_slow_down_length=0x7f09008f;
-        public static final int translation_per_sec=0x7f0900fe;
+        public static final int top_stack_slow_down_length=0x7f0e008f;
+        public static final int translation_per_sec=0x7f0e00fe;
         /**  TrustDrawable: Inner radius at the beginning of the enter animation 
          */
-        public static final int trust_circle_inner_radius_enter=0x7f0900d8;
+        public static final int trust_circle_inner_radius_enter=0x7f0e00d8;
         /**  TrustDrawable: Inner radius at the end of the exit animation 
          */
-        public static final int trust_circle_inner_radius_exit=0x7f0900d7;
+        public static final int trust_circle_inner_radius_exit=0x7f0e00d7;
         /**  TrustDrawable: Maximum inner radius of the breathing animation 
          */
-        public static final int trust_circle_inner_radius_visible_max=0x7f0900d6;
+        public static final int trust_circle_inner_radius_visible_max=0x7f0e00d6;
         /**  TrustDrawable: Minimum inner radius of the breathing animation 
          */
-        public static final int trust_circle_inner_radius_visible_min=0x7f0900d5;
+        public static final int trust_circle_inner_radius_visible_min=0x7f0e00d5;
         /**  TrustDrawable: Thickness of the circle 
          */
-        public static final int trust_circle_thickness=0x7f0900d9;
+        public static final int trust_circle_thickness=0x7f0e00d9;
         /**  Size of unlock FAB used when showing external keyguard views 
          */
-        public static final int unlock_fab_size=0x7f090021;
+        public static final int unlock_fab_size=0x7f0e0021;
         /**  Lockscreen unlocking falsing threshold. 
          */
-        public static final int unlock_falsing_threshold=0x7f090097;
+        public static final int unlock_falsing_threshold=0x7f0e0097;
         /**  Distance the user needs to drag vertically such that a swipe is accepted to unlock the
          device. 
          */
-        public static final int unlock_move_distance=0x7f0900a4;
+        public static final int unlock_move_distance=0x7f0e00a4;
         /**  Standard image button size for volume dialog buttons 
          */
-        public static final int volume_button_size=0x7f0900f1;
+        public static final int volume_button_size=0x7f0e00f1;
         /**  Volume dialog root view bottom margin, at rest 
          */
-        public static final int volume_dialog_margin_bottom=0x7f0900f2;
+        public static final int volume_dialog_margin_bottom=0x7f0e00f2;
         /**  Volume dialog vertical offset from the top of the screen 
          */
-        public static final int volume_offset_top=0x7f0900f0;
-        public static final int volume_panel_z=0x7f090014;
+        public static final int volume_offset_top=0x7f0e00f0;
+        public static final int volume_panel_z=0x7f0e0014;
         /**  Vertical spacing between multiple volume slider rows 
          */
-        public static final int volume_slider_interspacing=0x7f0900ef;
-        public static final int weather_text_size=0x7f090022;
+        public static final int volume_slider_interspacing=0x7f0e00ef;
+        public static final int weather_text_size=0x7f0e0022;
         /**  Extra padding between the mobile data type icon and the strength indicator when the data
          type icon is wide. 
          */
-        public static final int wide_type_icon_start_padding=0x7f0900db;
+        public static final int wide_type_icon_start_padding=0x7f0e00db;
         /**  Extra padding between the mobile data type icon and the strength indicator when the data
          type icon is wide for the tile in quick settings. 
          */
-        public static final int wide_type_icon_start_padding_qs=0x7f0900dd;
+        public static final int wide_type_icon_start_padding_qs=0x7f0e00dd;
         /**  Overload default clock widget parameters 
  Overload default clock widget parameters 
          */
-        public static final int widget_big_font_size=0x7f09000b;
-        public static final int widget_label_font_size=0x7f09000a;
+        public static final int widget_big_font_size=0x7f0e0008;
+        public static final int widget_label_font_size=0x7f0e0007;
         /**  Z distance between notifications if they are in the stack 
          */
-        public static final int z_distance_between_notifications=0x7f090091;
+        public static final int z_distance_between_notifications=0x7f0e0091;
         /**  Zen mode panel: bottom padding, a bit less than qs_panel_padding 
          */
-        public static final int zen_mode_condition_detail_bottom_padding=0x7f090076;
+        public static final int zen_mode_condition_detail_bottom_padding=0x7f0e0076;
         /**  Zen mode panel: condition item button padding 
          */
-        public static final int zen_mode_condition_detail_button_padding=0x7f090073;
+        public static final int zen_mode_condition_detail_button_padding=0x7f0e0073;
         /**  Zen mode panel: spacing between two-line condition upper and lower lines 
          */
-        public static final int zen_mode_condition_detail_item_interline_spacing=0x7f090075;
+        public static final int zen_mode_condition_detail_item_interline_spacing=0x7f0e0075;
         /**  Zen mode panel: spacing between condition items 
          */
-        public static final int zen_mode_condition_detail_item_spacing=0x7f090074;
-        public static final int zen_mode_panel_radius=0x7f090012;
+        public static final int zen_mode_condition_detail_item_spacing=0x7f0e0074;
+        public static final int zen_mode_panel_radius=0x7f0e0012;
     }
     public static final class drawable {
         public static final int activities_icon=0x7f020000;
@@ -2774,81 +2774,81 @@ containing a value of this type.
     public static final class integer {
         /**  Duration of the full carrier network change icon animation. 
          */
-        public static final int carrier_network_change_anim_time=0x7f0d0037;
+        public static final int carrier_network_change_anim_time=0x7f0b0037;
         /**  Alias used to reference framework activity duration.  
          */
-        public static final int config_activityDefaultDur=0x7f0d0000;
+        public static final int config_activityDefaultDur=0x7f0b0000;
         /**  Threshold in micro amperes above which a charger is rated as "fast" 
          */
-        public static final int config_chargingFastThreshold=0x7f0d0002;
+        public static final int config_chargingFastThreshold=0x7f0b0002;
         /**  Threshold in micro amperes below which a charger is rated as "slow" 
          */
-        public static final int config_chargingSlowlyThreshold=0x7f0d0001;
+        public static final int config_chargingSlowlyThreshold=0x7f0b0001;
         /**  How many icons may be shown at once in the system bar. Includes any
          slots that may be reused for things like IME control. 
          */
-        public static final int config_maxNotificationIcons=0x7f0d0006;
+        public static final int config_maxNotificationIcons=0x7f0b0006;
         /**  Min alpha % that recent items will fade to while being dismissed 
  Min alpha % that recent items will fade to while being dismissed 
          */
-        public static final int config_recent_item_min_alpha=0x7f0d000d;
+        public static final int config_recent_item_min_alpha=0x7f0b000d;
         /**  The number of app icons we keep in memory 
          */
-        public static final int config_recents_max_icon_count=0x7f0d0005;
+        public static final int config_recents_max_icon_count=0x7f0b0005;
         /**  The number of app thumbnails we keep in memory 
          */
-        public static final int config_recents_max_thumbnail_count=0x7f0d0004;
+        public static final int config_recents_max_thumbnail_count=0x7f0b0004;
         /**  Vibration duration for GlowPadView used in SearchPanelView 
          */
-        public static final int config_search_panel_view_vibration_duration=0x7f0d0008;
+        public static final int config_search_panel_view_vibration_duration=0x7f0b0008;
         /**  Vibration duration for GlowPadView used in SearchPanelView 
          */
-        public static final int config_vibration_duration=0x7f0d0007;
+        public static final int config_vibration_duration=0x7f0b0007;
         /**  Color inversion tile: number of days to show after feature is used. 
          */
-        public static final int days_to_show_color_inversion_tile=0x7f0d0034;
+        public static final int days_to_show_color_inversion_tile=0x7f0b0034;
         /**  87% of 0xff 
  Hotspot tile: number of days to show after feature is used. 
          */
-        public static final int days_to_show_hotspot_tile=0x7f0d0033;
-        public static final int default_circle_indicator_orientation=0x7f0d003c;
+        public static final int days_to_show_hotspot_tile=0x7f0b0033;
+        public static final int default_circle_indicator_orientation=0x7f0b003c;
         /**  Doze: duration to avoid false pickup gestures triggered by notification vibrations 
          */
-        public static final int doze_pickup_vibration_threshold=0x7f0d002b;
+        public static final int doze_pickup_vibration_threshold=0x7f0b002b;
         /**  Doze: pulse parameter - delay to wait for the screen to wake up after an intent 
          */
-        public static final int doze_pulse_delay_in_intent=0x7f0d002f;
+        public static final int doze_pulse_delay_in_intent=0x7f0b002f;
         /**  Doze: pulse parameter - how long does it take to fade in? 
          */
-        public static final int doze_pulse_duration_in=0x7f0d002c;
+        public static final int doze_pulse_duration_in=0x7f0b002c;
         /**  Doze: pulse parameter - how long does it take to fade in after an intent? 
          */
-        public static final int doze_pulse_duration_in_intent=0x7f0d002e;
+        public static final int doze_pulse_duration_in_intent=0x7f0b002e;
         /**  Doze: pulse parameter - how long does it take to fade in after a pickup? 
          */
-        public static final int doze_pulse_duration_in_pickup=0x7f0d002d;
+        public static final int doze_pulse_duration_in_pickup=0x7f0b002d;
         /**  Doze: pulse parameter - how long does it take to fade out? 
          */
-        public static final int doze_pulse_duration_out=0x7f0d0031;
+        public static final int doze_pulse_duration_out=0x7f0b0031;
         /**  Doze: pulse parameter - once faded in, how long does it stay visible? 
          */
-        public static final int doze_pulse_duration_visible=0x7f0d0030;
+        public static final int doze_pulse_duration_visible=0x7f0b0030;
         /**  Doze: maximum number of times the notification pulse schedule can be reset 
          */
-        public static final int doze_pulse_schedule_resets=0x7f0d002a;
+        public static final int doze_pulse_schedule_resets=0x7f0b002a;
         /**  Doze: alpha to apply to small icons when dozing 
          */
-        public static final int doze_small_icon_alpha=0x7f0d0032;
+        public static final int doze_small_icon_alpha=0x7f0b0032;
         /**  milliseconds after a heads up notification is pushed back
      before the app can interrupt again. 
          */
-        public static final int heads_up_default_snooze_length_ms=0x7f0d0016;
+        public static final int heads_up_default_snooze_length_ms=0x7f0b0016;
         /**  milliseconds before the heads up notification auto-dismisses. 
          */
-        public static final int heads_up_notification_decay=0x7f0d0015;
+        public static final int heads_up_notification_decay=0x7f0b0015;
         /**  Minimum display time for a heads up notification, in milliseconds. 
          */
-        public static final int heads_up_notification_minimum_time=0x7f0d0017;
+        public static final int heads_up_notification_minimum_time=0x7f0b0017;
         /**  The maximum count of notifications on Keyguard. The rest will be collapsed in an overflow
      card. 
  We have only space for one notification on phone landscape layouts. 
@@ -2865,126 +2865,126 @@ containing a value of this type.
  The maximum count of notifications on Keyguard. The rest will be collapsed in an overflow
          card. 
          */
-        public static final int keyguard_max_notification_count=0x7f0d0029;
+        public static final int keyguard_max_notification_count=0x7f0b0029;
         /**  Gravity to make KeyguardSelectorView work in multiple orientations
         0x31 == "top|center_horizontal" 
  Gravity to make KeyguardSelectorView work in multiple orientations
         0x13 == "left|center_vertical" 
          */
-        public static final int kg_selector_gravity=0x7f0d0003;
-        public static final int navigation_bar_deadzone_decay=0x7f0d000c;
+        public static final int kg_selector_gravity=0x7f0b0003;
+        public static final int navigation_bar_deadzone_decay=0x7f0b000c;
         /**  decay duration (from size_max -> size), in ms 
          */
-        public static final int navigation_bar_deadzone_hold=0x7f0d000b;
+        public static final int navigation_bar_deadzone_hold=0x7f0b000b;
         /**  top|center_horizontal 
          */
-        public static final int notification_panel_layout_gravity=0x7f0d003b;
+        public static final int notification_panel_layout_gravity=0x7f0b003b;
         /**  The length of the vibration when the notification pops open. 
          */
-        public static final int one_finger_pop_duration_ms=0x7f0d0009;
-        public static final int quick_settings_brightness_dialog_long_timeout=0x7f0d0013;
+        public static final int one_finger_pop_duration_ms=0x7f0b0009;
+        public static final int quick_settings_brightness_dialog_long_timeout=0x7f0b0013;
         /**  Timeouts for brightness dialog to disappear 
          */
-        public static final int quick_settings_brightness_dialog_short_timeout=0x7f0d0012;
+        public static final int quick_settings_brightness_dialog_short_timeout=0x7f0b0012;
         /**  The maximum number of items to be displayed in quick settings 
  The maximum number of items to be displayed in quick settings 
          */
-        public static final int quick_settings_detail_max_item_count=0x7f0d0014;
+        public static final int quick_settings_detail_max_item_count=0x7f0b0014;
         /**  The maximum number of rows in the QuickSettings 
  The maximum number of rows in the QuickSettings 
  The maximum number of rows in the QuickSettings 
          */
-        public static final int quick_settings_max_rows=0x7f0d000f;
+        public static final int quick_settings_max_rows=0x7f0b000f;
         /**  The maximum number of rows in the QuickSettings when on the keyguard 
          */
-        public static final int quick_settings_max_rows_keyguard=0x7f0d0010;
+        public static final int quick_settings_max_rows_keyguard=0x7f0b0010;
         /**  The number of columns in the QuickSettings 
          */
-        public static final int quick_settings_num_columns=0x7f0d000e;
+        public static final int quick_settings_num_columns=0x7f0b000e;
         /**  The number of columns that the top level tiles span in the QuickSettings 
  The number of columns that the top level tiles span in the QuickSettings 
  The number of columns that the top level tiles span in the QuickSettings 
          */
-        public static final int quick_settings_user_time_settings_tile_span=0x7f0d0011;
+        public static final int quick_settings_user_time_settings_tile_span=0x7f0b0011;
         /**  The delay to enforce between each alt-tab key press. 
          */
-        public static final int recents_alt_tab_key_delay=0x7f0d0027;
+        public static final int recents_alt_tab_key_delay=0x7f0b0027;
         /**  The animation duration for scrolling the stack to a particular item. 
          */
-        public static final int recents_animate_task_stack_scroll_duration=0x7f0d0025;
+        public static final int recents_animate_task_stack_scroll_duration=0x7f0b0025;
         /**  The animation duration for animating the removal of a task view. 
          */
-        public static final int recents_animate_task_view_remove_duration=0x7f0d0024;
+        public static final int recents_animate_task_view_remove_duration=0x7f0b0024;
         /**  The duration of the window transition when coming to Recents from an app.
          In order to defer the in-app animations until after the transition is complete,
          we also need to use this value as the starting delay when animating the first
          task decorations in. 
          */
-        public static final int recents_enter_from_app_transition_duration=0x7f0d001c;
+        public static final int recents_enter_from_app_transition_duration=0x7f0b001c;
         /**  The duration of the window transition when coming to Recents from the Launcher.
          In order to defer the in-app animations until after the transition is complete,
          we also need to use this value as the starting delay when animating the task views
          in from the bottom of the screen. 
          */
-        public static final int recents_enter_from_home_transition_duration=0x7f0d001f;
+        public static final int recents_enter_from_home_transition_duration=0x7f0b001f;
         /**  The min animation duration for animating views that are currently visible. 
          */
-        public static final int recents_filter_animate_current_views_duration=0x7f0d001a;
+        public static final int recents_filter_animate_current_views_duration=0x7f0b001a;
         /**  The min animation duration for animating views that are newly visible. 
          */
-        public static final int recents_filter_animate_new_views_duration=0x7f0d001b;
+        public static final int recents_filter_animate_new_views_duration=0x7f0b001b;
         /**  The minimum alpha for the dim applied to cards that go deeper into the stack. 
          */
-        public static final int recents_max_task_stack_view_dim=0x7f0d0026;
+        public static final int recents_max_task_stack_view_dim=0x7f0b0026;
         /**  The min animation duration for animating the nav bar scrim in. 
          */
-        public static final int recents_nav_bar_scrim_enter_duration=0x7f0d0023;
+        public static final int recents_nav_bar_scrim_enter_duration=0x7f0b0023;
         /**  Svelte specific logic, see RecentsConfiguration.SVELTE_* constants. 
          */
-        public static final int recents_svelte_level=0x7f0d0028;
+        public static final int recents_svelte_level=0x7f0b0028;
         /**  The duration in seconds to wait before the dismiss buttons are shown. 
          */
-        public static final int recents_task_bar_dismiss_delay_seconds=0x7f0d0019;
+        public static final int recents_task_bar_dismiss_delay_seconds=0x7f0b0019;
         /**  The duration for animating the task decorations in after transitioning from an app. 
          */
-        public static final int recents_task_enter_from_app_duration=0x7f0d001d;
+        public static final int recents_task_enter_from_app_duration=0x7f0b001d;
         /**  The duration for animating the task from the bottom of the screen when transitioning
      from home. 
          */
-        public static final int recents_task_enter_from_home_duration=0x7f0d0020;
+        public static final int recents_task_enter_from_home_duration=0x7f0b0020;
         /**  The stagger for each task when animating the task from the bottom of the screen when 
      transitioning from home. 
          */
-        public static final int recents_task_enter_from_home_stagger_delay=0x7f0d0021;
+        public static final int recents_task_enter_from_home_stagger_delay=0x7f0b0021;
         /**  The duration for animating the task decorations out before transitioning to an app. 
          */
-        public static final int recents_task_exit_to_app_duration=0x7f0d001e;
+        public static final int recents_task_exit_to_app_duration=0x7f0b001e;
         /**  The duration of the animation of the tasks to the bottom of the screen when leaving
      Recents to go back to the Launcher. 
          */
-        public static final int recents_task_exit_to_home_duration=0x7f0d0022;
+        public static final int recents_task_exit_to_home_duration=0x7f0b0022;
         /**  Gravity for the notification panel 
          */
-        public static final int standard_notification_panel_layout_gravity=0x7f0d003a;
-        public static final int status_bar_config_maxNotificationIcons=0x7f0d0039;
+        public static final int standard_notification_panel_layout_gravity=0x7f0b003a;
+        public static final int status_bar_config_maxNotificationIcons=0x7f0b0039;
         /**  Whether we're using the tablet-optimized recents interface (we use this
      value at runtime for some things) 
  Whether we're using the tablet-optimized recents interface (we use this
      value at runtime for some things) 
          */
-        public static final int status_bar_recents_bg_gradient_degrees=0x7f0d000a;
+        public static final int status_bar_recents_bg_gradient_degrees=0x7f0b000a;
         /**  milliseconds before the heads up notification accepts touches. 
          */
-        public static final int touch_acceptance_delay=0x7f0d0018;
+        public static final int touch_acceptance_delay=0x7f0b0018;
         /**  Duration of the expansion animation in the volume dialog 
          */
-        public static final int volume_expand_animation_duration=0x7f0d0038;
+        public static final int volume_expand_animation_duration=0x7f0b0038;
         /**  Number of times to show the strong alarm warning text in the volume dialog 
          */
-        public static final int zen_mode_alarm_warning_threshold=0x7f0d0035;
+        public static final int zen_mode_alarm_warning_threshold=0x7f0b0035;
         /**  Maximum number of total conditions to display in the zen mode selection panel 
          */
-        public static final int zen_mode_max_conditions=0x7f0d0036;
+        public static final int zen_mode_max_conditions=0x7f0b0036;
     }
     public static final class interpolator {
         public static final int assist_disclosure_trace=0x7f060000;
@@ -3189,7 +3189,7 @@ containing a value of this type.
  Instructions telling the user remaining times when enter SIM PIN view.  
  Instructions telling the user remaining times when enter SIM PIN view.  
          */
-        public static final int kg_password_default_pin_message=0x7f0e0000;
+        public static final int kg_password_default_pin_message=0x7f0d0000;
         /**  Instructions telling the user that they entered the wrong SIM PIN while trying
          to unlock the keyguard.  Displayed in a dialog box.  
  Instructions telling the user that they entered the wrong SIM PIN while trying
@@ -3201,7 +3201,7 @@ containing a value of this type.
  Instructions telling the user that they entered the wrong SIM PIN while trying
          to unlock the keyguard.  Displayed in a dialog box.  
          */
-        public static final int kg_password_wrong_pin_code=0x7f0e0001;
+        public static final int kg_password_wrong_pin_code=0x7f0d0001;
         /**  Instructions telling the user that they entered the wrong puk while trying
          to unlock the keyguard.  Displayed in a dialog box.  
  Instructions telling the user that they entered the wrong puk while trying
@@ -3211,21 +3211,21 @@ containing a value of this type.
  Instructions telling the user that they entered the wrong puk while trying
          to unlock the keyguard.  Displayed in a dialog box.  
          */
-        public static final int kg_password_wrong_puk_code=0x7f0e0002;
+        public static final int kg_password_wrong_puk_code=0x7f0d0002;
         /**  An explanation text that the password needs to be entered since it hasn't been entered in a while. [CHAR LIMIT=80]
          */
-        public static final int kg_prompt_reason_time_password=0x7f0e0005;
+        public static final int kg_prompt_reason_time_password=0x7f0d0005;
         /**  An explanation text that the pattern needs to be solved since it hasn't been solved in a while. [CHAR LIMIT=80]
          */
-        public static final int kg_prompt_reason_time_pattern=0x7f0e0003;
+        public static final int kg_prompt_reason_time_pattern=0x7f0d0003;
         /**  An explanation text that the pin needs to be entered since it hasn't been entered in a while. [CHAR LIMIT=80]
          */
-        public static final int kg_prompt_reason_time_pin=0x7f0e0004;
+        public static final int kg_prompt_reason_time_pin=0x7f0d0004;
         /**  Message that is read when you enter recent apps in TalkBack 
  Message that is read when you enter recent apps in TalkBack 
  Message that is read when you enter recent apps in TalkBack 
          */
-        public static final int status_bar_accessibility_recent_apps=0x7f0e0007;
+        public static final int status_bar_accessibility_recent_apps=0x7f0d0007;
         /**  Wi-Fi hotspot label when enabled 
  Wi-Fi hotspot label when enabled 
  Wi-Fi hotspot label when enabled 
@@ -3266,36 +3266,36 @@ containing a value of this type.
  Wi-Fi hotspot label when enabled 
  Wi-Fi hotspot label when enabled 
          */
-        public static final int wifi_hotspot_connected_clients_label=0x7f0e0006;
+        public static final int wifi_hotspot_connected_clients_label=0x7f0d0006;
     }
     public static final class string {
         /**  Skeleton string format for displaying the date. 
          */
-        public static final int abbrev_wday_month_day_no_year=0x7f0a005b;
+        public static final int abbrev_wday_month_day_no_year=0x7f090005;
         /**  Skeleton string format for displaying the date when an alarm is set. 
          */
-        public static final int abbrev_wday_month_day_no_year_alarm=0x7f0a005c;
+        public static final int abbrev_wday_month_day_no_year_alarm=0x7f090006;
         /**  Content description of the airplane mode icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the airplane mode icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the airplane mode icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the airplane mode icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the airplane mode icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_airplane_mode=0x7f0a01bf;
+        public static final int accessibility_airplane_mode=0x7f0901bf;
         /**  Content description of the back button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the back button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the back button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the back button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the back button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_back=0x7f0a017a;
+        public static final int accessibility_back=0x7f09017a;
         /**  Content description of the battery when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_battery_full=0x7f0a0193;
+        public static final int accessibility_battery_full=0x7f090193;
         /**  Content description of the battery level icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the no sim icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the carrier network changing icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -3310,28 +3310,28 @@ containing a value of this type.
  Content description of the carrier network changing icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery level icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_battery_level=0x7f0a01c2;
+        public static final int accessibility_battery_level=0x7f0901c2;
         /**  Content description of the battery when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_battery_one_bar=0x7f0a0190;
+        public static final int accessibility_battery_one_bar=0x7f090190;
         /**  Content description of the battery when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_battery_three_bars=0x7f0a0192;
+        public static final int accessibility_battery_three_bars=0x7f090192;
         /**  Content description of the battery when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_battery_two_bars=0x7f0a0191;
+        public static final int accessibility_battery_two_bars=0x7f090191;
         /**  Content description of the bluetooth icon when connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth icon when connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the back button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -3358,7 +3358,7 @@ containing a value of this type.
  Content description of the bluetooth icon when connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth icon when connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_bluetooth_connected=0x7f0a018d;
+        public static final int accessibility_bluetooth_connected=0x7f09018d;
         /**  Content description of the bluetooth icon when connecting for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth icon when connecting for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth icon when connecting for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -3366,50 +3366,50 @@ containing a value of this type.
  Content description of the bluetooth icon when connecting for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth icon when connecting for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_bluetooth_disconnected=0x7f0a018e;
+        public static final int accessibility_bluetooth_disconnected=0x7f09018e;
         /**  Content description of the bluetooth label showing what we are connected to. [CHAR LIMIT=NONE] 
  Content description of the bluetooth label showing what we are connected to. [CHAR LIMIT=NONE] 
  Content description of the bluetooth label showing what we are connected to. [CHAR LIMIT=NONE] 
  Content description of the bluetooth label showing what we are connected to. [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_bluetooth_name=0x7f0a019f;
+        public static final int accessibility_bluetooth_name=0x7f09019f;
         /**  Content description of the bluetooth tethering icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth tethering icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth tethering icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth tethering icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth tethering icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_bluetooth_tether=0x7f0a01be;
+        public static final int accessibility_bluetooth_tether=0x7f0901be;
         /**  Content description of the display brightness slider (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the display brightness slider (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the display brightness slider (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_brightness=0x7f0a01ff;
+        public static final int accessibility_brightness=0x7f0901ff;
         /**  Content description of the camera button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the camera button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the camera button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the camera button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the camera button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_camera_button=0x7f0a017f;
+        public static final int accessibility_camera_button=0x7f09017f;
         /**  Content description of the carrier network changing icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_carrier_network_change_mode=0x7f0a01c1;
+        public static final int accessibility_carrier_network_change_mode=0x7f0901c1;
         /**  Content description of the cast icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_casting=0x7f0a01cb;
+        public static final int accessibility_casting=0x7f0901cb;
         /**  Announcement made when the screen stopped casting (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the screen stopped casting (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the screen stopped casting (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_casting_turned_off=0x7f0a01fe;
+        public static final int accessibility_casting_turned_off=0x7f0901fe;
         /**  Content description of the clear button in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the clear button in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the clear button in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the clear button in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the clear button in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_clear_all=0x7f0a020b;
+        public static final int accessibility_clear_all=0x7f09020b;
         /**  Content description of the compatibility zoom button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Caption for "Recents resize" developer debug feature. [CHAR LIMIT=NONE] 
  Button name for "Cancel". [CHAR LIMIT=NONE] 
@@ -3433,42 +3433,42 @@ containing a value of this type.
  Button name for "Cancel". [CHAR LIMIT=NONE] 
  Content description of the compatibility zoom button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_compatibility_zoom_button=0x7f0a018b;
+        public static final int accessibility_compatibility_zoom_button=0x7f09018b;
         /**  Content description of picture of the compatibility zoom example for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of picture of the compatibility zoom example for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of picture of the compatibility zoom example for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of picture of the compatibility zoom example for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of picture of the compatibility zoom example for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_compatibility_zoom_example=0x7f0a018c;
+        public static final int accessibility_compatibility_zoom_example=0x7f09018c;
         /**  Content description of the data connection type 1x for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 1x for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 1x for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 1x for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 1x for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_data_connection_1x=0x7f0a01b3;
+        public static final int accessibility_data_connection_1x=0x7f0901b3;
         /**  Content description of the data connection type 3.5G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 3.5G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 3.5G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 3.5G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 3.5G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_data_connection_3_5g=0x7f0a01b6;
+        public static final int accessibility_data_connection_3_5g=0x7f0901b6;
         /**  Content description of the data connection type 3G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 3G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 3G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 3G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 3G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_data_connection_3g=0x7f0a01b5;
+        public static final int accessibility_data_connection_3g=0x7f0901b5;
         /**  Content description of the data connection type 4G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 4G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 4G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 4G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 4G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_data_connection_4g=0x7f0a01b7;
+        public static final int accessibility_data_connection_4g=0x7f0901b7;
         /**  Content description of the data connection type 4G+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 4G+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 4G+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -3520,21 +3520,21 @@ containing a value of this type.
  Content description of the data connection type 4G+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 4G+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_data_connection_4g_plus=0x7f0a00b6;
+        public static final int accessibility_data_connection_4g_plus=0x7f0900b6;
         /**  Content description of the data connection type CDMA for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type CDMA for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type CDMA for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type CDMA for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type CDMA for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_data_connection_cdma=0x7f0a01b9;
+        public static final int accessibility_data_connection_cdma=0x7f0901b9;
         /**  Content description of the data connection type Edge for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type Edge for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type Edge for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type Edge for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type Edge for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_data_connection_edge=0x7f0a01bb;
+        public static final int accessibility_data_connection_edge=0x7f0901bb;
         /**  Content description of the data connection type GPRS for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type GPRS for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item that is connecting for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -3542,14 +3542,14 @@ containing a value of this type.
  Content description of the data connection type GPRS for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type GPRS for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_data_connection_gprs=0x7f0a01b2;
+        public static final int accessibility_data_connection_gprs=0x7f0901b2;
         /**  Content description of the data connection type HSPA and its variants for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type HSPA and its variants for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type HSPA and its variants for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type HSPA and its variants for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type HSPA and its variants for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_data_connection_hspa=0x7f0a01b4;
+        public static final int accessibility_data_connection_hspa=0x7f0901b4;
         /**  Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -3601,117 +3601,117 @@ containing a value of this type.
  Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_data_connection_hspap=0x7f0a00b5;
+        public static final int accessibility_data_connection_hspap=0x7f0900b5;
         /**  Content description of the data connection type LTE for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type LTE for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type LTE for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type LTE for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type LTE for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_data_connection_lte=0x7f0a01b8;
+        public static final int accessibility_data_connection_lte=0x7f0901b8;
         /**  Content description of the roaming data connection type for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the roaming data connection type for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the roaming data connection type for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the roaming data connection type for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the roaming data connection type for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_data_connection_roaming=0x7f0a01ba;
+        public static final int accessibility_data_connection_roaming=0x7f0901ba;
         /**  Content description of the data connection type WiFi for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type WiFi for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type WiFi for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type WiFi for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_data_connection_wifi=0x7f0a01bc;
+        public static final int accessibility_data_connection_wifi=0x7f0901bc;
         /**  Content description of the data signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_data_one_bar=0x7f0a019a;
+        public static final int accessibility_data_one_bar=0x7f09019a;
         /**  Content description of the data signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_data_signal_full=0x7f0a019d;
+        public static final int accessibility_data_signal_full=0x7f09019d;
         /**  Content description of the data signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_data_three_bars=0x7f0a019c;
+        public static final int accessibility_data_three_bars=0x7f09019c;
         /**  Content description of the data signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_data_two_bars=0x7f0a019b;
+        public static final int accessibility_data_two_bars=0x7f09019b;
         /**  Content description for the close button in the zen mode panel introduction message. [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_desc_close=0x7f0a01d7;
+        public static final int accessibility_desc_close=0x7f0901d7;
         /**  Content description of an item that is connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item that is connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item that is connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item that is connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item that is connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_desc_connected=0x7f0a01b0;
+        public static final int accessibility_desc_connected=0x7f0901b0;
         /**  Content description of an item that is connecting for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item that is connecting for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item that is connecting for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item that is connecting for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_desc_connecting=0x7f0a01b1;
+        public static final int accessibility_desc_connecting=0x7f0901b1;
         /**  Content description for the lock screen (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description for the lock screen (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description for the lock screen (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description for the lock screen (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_desc_lock_screen=0x7f0a01d4;
+        public static final int accessibility_desc_lock_screen=0x7f0901d4;
         /**  Content description for the notification shade panel (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description for the notification shade panel (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description for the notification shade panel (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description for the notification shade panel (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description for the notification shade panel (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_desc_notification_shade=0x7f0a01d2;
+        public static final int accessibility_desc_notification_shade=0x7f0901d2;
         /**  Content description of an item that is turned off for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item that is turned off for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item that is turned off for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item that is turned off for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item that is turned off for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_desc_off=0x7f0a01af;
+        public static final int accessibility_desc_off=0x7f0901af;
         /**  Content description of an item that is turned on for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item that is turned on for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item that is turned on for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item that is turned on for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item that is turned on for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_desc_on=0x7f0a01ae;
+        public static final int accessibility_desc_on=0x7f0901ae;
         /**  Content description for the quick settings panel (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description for the quick settings panel (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description for the quick settings panel (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description for the quick settings panel (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description for the quick settings panel (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_desc_quick_settings=0x7f0a01d3;
+        public static final int accessibility_desc_quick_settings=0x7f0901d3;
         /**  Content description for the recent apps panel (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description for the recent apps panel (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description for the recent apps panel (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description for the recent apps panel (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_desc_recent_apps=0x7f0a01d6;
+        public static final int accessibility_desc_recent_apps=0x7f0901d6;
         /**  Content description for the settings button in the status bar header. [CHAR LIMIT=NONE] 
  Content description for the settings button in the status bar header. [CHAR LIMIT=NONE] 
  Content description for the settings button in the status bar header. [CHAR LIMIT=NONE] 
  Content description for the settings button in the status bar header. [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_desc_settings=0x7f0a01d5;
+        public static final int accessibility_desc_settings=0x7f0901d5;
         /**  Content description of the dock battery level icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the dock battery level icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  detail header when adding a tile 
@@ -3830,67 +3830,67 @@ containing a value of this type.
  CellularTile data sim not configured state string 
  Content description of the dock battery level icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_dock_battery_level=0x7f0a013a;
-        public static final int accessibility_dpad_left=0x7f0a00c9;
-        public static final int accessibility_dpad_right=0x7f0a00ca;
+        public static final int accessibility_dock_battery_level=0x7f09013a;
+        public static final int accessibility_dpad_left=0x7f0900c9;
+        public static final int accessibility_dpad_right=0x7f0900ca;
         /**  Content description of the Ethernet connection when connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_ethernet_connected=0x7f0a01a6;
+        public static final int accessibility_ethernet_connected=0x7f0901a6;
         /**  Content description of the Ethernet connection when disconnected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_ethernet_disconnected=0x7f0a01a5;
+        public static final int accessibility_ethernet_disconnected=0x7f0901a5;
         /**  Content description of the acquiring GPS icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the acquiring GPS icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the acquiring GPS icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the acquiring GPS icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the acquiring GPS icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_gps_acquiring=0x7f0a01c7;
+        public static final int accessibility_gps_acquiring=0x7f0901c7;
         /**  Content description of the enabled GPS icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the enabled GPS icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the enabled GPS icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the enabled GPS icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the enabled GPS icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_gps_enabled=0x7f0a01c6;
+        public static final int accessibility_gps_enabled=0x7f0901c6;
         /**  Content description of the home button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the home button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the home button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the home button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the home button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_home=0x7f0a017b;
+        public static final int accessibility_home=0x7f09017b;
         /**  Content description of the switch input method button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the switch input method button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_ime_switch_button=0x7f0a00a9;
+        public static final int accessibility_ime_switch_button=0x7f090053;
         /**  Accessibility text describing the presence of active location requests by one or more apps 
  Accessibility text describing the presence of active location requests by one or more apps 
  Accessibility text describing the presence of active location requests by one or more apps 
  Accessibility text describing the presence of active location requests by one or more apps 
  Accessibility text describing the presence of active location requests by one or more apps 
          */
-        public static final int accessibility_location_active=0x7f0a020a;
+        public static final int accessibility_location_active=0x7f09020a;
         /**  Accessibility label for managed profile icon (not shown on screen) [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_managed_profile=0x7f0a02d7;
+        public static final int accessibility_managed_profile=0x7f0902d7;
         /**  Content description of the menu button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the menu button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the menu button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the menu button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the menu button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_menu=0x7f0a017c;
+        public static final int accessibility_menu=0x7f09017c;
         /**  Accessibility label for the user icon on the lock screen. 
          */
-        public static final int accessibility_multi_user_switch_inactive=0x7f0a0275;
+        public static final int accessibility_multi_user_switch_inactive=0x7f090275;
         /**  Accessibility label for the button that opens the quick contact of the user. 
  Accessibility label for the user icon on the lock screen. 
  Accessibility label for the button that opens the quick contact of the user. 
  Accessibility label for the user icon on the lock screen. 
  Accessibility label for the button that opens the quick contact of the user. 
          */
-        public static final int accessibility_multi_user_switch_quick_contact=0x7f0a0276;
+        public static final int accessibility_multi_user_switch_quick_contact=0x7f090276;
         /**  Accessibility label for the button that opens the user switcher. 
  Related to user switcher 
  Accessibility label for the button that opens the user switcher. 
@@ -3899,33 +3899,33 @@ containing a value of this type.
  Related to user switcher 
  Accessibility label for the button that opens the user switcher. 
          */
-        public static final int accessibility_multi_user_switch_switcher=0x7f0a0273;
+        public static final int accessibility_multi_user_switch_switcher=0x7f090273;
         /**  Accessibility label for the button that opens the user switcher and announces the current user. 
  Accessibility label for the button that opens the user switcher and announces the current user. 
  Accessibility label for the button that opens the user switcher and announces the current user. 
          */
-        public static final int accessibility_multi_user_switch_switcher_with_current=0x7f0a0274;
+        public static final int accessibility_multi_user_switch_switcher_with_current=0x7f090274;
         /**  Content description of the battery when no battery for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when no battery for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when no battery for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when no battery for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery when no battery for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_no_battery=0x7f0a018f;
+        public static final int accessibility_no_battery=0x7f09018f;
         /**  Content description of the data signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_no_data=0x7f0a0199;
+        public static final int accessibility_no_data=0x7f090199;
         /**  Content description of the phone signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_no_phone=0x7f0a0194;
+        public static final int accessibility_no_phone=0x7f090194;
         /**  Content description of an item with no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the Ethernet connection when disconnected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the Ethernet connection when connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -3940,7 +3940,7 @@ containing a value of this type.
  Content description of the Ethernet connection when connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_no_signal=0x7f0a01a7;
+        public static final int accessibility_no_signal=0x7f0901a7;
         /**  Content description of the data connection with no SIM for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection with no SIM for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type WiFi for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -3948,13 +3948,13 @@ containing a value of this type.
  Content description of the data connection with no SIM for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection with no SIM for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_no_sim=0x7f0a01bd;
+        public static final int accessibility_no_sim=0x7f0901bd;
         /**  Content description of the no sim icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_no_sims=0x7f0a01c0;
+        public static final int accessibility_no_sims=0x7f0901c0;
         /**  Content description of the WIFI signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_no_wifi=0x7f0a0051;
+        public static final int accessibility_no_wifi=0x7f0900b0;
         /**  Content description of the WiMAX signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the wifi label showing what we are connected to. [CHAR LIMIT=NONE] 
@@ -3963,14 +3963,14 @@ containing a value of this type.
  Content description of the WiMAX signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_no_wimax=0x7f0a01a0;
+        public static final int accessibility_no_wimax=0x7f0901a0;
         /**  Content description of an item with no signal and no connection for accessibility (not shown on the screen) [CHAR LIMIT=NONE] 
  Content description of an item with no signal and no connection for accessibility (not shown on the screen) [CHAR LIMIT=NONE] 
  Content description of an item with no signal and no connection for accessibility (not shown on the screen) [CHAR LIMIT=NONE] 
  Content description of an item with no signal and no connection for accessibility (not shown on the screen) [CHAR LIMIT=NONE] 
  Content description of an item with no signal and no connection for accessibility (not shown on the screen) [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_not_connected=0x7f0a01a8;
+        public static final int accessibility_not_connected=0x7f0901a8;
         /**  Content description of the light brightness slider (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the light brightness slider (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the light brightness slider (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -4026,7 +4026,7 @@ containing a value of this type.
  Title shown in recents popup for uninstalling the application 
  Content description of the light brightness slider (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_notification_brightness=0x7f0a00ce;
+        public static final int accessibility_notification_brightness=0x7f0900ce;
         /**  Content description to tell the user a notification has been removed from the notification shade 
  Content description of individual recents task. 
  Content description to tell the user a notification has been removed from the notification shade 
@@ -4041,79 +4041,79 @@ containing a value of this type.
  Content description of individual recents task. 
  Content description to tell the user a notification has been removed from the notification shade 
          */
-        public static final int accessibility_notification_dismissed=0x7f0a01d1;
+        public static final int accessibility_notification_dismissed=0x7f0901d1;
         /**  Content description of the button for showing a notifications panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the button for showing a notifications panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the button for showing a notifications panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the button for showing a notifications panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the button for showing a notifications panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_notifications_button=0x7f0a01c4;
+        public static final int accessibility_notifications_button=0x7f0901c4;
         /**  Content description of an item with one signal bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with one signal bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with one signal bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with one signal bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with one signal bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_one_bar=0x7f0a01aa;
+        public static final int accessibility_one_bar=0x7f0901aa;
         /**  Content description of the phone button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_phone_button=0x7f0a0180;
+        public static final int accessibility_phone_button=0x7f090180;
         /**  Content description of the phone signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_phone_one_bar=0x7f0a0195;
+        public static final int accessibility_phone_one_bar=0x7f090195;
         /**  Content description of the phone signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_phone_signal_full=0x7f0a0198;
+        public static final int accessibility_phone_signal_full=0x7f090198;
         /**  Content description of the phone signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_phone_three_bars=0x7f0a0197;
+        public static final int accessibility_phone_three_bars=0x7f090197;
         /**  Content description of the phone signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_phone_two_bars=0x7f0a0196;
+        public static final int accessibility_phone_two_bars=0x7f090196;
         /**  Announcement made when the airplane mode changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the airplane mode changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the airplane mode changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the airplane mode changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_airplane_changed_off=0x7f0a01e0;
+        public static final int accessibility_quick_settings_airplane_changed_off=0x7f0901e0;
         /**  Announcement made when the airplane mode changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the airplane mode changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the airplane mode changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the airplane mode changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_airplane_changed_on=0x7f0a01e1;
+        public static final int accessibility_quick_settings_airplane_changed_on=0x7f0901e1;
         /**  Content description of the airplane mode tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the airplane mode tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the airplane mode tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the airplane mode tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_airplane_off=0x7f0a01de;
+        public static final int accessibility_quick_settings_airplane_off=0x7f0901de;
         /**  Content description of the airplane mode tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the airplane mode tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the airplane mode tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the airplane mode tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_airplane_on=0x7f0a01df;
+        public static final int accessibility_quick_settings_airplane_on=0x7f0901df;
         /**  Content description of the alarm tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the alarm tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the airplane mode tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -4140,7 +4140,7 @@ containing a value of this type.
  Content description of the alarm tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the alarm tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_alarm=0x7f0a01f2;
+        public static final int accessibility_quick_settings_alarm=0x7f0901f2;
         /**  Announcement made when ambient display changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when ambient display changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when ambient display changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -4198,7 +4198,7 @@ containing a value of this type.
  Announcement made when ambient display changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when ambient display changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_ambient_display_changed_off=0x7f0a010b;
+        public static final int accessibility_quick_settings_ambient_display_changed_off=0x7f09010b;
         /**  Announcement made when ambient display changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when ambient display changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when ambient display changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -4256,7 +4256,7 @@ containing a value of this type.
  Announcement made when ambient display changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when ambient display changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_ambient_display_changed_on=0x7f0a010c;
+        public static final int accessibility_quick_settings_ambient_display_changed_on=0x7f09010c;
         /**  Content description of the ambient display tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the ambient display tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the ambient display tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -4349,7 +4349,7 @@ containing a value of this type.
  Content description of the ambient display tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the ambient display tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_ambient_display_off=0x7f0a0109;
+        public static final int accessibility_quick_settings_ambient_display_off=0x7f090109;
         /**  Content description of the ambient display tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the ambient display tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the ambient display tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -4408,14 +4408,14 @@ containing a value of this type.
  Content description of the ambient display tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the ambient display tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_ambient_display_on=0x7f0a010a;
+        public static final int accessibility_quick_settings_ambient_display_on=0x7f09010a;
         /**  Content description of the battery tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_battery=0x7f0a01dd;
+        public static final int accessibility_quick_settings_battery=0x7f0901dd;
         /**  Announcement made when battery saver changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when battery saver changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when battery saver changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -4470,7 +4470,7 @@ containing a value of this type.
  Announcement made when battery saver changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when battery saver changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_battery_saver_changed_off=0x7f0a0113;
+        public static final int accessibility_quick_settings_battery_saver_changed_off=0x7f090113;
         /**  Announcement made when battery saver changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when battery saver changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when battery saver changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -4525,7 +4525,7 @@ containing a value of this type.
  Announcement made when battery saver changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when battery saver changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_battery_saver_changed_on=0x7f0a0114;
+        public static final int accessibility_quick_settings_battery_saver_changed_on=0x7f090114;
         /**  Content description of the battery saver tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery saver tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery saver tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -4600,7 +4600,7 @@ containing a value of this type.
  Content description of the caffeine tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery saver tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_battery_saver_off=0x7f0a0111;
+        public static final int accessibility_quick_settings_battery_saver_off=0x7f090111;
         /**  Content description of the battery saver tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery saver tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery saver tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -4655,31 +4655,31 @@ containing a value of this type.
  Content description of the battery saver tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery saver tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_battery_saver_on=0x7f0a0112;
+        public static final int accessibility_quick_settings_battery_saver_on=0x7f090112;
         /**  Announcement made when the bluetooth is turned off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the bluetooth is turned off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the bluetooth is turned off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the bluetooth is turned off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_bluetooth_changed_off=0x7f0a01ec;
+        public static final int accessibility_quick_settings_bluetooth_changed_off=0x7f0901ec;
         /**  Announcement made when the bluetooth is turned on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the bluetooth is turned on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the bluetooth is turned on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the bluetooth is turned on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_bluetooth_changed_on=0x7f0a01ed;
+        public static final int accessibility_quick_settings_bluetooth_changed_on=0x7f0901ed;
         /**  Content description of the bluetooth tile in quick settings when connected (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth tile in quick settings when connected (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth tile in quick settings when connected (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth tile in quick settings when connected (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_bluetooth_connected=0x7f0a01eb;
+        public static final int accessibility_quick_settings_bluetooth_connected=0x7f0901eb;
         /**  Content description of the bluetooth tile in quick settings when connecting (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth tile in quick settings when connecting (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth tile in quick settings when connecting (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth tile in quick settings when connecting (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_bluetooth_connecting=0x7f0a01ea;
+        public static final int accessibility_quick_settings_bluetooth_connecting=0x7f0901ea;
         /**  Content description of the bluetooth tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the do not disturb tile in quick settings when on in priority (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the do not disturb tile in quick settings when on in none (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -4703,13 +4703,13 @@ containing a value of this type.
  Announcement made when do not disturb changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_bluetooth_off=0x7f0a01e8;
+        public static final int accessibility_quick_settings_bluetooth_off=0x7f0901e8;
         /**  Content description of the bluetooth tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the bluetooth tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_bluetooth_on=0x7f0a01e9;
+        public static final int accessibility_quick_settings_bluetooth_on=0x7f0901e9;
         /**  Content description of the caffeine tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the caffeine tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the caffeine tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -4784,7 +4784,7 @@ containing a value of this type.
  Announcement made when heads up changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the caffeine tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_caffeine_off=0x7f0a0138;
+        public static final int accessibility_quick_settings_caffeine_off=0x7f090138;
         /**  Content description of the caffeine tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the caffeine tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the caffeine tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -4829,66 +4829,66 @@ containing a value of this type.
  Content description of the caffeine tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the caffeine tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_caffeine_on=0x7f0a0139;
+        public static final int accessibility_quick_settings_caffeine_on=0x7f090139;
         /**  Content description of quick settings detail panel close button (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of quick settings detail panel close button (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of quick settings detail panel close button (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of quick settings detail panel close button (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_close=0x7f0a01f3;
+        public static final int accessibility_quick_settings_close=0x7f0901f3;
         /**  Announcement made when the color inversion state changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the color inversion state changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the color inversion state changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_color_inversion_changed_off=0x7f0a01fa;
+        public static final int accessibility_quick_settings_color_inversion_changed_off=0x7f0901fa;
         /**  Announcement made when the color inversion state changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the color inversion state changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the color inversion state changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_color_inversion_changed_on=0x7f0a01fb;
+        public static final int accessibility_quick_settings_color_inversion_changed_on=0x7f0901fb;
         /**  Accessibility label for Quick Settings detail screens [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_detail=0x7f0a02d5;
+        public static final int accessibility_quick_settings_detail=0x7f0902d5;
         /**  Content description of the do not disturb tile in quick settings when on in alarms only (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_dnd_alarms_on=0x7f0a01e4;
+        public static final int accessibility_quick_settings_dnd_alarms_on=0x7f0901e4;
         /**  Announcement made when do not disturb changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_dnd_changed_off=0x7f0a01e6;
+        public static final int accessibility_quick_settings_dnd_changed_off=0x7f0901e6;
         /**  Announcement made when do not disturb changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_dnd_changed_on=0x7f0a01e7;
+        public static final int accessibility_quick_settings_dnd_changed_on=0x7f0901e7;
         /**  Content description of the do not disturb tile in quick settings when on in none (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_dnd_none_on=0x7f0a01e3;
+        public static final int accessibility_quick_settings_dnd_none_on=0x7f0901e3;
         /**  Content description of the do not disturb tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_dnd_off=0x7f0a01e5;
+        public static final int accessibility_quick_settings_dnd_off=0x7f0901e5;
         /**  Content description of the do not disturb tile in quick settings when on in priority (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_dnd_priority_on=0x7f0a01e2;
+        public static final int accessibility_quick_settings_dnd_priority_on=0x7f0901e2;
         /**  Announcement made when the flashlight state changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the flashlight state changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the flashlight state changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_flashlight_changed_off=0x7f0a01f8;
+        public static final int accessibility_quick_settings_flashlight_changed_off=0x7f0901f8;
         /**  Announcement made when the flashlight state changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the flashlight state changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the flashlight state changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_flashlight_changed_on=0x7f0a01f9;
+        public static final int accessibility_quick_settings_flashlight_changed_on=0x7f0901f9;
         /**  Content description of the flashlight tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the flashlight tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the flashlight tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the flashlight tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_flashlight_off=0x7f0a01f6;
+        public static final int accessibility_quick_settings_flashlight_off=0x7f0901f6;
         /**  Content description of the flashlight tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the flashlight tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the flashlight tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the flashlight tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_flashlight_on=0x7f0a01f7;
+        public static final int accessibility_quick_settings_flashlight_on=0x7f0901f7;
         /**  Announcement made when heads up changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when heads up changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when heads up changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -4946,7 +4946,7 @@ containing a value of this type.
  Announcement made when heads up changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when heads up changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_heads_up_changed_off=0x7f0a010f;
+        public static final int accessibility_quick_settings_heads_up_changed_off=0x7f09010f;
         /**  Announcement made when heads up changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when heads up changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when heads up changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -5004,7 +5004,7 @@ containing a value of this type.
  Announcement made when heads up changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when heads up changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_heads_up_changed_on=0x7f0a0110;
+        public static final int accessibility_quick_settings_heads_up_changed_on=0x7f090110;
         /**  Content description of the heads up tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the heads up tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the heads up tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -5066,7 +5066,7 @@ containing a value of this type.
  Content description of the heads up tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the heads up tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_heads_up_off=0x7f0a010d;
+        public static final int accessibility_quick_settings_heads_up_off=0x7f09010d;
         /**  Content description of the heads up tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the heads up tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the heads up tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -5124,31 +5124,31 @@ containing a value of this type.
  Content description of the heads up tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the heads up tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_heads_up_on=0x7f0a010e;
+        public static final int accessibility_quick_settings_heads_up_on=0x7f09010e;
         /**  Announcement made when the hotspot state changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the hotspot state changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the hotspot state changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_hotspot_changed_off=0x7f0a01fc;
+        public static final int accessibility_quick_settings_hotspot_changed_off=0x7f0901fc;
         /**  Announcement made when the hotspot state changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the hotspot state changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the hotspot state changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_hotspot_changed_on=0x7f0a01fd;
+        public static final int accessibility_quick_settings_hotspot_changed_on=0x7f0901fd;
         /**  Content description of zen mode time condition minus button (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of zen mode time condition minus button (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of zen mode time condition minus button (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of zen mode time condition minus button (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_less_time=0x7f0a01f5;
-        public static final int accessibility_quick_settings_live_display_auto=0x7f0a011c;
-        public static final int accessibility_quick_settings_live_display_changed_auto=0x7f0a0121;
-        public static final int accessibility_quick_settings_live_display_changed_day=0x7f0a0122;
-        public static final int accessibility_quick_settings_live_display_changed_night=0x7f0a0123;
-        public static final int accessibility_quick_settings_live_display_changed_off=0x7f0a0120;
-        public static final int accessibility_quick_settings_live_display_changed_outdoor=0x7f0a0124;
-        public static final int accessibility_quick_settings_live_display_day=0x7f0a011d;
-        public static final int accessibility_quick_settings_live_display_night=0x7f0a011e;
+        public static final int accessibility_quick_settings_less_time=0x7f0901f5;
+        public static final int accessibility_quick_settings_live_display_auto=0x7f09011c;
+        public static final int accessibility_quick_settings_live_display_changed_auto=0x7f090121;
+        public static final int accessibility_quick_settings_live_display_changed_day=0x7f090122;
+        public static final int accessibility_quick_settings_live_display_changed_night=0x7f090123;
+        public static final int accessibility_quick_settings_live_display_changed_off=0x7f090120;
+        public static final int accessibility_quick_settings_live_display_changed_outdoor=0x7f090124;
+        public static final int accessibility_quick_settings_live_display_day=0x7f09011d;
+        public static final int accessibility_quick_settings_live_display_night=0x7f09011e;
         /**  LiveDisplay strings 
  LiveDisplay strings 
  LiveDisplay strings 
@@ -5204,8 +5204,8 @@ containing a value of this type.
  LiveDisplay strings 
  LiveDisplay strings 
          */
-        public static final int accessibility_quick_settings_live_display_off=0x7f0a011b;
-        public static final int accessibility_quick_settings_live_display_outdoor=0x7f0a011f;
+        public static final int accessibility_quick_settings_live_display_off=0x7f09011b;
+        public static final int accessibility_quick_settings_live_display_outdoor=0x7f09011f;
         /**  Content description of the location tile in quick settings when on, battery saving mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the location tile in quick settings when on, battery saving mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the location tile in quick settings when on, battery saving mode (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -5332,7 +5332,7 @@ containing a value of this type.
  Content description of the location tile in quick settings when on, battery saving mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the location tile in quick settings when on, battery saving mode (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_location_battery_saving=0x7f0a0126;
+        public static final int accessibility_quick_settings_location_battery_saving=0x7f090126;
         /**  Announcement made when the location tile changes to battery saving (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to battery saving (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to battery saving (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -5390,7 +5390,7 @@ containing a value of this type.
  Announcement made when the location tile changes to battery saving (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to battery saving (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_location_changed_battery_saving=0x7f0a012d;
+        public static final int accessibility_quick_settings_location_changed_battery_saving=0x7f09012d;
         /**  Announcement made when the location tile changes to sensors only (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to sensors only (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to sensors only (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -5448,7 +5448,7 @@ containing a value of this type.
  Announcement made when the location tile changes to sensors only (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to sensors only (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_location_changed_gps_only=0x7f0a012e;
+        public static final int accessibility_quick_settings_location_changed_gps_only=0x7f09012e;
         /**  Announcement made when the location tile changes to high accuracy (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to high accuracy (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to high accuracy (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -5506,19 +5506,19 @@ containing a value of this type.
  Announcement made when the location tile changes to high accuracy (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to high accuracy (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_location_changed_high_accuracy=0x7f0a012f;
+        public static final int accessibility_quick_settings_location_changed_high_accuracy=0x7f09012f;
         /**  Announcement made when the location tile changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_location_changed_off=0x7f0a01f0;
+        public static final int accessibility_quick_settings_location_changed_off=0x7f0901f0;
         /**  Announcement made when the location tile changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_location_changed_on=0x7f0a01f1;
+        public static final int accessibility_quick_settings_location_changed_on=0x7f0901f1;
         /**  Content description of the location tile in quick settings when on, sensors only mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the location tile in quick settings when on, sensors only mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the location tile in quick settings when on, sensors only mode (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -5580,7 +5580,7 @@ containing a value of this type.
  Content description of the location tile in quick settings when on, sensors only mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the location tile in quick settings when on, sensors only mode (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_location_gps_only=0x7f0a0127;
+        public static final int accessibility_quick_settings_location_gps_only=0x7f090127;
         /**  Content description of the location tile in quick settings when on, high accuracy mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the location tile in quick settings when on, high accuracy mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the location tile in quick settings when on, high accuracy mode (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -5642,19 +5642,19 @@ containing a value of this type.
  Content description of the location tile in quick settings when on, high accuracy mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the location tile in quick settings when on, high accuracy mode (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_location_high_accuracy=0x7f0a0128;
+        public static final int accessibility_quick_settings_location_high_accuracy=0x7f090128;
         /**  Content description of the location tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the location tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the location tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the location tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_location_off=0x7f0a01ee;
+        public static final int accessibility_quick_settings_location_off=0x7f0901ee;
         /**  Content description of the location tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the location tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the location tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the location tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_location_on=0x7f0a01ef;
+        public static final int accessibility_quick_settings_location_on=0x7f0901ef;
         /**  Announcement made when lock screen changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when lock screen changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when lock screen changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -5711,7 +5711,7 @@ containing a value of this type.
  Announcement made when lock screen changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when lock screen changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_lock_screen_changed_off=0x7f0a0107;
+        public static final int accessibility_quick_settings_lock_screen_changed_off=0x7f090107;
         /**  Announcement made when lock screen changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when lock screen changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when lock screen changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -5768,7 +5768,7 @@ containing a value of this type.
  Announcement made when lock screen changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when lock screen changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_lock_screen_changed_on=0x7f0a0108;
+        public static final int accessibility_quick_settings_lock_screen_changed_on=0x7f090108;
         /**  Content description of the lock screen tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the lock screen tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the lock screen tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -5832,7 +5832,7 @@ containing a value of this type.
  Content description of the lock screen tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the lock screen tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_lock_screen_off=0x7f0a0105;
+        public static final int accessibility_quick_settings_lock_screen_off=0x7f090105;
         /**  Content description of the lock screen tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the lock screen tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the lock screen tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -5890,7 +5890,7 @@ containing a value of this type.
  Content description of the lock screen tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the lock screen tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_lock_screen_on=0x7f0a0106;
+        public static final int accessibility_quick_settings_lock_screen_on=0x7f090106;
         /**  Content description of the mobile data tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the mobile data tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the wifi tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -5900,13 +5900,13 @@ containing a value of this type.
  Content description of the mobile data tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the mobile data tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_mobile=0x7f0a01dc;
+        public static final int accessibility_quick_settings_mobile=0x7f0901dc;
         /**  Content description of zen mode time condition plus button (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of zen mode time condition plus button (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of zen mode time condition plus button (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of zen mode time condition plus button (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_more_time=0x7f0a01f4;
+        public static final int accessibility_quick_settings_more_time=0x7f0901f4;
         /**  Content description of the battery mode tile in quick settings when on, balanced mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery mode tile in quick settings when on, balanced mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery mode tile in quick settings when on, balanced mode (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -5964,7 +5964,7 @@ containing a value of this type.
  Content description of the battery mode tile in quick settings when on, balanced mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery mode tile in quick settings when on, balanced mode (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_perf_profile_bal=0x7f0a00fb;
+        public static final int accessibility_quick_settings_perf_profile_bal=0x7f0900fb;
         /**  Content description of the battery mode tile in quick settings when on, quick mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery mode tile in quick settings when on, quick mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery mode tile in quick settings when on, quick mode (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -6019,7 +6019,7 @@ containing a value of this type.
  Content description of the battery mode tile in quick settings when on, quick mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery mode tile in quick settings when on, quick mode (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_perf_profile_bias_perf=0x7f0a00fe;
+        public static final int accessibility_quick_settings_perf_profile_bias_perf=0x7f0900fe;
         /**  Content description of the battery mode tile in quick settings when on, efficiency mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery mode tile in quick settings when on, efficiency mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery mode tile in quick settings when on, efficiency mode (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -6074,7 +6074,7 @@ containing a value of this type.
  Content description of the battery mode tile in quick settings when on, efficiency mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery mode tile in quick settings when on, efficiency mode (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_perf_profile_bias_power=0x7f0a00fd;
+        public static final int accessibility_quick_settings_perf_profile_bias_power=0x7f0900fd;
         /**  Announcement made when the battery mode tile changes to balanced (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the battery mode tile changes to balanced (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the battery mode tile changes to balanced (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -6132,7 +6132,7 @@ containing a value of this type.
  Announcement made when the battery mode tile changes to balanced (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the battery mode tile changes to balanced (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_perf_profile_changed_bal=0x7f0a0100;
+        public static final int accessibility_quick_settings_perf_profile_changed_bal=0x7f090100;
         /**  Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -6187,7 +6187,7 @@ containing a value of this type.
  Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_perf_profile_changed_bias_perf=0x7f0a0103;
+        public static final int accessibility_quick_settings_perf_profile_changed_bias_perf=0x7f090103;
         /**  Announcement made when the battery mode tile changes to efficiency (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the battery mode tile changes to efficiency (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the battery mode tile changes to efficiency (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -6242,7 +6242,7 @@ containing a value of this type.
  Announcement made when the battery mode tile changes to efficiency (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the battery mode tile changes to efficiency (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_perf_profile_changed_bias_power=0x7f0a0102;
+        public static final int accessibility_quick_settings_perf_profile_changed_bias_power=0x7f090102;
         /**  Announcement made when the battery mode tile changes to performance (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the battery mode tile changes to performance (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the battery mode tile changes to performance (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -6300,7 +6300,7 @@ containing a value of this type.
  Announcement made when the battery mode tile changes to performance (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the battery mode tile changes to performance (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_perf_profile_changed_perf=0x7f0a0101;
+        public static final int accessibility_quick_settings_perf_profile_changed_perf=0x7f090101;
         /**  Announcement made when the battery mode tile changes to power save (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the battery mode tile changes to power save (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the battery mode tile changes to power save (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -6364,7 +6364,7 @@ containing a value of this type.
  Announcement made when the battery mode tile changes to power save (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the battery mode tile changes to power save (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_perf_profile_changed_pwrsv=0x7f0a00ff;
+        public static final int accessibility_quick_settings_perf_profile_changed_pwrsv=0x7f0900ff;
         /**  Content description of the battery mode tile in quick settings when on, performance mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery mode tile in quick settings when on, performance mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery mode tile in quick settings when on, performance mode (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -6422,7 +6422,7 @@ containing a value of this type.
  Content description of the battery mode tile in quick settings when on, performance mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery mode tile in quick settings when on, performance mode (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_perf_profile_perf=0x7f0a00fc;
+        public static final int accessibility_quick_settings_perf_profile_perf=0x7f0900fc;
         /**  Content description of the battery mode tile in quick settings when on, power save mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery mode tile in quick settings when on, power save mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery mode tile in quick settings when on, power save mode (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -6480,7 +6480,7 @@ containing a value of this type.
  Content description of the battery mode tile in quick settings when on, power save mode (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the battery mode tile in quick settings when on, power save mode (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_perf_profile_pwrsv=0x7f0a00fa;
+        public static final int accessibility_quick_settings_perf_profile_pwrsv=0x7f0900fa;
         /**  Content description of the profiles tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the profiles tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the profiles tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -6538,7 +6538,7 @@ containing a value of this type.
  Content description of the profiles tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the profiles tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_profiles=0x7f0a00d0;
+        public static final int accessibility_quick_settings_profiles=0x7f0900d0;
         /**  Announcement made when the profiles tile changes (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the profiles tile changes (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the profiles tile changes (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -6596,7 +6596,7 @@ containing a value of this type.
  Announcement made when the profiles tile changes (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the profiles tile changes (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_profiles_changed=0x7f0a00d2;
+        public static final int accessibility_quick_settings_profiles_changed=0x7f0900d2;
         /**  Announcement made when the profiles tile changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the profiles tile changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the profiles tile changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -6654,7 +6654,7 @@ containing a value of this type.
  Announcement made when the profiles tile changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the profiles tile changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_profiles_changed_off=0x7f0a00d1;
+        public static final int accessibility_quick_settings_profiles_changed_off=0x7f0900d1;
         /**  Content description of the profiles tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the profiles tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the profiles tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -6721,7 +6721,7 @@ containing a value of this type.
  Content description of the light brightness slider (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the profiles tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_profiles_off=0x7f0a00cf;
+        public static final int accessibility_quick_settings_profiles_off=0x7f0900cf;
         /**  Content description of the screen timeout tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the screen timeout tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the screen timeout tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -6779,7 +6779,7 @@ containing a value of this type.
  Content description of the screen timeout tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the screen timeout tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_screen_timeout=0x7f0a00f7;
+        public static final int accessibility_quick_settings_screen_timeout=0x7f0900f7;
         /**  Announcement made when the screen timeout tile changes (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the screen timeout tile changes (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the screen timeout tile changes (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -6837,7 +6837,7 @@ containing a value of this type.
  Announcement made when the screen timeout tile changes (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the screen timeout tile changes (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_screen_timeout_changed=0x7f0a00f8;
+        public static final int accessibility_quick_settings_screen_timeout_changed=0x7f0900f8;
         /**  Announcement made when sync changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when sync changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when sync changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -6896,7 +6896,7 @@ containing a value of this type.
  Announcement made when sync changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when sync changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_sync_changed_off=0x7f0a00ed;
+        public static final int accessibility_quick_settings_sync_changed_off=0x7f0900ed;
         /**  Announcement made when sync changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when sync changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when sync changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -6955,7 +6955,7 @@ containing a value of this type.
  Announcement made when sync changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when sync changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_sync_changed_on=0x7f0a00ee;
+        public static final int accessibility_quick_settings_sync_changed_on=0x7f0900ee;
         /**  Content description of the sync tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the sync tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the sync tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -7028,7 +7028,7 @@ containing a value of this type.
  quick settings battery saver label to show when device is charging and tile is disabled 
  Content description of the sync tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_sync_off=0x7f0a00eb;
+        public static final int accessibility_quick_settings_sync_off=0x7f0900eb;
         /**  Content description of the sync tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the sync tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the sync tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -7087,7 +7087,7 @@ containing a value of this type.
  Content description of the sync tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the sync tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_sync_on=0x7f0a00ec;
+        public static final int accessibility_quick_settings_sync_on=0x7f0900ec;
         /**  Content description of the user tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description for the close button in the zen mode panel introduction message. [CHAR LIMIT=NONE] 
  Content description of the user tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -7101,34 +7101,34 @@ containing a value of this type.
  Content description for the close button in the zen mode panel introduction message. [CHAR LIMIT=NONE] 
  Content description of the user tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_user=0x7f0a01d8;
+        public static final int accessibility_quick_settings_user=0x7f0901d8;
         /**  Content description of the wifi tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the wifi tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the wifi tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_wifi=0x7f0a01d9;
+        public static final int accessibility_quick_settings_wifi=0x7f0901d9;
         /**  Announcement made when the wifi is turned off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the wifi is turned off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the wifi tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the wifi is turned off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the wifi is turned off (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_wifi_changed_off=0x7f0a01da;
+        public static final int accessibility_quick_settings_wifi_changed_off=0x7f0901da;
         /**  Announcement made when the wifi is turned on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the wifi is turned on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the wifi is turned on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the wifi is turned on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_quick_settings_wifi_changed_on=0x7f0a01db;
+        public static final int accessibility_quick_settings_wifi_changed_on=0x7f0901db;
         /**  Content description of the recents button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the recents button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the recents button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the recents button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_recent=0x7f0a017d;
+        public static final int accessibility_recent=0x7f09017d;
         /**  Content description to tell the user all applications has been removed from recents 
          */
-        public static final int accessibility_recents_all_items_dismissed=0x7f0a01ce;
+        public static final int accessibility_recents_all_items_dismissed=0x7f0901ce;
         /**  Content description to tell the user an application has been removed from recents 
  Content description to tell the user an application has been removed from recents 
  Content description of the cast icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -7139,45 +7139,45 @@ containing a value of this type.
  Content description to tell the user an application has been removed from recents 
  Content description to tell the user an application has been removed from recents 
          */
-        public static final int accessibility_recents_item_dismissed=0x7f0a01cd;
+        public static final int accessibility_recents_item_dismissed=0x7f0901cd;
         /**  Content description to tell the user an application has been launched from recents 
  Content description to tell the user all applications has been removed from recents 
  Content description to tell the user an application has been launched from recents 
  Content description to tell the user all applications has been removed from recents 
  Content description to tell the user an application has been launched from recents 
          */
-        public static final int accessibility_recents_item_launched=0x7f0a01cf;
+        public static final int accessibility_recents_item_launched=0x7f0901cf;
         /**  Content description to tell the user that this button will remove an application from recents 
  Content description of the cast icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description to tell the user that this button will remove an application from recents 
  Content description of the cast icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description to tell the user that this button will remove an application from recents 
          */
-        public static final int accessibility_recents_item_will_be_dismissed=0x7f0a01cc;
+        public static final int accessibility_recents_item_will_be_dismissed=0x7f0901cc;
         /**  Content description of individual recents task. 
          */
-        public static final int accessibility_recents_task_header=0x7f0a01d0;
+        public static final int accessibility_recents_task_header=0x7f0901d0;
         /**  Content description of the button for removing a notification in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the button for removing a notification in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the button for removing a notification in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the button for removing a notification in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the button for removing a notification in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_remove_notification=0x7f0a01c5;
+        public static final int accessibility_remove_notification=0x7f0901c5;
         /**  Content description of the ringer silent icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the ringer silent icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the ringer silent icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the ringer silent icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the ringer silent icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_ringer_silent=0x7f0a01ca;
+        public static final int accessibility_ringer_silent=0x7f0901ca;
         /**  Content description of the ringer vibrate icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the ringer vibrate icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the ringer vibrate icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the ringer vibrate icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the ringer vibrate icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_ringer_vibrate=0x7f0a01c9;
+        public static final int accessibility_ringer_vibrate=0x7f0901c9;
         /**  Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is on. [CHAR LIMIT=NONE] 
  Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is on. [CHAR LIMIT=NONE] 
  Content description of button in notification inspector for system settings relating to
@@ -7192,36 +7192,36 @@ containing a value of this type.
  Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is on. [CHAR LIMIT=NONE] 
  Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is on. [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_rotation_lock_off=0x7f0a020e;
+        public static final int accessibility_rotation_lock_off=0x7f09020e;
         /**  Announcement made when the screen is rotating automatically again (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the screen is rotating automatically again (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the screen is rotating automatically again (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_rotation_lock_off_changed=0x7f0a0211;
+        public static final int accessibility_rotation_lock_off_changed=0x7f090211;
         /**  Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] 
  Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] 
  Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] 
  Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] 
  Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_rotation_lock_on_landscape=0x7f0a020f;
+        public static final int accessibility_rotation_lock_on_landscape=0x7f09020f;
         /**  Announcement made when the rotation lock state changes to landscape only (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the rotation lock state changes to landscape only (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the rotation lock state changes to landscape only (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_rotation_lock_on_landscape_changed=0x7f0a0212;
+        public static final int accessibility_rotation_lock_on_landscape_changed=0x7f090212;
         /**  Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] 
  Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] 
  Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] 
  Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] 
  Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_rotation_lock_on_portrait=0x7f0a0210;
+        public static final int accessibility_rotation_lock_on_portrait=0x7f090210;
         /**  Announcement made when the rotation lock state changes to portrait only (not shown on the screen).  [CHAR LIMIT=NONE] 
  Announcement made when the rotation lock state changes to portrait only (not shown on the screen).  [CHAR LIMIT=NONE] 
  Announcement made when the rotation lock state changes to portrait only (not shown on the screen).  [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_rotation_lock_on_portrait_changed=0x7f0a0213;
+        public static final int accessibility_rotation_lock_on_portrait_changed=0x7f090213;
         /**  Content description of the search button for accessibility. [CHAR LIMIT=NONE] 
  Content description of the search button for accessibility. [CHAR LIMIT=NONE] 
  Content description of the recents button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -7229,21 +7229,21 @@ containing a value of this type.
  Content description of the search button for accessibility. [CHAR LIMIT=NONE] 
  Content description of the search button for accessibility. [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_search_light=0x7f0a017e;
+        public static final int accessibility_search_light=0x7f09017e;
         /**  Content description of the button for showing a settings panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the button for showing a settings panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the button for showing a settings panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the button for showing a settings panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the button for showing a settings panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_settings_button=0x7f0a01c3;
+        public static final int accessibility_settings_button=0x7f0901c3;
         /**  Content description of an item with full signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with full signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with full signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with full signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with full signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_signal_full=0x7f0a01ad;
+        public static final int accessibility_signal_full=0x7f0901ad;
         /**  Accessibility label for hotspot icon [CHAR LIMIT=NONE] 
  Description for adding  a quick settings tile 
  Name of a quick settings tile controlled by broadcast 
@@ -7264,28 +7264,28 @@ containing a value of this type.
  Accessibility label for Quick Settings detail screens [CHAR LIMIT=NONE] 
  Accessibility label for hotspot icon [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_status_bar_hotspot=0x7f0a02d6;
+        public static final int accessibility_status_bar_hotspot=0x7f0902d6;
         /**  Content description of an item with three signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with three signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with three signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with three signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with three signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_three_bars=0x7f0a01ac;
+        public static final int accessibility_three_bars=0x7f0901ac;
         /**  Content description of the TeleTypewriter(TTY) enabled icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the TeleTypewriter(TTY) enabled icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the TeleTypewriter(TTY) enabled icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the TeleTypewriter(TTY) enabled icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the TeleTypewriter(TTY) enabled icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_tty_enabled=0x7f0a01c8;
+        public static final int accessibility_tty_enabled=0x7f0901c8;
         /**  Content description of an item with two signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with two signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with two signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with two signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with two signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_two_bars=0x7f0a01ab;
+        public static final int accessibility_two_bars=0x7f0901ab;
         /**  Content description of the unlock button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the phone button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the unlock button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -7294,81 +7294,81 @@ containing a value of this type.
  Content description of the phone button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the unlock button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_unlock_button=0x7f0a0182;
+        public static final int accessibility_unlock_button=0x7f090182;
         /**  Content description of the unlock button when fingerpint is on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_unlock_button_fingerprint=0x7f0a0183;
+        public static final int accessibility_unlock_button_fingerprint=0x7f090183;
         /**  Accessibility action of the unlock button when fingerpint is on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_unlock_without_fingerprint=0x7f0a0184;
+        public static final int accessibility_unlock_without_fingerprint=0x7f090184;
         /**  Content description of the phone button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_voice_assist_button=0x7f0a0181;
+        public static final int accessibility_voice_assist_button=0x7f090181;
         /**  Content description for accessibility (not shown on the screen): volume dialog collapse button. [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_volume_collapse=0x7f0a02ad;
+        public static final int accessibility_volume_collapse=0x7f0902ad;
         /**  Content description for accessibility (not shown on the screen): volume dialog expand button. [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_volume_expand=0x7f0a02ac;
+        public static final int accessibility_volume_expand=0x7f0902ac;
         /**  Content description of the wifi label showing what we are connected to. [CHAR LIMIT=NONE] 
  Content description of the wifi label showing what we are connected to. [CHAR LIMIT=NONE] 
  Content description of the wifi label showing what we are connected to. [CHAR LIMIT=NONE] 
  Content description of the wifi label showing what we are connected to. [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_wifi_name=0x7f0a019e;
+        public static final int accessibility_wifi_name=0x7f09019e;
         /**  Content description of the WIFI signal when WIFI is disabled for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_wifi_off=0x7f0a0050;
+        public static final int accessibility_wifi_off=0x7f0900af;
         /**  Content description of the WIFI signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_wifi_one_bar=0x7f0a0052;
+        public static final int accessibility_wifi_one_bar=0x7f0900b1;
         /**  Content description of the WIFI signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_wifi_signal_full=0x7f0a0055;
+        public static final int accessibility_wifi_signal_full=0x7f0900b4;
         /**  Content description of the WIFI signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_wifi_three_bars=0x7f0a0054;
+        public static final int accessibility_wifi_three_bars=0x7f0900b3;
         /**  Content description of the WIFI signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_wifi_two_bars=0x7f0a0053;
+        public static final int accessibility_wifi_two_bars=0x7f0900b2;
         /**  Content description of the WiMAX signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_wimax_one_bar=0x7f0a01a1;
+        public static final int accessibility_wimax_one_bar=0x7f0901a1;
         /**  Content description of the WiMAX signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_wimax_signal_full=0x7f0a01a4;
+        public static final int accessibility_wimax_signal_full=0x7f0901a4;
         /**  Content description of the WiMAX signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_wimax_three_bars=0x7f0a01a3;
+        public static final int accessibility_wimax_three_bars=0x7f0901a3;
         /**  Content description of the WiMAX signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the WiMAX signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_wimax_two_bars=0x7f0a01a2;
+        public static final int accessibility_wimax_two_bars=0x7f0901a2;
         /**  Content description of an item with zero signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with zero signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with zero signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with zero signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of an item with zero signal bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int accessibility_zero_bars=0x7f0a01a9;
+        public static final int accessibility_zero_bars=0x7f0901a9;
         /**  Description for adding  a quick settings tile 
          */
-        public static final int add_tile=0x7f0a02ce;
+        public static final int add_tile=0x7f0902ce;
         /**  Title shown in recents popup for force stopping the application 
  Title shown in recents popup for force stopping the application 
  Title shown in recents popup for force stopping the application 
@@ -7433,7 +7433,7 @@ containing a value of this type.
  Title shown in recents popup for force stopping the application 
  Title shown in recents popup for force stopping the application 
          */
-        public static final int advanced_dev_option_force_stop=0x7f0a00cc;
+        public static final int advanced_dev_option_force_stop=0x7f0900cc;
         /**  Title shown in recents popup for uninstalling the application 
  Title shown in recents popup for uninstalling the application 
  Title shown in recents popup for uninstalling the application 
@@ -7498,7 +7498,7 @@ containing a value of this type.
  Title shown in recents popup for uninstalling the application 
  Title shown in recents popup for uninstalling the application 
          */
-        public static final int advanced_dev_option_uninstall=0x7f0a00cd;
+        public static final int advanced_dev_option_uninstall=0x7f0900cd;
         /**  Development shortcuts 
  Title shown in recents popup for wiping application's data 
  Development shortcuts 
@@ -7626,45 +7626,45 @@ containing a value of this type.
  Development shortcuts 
  Title shown in recents popup for wiping application's data 
          */
-        public static final int advanced_dev_option_wipe_app=0x7f0a00cb;
+        public static final int advanced_dev_option_wipe_app=0x7f0900cb;
         /**  Description of airplane mode 
          */
-        public static final int airplane_mode=0x7f0a00aa;
+        public static final int airplane_mode=0x7f090054;
         /**  Alarm template for near alarms [CHAR LIMIT=25] 
          */
-        public static final int alarm_template=0x7f0a02d3;
+        public static final int alarm_template=0x7f0902d3;
         /**  Alarm template for far alarms [CHAR LIMIT=25] 
          */
-        public static final int alarm_template_far=0x7f0a02d4;
+        public static final int alarm_template_far=0x7f0902d4;
         /**  Checkbox label for USB accessory dialogs.  [CHAR LIMIT=50] 
  Checkbox label for USB accessory dialogs.  [CHAR LIMIT=50] 
  Checkbox label for USB accessory dialogs.  [CHAR LIMIT=50] 
  Checkbox label for USB accessory dialogs.  [CHAR LIMIT=50] 
  Checkbox label for USB accessory dialogs.  [CHAR LIMIT=50] 
          */
-        public static final int always_use_accessory=0x7f0a0167;
+        public static final int always_use_accessory=0x7f090167;
         /**  Checkbox label for USB device dialogs.  [CHAR LIMIT=50] 
  Checkbox label for USB device dialogs.  [CHAR LIMIT=50] 
  Checkbox label for USB device dialogs.  [CHAR LIMIT=50] 
  Checkbox label for USB device dialogs.  [CHAR LIMIT=50] 
  Checkbox label for USB device dialogs.  [CHAR LIMIT=50] 
          */
-        public static final int always_use_device=0x7f0a0166;
+        public static final int always_use_device=0x7f090166;
         /**  Name of the status bar as seen in the applications info settings page. [CHAR LIMIT=12] 
  Name of the status bar as seen in the applications info settings page. [CHAR LIMIT=12] 
  Name of the status bar as seen in the applications info settings page. [CHAR LIMIT=12] 
  Name of the status bar as seen in the applications info settings page. [CHAR LIMIT=12] 
  Name of the status bar as seen in the applications info settings page. [CHAR LIMIT=12] 
          */
-        public static final int app_label=0x7f0a0142;
+        public static final int app_label=0x7f090142;
         /**  App label in the manifest  
  App label in the manifest  
  App label in the manifest  
          */
-        public static final int app_name=0x7f0a005f;
+        public static final int app_name=0x7f090009;
         /**  Status message of Wi-Fi when network has matching passpoint credentials. [CHAR LIMIT=NONE] 
          */
-        public static final int available_via_passpoint=0x7f0a001e;
+        public static final int available_via_passpoint=0x7f09007d;
         /**  A message that appears when the battery level is getting low in a dialog.  This is
         appened to the subtitle of the low battery alert.  "percentage" is the percentage of battery
         remaining [CHAR LIMIT=none]
@@ -7672,16 +7672,16 @@ containing a value of this type.
         appened to the subtitle of the low battery alert.  "percentage" is the percentage of battery
         remaining [CHAR LIMIT=none]
          */
-        public static final int battery_low_percent_format=0x7f0a014c;
+        public static final int battery_low_percent_format=0x7f09014c;
         /**  Same as battery_low_percent_format, with a notice about battery saver if on. [CHAR LIMIT=none]
  Same as battery_low_percent_format, with a notice about battery saver if on. [CHAR LIMIT=none]
          */
-        public static final int battery_low_percent_format_saver_started=0x7f0a014d;
+        public static final int battery_low_percent_format_saver_started=0x7f09014d;
         /**  When the battery is low, this is displayed to the user in a dialog.  The title of the low battery alert.  [CHAR LIMIT=NONE]
  When the battery is low, this is displayed to the user in a dialog.  The title of the low battery alert.  [CHAR LIMIT=NONE]
  When the battery is low, this is displayed to the user in a dialog.  The title of the low battery alert.  [CHAR LIMIT=NONE]
          */
-        public static final int battery_low_title=0x7f0a014b;
+        public static final int battery_low_title=0x7f09014b;
         /**  When the battery is low, this is the label of the button to go to the
          power usage activity to find out what drained the battery.  [CHAR LIMIT=30] 
  When the battery is low, this is the label of the button to go to the
@@ -7693,7 +7693,7 @@ containing a value of this type.
  When the battery is low, this is the label of the button to go to the
          power usage activity to find out what drained the battery.  [CHAR LIMIT=30] 
          */
-        public static final int battery_low_why=0x7f0a0151;
+        public static final int battery_low_why=0x7f090151;
         /**  Glyph to be overlaid atop the battery when the level is extremely low. Do not translate. 
  Glyph to be overlaid atop the battery when the level is extremely low. Do not translate. 
  QuickSettings: Label for the toggle that controls whether display inversion is enabled. [CHAR LIMIT=NONE] 
@@ -7750,183 +7750,183 @@ containing a value of this type.
  Glyph to be overlaid atop the battery when the level is extremely low. Do not translate. 
  Glyph to be overlaid atop the battery when the level is extremely low. Do not translate. 
          */
-        public static final int battery_meter_very_low_overlay_symbol=0x7f0a0259;
+        public static final int battery_meter_very_low_overlay_symbol=0x7f090259;
         /**  Battery saver confirmation dialog ok text [CHAR LIMIT=40]
  Battery saver confirmation dialog ok text [CHAR LIMIT=40]
  Battery saver confirmation dialog ok text [CHAR LIMIT=40]
  Battery saver confirmation dialog ok text [CHAR LIMIT=40]
          */
-        public static final int battery_saver_confirmation_ok=0x7f0a0153;
+        public static final int battery_saver_confirmation_ok=0x7f090153;
         /**  Battery saver confirmation dialog title [CHAR LIMIT=NONE]
  Battery saver confirmation dialog title [CHAR LIMIT=NONE]
  Battery saver confirmation dialog title [CHAR LIMIT=NONE]
  Battery saver confirmation dialog title [CHAR LIMIT=NONE]
          */
-        public static final int battery_saver_confirmation_title=0x7f0a0152;
+        public static final int battery_saver_confirmation_title=0x7f090152;
         /**  Battery saver notification action text. [CHAR LIMIT=60] 
  Battery saver notification action text. [CHAR LIMIT=60] 
  Battery saver notification action text. [CHAR LIMIT=60] 
          */
-        public static final int battery_saver_notification_action_text=0x7f0a028a;
+        public static final int battery_saver_notification_action_text=0x7f09028a;
         /**  Battery saver notification text. [CHAR LIMIT=60] 
  Battery saver notification text. [CHAR LIMIT=60] 
  Battery saver notification text. [CHAR LIMIT=60] 
          */
-        public static final int battery_saver_notification_text=0x7f0a0289;
+        public static final int battery_saver_notification_text=0x7f090289;
         /**  Battery saver notification title. [CHAR LIMIT=60]
  Battery saver notification title. [CHAR LIMIT=60]
  Battery saver notification title. [CHAR LIMIT=60]
          */
-        public static final int battery_saver_notification_title=0x7f0a0288;
+        public static final int battery_saver_notification_title=0x7f090288;
         /**  Battery saver notification action [CHAR LIMIT=NONE]
  Battery saver notification action [CHAR LIMIT=NONE]
  Battery saver notification action [CHAR LIMIT=NONE]
  Battery saver notification action [CHAR LIMIT=NONE]
          */
-        public static final int battery_saver_start_action=0x7f0a0154;
+        public static final int battery_saver_start_action=0x7f090154;
         /**  Bluetooth settings.  Connection options screen.  The summary for the A2DP checkbox preference when A2DP is connected. 
          */
-        public static final int bluetooth_a2dp_profile_summary_connected=0x7f0a0036;
+        public static final int bluetooth_a2dp_profile_summary_connected=0x7f090095;
         /**  Bluetooth settings.  Connection options screen.  The summary for the A2DP checkbox preference that describes how checking it will set the A2DP profile as preferred. 
          */
-        public static final int bluetooth_a2dp_profile_summary_use_for=0x7f0a0043;
+        public static final int bluetooth_a2dp_profile_summary_use_for=0x7f0900a2;
         /**  Bluetooth settings.  Message when connected to a device. [CHAR LIMIT=40] 
          */
-        public static final int bluetooth_connected=0x7f0a0025;
+        public static final int bluetooth_connected=0x7f090084;
         /**  Bluetooth settings.  Message when connected to a device, except for media audio. [CHAR LIMIT=40] 
          */
-        public static final int bluetooth_connected_no_a2dp=0x7f0a0028;
+        public static final int bluetooth_connected_no_a2dp=0x7f090087;
         /**  Bluetooth settings.  Message when connected to a device, except for phone audio. [CHAR LIMIT=40] 
          */
-        public static final int bluetooth_connected_no_headset=0x7f0a0027;
+        public static final int bluetooth_connected_no_headset=0x7f090086;
         /**  Bluetooth settings.  Message when connected to a device, except for phone/media audio. [CHAR LIMIT=40] 
          */
-        public static final int bluetooth_connected_no_headset_no_a2dp=0x7f0a002a;
+        public static final int bluetooth_connected_no_headset_no_a2dp=0x7f090089;
         /**  Bluetooth settings.  Message when connected to a device, except for map. [CHAR LIMIT=40] 
          */
-        public static final int bluetooth_connected_no_map=0x7f0a0029;
+        public static final int bluetooth_connected_no_map=0x7f090088;
         /**  Bluetooth settings.  Message when connecting to a device 
          */
-        public static final int bluetooth_connecting=0x7f0a0024;
+        public static final int bluetooth_connecting=0x7f090083;
         /**  Bluetooth settings.  Message when a device is disconnected 
          */
-        public static final int bluetooth_disconnected=0x7f0a0022;
+        public static final int bluetooth_disconnected=0x7f090081;
         /**  Bluetooth settings.  Message when disconnecting from a device 
          */
-        public static final int bluetooth_disconnecting=0x7f0a0023;
+        public static final int bluetooth_disconnecting=0x7f090082;
         /**  Bluetooth settings.  Connection options screen.  The summary for the DUN checkbox preference when DUN is connected. 
          */
-        public static final int bluetooth_dun_profile_summary_connected=0x7f0a003f;
+        public static final int bluetooth_dun_profile_summary_connected=0x7f09009e;
         /**  Bluetooth settings. Connection options screen.  The summary for the dun checkbox preference that describes how checking it will set the dun profile as preferred. 
          */
-        public static final int bluetooth_dun_profile_summary_use_for=0x7f0a0047;
+        public static final int bluetooth_dun_profile_summary_use_for=0x7f0900a6;
         /**  Bluetooth settings.  Connection options screen.  The summary for the headset checkbox preference when headset is connected. 
          */
-        public static final int bluetooth_headset_profile_summary_connected=0x7f0a0037;
+        public static final int bluetooth_headset_profile_summary_connected=0x7f090096;
         /**  Bluetooth settings.  Connection options screen.  The summary for the headset checkbox preference that describes how checking it will set the headset profile as preferred. 
          */
-        public static final int bluetooth_headset_profile_summary_use_for=0x7f0a0044;
+        public static final int bluetooth_headset_profile_summary_use_for=0x7f0900a3;
         /**  Bluetooth settings. Connection options screen. The summary for the HID checkbox preference when HID is connected. 
          */
-        public static final int bluetooth_hid_profile_summary_connected=0x7f0a003c;
+        public static final int bluetooth_hid_profile_summary_connected=0x7f09009b;
         /**  Bluetooth settings. Connection options screen. The summary
          for the HID checkbox preference that describes how checking it
          will set the HID profile as preferred. 
          */
-        public static final int bluetooth_hid_profile_summary_use_for=0x7f0a0046;
+        public static final int bluetooth_hid_profile_summary_use_for=0x7f0900a5;
         /**  Bluetooth settings.  Connection options screen.  The summary for the map checkbox preference when map is connected. 
          */
-        public static final int bluetooth_map_profile_summary_connected=0x7f0a0039;
+        public static final int bluetooth_map_profile_summary_connected=0x7f090098;
         /**  Bluetooth settings. Connection options screen.  The summary for the map checkbox preference that describes how checking it will set the map profile as preferred. 
          */
-        public static final int bluetooth_map_profile_summary_use_for=0x7f0a0041;
+        public static final int bluetooth_map_profile_summary_use_for=0x7f0900a0;
         /**  Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference when OPP is connected. 
          */
-        public static final int bluetooth_opp_profile_summary_connected=0x7f0a0038;
+        public static final int bluetooth_opp_profile_summary_connected=0x7f090097;
         /**  Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference when OPP is not connected. 
          */
-        public static final int bluetooth_opp_profile_summary_not_connected=0x7f0a003b;
+        public static final int bluetooth_opp_profile_summary_not_connected=0x7f09009a;
         /**  Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference that describes how checking it will set the OPP profile as preferred. 
          */
-        public static final int bluetooth_opp_profile_summary_use_for=0x7f0a0045;
+        public static final int bluetooth_opp_profile_summary_use_for=0x7f0900a4;
         /** Bluetooth settings screen, summary text under individual Bluetooth devices when pairing 
          */
-        public static final int bluetooth_pairing=0x7f0a0026;
+        public static final int bluetooth_pairing=0x7f090085;
         /**  Button text for accepting an incoming pairing request. [CHAR LIMIT=20] 
          */
-        public static final int bluetooth_pairing_accept=0x7f0a0048;
+        public static final int bluetooth_pairing_accept=0x7f0900a7;
         /**  Button text for accepting an incoming pairing request in all caps. [CHAR LIMIT=20] 
          */
-        public static final int bluetooth_pairing_accept_all_caps=0x7f0a0049;
+        public static final int bluetooth_pairing_accept_all_caps=0x7f0900a8;
         /**  Button text for declining an incoming pairing request. [CHAR LIMIT=20] 
          */
-        public static final int bluetooth_pairing_decline=0x7f0a004a;
+        public static final int bluetooth_pairing_decline=0x7f0900a9;
         /**  Message for the error dialog when BT pairing fails because the other device is down. 
          */
-        public static final int bluetooth_pairing_device_down_error_message=0x7f0a004e;
+        public static final int bluetooth_pairing_device_down_error_message=0x7f0900ad;
         /**  Message for the error dialog when BT pairing fails generically. 
          */
-        public static final int bluetooth_pairing_error_message=0x7f0a004c;
+        public static final int bluetooth_pairing_error_message=0x7f0900ab;
         /**  Message for the error dialog when BT pairing fails because the PIN /
     Passkey entered is incorrect. 
          */
-        public static final int bluetooth_pairing_pin_error_message=0x7f0a004d;
+        public static final int bluetooth_pairing_pin_error_message=0x7f0900ac;
         /**  Message for the error dialog when BT pairing fails because the other device rejected the pairing. 
          */
-        public static final int bluetooth_pairing_rejected_error_message=0x7f0a004f;
+        public static final int bluetooth_pairing_rejected_error_message=0x7f0900ae;
         /**  Message in pairing dialogs.  [CHAR LIMIT=NONE] 
          */
-        public static final int bluetooth_pairing_will_share_phonebook=0x7f0a004b;
+        public static final int bluetooth_pairing_will_share_phonebook=0x7f0900aa;
         /**  Bluetooth settings. Connection options screen. The summary for the checkbox preference when PAN is connected (NAP role). [CHAR LIMIT=25]
          */
-        public static final int bluetooth_pan_nap_profile_summary_connected=0x7f0a003e;
+        public static final int bluetooth_pan_nap_profile_summary_connected=0x7f09009d;
         /**  Bluetooth settings. Connection options screen. The summary
          for the PAN checkbox preference that describes how checking it
          will set the PAN profile as preferred. 
          */
-        public static final int bluetooth_pan_profile_summary_use_for=0x7f0a0040;
+        public static final int bluetooth_pan_profile_summary_use_for=0x7f09009f;
         /**  Bluetooth settings. Connection options screen. The summary for the checkbox preference when PAN is connected (user role). [CHAR LIMIT=25]
          */
-        public static final int bluetooth_pan_user_profile_summary_connected=0x7f0a003d;
+        public static final int bluetooth_pan_user_profile_summary_connected=0x7f09009c;
         /**  Bluetooth settings.  The user-visible string that is used whenever referring to the A2DP profile. 
          */
-        public static final int bluetooth_profile_a2dp=0x7f0a002b;
+        public static final int bluetooth_profile_a2dp=0x7f09008a;
         /**  Bluetooth settings. The user-visible string that is used whenever referring to the dun profile. 
          */
-        public static final int bluetooth_profile_dun=0x7f0a0035;
+        public static final int bluetooth_profile_dun=0x7f090094;
         /**  Bluetooth settings.  The user-visible string that is used whenever referring to the headset or handsfree profile. 
          */
-        public static final int bluetooth_profile_headset=0x7f0a002c;
+        public static final int bluetooth_profile_headset=0x7f09008b;
         /**  Bluetooth settings. The user-visible string that is used whenever referring to the HID profile. 
          */
-        public static final int bluetooth_profile_hid=0x7f0a002e;
+        public static final int bluetooth_profile_hid=0x7f09008d;
         /**  Bluetooth settings. The user-visible string that is used whenever referring to the map profile. 
          */
-        public static final int bluetooth_profile_map=0x7f0a0033;
+        public static final int bluetooth_profile_map=0x7f090092;
         /**  Bluetooth settings.  The user-visible string that is used whenever referring to the OPP profile. 
          */
-        public static final int bluetooth_profile_opp=0x7f0a002d;
+        public static final int bluetooth_profile_opp=0x7f09008c;
         /**  Bluetooth settings. The user-visible string that is used whenever referring to the PAN profile (accessing Internet through remote device). [CHAR LIMIT=40] 
          */
-        public static final int bluetooth_profile_pan=0x7f0a002f;
+        public static final int bluetooth_profile_pan=0x7f09008e;
         /**  Bluetooth settings. The user-visible string that is used whenever referring to the PAN profile (sharing this device's Internet connection). [CHAR LIMIT=40] 
          */
-        public static final int bluetooth_profile_pan_nap=0x7f0a0032;
+        public static final int bluetooth_profile_pan_nap=0x7f090091;
         /**  Bluetooth settings. The user-visible string that is used whenever referring to the PBAP profile. [CHAR LIMIT=40] 
          */
-        public static final int bluetooth_profile_pbap=0x7f0a0030;
+        public static final int bluetooth_profile_pbap=0x7f09008f;
         /**  Bluetooth settings. The user-visible summary string that is used whenever referring to the PBAP profile (sharing contacts). [CHAR LIMIT=60] 
          */
-        public static final int bluetooth_profile_pbap_summary=0x7f0a0031;
+        public static final int bluetooth_profile_pbap_summary=0x7f090090;
         /**  Bluetooth settings. The user-visible string that is used whenever referring to the SAP profile (sharing SIM card). 
          */
-        public static final int bluetooth_profile_sap=0x7f0a0034;
+        public static final int bluetooth_profile_sap=0x7f090093;
         /**  Bluetooth settings.  Connection options screen.  The summary for the sap checkbox preference when SAP is connected. 
          */
-        public static final int bluetooth_sap_profile_summary_connected=0x7f0a003a;
+        public static final int bluetooth_sap_profile_summary_connected=0x7f090099;
         /**  Bluetooth settings.  Connection options screen.  The summary for the sap checkbox preference that describes how checking it will set the sap profile as preferred. 
          */
-        public static final int bluetooth_sap_profile_summary_use_for=0x7f0a0042;
+        public static final int bluetooth_sap_profile_summary_use_for=0x7f0900a1;
         /**  Network connection string for Bluetooth Reverse Tethering 
  Separator for PLMN and SPN in network name. 
  Network connection string for Bluetooth Reverse Tethering 
@@ -7937,13 +7937,13 @@ containing a value of this type.
  Separator for PLMN and SPN in network name. 
  Network connection string for Bluetooth Reverse Tethering 
          */
-        public static final int bluetooth_tethered=0x7f0a015c;
+        public static final int bluetooth_tethered=0x7f09015c;
         /**  Name of a quick settings tile controlled by broadcast 
          */
-        public static final int broadcast_tile=0x7f0a02cf;
+        public static final int broadcast_tile=0x7f0902cf;
         /**  Shows when people have clicked on the camera icon [CHAR LIMIT=60] 
          */
-        public static final int camera_hint=0x7f0a0268;
+        public static final int camera_hint=0x7f090268;
         /**  Click action label for accessibility for the phone button. [CHAR LIMIT=NONE] 
  Click action label for accessibility for the voice assist button. This is not shown on-screen and is an accessibility label for the icon which launches the voice assist from the lock screen.[CHAR LIMIT=NONE] 
  Click action label for accessibility for the phone button. [CHAR LIMIT=NONE] 
@@ -7952,24 +7952,24 @@ containing a value of this type.
  Click action label for accessibility for the voice assist button. This is not shown on-screen and is an accessibility label for the icon which launches the voice assist from the lock screen.[CHAR LIMIT=NONE] 
  Click action label for accessibility for the phone button. [CHAR LIMIT=NONE] 
          */
-        public static final int camera_label=0x7f0a0188;
+        public static final int camera_label=0x7f090188;
         /**  Button name for "Cancel". [CHAR LIMIT=NONE] 
          */
-        public static final int cancel=0x7f0a018a;
+        public static final int cancel=0x7f09018a;
         /**  Package name for Certinstaller app
          */
-        public static final int certinstaller_package=0x7f0a0020;
+        public static final int certinstaller_package=0x7f09007f;
         /**  The text to clear all notifications. [CHAR LIMIT=60] 
  The text to clear all notifications. [CHAR LIMIT=60] 
  The text to clear all notifications. [CHAR LIMIT=60] 
          */
-        public static final int clear_all_notifications_text=0x7f0a028e;
+        public static final int clear_all_notifications_text=0x7f09028e;
         /**  Skeleton string format for displaying the time in 12-hour format. 
          */
-        public static final int clock_12hr_format=0x7f0a005d;
+        public static final int clock_12hr_format=0x7f090007;
         /**  Skeleton string format for displaying the time in 24-hour format. 
          */
-        public static final int clock_24hr_format=0x7f0a005e;
+        public static final int clock_24hr_format=0x7f090008;
         /**  Checkbox label for application compatibility mode OFF (normal mode on tablets).
          [CHAR LIMIT=25] 
  Checkbox label for application compatibility mode OFF (normal mode on tablets).
@@ -7981,7 +7981,7 @@ containing a value of this type.
  Checkbox label for application compatibility mode OFF (normal mode on tablets).
          [CHAR LIMIT=25] 
          */
-        public static final int compat_mode_off=0x7f0a016e;
+        public static final int compat_mode_off=0x7f09016e;
         /**  Checkbox label for application compatibility mode ON (zooming app to look like it's running
          on a phone).  [CHAR LIMIT=25] 
  Title of notification shown when trying to enable USB debugging but a secondary user is the current foreground user. 
@@ -8001,17 +8001,17 @@ containing a value of this type.
  Checkbox label for application compatibility mode ON (zooming app to look like it's running
          on a phone).  [CHAR LIMIT=25] 
          */
-        public static final int compat_mode_on=0x7f0a016d;
+        public static final int compat_mode_on=0x7f09016d;
         /**  Component to be used as the status bar service.  Must implement the IStatusBar
      interface.  This name is in the ComponentName flattened format (package/class)  
          */
-        public static final int config_statusBarComponent=0x7f0a013c;
+        public static final int config_statusBarComponent=0x7f09013c;
         /**  Status message of Wi-Fi when it is connected by Passpoint configuration. [CHAR LIMIT=NONE] 
          */
-        public static final int connected_via_passpoint=0x7f0a001d;
+        public static final int connected_via_passpoint=0x7f09007c;
         /**  Status message of Wi-Fi when it is connected by a Wi-Fi assistant application. [CHAR LIMIT=NONE] 
          */
-        public static final int connected_via_wfa=0x7f0a001c;
+        public static final int connected_via_wfa=0x7f09007b;
         /**  CellularTile data sim not configured state string 
  CellularTile data sim not configured state string 
  CellularTile data sim not configured state string 
@@ -8049,43 +8049,43 @@ containing a value of this type.
  Wi-Fi hotspot label when enabled 
  CellularTile data sim not configured state string 
          */
-        public static final int data_sim_not_configured=0x7f0a0135;
+        public static final int data_sim_not_configured=0x7f090135;
         /**  Body of dialog shown when data usage has exceeded limit and has been disabled. [CHAR LIMIT=NONE] 
          */
-        public static final int data_usage_disabled_dialog=0x7f0a0204;
+        public static final int data_usage_disabled_dialog=0x7f090204;
         /**  Title of dialog shown when 2G-3G data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] 
          */
-        public static final int data_usage_disabled_dialog_3g_title=0x7f0a0200;
+        public static final int data_usage_disabled_dialog_3g_title=0x7f090200;
         /**  Title of dialog shown when 4G data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] 
          */
-        public static final int data_usage_disabled_dialog_4g_title=0x7f0a0201;
+        public static final int data_usage_disabled_dialog_4g_title=0x7f090201;
         /**  Dialog button indicating that data connection should be re-enabled. [CHAR LIMIT=28] 
          */
-        public static final int data_usage_disabled_dialog_enable=0x7f0a0205;
+        public static final int data_usage_disabled_dialog_enable=0x7f090205;
         /**  Title of dialog shown when mobile data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] 
          */
-        public static final int data_usage_disabled_dialog_mobile_title=0x7f0a0202;
+        public static final int data_usage_disabled_dialog_mobile_title=0x7f090202;
         /**  Title of dialog shown when data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] 
          */
-        public static final int data_usage_disabled_dialog_title=0x7f0a0203;
+        public static final int data_usage_disabled_dialog_title=0x7f090203;
         /**  Name of demo mode (mode with preset icons for screenshots) 
          */
-        public static final int demo_mode=0x7f0a02c7;
+        public static final int demo_mode=0x7f0902c7;
         /**  Description of the left direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] 
  Description of the left direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] 
  Description of the left direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] 
          */
-        public static final int description_direction_left=0x7f0a025d;
+        public static final int description_direction_left=0x7f09025d;
         /**  Description of the up direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] 
  Description of the up direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] 
  Description of the up direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] 
          */
-        public static final int description_direction_up=0x7f0a025c;
+        public static final int description_direction_up=0x7f09025c;
         /**  Description of the unlock target in the Slide unlock screen. [CHAR LIMIT=NONE] 
  Description of the unlock target in the Slide unlock screen. [CHAR LIMIT=NONE] 
  Description of the unlock target in the Slide unlock screen. [CHAR LIMIT=NONE] 
          */
-        public static final int description_target_search=0x7f0a025b;
+        public static final int description_target_search=0x7f09025b;
         /**  Name of the K-release easter egg: a display case for all our tastiest desserts. [CHAR LIMIT=30] 
  Name of the K-release easter egg: a display case for all our tastiest desserts. [CHAR LIMIT=30] 
  Announcement made when the screen is rotating automatically again (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -8098,27 +8098,27 @@ containing a value of this type.
  Name of the K-release easter egg: a display case for all our tastiest desserts. [CHAR LIMIT=30] 
  Name of the K-release easter egg: a display case for all our tastiest desserts. [CHAR LIMIT=30] 
          */
-        public static final int dessert_case=0x7f0a0214;
+        public static final int dessert_case=0x7f090214;
         /**  Footer device owned text [CHAR LIMIT=50] 
  Footer device owned text [CHAR LIMIT=50] 
  Footer device owned text [CHAR LIMIT=50] 
          */
-        public static final int device_owned_footer=0x7f0a0291;
+        public static final int device_owned_footer=0x7f090291;
         /**  Monitoring dialog disable vpn button [CHAR LIMIT=30] 
  Monitoring dialog disable vpn button [CHAR LIMIT=30] 
  Monitoring dialog disable vpn button [CHAR LIMIT=30] 
          */
-        public static final int disable_vpn=0x7f0a0297;
+        public static final int disable_vpn=0x7f090297;
         /**  Monitoring dialog disconnect vpn button [CHAR LIMIT=30] 
  Monitoring dialog disconnect vpn button [CHAR LIMIT=30] 
  Monitoring dialog disconnect vpn button [CHAR LIMIT=30] 
          */
-        public static final int disconnect_vpn=0x7f0a0298;
+        public static final int disconnect_vpn=0x7f090298;
         /**  Doze: when to pulse after a buzzworthy notification arrives 
          */
-        public static final int doze_pulse_schedule=0x7f0a013f;
-        public static final int dynamic_qs_tile_adb_label=0x7f0a0119;
-        public static final int dynamic_qs_tile_ime_selector_label=0x7f0a0117;
+        public static final int doze_pulse_schedule=0x7f09013f;
+        public static final int dynamic_qs_tile_adb_label=0x7f090119;
+        public static final int dynamic_qs_tile_ime_selector_label=0x7f090117;
         /**  Content description of the heads up tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the heads up tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when heads up changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -8131,13 +8131,13 @@ containing a value of this type.
  Announcement made when battery saver changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
  Dynamic tiles 
          */
-        public static final int dynamic_qs_tile_next_alarm_label=0x7f0a0116;
-        public static final int dynamic_qs_tile_su_label=0x7f0a0118;
+        public static final int dynamic_qs_tile_next_alarm_label=0x7f090116;
+        public static final int dynamic_qs_tile_su_label=0x7f090118;
         /**  Text which is shown in the notification shade when there are no notifications. [CHAR LIMIT=30] 
  Text which is shown in the notification shade when there are no notifications. [CHAR LIMIT=30] 
  Text which is shown in the notification shade when there are no notifications. [CHAR LIMIT=30] 
          */
-        public static final int empty_shade_text=0x7f0a0290;
+        public static final int empty_shade_text=0x7f090290;
         /**  Bluetooth enablement ok text [CHAR LIMIT=40] 
  Toast describing tuner has been enabled [CHAR LIMIT=NONE] 
  Option to remove the tuner from settings [CHAR LIMIT=NONE] 
@@ -8180,24 +8180,24 @@ containing a value of this type.
          conncted to the device [CHAR LIMIT=NONE] 
  Bluetooth enablement ok text [CHAR LIMIT=40] 
          */
-        public static final int enable_bluetooth_confirmation_ok=0x7f0a02e1;
+        public static final int enable_bluetooth_confirmation_ok=0x7f0902e1;
         /**  Dialog message explaining why Bluetooth should be enabled when a packaged keyboard is
          conncted to the device [CHAR LIMIT=NONE] 
          */
-        public static final int enable_bluetooth_message=0x7f0a02e0;
+        public static final int enable_bluetooth_message=0x7f0902e0;
         /**  Dialog title asking if Bluetooth should be enabled [CHAR LIMIT=NONE] 
          */
-        public static final int enable_bluetooth_title=0x7f0a02df;
+        public static final int enable_bluetooth_title=0x7f0902df;
         /**  Enable demo mode 
          */
-        public static final int enable_demo_mode=0x7f0a02c8;
+        public static final int enable_demo_mode=0x7f0902c8;
         /**  Textual description of Ethernet connections 
  Textual description of Ethernet connections 
  Textual description of Ethernet connections 
  Textual description of Ethernet connections 
  Textual description of Ethernet connections 
          */
-        public static final int ethernet_label=0x7f0a0216;
+        public static final int ethernet_label=0x7f090216;
         /**  Expanded Status Bar Header: Battery Charged [CHAR LIMIT=40] 
  Recents: Dismiss all button. [CHAR LIMIT=NONE] 
  Recents: MultiStack add stack split horizontal radio button. [CHAR LIMIT=NONE] 
@@ -8210,25 +8210,25 @@ containing a value of this type.
  Recents: MultiStack add stack split custom radio button. [CHAR LIMIT=NONE] 
  Expanded Status Bar Header: Battery Charged [CHAR LIMIT=40] 
          */
-        public static final int expanded_header_battery_charged=0x7f0a0255;
+        public static final int expanded_header_battery_charged=0x7f090255;
         /**  Expanded Status Bar Header: Charging, no known time [CHAR LIMIT=40] 
  Expanded Status Bar Header: Charging, no known time [CHAR LIMIT=40] 
  Expanded Status Bar Header: Charging, no known time [CHAR LIMIT=40] 
          */
-        public static final int expanded_header_battery_charging=0x7f0a0256;
+        public static final int expanded_header_battery_charging=0x7f090256;
         /**  Expanded Status Bar Header: Charging, showing time left until charged [CHAR LIMIT=40] 
  Expanded Status Bar Header: Charging, showing time left until charged [CHAR LIMIT=40] 
  Expanded Status Bar Header: Charging, showing time left until charged [CHAR LIMIT=40] 
          */
-        public static final int expanded_header_battery_charging_with_time=0x7f0a0257;
+        public static final int expanded_header_battery_charging_with_time=0x7f090257;
         /**  Expanded Status Bar Header: Not charging [CHAR LIMIT=40] 
  Expanded Status Bar Header: Not charging [CHAR LIMIT=40] 
  Expanded Status Bar Header: Not charging [CHAR LIMIT=40] 
          */
-        public static final int expanded_header_battery_not_charging=0x7f0a0258;
+        public static final int expanded_header_battery_not_charging=0x7f090258;
         /**  Fingerprint hint message when finger was not recognized.
          */
-        public static final int fingerprint_not_recognized=0x7f0a00b4;
+        public static final int fingerprint_not_recognized=0x7f09005e;
         /**  Generic "got it" acceptance of dialog or cling [CHAR LIMIT=NONE] 
  Accessibility label for managed profile icon (not shown on screen) [CHAR LIMIT=NONE] 
  Title of warning when entering System UI tuner for first time [CHAR LIMIT=NONE] 
@@ -8236,100 +8236,100 @@ containing a value of this type.
  Warning for users entering the System UI tuner [CHAR LIMIT=NONE]
  Generic "got it" acceptance of dialog or cling [CHAR LIMIT=NONE] 
          */
-        public static final int got_it=0x7f0a02db;
+        public static final int got_it=0x7f0902db;
         /**  Notification text: when GPS has found a fix [CHAR LIMIT=50] 
  Notification text: when GPS has found a fix [CHAR LIMIT=50] 
  Notification text: when GPS has found a fix [CHAR LIMIT=50] 
  Notification text: when GPS has found a fix [CHAR LIMIT=50] 
  Notification text: when GPS has found a fix [CHAR LIMIT=50] 
          */
-        public static final int gps_notification_found_text=0x7f0a0209;
+        public static final int gps_notification_found_text=0x7f090209;
         /**  Notification text: when GPS is getting a fix [CHAR LIMIT=50] 
  Notification text: when GPS is getting a fix [CHAR LIMIT=50] 
  Notification text: when GPS is getting a fix [CHAR LIMIT=50] 
  Notification text: when GPS is getting a fix [CHAR LIMIT=50] 
  Notification text: when GPS is getting a fix [CHAR LIMIT=50] 
          */
-        public static final int gps_notification_searching_text=0x7f0a0208;
+        public static final int gps_notification_searching_text=0x7f090208;
         /**  Label for exiting and removing the  guest session in the user switcher [CHAR LIMIT=35] 
  Label for exiting and removing the  guest session in the user switcher [CHAR LIMIT=35] 
  Label for exiting and removing the  guest session in the user switcher [CHAR LIMIT=35] 
          */
-        public static final int guest_exit_guest=0x7f0a027b;
+        public static final int guest_exit_guest=0x7f09027b;
         /**  Message of the confirmation dialog when exiting guest session [CHAR LIMIT=NONE] 
  Message of the confirmation dialog when exiting guest session [CHAR LIMIT=NONE] 
  Message of the confirmation dialog when exiting guest session [CHAR LIMIT=NONE] 
          */
-        public static final int guest_exit_guest_dialog_message=0x7f0a027d;
+        public static final int guest_exit_guest_dialog_message=0x7f09027d;
         /**  Label for button in confirmation dialog when exiting guest session [CHAR LIMIT=35] 
  Label for button in confirmation dialog when exiting guest session [CHAR LIMIT=35] 
  Label for button in confirmation dialog when exiting guest session [CHAR LIMIT=35] 
          */
-        public static final int guest_exit_guest_dialog_remove=0x7f0a027e;
+        public static final int guest_exit_guest_dialog_remove=0x7f09027e;
         /**  Title of the confirmation dialog when exiting guest session [CHAR LIMIT=NONE] 
  Title of the confirmation dialog when exiting guest session [CHAR LIMIT=NONE] 
  Title of the confirmation dialog when exiting guest session [CHAR LIMIT=NONE] 
          */
-        public static final int guest_exit_guest_dialog_title=0x7f0a027c;
+        public static final int guest_exit_guest_dialog_title=0x7f09027c;
         /**  Label for adding a new guest in the user switcher [CHAR LIMIT=35] 
  Label for adding a new guest in the user switcher [CHAR LIMIT=35] 
  Label for adding a new guest in the user switcher [CHAR LIMIT=35] 
          */
-        public static final int guest_new_guest=0x7f0a027a;
+        public static final int guest_new_guest=0x7f09027a;
         /**  Name for the guest user [CHAR LIMIT=35] 
  Name for the guest user [CHAR LIMIT=35] 
  Name for the guest user [CHAR LIMIT=35] 
          */
-        public static final int guest_nickname=0x7f0a0279;
+        public static final int guest_nickname=0x7f090279;
         /**  Remove action in the notification shown to a new guest user [CHAR LIMIT=30] 
          */
-        public static final int guest_notification_remove_action=0x7f0a0285;
+        public static final int guest_notification_remove_action=0x7f090285;
         /**  Text of the notification shown to a new guest user [CHAR LIMIT=60] 
          */
-        public static final int guest_notification_text=0x7f0a0284;
+        public static final int guest_notification_text=0x7f090284;
         /**  Title of the notification shown to a new guest user [CHAR LIMIT=60] 
          */
-        public static final int guest_notification_title=0x7f0a0283;
+        public static final int guest_notification_title=0x7f090283;
         /**  Notification when resuming an existing guest session: Action that continues with the current session [CHAR LIMIT=35] 
  Notification when resuming an existing guest session: Action that continues with the current session [CHAR LIMIT=35] 
  Notification when resuming an existing guest session: Action that continues with the current session [CHAR LIMIT=35] 
          */
-        public static final int guest_wipe_session_dontwipe=0x7f0a0282;
+        public static final int guest_wipe_session_dontwipe=0x7f090282;
         /**  Message of the notification when resuming an existing guest session [CHAR LIMIT=NONE] 
  Message of the notification when resuming an existing guest session [CHAR LIMIT=NONE] 
  Message of the notification when resuming an existing guest session [CHAR LIMIT=NONE] 
          */
-        public static final int guest_wipe_session_message=0x7f0a0280;
+        public static final int guest_wipe_session_message=0x7f090280;
         /**  Title of the notification when resuming an existing guest session [CHAR LIMIT=NONE] 
  Title of the notification when resuming an existing guest session [CHAR LIMIT=NONE] 
  Title of the notification when resuming an existing guest session [CHAR LIMIT=NONE] 
          */
-        public static final int guest_wipe_session_title=0x7f0a027f;
+        public static final int guest_wipe_session_title=0x7f09027f;
         /**  Notification when resuming an existing guest session: Action that starts a new session [CHAR LIMIT=35] 
  Notification when resuming an existing guest session: Action that starts a new session [CHAR LIMIT=35] 
  Notification when resuming an existing guest session: Action that starts a new session [CHAR LIMIT=35] 
          */
-        public static final int guest_wipe_session_wipe=0x7f0a0281;
+        public static final int guest_wipe_session_wipe=0x7f090281;
         /**  Cancel action for notification educating the user about enabling notifications on the lockscreen. [CHAR LIMIT=20] 
  Cancel action for notification educating the user about enabling notifications on the lockscreen. [CHAR LIMIT=20] 
  Cancel action for notification educating the user about enabling notifications on the lockscreen. [CHAR LIMIT=20] 
          */
-        public static final int hidden_notifications_cancel=0x7f0a02a6;
+        public static final int hidden_notifications_cancel=0x7f0902a6;
         /**  continue action for notification educating the user about enabling notifications on the lockscreen. [CHAR LIMIT=20] 
  continue action for notification educating the user about enabling notifications on the lockscreen. [CHAR LIMIT=20] 
  continue action for notification educating the user about enabling notifications on the lockscreen. [CHAR LIMIT=20] 
          */
-        public static final int hidden_notifications_setup=0x7f0a02a7;
+        public static final int hidden_notifications_setup=0x7f0902a7;
         /**  Body of notification educating the user about enabling notifications on the lockscreen. [CHAR LIMIT=60] 
  Body of notification educating the user about enabling notifications on the lockscreen. [CHAR LIMIT=60] 
  Body of notification educating the user about enabling notifications on the lockscreen. [CHAR LIMIT=60] 
          */
-        public static final int hidden_notifications_text=0x7f0a02a5;
+        public static final int hidden_notifications_text=0x7f0902a5;
         /**  Title of notification educating the user about enabling notifications on the lockscreen. [CHAR LIMIT=40] 
  Title of notification educating the user about enabling notifications on the lockscreen. [CHAR LIMIT=40] 
  Title of notification educating the user about enabling notifications on the lockscreen. [CHAR LIMIT=40] 
          */
-        public static final int hidden_notifications_title=0x7f0a02a4;
+        public static final int hidden_notifications_title=0x7f0902a4;
         /**  Hotspot dialog message 
  Hotspot dialog message 
  Hotspot dialog message 
@@ -8377,7 +8377,7 @@ containing a value of this type.
  Hotspot dialog message 
  Hotspot dialog message 
          */
-        public static final int hotspot_apm_message=0x7f0a0132;
+        public static final int hotspot_apm_message=0x7f090132;
         /**  Label for the installer CD image option in UsbPreferenceActivity. [CHAR LIMIT=50] 
  Label for the installer CD image option in UsbPreferenceActivity. [CHAR LIMIT=50] 
  Label for the PTP USB function in UsbPreferenceActivity. [CHAR LIMIT=50] 
@@ -8386,28 +8386,28 @@ containing a value of this type.
  Label for the installer CD image option in UsbPreferenceActivity. [CHAR LIMIT=50] 
  Label for the installer CD image option in UsbPreferenceActivity. [CHAR LIMIT=50] 
          */
-        public static final int installer_cd_button_title=0x7f0a0179;
+        public static final int installer_cd_button_title=0x7f090179;
         /**  Interruption level: Alarms only. [CHAR LIMIT=40] 
          */
-        public static final int interruption_level_alarms=0x7f0a026c;
+        public static final int interruption_level_alarms=0x7f09026c;
         /**  Interruption level: Alarms only.  Optimized for narrow two-line display. [CHAR LIMIT=40] 
          */
-        public static final int interruption_level_alarms_twoline=0x7f0a026f;
+        public static final int interruption_level_alarms_twoline=0x7f09026f;
         /**  Interruption level: None. [CHAR LIMIT=40] 
          */
-        public static final int interruption_level_none=0x7f0a026a;
+        public static final int interruption_level_none=0x7f09026a;
         /**  Interruption level: None.  Optimized for narrow two-line display. [CHAR LIMIT=40] 
          */
-        public static final int interruption_level_none_twoline=0x7f0a026d;
+        public static final int interruption_level_none_twoline=0x7f09026d;
         /**  Accessibility content description for Interruption level: None. [CHAR LIMIT=NONE] 
          */
-        public static final int interruption_level_none_with_warning=0x7f0a0269;
+        public static final int interruption_level_none_with_warning=0x7f090269;
         /**  Interruption level: Priority. [CHAR LIMIT=40] 
          */
-        public static final int interruption_level_priority=0x7f0a026b;
+        public static final int interruption_level_priority=0x7f09026b;
         /**  Interruption level: Priority.  Optimized for narrow two-line display. [CHAR LIMIT=40] 
          */
-        public static final int interruption_level_priority_twoline=0x7f0a026e;
+        public static final int interruption_level_priority_twoline=0x7f09026e;
         /**  A message that appears when a USB charger is plugged in and the device does not
     support charging on it.  That is, a charger that fits into the USB port and goes into
     a wall socket, not into a computer. (This happens because some devices require more
@@ -8443,17 +8443,17 @@ containing a value of this type.
     a wall socket, not into a computer. (This happens because some devices require more
     current than the USB spec allows.  [CHAR LIMIT=NONE] 
          */
-        public static final int invalid_charger=0x7f0a014e;
+        public static final int invalid_charger=0x7f09014e;
         /**  Second line of invalid_charger, used in the notification form.  [CHAR LIMIT=NONE]
  Second line of invalid_charger, used in the notification form.  [CHAR LIMIT=NONE]
  Second line of invalid_charger, used in the notification form.  [CHAR LIMIT=NONE]
          */
-        public static final int invalid_charger_text=0x7f0a0150;
+        public static final int invalid_charger_text=0x7f090150;
         /**  First line of invalid_charger, used in the notification form.  [CHAR LIMIT=NONE]
  First line of invalid_charger, used in the notification form.  [CHAR LIMIT=NONE]
  First line of invalid_charger, used in the notification form.  [CHAR LIMIT=NONE]
          */
-        public static final int invalid_charger_title=0x7f0a014f;
+        public static final int invalid_charger_title=0x7f09014f;
         /**  Description of the Delete button in a KeyboardView. [CHAR LIMIT=NONE] 
  KeyguardPinView - accessibility support 
  Description of the Delete button in a KeyboardView. [CHAR LIMIT=NONE] 
@@ -8505,13 +8505,13 @@ containing a value of this type.
  KeyguardPinView - accessibility support 
  Description of the Delete button in a KeyboardView. [CHAR LIMIT=NONE] 
          */
-        public static final int keyboardview_keycode_delete=0x7f0a0083;
+        public static final int keyboardview_keycode_delete=0x7f09002d;
         /**  Description of the Enter button in a KeyboardView. [CHAR LIMIT=NONE] 
  Description of the Enter button in a KeyboardView. [CHAR LIMIT=NONE] 
  Description of the Enter button in a KeyboardView. [CHAR LIMIT=NONE] 
  Description of the Enter button in a KeyboardView. [CHAR LIMIT=NONE] 
          */
-        public static final int keyboardview_keycode_enter=0x7f0a0084;
+        public static final int keyboardview_keycode_enter=0x7f09002e;
         /**  Accessibility description for the text view that indicates when the next alarm is set (not shown on screen). [CHAR_LIMIT=none] 
  Accessibility description for the text view that indicates when the next alarm is set (not shown on screen). [CHAR_LIMIT=none] 
  Accessibility description of the PIN password view. [CHAR_LIMIT=none] 
@@ -8519,21 +8519,21 @@ containing a value of this type.
  Accessibility description of the SIM PUK password view. [CHAR_LIMIT=none] 
  Accessibility description for the text view that indicates when the next alarm is set (not shown on screen). [CHAR_LIMIT=none] 
          */
-        public static final int keyguard_accessibility_next_alarm=0x7f0a0082;
+        public static final int keyguard_accessibility_next_alarm=0x7f09002c;
         /**  Accessibility description of the password lock. [CHAR_LIMIT=none] 
  Accessibility description of the password lock. [CHAR_LIMIT=none] 
  Accessibility description of the password lock. [CHAR_LIMIT=none] 
  Accessibility description of the password lock. [CHAR_LIMIT=none] 
  Accessibility description of the password lock. [CHAR_LIMIT=none] 
          */
-        public static final int keyguard_accessibility_password_unlock=0x7f0a007c;
+        public static final int keyguard_accessibility_password_unlock=0x7f090026;
         /**  Accessibility description of the unlock pattern area. [CHAR_LIMIT=none] 
  Accessibility description of the unlock pattern area. [CHAR_LIMIT=none] 
  Accessibility description of the unlock pattern area. [CHAR_LIMIT=none] 
  Accessibility description of the unlock pattern area. [CHAR_LIMIT=none] 
  Accessibility description of the unlock pattern area. [CHAR_LIMIT=none] 
          */
-        public static final int keyguard_accessibility_pattern_area=0x7f0a007d;
+        public static final int keyguard_accessibility_pattern_area=0x7f090027;
         /**  Time format strings for fall-back clock widget 
  Time format strings for fall-back clock widget 
  Time format strings for fall-back clock widget 
@@ -8543,33 +8543,33 @@ containing a value of this type.
  Time format strings for fall-back clock widget 
  Time format strings for fall-back clock widget 
          */
-        public static final int keyguard_accessibility_pattern_unlock=0x7f0a007a;
+        public static final int keyguard_accessibility_pattern_unlock=0x7f090024;
         /**  Accessibility description of the PIN password view. [CHAR_LIMIT=none] 
  Accessibility description of the PIN password view. [CHAR_LIMIT=none] 
          */
-        public static final int keyguard_accessibility_pin_area=0x7f0a007f;
+        public static final int keyguard_accessibility_pin_area=0x7f090029;
         /**  Accessibility description of the pin lock. [CHAR_LIMIT=none] 
  Accessibility description of the pin lock. [CHAR_LIMIT=none] 
  Accessibility description of the pin lock. [CHAR_LIMIT=none] 
  Accessibility description of the pin lock. [CHAR_LIMIT=none] 
  Accessibility description of the pin lock. [CHAR_LIMIT=none] 
          */
-        public static final int keyguard_accessibility_pin_unlock=0x7f0a007b;
+        public static final int keyguard_accessibility_pin_unlock=0x7f090025;
         /**  Accessibility description of the SIM PIN password view. [CHAR_LIMIT=none] 
  Accessibility description of the SIM PIN password view. [CHAR_LIMIT=none] 
          */
-        public static final int keyguard_accessibility_sim_pin_area=0x7f0a0080;
+        public static final int keyguard_accessibility_sim_pin_area=0x7f09002a;
         /**  Accessibility description of the SIM PUK password view. [CHAR_LIMIT=none] 
  Accessibility description of the SIM PUK password view. [CHAR_LIMIT=none] 
          */
-        public static final int keyguard_accessibility_sim_puk_area=0x7f0a0081;
+        public static final int keyguard_accessibility_sim_puk_area=0x7f09002b;
         /**  Accessibility description of the unlock slide area. [CHAR_LIMIT=none] 
  Accessibility description of the unlock slide area. [CHAR_LIMIT=none] 
  Accessibility description of the unlock slide area. [CHAR_LIMIT=none] 
  Accessibility description of the unlock slide area. [CHAR_LIMIT=none] 
  Accessibility description of the unlock slide area. [CHAR_LIMIT=none] 
          */
-        public static final int keyguard_accessibility_slide_area=0x7f0a007e;
+        public static final int keyguard_accessibility_slide_area=0x7f090028;
         /**  On the keyguard screen, it shows the carrier the phone is connected to.
         This is displayed if the phone is not connected to a carrier.
  On the keyguard screen, it shows the carrier the phone is connected to.
@@ -8635,7 +8635,7 @@ containing a value of this type.
  On the keyguard screen, it shows the carrier the phone is connected to.
         This is displayed if the phone is not connected to a carrier.
          */
-        public static final int keyguard_carrier_default=0x7f0a00a8;
+        public static final int keyguard_carrier_default=0x7f090052;
         /**  When the lock screen is showing, the phone is plugged in and the battery is fully
          charged, say that it is charged. 
  When the lock screen is showing, the phone is plugged in and the battery is fully
@@ -8647,7 +8647,7 @@ containing a value of this type.
  When the lock screen is showing, the phone is plugged in and the battery is fully
          charged, say that it is charged. 
          */
-        public static final int keyguard_charged=0x7f0a0068;
+        public static final int keyguard_charged=0x7f090012;
         /**  Indication on the keyguard that is shown when the device is charging. [CHAR LIMIT=40]
  Shows when people have clicked on the phone icon [CHAR LIMIT=60] 
  Shows when people have clicked on the voice assist icon [CHAR LIMIT=60] 
@@ -8672,15 +8672,15 @@ containing a value of this type.
  Interruption level: Alarms only.  Optimized for narrow two-line display. [CHAR LIMIT=40] 
  Indication on the keyguard that is shown when the device is charging. [CHAR LIMIT=40]
          */
-        public static final int keyguard_indication_charging_time=0x7f0a0270;
+        public static final int keyguard_indication_charging_time=0x7f090270;
         /**  Indication on the keyguard that is shown when the device is charging rapidly. Should match keyguard_plugged_in_charging_fast [CHAR LIMIT=40]
  Indication on the keyguard that is shown when the device is charging rapidly. Should match keyguard_plugged_in_charging_fast [CHAR LIMIT=40]
          */
-        public static final int keyguard_indication_charging_time_fast=0x7f0a0271;
+        public static final int keyguard_indication_charging_time_fast=0x7f090271;
         /**  Indication on the keyguard that is shown when the device is charging slowly. Should match keyguard_plugged_in_charging_slowly [CHAR LIMIT=40]
  Indication on the keyguard that is shown when the device is charging slowly. Should match keyguard_plugged_in_charging_slowly [CHAR LIMIT=40]
          */
-        public static final int keyguard_indication_charging_time_slowly=0x7f0a0272;
+        public static final int keyguard_indication_charging_time_slowly=0x7f090272;
         /**  Indication on the keyguard that appears when the user disables trust agents until the next time they unlock manually. [CHAR LIMIT=NONE] 
  Monitoring dialog device owner body text [CHAR LIMIT=400] 
  Monitoring dialog VPN text [CHAR LIMIT=400] 
@@ -8705,7 +8705,7 @@ containing a value of this type.
  Monitoring dialog text for single app (with device owner) [CHAR LIMIT=400] 
  Indication on the keyguard that appears when the user disables trust agents until the next time they unlock manually. [CHAR LIMIT=NONE] 
          */
-        public static final int keyguard_indication_trust_disabled=0x7f0a02a3;
+        public static final int keyguard_indication_trust_disabled=0x7f0902a3;
         /**  On the keyguard screen, when pattern lock is disabled, only tell them to press menu to unlock.  This is shown in small font at the bottom. 
  On the keyguard screen, when pattern lock is disabled, only tell them to press menu to unlock.  This is shown in small font at the bottom. 
  When the lock screen is showing and the phone plugged in, and the battery
@@ -8720,7 +8720,7 @@ containing a value of this type.
  On the keyguard screen, when pattern lock is disabled, only tell them to press menu to unlock.  This is shown in small font at the bottom. 
  On the keyguard screen, when pattern lock is disabled, only tell them to press menu to unlock.  This is shown in small font at the bottom. 
          */
-        public static final int keyguard_instructions_when_pattern_disabled=0x7f0a006d;
+        public static final int keyguard_instructions_when_pattern_disabled=0x7f090017;
         /**  When the lock screen is showing and the battery is low, warn user to plug
          in the phone soon. 
  When the lock screen is showing and the battery is low, warn user to plug
@@ -8740,21 +8740,21 @@ containing a value of this type.
  When the lock screen is showing and the battery is low, warn user to plug
          in the phone soon. 
          */
-        public static final int keyguard_low_battery=0x7f0a006c;
+        public static final int keyguard_low_battery=0x7f090016;
         /**  Shown to ask the user to insert a SIM card. 
  Shown to ask the user to insert a SIM card. 
  Shown to ask the user to insert a SIM card. 
  Shown to ask the user to insert a SIM card. 
  Shown to ask the user to insert a SIM card. 
          */
-        public static final int keyguard_missing_sim_instructions=0x7f0a0071;
+        public static final int keyguard_missing_sim_instructions=0x7f09001b;
         /**  Shown to ask the user to insert a SIM card when sim is missing or not readable. 
  Shown to ask the user to insert a SIM card when sim is missing or not readable. 
  Shown to ask the user to insert a SIM card when sim is missing or not readable. 
  Shown to ask the user to insert a SIM card when sim is missing or not readable. 
  Shown to ask the user to insert a SIM card when sim is missing or not readable. 
          */
-        public static final int keyguard_missing_sim_instructions_long=0x7f0a0072;
+        public static final int keyguard_missing_sim_instructions_long=0x7f09001c;
         /**  Shown when there is no SIM card. 
  Shown when there is no SIM card. 
  Shown when there is no SIM card. 
@@ -8765,14 +8765,14 @@ containing a value of this type.
  Shown when there is no SIM card. 
  Shown when there is no SIM card. 
          */
-        public static final int keyguard_missing_sim_message=0x7f0a0070;
+        public static final int keyguard_missing_sim_message=0x7f09001a;
         /**  Shown when there is no SIM card. 
  Shown when there is no SIM card. 
  Shown when there is no SIM card. 
  Shown when there is no SIM card. 
  Shown when there is no SIM card. 
          */
-        public static final int keyguard_missing_sim_message_short=0x7f0a006f;
+        public static final int keyguard_missing_sim_message_short=0x7f090019;
         /**  Text for overflow card on Keyguard when there is not enough space for all notifications on Keyguard. [CHAR LIMIT=1] 
  Zen mode: Priority only introduction message on first use 
  Zen mode: Priority only customization button label 
@@ -8785,7 +8785,7 @@ containing a value of this type.
  Zen mode: Total silence introduction message on first use (non-voice capable devices) 
  Text for overflow card on Keyguard when there is not enough space for all notifications on Keyguard. [CHAR LIMIT=1] 
          */
-        public static final int keyguard_more_overflow_text=0x7f0a0262;
+        public static final int keyguard_more_overflow_text=0x7f090262;
         /**  When the user inserts a sim card from an unsupported network, it becomes network locked 
  SIM messages 
  When the user inserts a sim card from an unsupported network, it becomes network locked 
@@ -8796,7 +8796,7 @@ containing a value of this type.
  SIM messages 
  When the user inserts a sim card from an unsupported network, it becomes network locked 
          */
-        public static final int keyguard_network_locked_message=0x7f0a006e;
+        public static final int keyguard_network_locked_message=0x7f090018;
         /**  Instructions telling the user to enter their text password to unlock the keyguard.
          Displayed in one line in a large font.  
  Instructions telling the user to enter their text password to unlock the keyguard.
@@ -8808,7 +8808,7 @@ containing a value of this type.
  Instructions telling the user to enter their text password to unlock the keyguard.
          Displayed in one line in a large font.  
          */
-        public static final int keyguard_password_enter_password_code=0x7f0a0065;
+        public static final int keyguard_password_enter_password_code=0x7f09000f;
         /**  Instructions telling the user to enter their SIM PIN to unlock the keyguard.
          Displayed in one line in a large font.  
  Instructions telling the user to enter their SIM PIN to unlock the keyguard.
@@ -8822,7 +8822,7 @@ containing a value of this type.
  Instructions telling the user to enter their SIM PIN to unlock the keyguard.
          Displayed in one line in a large font.  
          */
-        public static final int keyguard_password_enter_pin_code=0x7f0a0060;
+        public static final int keyguard_password_enter_pin_code=0x7f09000a;
         /**  Instructions telling the user to enter their PIN password to unlock the keyguard.
          Displayed in one line in a large font.  
  Instructions telling the user to enter their PIN password to unlock the keyguard.
@@ -8834,14 +8834,14 @@ containing a value of this type.
  Instructions telling the user to enter their PIN password to unlock the keyguard.
          Displayed in one line in a large font.  
          */
-        public static final int keyguard_password_enter_pin_password_code=0x7f0a0066;
+        public static final int keyguard_password_enter_pin_password_code=0x7f090010;
         /**  Prompt to enter New SIM PIN in Edit Text Box in unlock screen 
  Prompt to enter New SIM PIN in Edit Text Box in unlock screen 
  Prompt to enter New SIM PIN in Edit Text Box in unlock screen 
  Prompt to enter New SIM PIN in Edit Text Box in unlock screen 
  Prompt to enter New SIM PIN in Edit Text Box in unlock screen 
          */
-        public static final int keyguard_password_enter_pin_prompt=0x7f0a0063;
+        public static final int keyguard_password_enter_pin_prompt=0x7f09000d;
         /**  Instructions telling the user to enter their SIM PUK to unlock the keyguard.
          Displayed in one line in a large font.  
  Instructions telling the user to enter their SIM PUK to unlock the keyguard.
@@ -8853,21 +8853,21 @@ containing a value of this type.
  Instructions telling the user to enter their SIM PUK to unlock the keyguard.
          Displayed in one line in a large font.  
          */
-        public static final int keyguard_password_enter_puk_code=0x7f0a0061;
+        public static final int keyguard_password_enter_puk_code=0x7f09000b;
         /**  Prompt to enter SIM PUK in Edit Text Box in unlock screen 
  Prompt to enter SIM PUK in Edit Text Box in unlock screen 
  Prompt to enter SIM PUK in Edit Text Box in unlock screen 
  Prompt to enter SIM PUK in Edit Text Box in unlock screen 
  Prompt to enter SIM PUK in Edit Text Box in unlock screen 
          */
-        public static final int keyguard_password_enter_puk_prompt=0x7f0a0062;
+        public static final int keyguard_password_enter_puk_prompt=0x7f09000c;
         /**  Displayed as hint in passwordEntry EditText on PasswordUnlockScreen [CHAR LIMIT=30]
  Displayed as hint in passwordEntry EditText on PasswordUnlockScreen [CHAR LIMIT=30]
  Displayed as hint in passwordEntry EditText on PasswordUnlockScreen [CHAR LIMIT=30]
  Displayed as hint in passwordEntry EditText on PasswordUnlockScreen [CHAR LIMIT=30]
  Displayed as hint in passwordEntry EditText on PasswordUnlockScreen [CHAR LIMIT=30]
          */
-        public static final int keyguard_password_entry_touch_hint=0x7f0a0064;
+        public static final int keyguard_password_entry_touch_hint=0x7f09000e;
         /**  Instructions telling the user that they entered the wrong pin while trying
          to unlock the keyguard.  Displayed in one line in a large font.  
  Instructions telling the user that they entered the wrong pin while trying
@@ -8879,21 +8879,21 @@ containing a value of this type.
  Instructions telling the user that they entered the wrong pin while trying
          to unlock the keyguard.  Displayed in one line in a large font.  
          */
-        public static final int keyguard_password_wrong_pin_code=0x7f0a0067;
+        public static final int keyguard_password_wrong_pin_code=0x7f090011;
         /**  Shown to inform the user to SIM card is permanently disabled. 
  Shown to inform the user to SIM card is permanently disabled. 
  Shown to inform the user to SIM card is permanently disabled. 
  Shown to inform the user to SIM card is permanently disabled. 
  Shown to inform the user to SIM card is permanently disabled. 
          */
-        public static final int keyguard_permanent_disabled_sim_instructions=0x7f0a0074;
+        public static final int keyguard_permanent_disabled_sim_instructions=0x7f09001e;
         /**  Shown when SIM card is permanently disabled. 
  Shown when SIM card is permanently disabled. 
  Shown when SIM card is permanently disabled. 
  Shown when SIM card is permanently disabled. 
  Shown when SIM card is permanently disabled. 
          */
-        public static final int keyguard_permanent_disabled_sim_message_short=0x7f0a0073;
+        public static final int keyguard_permanent_disabled_sim_message_short=0x7f09001d;
         /**  When the user inserts a sim card with some personalization enabled 
  When the user inserts a sim card with some personalization enabled 
  When the user inserts a sim card with some personalization enabled 
@@ -8944,7 +8944,7 @@ containing a value of this type.
  When the user inserts a sim card with some personalization enabled 
  When the user inserts a sim card with some personalization enabled 
          */
-        public static final int keyguard_perso_locked_message=0x7f0a0058;
+        public static final int keyguard_perso_locked_message=0x7f090002;
         /**  When the lock screen is showing and the phone plugged in, and the battery
          is not fully charged, say that it's charging.  
  When the lock screen is showing and the phone plugged in, and the battery
@@ -8970,33 +8970,33 @@ containing a value of this type.
  When the lock screen is showing and the phone plugged in, and the battery
          is not fully charged, say that it's charging.  
          */
-        public static final int keyguard_plugged_in=0x7f0a0069;
+        public static final int keyguard_plugged_in=0x7f090013;
         /**  When the lock screen is showing and the phone plugged in, and the battery
          is not fully charged, and it's plugged into a fast charger, say that it's charging fast.  
  When the lock screen is showing and the phone plugged in, and the battery
          is not fully charged, and it's plugged into a fast charger, say that it's charging fast.  
          */
-        public static final int keyguard_plugged_in_charging_fast=0x7f0a006a;
+        public static final int keyguard_plugged_in_charging_fast=0x7f090014;
         /**  When the lock screen is showing and the phone plugged in, and the battery
          is not fully charged, and it's plugged into a slow charger, say that it's charging slowly.  
  When the lock screen is showing and the phone plugged in, and the battery
          is not fully charged, and it's plugged into a slow charger, say that it's charging slowly.  
          */
-        public static final int keyguard_plugged_in_charging_slowly=0x7f0a006b;
+        public static final int keyguard_plugged_in_charging_slowly=0x7f090015;
         /**  Shown to tell the user that their SIM is locked and they must unlock it. 
  Shown to tell the user that their SIM is locked and they must unlock it. 
  Shown to tell the user that their SIM is locked and they must unlock it. 
  Shown to tell the user that their SIM is locked and they must unlock it. 
  Shown to tell the user that their SIM is locked and they must unlock it. 
          */
-        public static final int keyguard_sim_locked_message=0x7f0a0075;
+        public static final int keyguard_sim_locked_message=0x7f09001f;
         /**  When the user enters a wrong sim pin too many times, it becomes PUK locked (Pin Unlock Kode) 
  When the user enters a wrong sim pin too many times, it becomes PUK locked (Pin Unlock Kode) 
  When the user enters a wrong sim pin too many times, it becomes PUK locked (Pin Unlock Kode) 
  When the user enters a wrong sim pin too many times, it becomes PUK locked (Pin Unlock Kode) 
  When the user enters a wrong sim pin too many times, it becomes PUK locked (Pin Unlock Kode) 
          */
-        public static final int keyguard_sim_puk_locked_message=0x7f0a0076;
+        public static final int keyguard_sim_puk_locked_message=0x7f090020;
         /**  For the unlock screen, When the user enters a sim unlock code, it takes a little while to check
          whether it is valid, and to unlock the sim if it is valid.  we display a
          progress dialog in the meantime.  this is the emssage. 
@@ -9013,35 +9013,35 @@ containing a value of this type.
          whether it is valid, and to unlock the sim if it is valid.  we display a
          progress dialog in the meantime.  this is the emssage. 
          */
-        public static final int keyguard_sim_unlock_progress_dialog_message=0x7f0a0077;
+        public static final int keyguard_sim_unlock_progress_dialog_message=0x7f090021;
         /**  Shows when people have pressed the unlock icon to explain how to unlock. [CHAR LIMIT=60] 
  Shows when people have pressed the unlock icon to explain how to unlock. [CHAR LIMIT=60] 
  Shows when people have pressed the unlock icon to explain how to unlock. [CHAR LIMIT=60] 
          */
-        public static final int keyguard_unlock=0x7f0a0265;
+        public static final int keyguard_unlock=0x7f090265;
         /**  Time format strings for fall-back clock widget 
          */
-        public static final int keyguard_widget_12_hours_format=0x7f0a0078;
+        public static final int keyguard_widget_12_hours_format=0x7f090022;
         /**  Time format strings for fall-back clock widget 
          */
-        public static final int keyguard_widget_24_hours_format=0x7f0a0079;
+        public static final int keyguard_widget_24_hours_format=0x7f090023;
         /**  Message shown when the user needs to confirm the PIN they just entered in the PUK screen 
  Message shown when the user needs to confirm the PIN they just entered in the PUK screen 
  Message shown when the user needs to confirm the PIN they just entered in the PUK screen 
  Message shown when the user needs to confirm the PIN they just entered in the PUK screen 
  Message shown when the user needs to confirm the PIN they just entered in the PUK screen 
          */
-        public static final int kg_enter_confirm_pin_hint=0x7f0a0092;
+        public static final int kg_enter_confirm_pin_hint=0x7f09003c;
         /**  Message shown when user is almost at the limit of password attempts where the profile will be removed. [CHAR LIMIT=none] 
  Message shown when user is almost at the limit of password attempts where the profile will be removed. [CHAR LIMIT=none] 
  Message shown when user is almost at the limit of password attempts where the profile will be removed. [CHAR LIMIT=none] 
          */
-        public static final int kg_failed_attempts_almost_at_erase_profile=0x7f0a00a0;
+        public static final int kg_failed_attempts_almost_at_erase_profile=0x7f09004a;
         /**  Message shown when user is almost at the limit of password attempts where the user will be removed. [CHAR LIMIT=none] 
  Message shown when user is almost at the limit of password attempts where the user will be removed. [CHAR LIMIT=none] 
  Message shown when user is almost at the limit of password attempts where the user will be removed. [CHAR LIMIT=none] 
          */
-        public static final int kg_failed_attempts_almost_at_erase_user=0x7f0a009e;
+        public static final int kg_failed_attempts_almost_at_erase_user=0x7f090048;
         /**  Message shown in dialog when user is almost at the limit where they will be
     locked out and may have to enter an alternate username/password to unlock the phone 
  Message shown in dialog when user is almost at the limit where they will be
@@ -9094,30 +9094,30 @@ containing a value of this type.
  Message shown in dialog when user is almost at the limit where they will be
     locked out and may have to enter an alternate username/password to unlock the phone 
          */
-        public static final int kg_failed_attempts_almost_at_login=0x7f0a00a2;
+        public static final int kg_failed_attempts_almost_at_login=0x7f09004c;
         /**  Message shown when user is almost at the limit of password attempts where the device will be wiped. [CHAR LIMIT=none] 
  Message shown when user is almost at the limit of password attempts where the device will be wiped. [CHAR LIMIT=none] 
  Message shown when user is almost at the limit of password attempts where the device will be wiped. [CHAR LIMIT=none] 
  Message shown when user is almost at the limit of password attempts where the device will be wiped. [CHAR LIMIT=none] 
  Message shown when user is almost at the limit of password attempts where the device will be wiped. [CHAR LIMIT=none] 
          */
-        public static final int kg_failed_attempts_almost_at_wipe=0x7f0a009c;
+        public static final int kg_failed_attempts_almost_at_wipe=0x7f090046;
         /**  Message shown in dialog when user has exceeded the maximum attempts and the profile will be removed. [CHAR LIMIT=none] 
  Message shown in dialog when user has exceeded the maximum attempts and the profile will be removed. [CHAR LIMIT=none] 
  Message shown in dialog when user has exceeded the maximum attempts and the profile will be removed. [CHAR LIMIT=none] 
          */
-        public static final int kg_failed_attempts_now_erasing_profile=0x7f0a00a1;
+        public static final int kg_failed_attempts_now_erasing_profile=0x7f09004b;
         /**  Message shown in dialog when user has exceeded the maximum attempts and the user will be removed. [CHAR LIMIT=none] 
  Message shown in dialog when user has exceeded the maximum attempts and the user will be removed. [CHAR LIMIT=none] 
  Message shown in dialog when user has exceeded the maximum attempts and the user will be removed. [CHAR LIMIT=none] 
          */
-        public static final int kg_failed_attempts_now_erasing_user=0x7f0a009f;
+        public static final int kg_failed_attempts_now_erasing_user=0x7f090049;
         /**  Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped [CHAR LIMIT=none] 
  Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped [CHAR LIMIT=none] 
  Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped [CHAR LIMIT=none] 
  Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped [CHAR LIMIT=none] 
          */
-        public static final int kg_failed_attempts_now_wiping=0x7f0a009d;
+        public static final int kg_failed_attempts_now_wiping=0x7f090047;
         /**  Message shown in pattern unlock after some number of unsuccessful attempts 
  Message shown in pattern unlock after some number of unsuccessful attempts 
  Description of the Enter button in a KeyboardView. [CHAR LIMIT=NONE] 
@@ -9125,21 +9125,21 @@ containing a value of this type.
  Message shown in pattern unlock after some number of unsuccessful attempts 
  Message shown in pattern unlock after some number of unsuccessful attempts 
          */
-        public static final int kg_forgot_pattern_button_text=0x7f0a0085;
+        public static final int kg_forgot_pattern_button_text=0x7f09002f;
         /**  String shown in PUK screen when PIN codes don't match 
  String shown in PUK screen when PIN codes don't match 
  String shown in PUK screen when PIN codes don't match 
  String shown in PUK screen when PIN codes don't match 
  String shown in PUK screen when PIN codes don't match 
          */
-        public static final int kg_invalid_confirm_pin_hint=0x7f0a0097;
+        public static final int kg_invalid_confirm_pin_hint=0x7f090041;
         /**  Message shown when the user enters an invalid PUK code 
  Message shown when the user enters an invalid PUK code 
  Message shown when the user enters an invalid PUK code 
  Message shown when the user enters an invalid PUK code 
  Message shown when the user enters an invalid PUK code 
          */
-        public static final int kg_invalid_puk=0x7f0a0096;
+        public static final int kg_invalid_puk=0x7f090040;
         /**  Shown in the KeyguardSimPinView when entry length is too short. 
  Shown in the KeyguardSimPinView when entry length is too short. 
  Instructions telling the user remaining times when enter SIM PIN view.  
@@ -9196,35 +9196,35 @@ containing a value of this type.
  Instructions telling the user remaining times when enter SIM PIN view.  
  Shown in the KeyguardSimPinView when entry length is too short. 
          */
-        public static final int kg_invalid_sim_length=0x7f0a005a;
+        public static final int kg_invalid_sim_length=0x7f090004;
         /**  Message shown when the user enters an invalid SIM pin password in PUK screen 
  Message shown when the user enters an invalid SIM pin password in PUK screen 
  Message shown when the user enters an invalid SIM pin password in PUK screen 
  Message shown when the user enters an invalid SIM pin password in PUK screen 
  Message shown when the user enters an invalid SIM pin password in PUK screen 
          */
-        public static final int kg_invalid_sim_pin_hint=0x7f0a0094;
+        public static final int kg_invalid_sim_pin_hint=0x7f09003e;
         /**  Message shown when the user enters an invalid PUK code in the PUK screen 
  Message shown when the user enters an invalid PUK code in the PUK screen 
  Message shown when the user enters an invalid PUK code in the PUK screen 
  Message shown when the user enters an invalid PUK code in the PUK screen 
  Message shown when the user enters an invalid PUK code in the PUK screen 
          */
-        public static final int kg_invalid_sim_puk_hint=0x7f0a0095;
+        public static final int kg_invalid_sim_puk_hint=0x7f09003f;
         /**  Message shown when the user exceeds the maximum number of pattern attempts 
  Message shown when the user exceeds the maximum number of pattern attempts 
  Message shown when the user exceeds the maximum number of pattern attempts 
  Message shown when the user exceeds the maximum number of pattern attempts 
  Message shown when the user exceeds the maximum number of pattern attempts 
          */
-        public static final int kg_login_too_many_attempts=0x7f0a0098;
+        public static final int kg_login_too_many_attempts=0x7f090042;
         /**  Instructions for using the password unlock screen 
  Instructions for using the password unlock screen 
  Instructions for using the password unlock screen 
  Instructions for using the password unlock screen 
  Instructions for using the password unlock screen 
          */
-        public static final int kg_password_instructions=0x7f0a008e;
+        public static final int kg_password_instructions=0x7f090038;
         /**  Instructions telling the user that the operation to unlock the keyguard
          with SIM PIN failed. Displayed in one line in a large font.  
  Instructions telling the user that the operation to unlock the keyguard
@@ -9238,7 +9238,7 @@ containing a value of this type.
  Instructions telling the user that the operation to unlock the keyguard
          with SIM PIN failed. Displayed in one line in a large font.  
          */
-        public static final int kg_password_pin_failed=0x7f0a00a5;
+        public static final int kg_password_pin_failed=0x7f09004f;
         /**  Instructions telling the user that the operation to unlock the keyguard
          with PUK failed. Displayed in one line in a large font.  
  Instructions telling the user that the operation to unlock the keyguard
@@ -9250,7 +9250,7 @@ containing a value of this type.
  Instructions telling the user that the operation to unlock the keyguard
          with PUK failed. Displayed in one line in a large font.  
          */
-        public static final int kg_password_puk_failed=0x7f0a00a6;
+        public static final int kg_password_puk_failed=0x7f090050;
         /**  Instructions telling the user that they entered the wrong SIM PIN for the last time.
          Displayed in a dialog box.  
  Instructions telling the user that they entered the wrong SIM PIN for the last time.
@@ -9262,7 +9262,7 @@ containing a value of this type.
  Instructions telling the user that they entered the wrong SIM PIN for the last time.
          Displayed in a dialog box.  
          */
-        public static final int kg_password_wrong_pin_code_pukked=0x7f0a00a3;
+        public static final int kg_password_wrong_pin_code_pukked=0x7f09004d;
         /**  Instructions telling the user that they have exhausted SIM PUK retries and the SIM is now unusable.
          Displayed in a dialog box.  
  Instructions telling the user that they have exhausted SIM PUK retries and the SIM is now unusable.
@@ -9274,21 +9274,21 @@ containing a value of this type.
  Instructions telling the user that they have exhausted SIM PUK retries and the SIM is now unusable.
          Displayed in a dialog box.  
          */
-        public static final int kg_password_wrong_puk_code_dead=0x7f0a00a4;
+        public static final int kg_password_wrong_puk_code_dead=0x7f09004e;
         /**  Instructions for using the pattern unlock screen 
  Instructions for using the pattern unlock screen 
  Instructions for using the pattern unlock screen 
  Instructions for using the pattern unlock screen 
  Instructions for using the pattern unlock screen 
          */
-        public static final int kg_pattern_instructions=0x7f0a008a;
+        public static final int kg_pattern_instructions=0x7f090034;
         /**  Notification telling the user that the PIN1 they entered is valid 
  Notification telling the user that the PIN1 they entered is valid 
  Notification telling the user that the PIN1 they entered is valid 
  Notification telling the user that the PIN1 they entered is valid 
  Notification telling the user that the PIN1 they entered is valid 
          */
-        public static final int kg_pin_accepted=0x7f0a00a7;
+        public static final int kg_pin_accepted=0x7f090051;
         /**  Instructions for using the PIN unlock screen 
  Instructions for using the PIN unlock screen 
  Instructions for using the SIM PIN unlock screen when there's more than one SIM 
@@ -9298,34 +9298,34 @@ containing a value of this type.
  Instructions for using the SIM PIN unlock screen when there's more than one SIM 
  Instructions for using the PIN unlock screen 
          */
-        public static final int kg_pin_instructions=0x7f0a008d;
+        public static final int kg_pin_instructions=0x7f090037;
         /**  An explanation text that the password needs to be entered since the device has just been restarted. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_restart_password=0x7f0a00ad;
+        public static final int kg_prompt_reason_restart_password=0x7f090057;
         /**  An explanation text that the pattern needs to be solved since the device has just been restarted. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_restart_pattern=0x7f0a00ab;
+        public static final int kg_prompt_reason_restart_pattern=0x7f090055;
         /**  An explanation text that the pin needs to be entered since the device has just been restarted. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_restart_pin=0x7f0a00ac;
+        public static final int kg_prompt_reason_restart_pin=0x7f090056;
         /**  An explanation text that the password needs to be entered since profiles have just been switched. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_switch_profiles_password=0x7f0a00b3;
+        public static final int kg_prompt_reason_switch_profiles_password=0x7f09005d;
         /**  An explanation text that the pattern needs to be solved since profiles have just been switched. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_switch_profiles_pattern=0x7f0a00b1;
+        public static final int kg_prompt_reason_switch_profiles_pattern=0x7f09005b;
         /**  An explanation text that the pin needs to be entered since profiles have just been switched. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_switch_profiles_pin=0x7f0a00b2;
+        public static final int kg_prompt_reason_switch_profiles_pin=0x7f09005c;
         /**  An explanation text that the password needs to be entered since the user hasn't used strong authentication since quite some time. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_timeout_password=0x7f0a00b0;
+        public static final int kg_prompt_reason_timeout_password=0x7f09005a;
         /**  An explanation text that the pattern needs to be solved since the user hasn't used strong authentication since quite some time. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_timeout_pattern=0x7f0a00ae;
+        public static final int kg_prompt_reason_timeout_pattern=0x7f090058;
         /**  An explanation text that the pin needs to be entered since the user hasn't used strong authentication since quite some time. [CHAR LIMIT=80] 
          */
-        public static final int kg_prompt_reason_timeout_pin=0x7f0a00af;
+        public static final int kg_prompt_reason_timeout_pin=0x7f090059;
         /**  Hint shown in the PUK unlock screen PIN TextView 
  Hint shown in the PUK unlock screen PIN TextView 
  Hint shown when there are multiple SIMs in the device to ask the user to enter the PUK code given to them by their provider 
@@ -9335,87 +9335,87 @@ containing a value of this type.
  Hint shown when there are multiple SIMs in the device to ask the user to enter the PUK code given to them by their provider 
  Hint shown in the PUK unlock screen PIN TextView 
          */
-        public static final int kg_puk_enter_pin_hint=0x7f0a0091;
+        public static final int kg_puk_enter_pin_hint=0x7f09003b;
         /**  Hint shown in the PUK screen that asks the user to enter the PUK code given to them by their provider 
  Hint shown in the PUK screen that asks the user to enter the PUK code given to them by their provider 
  Hint shown in the PUK screen that asks the user to enter the PUK code given to them by their provider 
  Hint shown in the PUK screen that asks the user to enter the PUK code given to them by their provider 
  Hint shown in the PUK screen that asks the user to enter the PUK code given to them by their provider 
          */
-        public static final int kg_puk_enter_puk_hint=0x7f0a008f;
+        public static final int kg_puk_enter_puk_hint=0x7f090039;
         /**  Hint shown when there are multiple SIMs in the device to ask the user to enter the PUK code given to them by their provider 
  Hint shown when there are multiple SIMs in the device to ask the user to enter the PUK code given to them by their provider 
          */
-        public static final int kg_puk_enter_puk_hint_multi=0x7f0a0090;
+        public static final int kg_puk_enter_puk_hint_multi=0x7f09003a;
         /**  Instructions for using the SIM PIN unlock screen 
  Instructions for using the SIM PIN unlock screen 
  Instructions for using the SIM PIN unlock screen 
  Instructions for using the SIM PIN unlock screen 
  Instructions for using the SIM PIN unlock screen 
          */
-        public static final int kg_sim_pin_instructions=0x7f0a008b;
+        public static final int kg_sim_pin_instructions=0x7f090035;
         /**  Instructions for using the SIM PIN unlock screen when there's more than one SIM 
  Instructions for using the SIM PIN unlock screen when there's more than one SIM 
          */
-        public static final int kg_sim_pin_instructions_multi=0x7f0a008c;
+        public static final int kg_sim_pin_instructions_multi=0x7f090036;
         /**  Message shown in dialog while the device is unlocking the SIM card 
  Message shown in dialog while the device is unlocking the SIM card 
  Message shown in dialog while the device is unlocking the SIM card 
  Message shown in dialog while the device is unlocking the SIM card 
  Message shown in dialog while the device is unlocking the SIM card 
          */
-        public static final int kg_sim_unlock_progress_dialog_message=0x7f0a0093;
+        public static final int kg_sim_unlock_progress_dialog_message=0x7f09003d;
         /**  Countdown message shown after too many failed unlock attempts 
  Countdown message shown after too many failed unlock attempts 
  Countdown message shown after too many failed unlock attempts 
  Countdown message shown after too many failed unlock attempts 
  Countdown message shown after too many failed unlock attempts 
          */
-        public static final int kg_too_many_failed_attempts_countdown=0x7f0a0089;
+        public static final int kg_too_many_failed_attempts_countdown=0x7f090033;
         /**  Message shown in dialog when max number of attempts are reached for password screen of keyguard 
  Message shown in dialog when max number of attempts are reached for password screen of keyguard 
  Message shown in dialog when max number of attempts are reached for password screen of keyguard 
  Message shown in dialog when max number of attempts are reached for password screen of keyguard 
  Message shown in dialog when max number of attempts are reached for password screen of keyguard 
          */
-        public static final int kg_too_many_failed_password_attempts_dialog_message=0x7f0a009a;
-        public static final int kg_too_many_failed_pattern_attempts_dialog_message=0x7f0a009b;
+        public static final int kg_too_many_failed_password_attempts_dialog_message=0x7f090044;
+        public static final int kg_too_many_failed_pattern_attempts_dialog_message=0x7f090045;
         /**  Message shown in dialog when max number of attempts are reached for PIN screen of keyguard 
  Message shown in dialog when max number of attempts are reached for PIN screen of keyguard 
  Message shown in dialog when max number of attempts are reached for PIN screen of keyguard 
  Message shown in dialog when max number of attempts are reached for PIN screen of keyguard 
  Message shown in dialog when max number of attempts are reached for PIN screen of keyguard 
          */
-        public static final int kg_too_many_failed_pin_attempts_dialog_message=0x7f0a0099;
+        public static final int kg_too_many_failed_pin_attempts_dialog_message=0x7f090043;
         /**  Message shown when user enters wrong password 
  Message shown when user enters wrong password 
  Message shown when user enters wrong password 
  Message shown when user enters wrong password 
  Message shown when user enters wrong password 
          */
-        public static final int kg_wrong_password=0x7f0a0087;
+        public static final int kg_wrong_password=0x7f090031;
         /**  Message shown when user enters wrong pattern 
  Message shown when user enters wrong pattern 
  Message shown when user enters wrong pattern 
  Message shown when user enters wrong pattern 
  Message shown when user enters wrong pattern 
          */
-        public static final int kg_wrong_pattern=0x7f0a0086;
+        public static final int kg_wrong_pattern=0x7f090030;
         /**  Message shown when user enters wrong PIN 
  Message shown when user enters wrong PIN 
  Message shown when user enters wrong PIN 
  Message shown when user enters wrong PIN 
  Message shown when user enters wrong PIN 
          */
-        public static final int kg_wrong_pin=0x7f0a0088;
+        public static final int kg_wrong_pin=0x7f090032;
         /**  View button label for USB dialogs.  [CHAR LIMIT=15] 
  View button label for USB dialogs.  [CHAR LIMIT=15] 
  View button label for USB dialogs.  [CHAR LIMIT=15] 
  View button label for USB dialogs.  [CHAR LIMIT=15] 
  View button label for USB dialogs.  [CHAR LIMIT=15] 
          */
-        public static final int label_view=0x7f0a0165;
-        public static final int led_notification_text=0x7f0a00d6;
+        public static final int label_view=0x7f090165;
+        public static final int led_notification_text=0x7f0900d6;
         /**  Lights settings, LED notification 
  Lights settings, LED notification 
  Lights settings, LED notification 
@@ -9471,7 +9471,7 @@ containing a value of this type.
  Announcement made when the profiles tile changes (not shown on the screen). [CHAR LIMIT=NONE] 
  Lights settings, LED notification 
          */
-        public static final int led_notification_title=0x7f0a00d5;
+        public static final int led_notification_title=0x7f0900d5;
         /**  Strings for lockscreen shortcut hints 
  Text to use when the number in a notification info is too large
          (greater than status_bar_notification_info_maxnum, defined in
@@ -9769,15 +9769,15 @@ containing a value of this type.
          [CHAR LIMIT=4] 
  Strings for lockscreen shortcut hints 
          */
-        public static final int left_shortcut_hint=0x7f0a00b9;
+        public static final int left_shortcut_hint=0x7f0900b9;
         /**  Name for a generic legacy VPN connection [CHAR LIMIT=20] 
          */
-        public static final int legacy_vpn_name=0x7f0a029d;
+        public static final int legacy_vpn_name=0x7f09029d;
         /**  LiveDisplay strings 
          */
-        public static final int live_display_title=0x7f0a011a;
-        public static final int lockscreen_choose_action_title=0x7f0a00be;
-        public static final int lockscreen_default_target=0x7f0a00bc;
+        public static final int live_display_title=0x7f09011a;
+        public static final int lockscreen_choose_action_title=0x7f0900be;
+        public static final int lockscreen_default_target=0x7f0900bc;
         /**  Weather string format in expanded statusbar header 
  Text to use when the number in a notification info is too large
          (greater than status_bar_notification_info_maxnum, defined in
@@ -9785,8 +9785,8 @@ containing a value of this type.
          [CHAR LIMIT=4] 
  Strings for lockscreen shortcut hints 
          */
-        public static final int lockscreen_message=0x7f0a00bb;
-        public static final int lockscreen_none_target=0x7f0a00bf;
+        public static final int lockscreen_message=0x7f0900bb;
+        public static final int lockscreen_none_target=0x7f0900bf;
         /**  Shown in the lock screen when there is SIM card IO error. 
  Shown in the lock screen when there is SIM card IO error. 
  Shown in the lock screen when there is SIM card IO error. 
@@ -9864,72 +9864,72 @@ containing a value of this type.
  When the user inserts a sim card with some personalization enabled 
  Shown in the lock screen when there is SIM card IO error. 
          */
-        public static final int lockscreen_sim_error_message_short=0x7f0a0059;
-        public static final int lockscreen_targets_message=0x7f0a0004;
+        public static final int lockscreen_sim_error_message_short=0x7f090003;
+        public static final int lockscreen_targets_message=0x7f090063;
         /**  Toast shown when user unlocks screen and managed profile activity is in the foreground 
          */
-        public static final int managed_profile_foreground_toast=0x7f0a02bb;
+        public static final int managed_profile_foreground_toast=0x7f0902bb;
         /**  Media projection permission dialog action text. [CHAR LIMIT=60] 
  Media projection permission dialog action text. [CHAR LIMIT=60] 
  Media projection permission dialog action text. [CHAR LIMIT=60] 
          */
-        public static final int media_projection_action_text=0x7f0a028f;
+        public static final int media_projection_action_text=0x7f09028f;
         /**  Media projection permission dialog warning text. [CHAR LIMIT=NONE] 
  Media projection permission dialog warning text. [CHAR LIMIT=NONE] 
  Media projection permission dialog warning text. [CHAR LIMIT=NONE] 
          */
-        public static final int media_projection_dialog_text=0x7f0a028c;
+        public static final int media_projection_dialog_text=0x7f09028c;
         /**  Media projection permission dialog permanent grant check box. [CHAR LIMIT=NONE] 
  Media projection permission dialog permanent grant check box. [CHAR LIMIT=NONE] 
  Media projection permission dialog permanent grant check box. [CHAR LIMIT=NONE] 
          */
-        public static final int media_projection_remember_text=0x7f0a028d;
+        public static final int media_projection_remember_text=0x7f09028d;
         /**  Name of the easter egg. DO NOT TRANSLATE 
          */
-        public static final int mland=0x7f0a0141;
+        public static final int mland=0x7f090141;
         /**  Monitoring dialog text for single app (no profile or device owner) [CHAR LIMIT=400] 
          */
-        public static final int monitoring_description_app=0x7f0a029e;
+        public static final int monitoring_description_app=0x7f09029e;
         /**  Monitoring dialog text for single app (inside personal profile) [CHAR LIMIT=400] 
          */
-        public static final int monitoring_description_app_personal=0x7f0a029f;
+        public static final int monitoring_description_app_personal=0x7f09029f;
         /**  Monitoring dialog text for multiple apps (in personal and work profiles) [CHAR LIMIT=400] 
          */
-        public static final int monitoring_description_app_personal_work=0x7f0a02a1;
+        public static final int monitoring_description_app_personal_work=0x7f0902a1;
         /**  Monitoring dialog text for single app (inside work profile) [CHAR LIMIT=400] 
          */
-        public static final int monitoring_description_app_work=0x7f0a02a0;
+        public static final int monitoring_description_app_work=0x7f0902a0;
         /**  Monitoring dialog device owner body text [CHAR LIMIT=400] 
          */
-        public static final int monitoring_description_device_owned=0x7f0a0299;
+        public static final int monitoring_description_device_owned=0x7f090299;
         /**  Monitoring dialog VPN text [CHAR LIMIT=400] 
          */
-        public static final int monitoring_description_vpn=0x7f0a029a;
+        public static final int monitoring_description_vpn=0x7f09029a;
         /**  Monitoring dialog text for single app (with device owner) [CHAR LIMIT=400] 
          */
-        public static final int monitoring_description_vpn_app_device_owned=0x7f0a02a2;
+        public static final int monitoring_description_vpn_app_device_owned=0x7f0902a2;
         /**  Monitoring dialog VPN with device owner text [CHAR LIMIT=400] 
          */
-        public static final int monitoring_description_vpn_device_owned=0x7f0a029b;
+        public static final int monitoring_description_vpn_device_owned=0x7f09029b;
         /**  Monitoring dialog VPN with profile owner text [CHAR LIMIT=400] 
          */
-        public static final int monitoring_description_vpn_profile_owned=0x7f0a029c;
+        public static final int monitoring_description_vpn_profile_owned=0x7f09029c;
         /**  Monitoring dialog title for normal devices  [CHAR LIMIT=35]
  Monitoring dialog title for normal devices  [CHAR LIMIT=35]
  Monitoring dialog title for normal devices  [CHAR LIMIT=35]
          */
-        public static final int monitoring_title=0x7f0a0296;
+        public static final int monitoring_title=0x7f090296;
         /**  Monitoring dialog title for device owned devices [CHAR LIMIT=35] 
  Monitoring dialog title for device owned devices [CHAR LIMIT=35] 
  Monitoring dialog title for device owned devices [CHAR LIMIT=35] 
          */
-        public static final int monitoring_title_device_owned=0x7f0a0294;
+        public static final int monitoring_title_device_owned=0x7f090294;
         /**  Monitoring dialog title for profile owned devices [CHAR LIMIT=35] 
  Monitoring dialog title for profile owned devices [CHAR LIMIT=35] 
  Monitoring dialog title for profile owned devices [CHAR LIMIT=35] 
          */
-        public static final int monitoring_title_profile_owned=0x7f0a0295;
-        public static final int navbar_back_button=0x7f0a00c4;
+        public static final int monitoring_title_profile_owned=0x7f090295;
+        public static final int navbar_back_button=0x7f0900c4;
         /**  Dialog title for navigation bar button selection 
  Dialog title for navigation bar button selection 
  Dialog title for navigation bar button selection 
@@ -10017,47 +10017,47 @@ containing a value of this type.
  Dialog title for navigation bar button selection 
  Dialog title for navigation bar button selection 
          */
-        public static final int navbar_dialog_title=0x7f0a00c0;
+        public static final int navbar_dialog_title=0x7f0900c0;
         /**  Dialog title for navigation bar button selection 
          */
-        public static final int navbar_empty_button=0x7f0a00c5;
-        public static final int navbar_home_button=0x7f0a00c1;
-        public static final int navbar_menu_always_button=0x7f0a00c7;
-        public static final int navbar_menu_big_button=0x7f0a00c8;
-        public static final int navbar_menu_conditional_button=0x7f0a00c6;
-        public static final int navbar_recent_button=0x7f0a00c2;
-        public static final int navbar_search_button=0x7f0a00c3;
+        public static final int navbar_empty_button=0x7f0900c5;
+        public static final int navbar_home_button=0x7f0900c1;
+        public static final int navbar_menu_always_button=0x7f0900c7;
+        public static final int navbar_menu_big_button=0x7f0900c8;
+        public static final int navbar_menu_conditional_button=0x7f0900c6;
+        public static final int navbar_recent_button=0x7f0900c2;
+        public static final int navbar_search_button=0x7f0900c3;
         /**  Text for the button to expand the notifications to hide notification children [CHAR LIMIT=20] 
          */
-        public static final int notification_collapse_button_text=0x7f0a02a9;
+        public static final int notification_collapse_button_text=0x7f0902a9;
         /**  Text for the button to expand the notifications to show notification children [CHAR LIMIT=20] 
          */
-        public static final int notification_expand_button_text=0x7f0a02a8;
+        public static final int notification_expand_button_text=0x7f0902a8;
         /**  Text shown in place of notification contents when the notification is hidden on a secure lockscreen 
  Text shown in place of notification contents when the notification is hidden on a secure lockscreen 
  Text shown in place of notification contents when the notification is hidden on a secure lockscreen 
          */
-        public static final int notification_hidden_text=0x7f0a028b;
+        public static final int notification_hidden_text=0x7f09028b;
         /**  Shows to explain the double tap interaction with notifications: After tapping a notification on Keyguard, this will explain users to tap again to launch a notification. [CHAR LIMIT=60] 
  Shows to explain the double tap interaction with notifications: After tapping a notification on Keyguard, this will explain users to tap again to launch a notification. [CHAR LIMIT=60] 
  Shows to explain the double tap interaction with notifications: After tapping a notification on Keyguard, this will explain users to tap again to launch a notification. [CHAR LIMIT=60] 
          */
-        public static final int notification_tap_again=0x7f0a0264;
-        public static final int notifications_off_text=0x7f0a02e4;
-        public static final int notifications_off_title=0x7f0a02e3;
+        public static final int notification_tap_again=0x7f090264;
+        public static final int notifications_off_text=0x7f0902e4;
+        public static final int notifications_off_title=0x7f0902e3;
         /**  Alias used to reference framework "OK" string in keyguard.  
          */
-        public static final int ok=0x7f0a0056;
+        public static final int ok=0x7f090000;
         /**  Shows when people have clicked on the phone icon [CHAR LIMIT=60] 
          */
-        public static final int phone_hint=0x7f0a0266;
+        public static final int phone_hint=0x7f090266;
         /**  Click action label for accessibility for the phone button. [CHAR LIMIT=NONE] 
  Click action label for accessibility for the phone button. [CHAR LIMIT=NONE] 
  Click action label for accessibility for the phone button. [CHAR LIMIT=NONE] 
  Click action label for accessibility for the phone button. [CHAR LIMIT=NONE] 
          */
-        public static final int phone_label=0x7f0a0186;
-        public static final int picker_activities=0x7f0a0001;
+        public static final int phone_label=0x7f090186;
+        public static final int picker_activities=0x7f090060;
         /**  Play queue 
  Play queue 
  Play queue 
@@ -10110,21 +10110,21 @@ containing a value of this type.
  Play queue 
  Play queue 
          */
-        public static final int play_queue_extention=0x7f0a013b;
-        public static final int profile_applist_title=0x7f0a0000;
+        public static final int play_queue_extention=0x7f09013b;
+        public static final int profile_applist_title=0x7f09005f;
         /**  Footer profile owned text [CHAR LIMIT=50] 
  Footer profile owned text [CHAR LIMIT=50] 
  Footer profile owned text [CHAR LIMIT=50] 
          */
-        public static final int profile_owned_footer=0x7f0a0292;
-        public static final int qs_tile_edit_header_instruction=0x7f0a00d7;
-        public static final int qs_tile_performance=0x7f0a00f9;
-        public static final int qs_tiles_reset_confirmation=0x7f0a00da;
+        public static final int profile_owned_footer=0x7f090292;
+        public static final int qs_tile_edit_header_instruction=0x7f0900d7;
+        public static final int qs_tile_performance=0x7f0900f9;
+        public static final int qs_tiles_reset_confirmation=0x7f0900da;
         /**  Name of quick settings 
          */
-        public static final int quick_settings=0x7f0a02c5;
-        public static final int quick_settings_ambient_display_label=0x7f0a00f4;
-        public static final int quick_settings_battery_saver_label=0x7f0a00ea;
+        public static final int quick_settings=0x7f0902c5;
+        public static final int quick_settings_ambient_display_label=0x7f0900f4;
+        public static final int quick_settings_battery_saver_label=0x7f0900ea;
         /**  quick settings battery saver label to show when device is charging and tile is disabled 
  quick settings battery saver label to show when device is charging and tile is disabled 
  quick settings battery saver label to show when device is charging and tile is disabled 
@@ -10149,12 +10149,12 @@ containing a value of this type.
  quick settings battery saver label to show when device is charging and tile is disabled 
  quick settings battery saver label to show when device is charging and tile is disabled 
          */
-        public static final int quick_settings_battery_saver_label_charging=0x7f0a0136;
+        public static final int quick_settings_battery_saver_label_charging=0x7f090136;
         /**  QuickSettings: Bluetooth detail panel, text when there are no items [CHAR LIMIT=NONE] 
  QuickSettings: Bluetooth detail panel, text when there are no items [CHAR LIMIT=NONE] 
  QuickSettings: Bluetooth detail panel, text when there are no items [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_bluetooth_detail_empty_text=0x7f0a021e;
+        public static final int quick_settings_bluetooth_detail_empty_text=0x7f09021e;
         /**  QuickSettings: Bluetooth [CHAR LIMIT=NONE] 
  QuickSettings: Do not disturb [CHAR LIMIT=NONE] 
  QuickSettings: Do not disturb - Priority only [CHAR LIMIT=NONE] 
@@ -10177,28 +10177,28 @@ containing a value of this type.
  QuickSettings: Do not disturb - Total silence [CHAR LIMIT=NONE] 
  QuickSettings: Bluetooth [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_bluetooth_label=0x7f0a021b;
+        public static final int quick_settings_bluetooth_label=0x7f09021b;
         /**  QuickSettings: Bluetooth (Multiple) [CHAR LIMIT=NONE] 
  QuickSettings: Bluetooth (Multiple) [CHAR LIMIT=NONE] 
  QuickSettings: Bluetooth (Multiple) [CHAR LIMIT=NONE] 
  QuickSettings: Bluetooth (Multiple) [CHAR LIMIT=NONE] 
  QuickSettings: Bluetooth (Multiple) [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_bluetooth_multiple_devices_label=0x7f0a021c;
+        public static final int quick_settings_bluetooth_multiple_devices_label=0x7f09021c;
         /**  QuickSettings: Bluetooth (Off) [CHAR LIMIT=NONE] 
  QuickSettings: Bluetooth (Off) [CHAR LIMIT=NONE] 
  QuickSettings: Bluetooth (Off) [CHAR LIMIT=NONE] 
  QuickSettings: Bluetooth (Off) [CHAR LIMIT=NONE] 
  QuickSettings: Bluetooth (Off) [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_bluetooth_off_label=0x7f0a021d;
+        public static final int quick_settings_bluetooth_off_label=0x7f09021d;
         /**  QuickSettings: Brightness dialog auto brightness button [CHAR LIMIT=NONE] 
  QuickSettings: Brightness dialog auto brightness button [CHAR LIMIT=NONE] 
  QuickSettings: Brightness dialog auto brightness button [CHAR LIMIT=NONE] 
  QuickSettings: Brightness dialog auto brightness button [CHAR LIMIT=NONE] 
  QuickSettings: Brightness dialog auto brightness button [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_brightness_dialog_auto_brightness_label=0x7f0a023a;
+        public static final int quick_settings_brightness_dialog_auto_brightness_label=0x7f09023a;
         /**  QuickSettings: Brightness dialog title [CHAR LIMIT=NONE] 
  QuickSettings: Brightness dialog title [CHAR LIMIT=NONE] 
  QuickSettings: Wifi detail panel, text when there are no items [CHAR LIMIT=NONE] 
@@ -10217,7 +10217,7 @@ containing a value of this type.
  QuickSettings: Brightness dialog title [CHAR LIMIT=NONE] 
  QuickSettings: Brightness dialog title [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_brightness_dialog_title=0x7f0a0239;
+        public static final int quick_settings_brightness_dialog_title=0x7f090239;
         /**  QuickSettings: Brightness [CHAR LIMIT=NONE] 
  QuickSettings: Brightness [CHAR LIMIT=NONE] 
  QuickSettings: Bluetooth detail panel, text when there are no items [CHAR LIMIT=NONE] 
@@ -10226,7 +10226,7 @@ containing a value of this type.
  QuickSettings: Brightness [CHAR LIMIT=NONE] 
  QuickSettings: Brightness [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_brightness_label=0x7f0a021f;
+        public static final int quick_settings_brightness_label=0x7f09021f;
         /**  quick settings battery saver label to show when device is charging and tile is disabled 
  quick settings battery saver label to show when device is charging and tile is disabled 
  quick settings battery saver label to show when device is charging and tile is disabled 
@@ -10249,26 +10249,26 @@ containing a value of this type.
  Screen pinning dialog description (for devices without navbar) 
  quick settings battery saver label to show when device is charging and tile is disabled 
          */
-        public static final int quick_settings_caffeine_label=0x7f0a0137;
-        public static final int quick_settings_cannot_delete_edit_tile=0x7f0a00d9;
+        public static final int quick_settings_caffeine_label=0x7f090137;
+        public static final int quick_settings_cannot_delete_edit_tile=0x7f0900d9;
         /**  QuickSettings: Cast detail panel, text when there are no items [CHAR LIMIT=NONE] 
  QuickSettings: Cast detail panel, text when there are no items [CHAR LIMIT=NONE] 
  QuickSettings: Cast detail panel, text when there are no items [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_cast_detail_empty_text=0x7f0a0238;
+        public static final int quick_settings_cast_detail_empty_text=0x7f090238;
         /**  QuickSettings: Cast detail panel, default device description [CHAR LIMIT=NONE] 
  QuickSettings: Cast detail panel, default device description [CHAR LIMIT=NONE] 
  QuickSettings: Cast detail panel, default device description [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_cast_device_default_description=0x7f0a0237;
+        public static final int quick_settings_cast_device_default_description=0x7f090237;
         /**  QuickSettings: Cast detail panel, default device name [CHAR LIMIT=NONE] 
  QuickSettings: Cast detail panel, default device name [CHAR LIMIT=NONE] 
  QuickSettings: Cast detail panel, default device name [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_cast_device_default_name=0x7f0a0236;
+        public static final int quick_settings_cast_device_default_name=0x7f090236;
         /**  QuickSettings: Cast title [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_cast_title=0x7f0a0234;
+        public static final int quick_settings_cast_title=0x7f090234;
         /**  QuickSettings: Cast detail panel, status text when casting [CHAR LIMIT=NONE] 
  QuickSettings: Wifi detail panel, text when there are no items [CHAR LIMIT=NONE] 
  QuickSettings: Cast title [CHAR LIMIT=NONE] 
@@ -10277,47 +10277,47 @@ containing a value of this type.
  QuickSettings: Cast title [CHAR LIMIT=NONE] 
  QuickSettings: Cast detail panel, status text when casting [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_casting=0x7f0a0235;
+        public static final int quick_settings_casting=0x7f090235;
         /**  QuickSettings: Cellular detail panel, data limit format string [CHAR LIMIT=NONE] 
  QuickSettings: Cellular detail panel, data limit format string [CHAR LIMIT=NONE] 
  QuickSettings: Cellular detail panel, data limit format string [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_cellular_detail_data_limit=0x7f0a024a;
+        public static final int quick_settings_cellular_detail_data_limit=0x7f09024a;
         /**  QuickSettings: Cellular detail panel, data usage title [CHAR LIMIT=NONE] 
  QuickSettings: Cellular detail panel, data usage title [CHAR LIMIT=NONE] 
  QuickSettings: Cellular detail panel, data usage title [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_cellular_detail_data_usage=0x7f0a0246;
+        public static final int quick_settings_cellular_detail_data_usage=0x7f090246;
         /**  QuickSettings: Cellular detail panel, data used format string [CHAR LIMIT=NONE] 
  QuickSettings: Cellular detail panel, data used format string [CHAR LIMIT=NONE] 
  QuickSettings: Cellular detail panel, over limit title [CHAR LIMIT=NONE] 
  QuickSettings: Cellular detail panel, data used format string [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_cellular_detail_data_used=0x7f0a0249;
+        public static final int quick_settings_cellular_detail_data_used=0x7f090249;
         /**  QuickSettings: Cellular detail panel, data warning format string [CHAR LIMIT=NONE] 
  QuickSettings: Cellular detail panel, data warning format string [CHAR LIMIT=NONE] 
  QuickSettings: Cellular detail panel, data warning format string [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_cellular_detail_data_warning=0x7f0a024b;
+        public static final int quick_settings_cellular_detail_data_warning=0x7f09024b;
         /**  QuickSettings: Cellular detail panel, over limit title [CHAR LIMIT=NONE] 
  QuickSettings: Cellular detail panel, over limit title [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_cellular_detail_over_limit=0x7f0a0248;
+        public static final int quick_settings_cellular_detail_over_limit=0x7f090248;
         /**  QuickSettings: Cellular detail panel, remaining data title [CHAR LIMIT=NONE] 
  QuickSettings: Cellular detail panel, remaining data title [CHAR LIMIT=NONE] 
  QuickSettings: Cellular detail panel, remaining data title [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_cellular_detail_remaining_data=0x7f0a0247;
+        public static final int quick_settings_cellular_detail_remaining_data=0x7f090247;
         /**  QuickSettings: Cellular detail panel title [CHAR LIMIT=NONE] 
  QuickSettings: Cellular detail panel title [CHAR LIMIT=NONE] 
  QuickSettings: Cellular detail panel title [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_cellular_detail_title=0x7f0a0245;
+        public static final int quick_settings_cellular_detail_title=0x7f090245;
         /**  QuickSettings: Label for the toggle that controls whether display color correction is enabled. [CHAR LIMIT=NONE] 
  QuickSettings: Label for the toggle that controls whether display color correction is enabled. [CHAR LIMIT=NONE] 
  QuickSettings: Label for the toggle that controls whether display color correction is enabled. [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_color_space_label=0x7f0a023c;
+        public static final int quick_settings_color_space_label=0x7f09023c;
         /**  Content description of the light brightness slider (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the profiles tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the profiles tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -10353,14 +10353,14 @@ containing a value of this type.
  Announcement made when the profiles tile changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the profiles tile changes (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_compass_init=0x7f0a00d4;
-        public static final int quick_settings_compass_label=0x7f0a00e5;
-        public static final int quick_settings_compass_value=0x7f0a00d3;
+        public static final int quick_settings_compass_init=0x7f0900d4;
+        public static final int quick_settings_compass_label=0x7f0900e5;
+        public static final int quick_settings_compass_value=0x7f0900d3;
         /**  QuickSettings: Control panel: Label for connected device. [CHAR LIMIT=NONE] 
  QuickSettings: Control panel: Label for connected device. [CHAR LIMIT=NONE] 
  QuickSettings: Control panel: Label for connected device. [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_connected=0x7f0a023f;
+        public static final int quick_settings_connected=0x7f09023f;
         /**  QuickSettings: Control panel: Label for connecting device. [CHAR LIMIT=NONE] 
  QuickSettings: Control panel: Label for connecting device. [CHAR LIMIT=NONE] 
  QuickSettings: Label for the toggle that controls whether display inversion is enabled. [CHAR LIMIT=NONE] 
@@ -10371,28 +10371,28 @@ containing a value of this type.
  QuickSettings: Control panel: Label for connecting device. [CHAR LIMIT=NONE] 
  QuickSettings: Control panel: Label for connecting device. [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_connecting=0x7f0a0240;
+        public static final int quick_settings_connecting=0x7f090240;
         /**  Screen pinning dialog description (for devices without navbar) 
  Screen pinning dialog description (for devices without navbar) 
          */
-        public static final int quick_settings_custom_tile_detail_title=0x7f0a00e2;
+        public static final int quick_settings_custom_tile_detail_title=0x7f0900e2;
         /**  QuickSettings: Do not disturb - Alarms only [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_dnd_alarms_label=0x7f0a0219;
+        public static final int quick_settings_dnd_alarms_label=0x7f090219;
         /**  QuickSettings: Do not disturb [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_dnd_label=0x7f0a0217;
+        public static final int quick_settings_dnd_label=0x7f090217;
         /**  QuickSettings: Do not disturb - Total silence [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_dnd_none_label=0x7f0a021a;
+        public static final int quick_settings_dnd_none_label=0x7f09021a;
         /**  QuickSettings: Do not disturb - Priority only [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_dnd_priority_label=0x7f0a0218;
+        public static final int quick_settings_dnd_priority_label=0x7f090218;
         /**  QuickSettings: Control panel: Label for button that dismisses control panel. [CHAR LIMIT=NONE] 
  QuickSettings: Control panel: Label for button that dismisses control panel. [CHAR LIMIT=NONE] 
  QuickSettings: Control panel: Label for button that dismisses control panel. [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_done=0x7f0a023e;
+        public static final int quick_settings_done=0x7f09023e;
         /**  Dynamic tiles 
  Dynamic tiles 
  Dynamic tiles 
@@ -10475,20 +10475,20 @@ containing a value of this type.
  Dynamic tiles 
  Dynamic tiles 
          */
-        public static final int quick_settings_dynamic_tile_detail_title=0x7f0a0115;
-        public static final int quick_settings_edit_label=0x7f0a00d8;
+        public static final int quick_settings_dynamic_tile_detail_title=0x7f090115;
+        public static final int quick_settings_edit_label=0x7f0900d8;
         /**  QuickSettings: Flashlight [CHAR LIMIT=NONE] 
  QuickSettings: Flashlight [CHAR LIMIT=NONE] 
  QuickSettings: Flashlight [CHAR LIMIT=NONE] 
  QuickSettings: Flashlight [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_flashlight_label=0x7f0a0244;
-        public static final int quick_settings_heads_up_label=0x7f0a00e9;
+        public static final int quick_settings_flashlight_label=0x7f090244;
+        public static final int quick_settings_heads_up_label=0x7f0900e9;
         /**  QuickSettings: Hotspot. [CHAR LIMIT=NONE] 
  QuickSettings: Hotspot. [CHAR LIMIT=NONE] 
  QuickSettings: Hotspot. [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_hotspot_label=0x7f0a0242;
+        public static final int quick_settings_hotspot_label=0x7f090242;
         /**  QuickSettings: IME [CHAR LIMIT=NONE] 
  QuickSettings: IME [CHAR LIMIT=NONE] 
  QuickSettings: Rotation Unlocked [CHAR LIMIT=NONE] 
@@ -10503,12 +10503,12 @@ containing a value of this type.
  QuickSettings: IME [CHAR LIMIT=NONE] 
  QuickSettings: IME [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_ime_label=0x7f0a0224;
+        public static final int quick_settings_ime_label=0x7f090224;
         /**  QuickSettings: Label for the toggle that controls whether display inversion is enabled. [CHAR LIMIT=NONE] 
  QuickSettings: Label for the toggle that controls whether display inversion is enabled. [CHAR LIMIT=NONE] 
  QuickSettings: Label for the toggle that controls whether display inversion is enabled. [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_inversion_label=0x7f0a023b;
+        public static final int quick_settings_inversion_label=0x7f09023b;
         /**  QuickSettings: Location (On, low-power) [CHAR LIMIT=NONE] 
  QuickSettings: Location (On, low-power) [CHAR LIMIT=NONE] 
  QuickSettings: Location (On, low-power) [CHAR LIMIT=NONE] 
@@ -10570,7 +10570,7 @@ containing a value of this type.
  QuickSettings: Location (On, low-power) [CHAR LIMIT=NONE] 
  QuickSettings: Location (On, low-power) [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_location_battery_saving_label=0x7f0a012a;
+        public static final int quick_settings_location_battery_saving_label=0x7f09012a;
         /**  QuickSettings: Location detail panel title [CHAR LIMIT=NONE] 
  QuickSettings: Location detail panel title [CHAR LIMIT=NONE] 
  QuickSettings: Location detail panel title [CHAR LIMIT=NONE] 
@@ -10632,7 +10632,7 @@ containing a value of this type.
  QuickSettings: Location detail panel title [CHAR LIMIT=NONE] 
  QuickSettings: Location detail panel title [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_location_detail_title=0x7f0a0129;
+        public static final int quick_settings_location_detail_title=0x7f090129;
         /**  QuickSettings: Location (On, gps-only) [CHAR LIMIT=NONE] 
  QuickSettings: Location (On, gps-only) [CHAR LIMIT=NONE] 
  QuickSettings: Location (On, gps-only) [CHAR LIMIT=NONE] 
@@ -10694,7 +10694,7 @@ containing a value of this type.
  QuickSettings: Location (On, gps-only) [CHAR LIMIT=NONE] 
  QuickSettings: Location (On, gps-only) [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_location_gps_only_label=0x7f0a012b;
+        public static final int quick_settings_location_gps_only_label=0x7f09012b;
         /**  QuickSettings: Location (On, high-accuracy) [CHAR LIMIT=NONE] 
  QuickSettings: Location (On, high-accuracy) [CHAR LIMIT=NONE] 
  QuickSettings: Location (On, high-accuracy) [CHAR LIMIT=NONE] 
@@ -10756,47 +10756,47 @@ containing a value of this type.
  QuickSettings: Location (On, high-accuracy) [CHAR LIMIT=NONE] 
  QuickSettings: Location (On, high-accuracy) [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_location_high_accuracy_label=0x7f0a012c;
+        public static final int quick_settings_location_high_accuracy_label=0x7f09012c;
         /**  QuickSettings: Location [CHAR LIMIT=NONE] 
  QuickSettings: Location [CHAR LIMIT=NONE] 
  QuickSettings: Location [CHAR LIMIT=NONE] 
  QuickSettings: Location [CHAR LIMIT=NONE] 
  QuickSettings: Location [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_location_label=0x7f0a0225;
+        public static final int quick_settings_location_label=0x7f090225;
         /**  QuickSettings: Location (Off) [CHAR LIMIT=NONE] 
  QuickSettings: Location (Off) [CHAR LIMIT=NONE] 
  QuickSettings: Location (Off) [CHAR LIMIT=NONE] 
  QuickSettings: Location (Off) [CHAR LIMIT=NONE] 
  QuickSettings: Location (Off) [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_location_off_label=0x7f0a0226;
-        public static final int quick_settings_lockscreen_label=0x7f0a00f3;
-        public static final int quick_settings_lockscreen_label_enforced=0x7f0a00f5;
+        public static final int quick_settings_location_off_label=0x7f090226;
+        public static final int quick_settings_lockscreen_label=0x7f0900f3;
+        public static final int quick_settings_lockscreen_label_enforced=0x7f0900f5;
         /**  Content description of the sync tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the sync tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when sync changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when sync changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_lockscreen_label_locked_by_profile=0x7f0a00f6;
+        public static final int quick_settings_lockscreen_label_locked_by_profile=0x7f0900f6;
         /**  QuickSettings: Media device [CHAR LIMIT=NONE] 
  QuickSettings: Media device [CHAR LIMIT=NONE] 
  QuickSettings: Media device [CHAR LIMIT=NONE] 
  QuickSettings: Media device [CHAR LIMIT=NONE] 
  QuickSettings: Media device [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_media_device_label=0x7f0a0227;
+        public static final int quick_settings_media_device_label=0x7f090227;
         /**  QuickSettings: Control panel: Label for button that navigates to settings. [CHAR LIMIT=NONE] 
  QuickSettings: Control panel: Label for button that navigates to settings. [CHAR LIMIT=NONE] 
  QuickSettings: Control panel: Label for button that navigates to settings. [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_more_settings=0x7f0a023d;
+        public static final int quick_settings_more_settings=0x7f09023d;
         /**  Lights settings, LED notification 
  Screen pinning dialog description (for devices without navbar) 
  Lights settings, LED notification 
  Screen pinning dialog description (for devices without navbar) 
          */
-        public static final int quick_settings_network_adb_label=0x7f0a00e4;
+        public static final int quick_settings_network_adb_label=0x7f0900e4;
         /**  Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the data connection type 4G+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Weather string format in expanded statusbar header 
@@ -10818,7 +10818,7 @@ containing a value of this type.
  Lights settings, LED notification 
  Screen pinning dialog description (for devices without navbar) 
          */
-        public static final int quick_settings_nfc_label=0x7f0a00e6;
+        public static final int quick_settings_nfc_label=0x7f0900e6;
         /**  QuickSettings: Notifications [CHAR LIMIT=NONE] 
  QuickSettings: Notifications [CHAR LIMIT=NONE] 
  QuickSettings: Tethering. [CHAR LIMIT=NONE] 
@@ -10826,78 +10826,78 @@ containing a value of this type.
  QuickSettings: Notifications [CHAR LIMIT=NONE] 
  QuickSettings: Notifications [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_notifications_label=0x7f0a0243;
-        public static final int quick_settings_performance_profile_detail_title=0x7f0a0104;
-        public static final int quick_settings_profiles=0x7f0a00e7;
-        public static final int quick_settings_profiles_off=0x7f0a00e8;
-        public static final int quick_settings_remove=0x7f0a00e3;
+        public static final int quick_settings_notifications_label=0x7f090243;
+        public static final int quick_settings_performance_profile_detail_title=0x7f090104;
+        public static final int quick_settings_profiles=0x7f0900e7;
+        public static final int quick_settings_profiles_off=0x7f0900e8;
+        public static final int quick_settings_remove=0x7f0900e3;
         /**  Hide quick settings tile confirmation button 
  Hide quick settings tile confirmation button 
          */
-        public static final int quick_settings_reset_confirmation_button=0x7f0a02b5;
+        public static final int quick_settings_reset_confirmation_button=0x7f0902b5;
         /**  Hide quick settings tile confirmation message 
  Hide quick settings tile confirmation message 
          */
-        public static final int quick_settings_reset_confirmation_message=0x7f0a02b4;
+        public static final int quick_settings_reset_confirmation_message=0x7f0902b4;
         /**  Hide quick settings tile confirmation title 
  Hide quick settings tile confirmation title 
          */
-        public static final int quick_settings_reset_confirmation_title=0x7f0a02b3;
+        public static final int quick_settings_reset_confirmation_title=0x7f0902b3;
         /**  QuickSettings: Rotation Locked [CHAR LIMIT=NONE] 
  QuickSettings: Rotation Locked [CHAR LIMIT=NONE] 
  QuickSettings: Rotation Locked [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_rotation_locked_label=0x7f0a0221;
+        public static final int quick_settings_rotation_locked_label=0x7f090221;
         /**  QuickSettings: Locked to Landscape [CHAR LIMIT=NONE] 
  QuickSettings: Locked to Landscape [CHAR LIMIT=NONE] 
  QuickSettings: Locked to Landscape [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_rotation_locked_landscape_label=0x7f0a0223;
+        public static final int quick_settings_rotation_locked_landscape_label=0x7f090223;
         /**  QuickSettings: Locked to Portrait [CHAR LIMIT=NONE] 
  QuickSettings: Locked to Portrait [CHAR LIMIT=NONE] 
  QuickSettings: Locked to Portrait [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_rotation_locked_portrait_label=0x7f0a0222;
+        public static final int quick_settings_rotation_locked_portrait_label=0x7f090222;
         /**  QuickSettings: Rotation Unlocked [CHAR LIMIT=NONE] 
  QuickSettings: Rotation Unlocked [CHAR LIMIT=NONE] 
  QuickSettings: Rotation Unlocked [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_rotation_unlocked_label=0x7f0a0220;
+        public static final int quick_settings_rotation_unlocked_label=0x7f090220;
         /**  QuickSettings: RSSI (No network) [CHAR LIMIT=NONE] 
  QuickSettings: RSSI (No network) [CHAR LIMIT=NONE] 
  QuickSettings: RSSI (No network) [CHAR LIMIT=NONE] 
  QuickSettings: RSSI (No network) [CHAR LIMIT=NONE] 
  QuickSettings: RSSI (No network) [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_rssi_emergency_only=0x7f0a0229;
+        public static final int quick_settings_rssi_emergency_only=0x7f090229;
         /**  QuickSettings: RSSI [CHAR LIMIT=NONE] 
  QuickSettings: RSSI [CHAR LIMIT=NONE] 
  QuickSettings: RSSI [CHAR LIMIT=NONE] 
  QuickSettings: RSSI [CHAR LIMIT=NONE] 
  QuickSettings: RSSI [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_rssi_label=0x7f0a0228;
+        public static final int quick_settings_rssi_label=0x7f090228;
         /**  quick settings battery saver label to show when device is charging and tile is disabled 
  Content description of the sync tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the sync tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when sync changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when sync changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_screen_timeout_detail_title=0x7f0a00f2;
+        public static final int quick_settings_screen_timeout_detail_title=0x7f0900f2;
         /**  QuickSettings: Settings [CHAR LIMIT=NONE] 
  QuickSettings: Settings [CHAR LIMIT=NONE] 
  QuickSettings: Settings [CHAR LIMIT=NONE] 
  QuickSettings: Settings [CHAR LIMIT=NONE] 
  QuickSettings: Settings [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_settings_label=0x7f0a022a;
-        public static final int quick_settings_sync_label=0x7f0a00ef;
+        public static final int quick_settings_settings_label=0x7f09022a;
+        public static final int quick_settings_sync_label=0x7f0900ef;
         /**  QuickSettings: Tethering. [CHAR LIMIT=NONE] 
  QuickSettings: Tethering. [CHAR LIMIT=NONE] 
  QuickSettings: Tethering. [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_tethering_label=0x7f0a0241;
-        public static final int quick_settings_tile_flashlight_not_summary=0x7f0a0134;
+        public static final int quick_settings_tethering_label=0x7f090241;
+        public static final int quick_settings_tile_flashlight_not_summary=0x7f090134;
         /**  Notification which notifies user flashlight is enabled 
  Notification which notifies user flashlight is enabled 
  Notification which notifies user flashlight is enabled 
@@ -10944,11 +10944,11 @@ containing a value of this type.
  Notification which notifies user flashlight is enabled 
  Notification which notifies user flashlight is enabled 
          */
-        public static final int quick_settings_tile_flashlight_not_title=0x7f0a0133;
-        public static final int quick_settings_tile_reset_to_default=0x7f0a00db;
+        public static final int quick_settings_tile_flashlight_not_title=0x7f090133;
+        public static final int quick_settings_tile_reset_to_default=0x7f0900db;
         /**  The tiles to display in QuickSettings 
          */
-        public static final int quick_settings_tiles=0x7f0a013d;
+        public static final int quick_settings_tiles=0x7f09013d;
         /**  detail header when adding a tile 
  detail header when adding a tile 
  detail header when adding a tile 
@@ -10999,7 +10999,7 @@ containing a value of this type.
  detail header when adding a tile 
  detail header when adding a tile 
          */
-        public static final int quick_settings_tiles_add_tiles=0x7f0a0131;
+        public static final int quick_settings_tiles_add_tiles=0x7f090131;
         /**  Announcement made when the location tile changes to battery saving (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to sensors only (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to high accuracy (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -11014,14 +11014,14 @@ containing a value of this type.
  Announcement made when the location tile changes to sensors only (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when the location tile changes to high accuracy (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_tiles_category_system=0x7f0a0130;
+        public static final int quick_settings_tiles_category_system=0x7f090130;
         /**  QuickSettings: Time [CHAR LIMIT=NONE] 
  QuickSettings: Time [CHAR LIMIT=NONE] 
  QuickSettings: Time [CHAR LIMIT=NONE] 
  QuickSettings: Time [CHAR LIMIT=NONE] 
  QuickSettings: Time [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_time_label=0x7f0a022b;
+        public static final int quick_settings_time_label=0x7f09022b;
         /**  LiveDisplay strings 
  LiveDisplay strings 
  Content description of the battery saver tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -11031,46 +11031,46 @@ containing a value of this type.
  Dynamic tiles 
  LiveDisplay strings 
          */
-        public static final int quick_settings_title_advanced_location=0x7f0a0125;
-        public static final int quick_settings_title_enlarge_first_row=0x7f0a00e0;
-        public static final int quick_settings_title_header=0x7f0a00dc;
-        public static final int quick_settings_title_show_brightness_slider=0x7f0a00df;
-        public static final int quick_settings_title_show_weather=0x7f0a00de;
-        public static final int quick_settings_title_tiles=0x7f0a00dd;
+        public static final int quick_settings_title_advanced_location=0x7f090125;
+        public static final int quick_settings_title_enlarge_first_row=0x7f0900e0;
+        public static final int quick_settings_title_header=0x7f0900dc;
+        public static final int quick_settings_title_show_brightness_slider=0x7f0900df;
+        public static final int quick_settings_title_show_weather=0x7f0900de;
+        public static final int quick_settings_title_tiles=0x7f0900dd;
         /**  quick settings battery saver label to show when device is charging and tile is disabled 
  Content description of the sync tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the sync tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when sync changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when sync changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_usb_tether_label=0x7f0a00f1;
+        public static final int quick_settings_usb_tether_label=0x7f0900f1;
         /**  QuickSettings: User [CHAR LIMIT=NONE] 
  QuickSettings: User [CHAR LIMIT=NONE] 
  QuickSettings: User [CHAR LIMIT=NONE] 
  QuickSettings: User [CHAR LIMIT=NONE] 
  QuickSettings: User [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_user_label=0x7f0a022c;
+        public static final int quick_settings_user_label=0x7f09022c;
         /**  QuickSettings: Label on the item for adding a new user [CHAR LIMIT=NONE] 
  QuickSettings: Label on the item for adding a new user [CHAR LIMIT=NONE] 
  QuickSettings: Label on the item for adding a new user [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_user_new_user=0x7f0a022e;
+        public static final int quick_settings_user_new_user=0x7f09022e;
         /**  QuickSettings: Title of the user detail panel [CHAR LIMIT=NONE] 
  QuickSettings: Title of the user detail panel [CHAR LIMIT=NONE] 
  QuickSettings: Title of the user detail panel [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_user_title=0x7f0a022d;
+        public static final int quick_settings_user_title=0x7f09022d;
         /**  quick settings battery saver label to show when device is charging and tile is disabled 
  Content description of the sync tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] 
  Content description of the sync tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when sync changes to off (not shown on the screen). [CHAR LIMIT=NONE] 
  Announcement made when sync changes to on (not shown on the screen). [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_volume_panel_label=0x7f0a00f0;
+        public static final int quick_settings_volume_panel_label=0x7f0900f0;
         /**  QuickSettings: Wifi detail panel, text when there are no items [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_wifi_detail_empty_text=0x7f0a0233;
+        public static final int quick_settings_wifi_detail_empty_text=0x7f090233;
         /**  QuickSettings: Wifi [CHAR LIMIT=NONE] 
  QuickSettings: Wifi [CHAR LIMIT=NONE] 
  QuickSettings: Title of the user detail panel [CHAR LIMIT=NONE] 
@@ -11078,14 +11078,14 @@ containing a value of this type.
  QuickSettings: Wifi [CHAR LIMIT=NONE] 
  QuickSettings: Wifi [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_wifi_label=0x7f0a022f;
+        public static final int quick_settings_wifi_label=0x7f09022f;
         /**  QuickSettings: Wifi (No network) [CHAR LIMIT=NONE] 
  QuickSettings: Wifi (No network) [CHAR LIMIT=NONE] 
  QuickSettings: Wifi (No network) [CHAR LIMIT=NONE] 
  QuickSettings: Wifi (No network) [CHAR LIMIT=NONE] 
  QuickSettings: Wifi (No network) [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_wifi_no_network=0x7f0a0231;
+        public static final int quick_settings_wifi_no_network=0x7f090231;
         /**  QuickSettings: Wifi (Not connected) [CHAR LIMIT=NONE] 
  QuickSettings: Wifi (Not connected) [CHAR LIMIT=NONE] 
  QuickSettings: Title of the user detail panel [CHAR LIMIT=NONE] 
@@ -11095,75 +11095,75 @@ containing a value of this type.
  QuickSettings: Wifi (Not connected) [CHAR LIMIT=NONE] 
  QuickSettings: Wifi (Not connected) [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_wifi_not_connected=0x7f0a0230;
+        public static final int quick_settings_wifi_not_connected=0x7f090230;
         /**  QuickSettings: Wifi (Off) [CHAR LIMIT=NONE] 
  QuickSettings: Wifi (Off) [CHAR LIMIT=NONE] 
  QuickSettings: Wifi (Off) [CHAR LIMIT=NONE] 
  QuickSettings: Wifi (Off) [CHAR LIMIT=NONE] 
  QuickSettings: Wifi (Off) [CHAR LIMIT=NONE] 
          */
-        public static final int quick_settings_wifi_off_label=0x7f0a0232;
+        public static final int quick_settings_wifi_off_label=0x7f090232;
         /**  Recents: The info panel app info button string. [CHAR LIMIT=NONE] 
  Recents: The info panel app info button string. [CHAR LIMIT=NONE] 
  Recents: The info panel app info button string. [CHAR LIMIT=NONE] 
          */
-        public static final int recents_app_info_button_label=0x7f0a024d;
+        public static final int recents_app_info_button_label=0x7f09024d;
         /**  Caption for "Recents resize" developer debug feature. [CHAR LIMIT=NONE] 
          */
-        public static final int recents_caption_resize=0x7f0a0189;
+        public static final int recents_caption_resize=0x7f090189;
         /**  Recents: Dismiss all button. [CHAR LIMIT=NONE] 
          */
-        public static final int recents_dismiss_all_message=0x7f0a0251;
+        public static final int recents_dismiss_all_message=0x7f090251;
         /**  Recents: The empty recents string. [CHAR LIMIT=NONE] 
  Recents: The empty recents string. [CHAR LIMIT=NONE] 
  Recents: The empty recents string. [CHAR LIMIT=NONE] 
          */
-        public static final int recents_empty_message=0x7f0a024c;
+        public static final int recents_empty_message=0x7f09024c;
         /**  Recents: Launch error string. [CHAR LIMIT=NONE] 
  Recents: Launch error string. [CHAR LIMIT=NONE] 
  Recents: Launch error string. [CHAR LIMIT=NONE] 
          */
-        public static final int recents_launch_error_message=0x7f0a0250;
+        public static final int recents_launch_error_message=0x7f090250;
         /**  Recents: The screen pinning button. [CHAR LIMIT=NONE] 
  Recents: The screen pinning button. [CHAR LIMIT=NONE] 
          */
-        public static final int recents_lock_to_app_button_label=0x7f0a024e;
+        public static final int recents_lock_to_app_button_label=0x7f09024e;
         /**  Recents: MultiStack add stack split custom radio button. [CHAR LIMIT=NONE] 
          */
-        public static final int recents_multistack_add_stack_dialog_split_custom=0x7f0a0254;
+        public static final int recents_multistack_add_stack_dialog_split_custom=0x7f090254;
         /**  Recents: MultiStack add stack split horizontal radio button. [CHAR LIMIT=NONE] 
          */
-        public static final int recents_multistack_add_stack_dialog_split_horizontal=0x7f0a0252;
+        public static final int recents_multistack_add_stack_dialog_split_horizontal=0x7f090252;
         /**  Recents: MultiStack add stack split vertical radio button. [CHAR LIMIT=NONE] 
          */
-        public static final int recents_multistack_add_stack_dialog_split_vertical=0x7f0a0253;
+        public static final int recents_multistack_add_stack_dialog_split_vertical=0x7f090253;
         /**  Recents: Temporary string for the button in the recents search bar. [CHAR LIMIT=NONE] 
  Recents: Temporary string for the button in the recents search bar. [CHAR LIMIT=NONE] 
  Recents: The screen pinning button. [CHAR LIMIT=NONE] 
  Recents: Temporary string for the button in the recents search bar. [CHAR LIMIT=NONE] 
          */
-        public static final int recents_search_bar_label=0x7f0a024f;
+        public static final int recents_search_bar_label=0x7f09024f;
         /**  For preview release. DO NOT TRANSLATE 
          */
-        public static final int regrettable_lack_of_easter_egg=0x7f0a02d0;
+        public static final int regrettable_lack_of_easter_egg=0x7f0902d0;
         /**  Option to remove the tuner from settings [CHAR LIMIT=NONE] 
          */
-        public static final int remove_from_settings=0x7f0a02dd;
+        public static final int remove_from_settings=0x7f0902dd;
         /**  Dialog asking if the tuner should really be removed from settings [CHAR LIMIT=NONE]
          */
-        public static final int remove_from_settings_prompt=0x7f0a02de;
-        public static final int right_shortcut_hint=0x7f0a00ba;
+        public static final int remove_from_settings_prompt=0x7f0902de;
+        public static final int right_shortcut_hint=0x7f0900ba;
         /**  Summary for saved networks 
          */
-        public static final int saved_network=0x7f0a001b;
+        public static final int saved_network=0x7f09007a;
         /**  Screen pinning dialog description. 
  Screen pinning dialog description. 
          */
-        public static final int screen_pinning_description=0x7f0a02af;
+        public static final int screen_pinning_description=0x7f0902af;
         /**  Screen pinning dialog description when in accessibility mode. 
  Screen pinning dialog description when in accessibility mode. 
          */
-        public static final int screen_pinning_description_accessible=0x7f0a02b0;
+        public static final int screen_pinning_description_accessible=0x7f0902b0;
         /**  Screen pinning dialog description (for devices without navbar) 
  Screen pinning dialog description (for devices without navbar) 
  Screen pinning dialog description (for devices without navbar) 
@@ -11230,89 +11230,89 @@ containing a value of this type.
  Lights settings, LED notification 
  Screen pinning dialog description (for devices without navbar) 
          */
-        public static final int screen_pinning_description_no_navbar=0x7f0a00e1;
+        public static final int screen_pinning_description_no_navbar=0x7f0900e1;
         /**  Screen pinning negative response. 
  Screen pinning negative response. 
          */
-        public static final int screen_pinning_negative=0x7f0a02b2;
+        public static final int screen_pinning_negative=0x7f0902b2;
         /**  Screen pinning positive response. 
  Screen pinning positive response. 
          */
-        public static final int screen_pinning_positive=0x7f0a02b1;
+        public static final int screen_pinning_positive=0x7f0902b1;
         /**  Screen pinning dialog title. 
  Button label for ending zen mode in the volume dialog 
  Content description for accessibility (not shown on the screen): volume dialog expand button. [CHAR LIMIT=NONE] 
  Content description for accessibility (not shown on the screen): volume dialog collapse button. [CHAR LIMIT=NONE] 
  Screen pinning dialog title. 
          */
-        public static final int screen_pinning_title=0x7f0a02ae;
+        public static final int screen_pinning_title=0x7f0902ae;
         /**  Notification text displayed when we fail to take a screenshot. [CHAR LIMIT=100] 
  Notification text displayed when we fail to take a screenshot. [CHAR LIMIT=100] 
  Notification text displayed when we fail to take a screenshot. [CHAR LIMIT=100] 
          */
-        public static final int screenshot_failed_text=0x7f0a0175;
+        public static final int screenshot_failed_text=0x7f090175;
         /**  Notification title displayed when we fail to take a screenshot. [CHAR LIMIT=50] 
  Notification title displayed when we fail to take a screenshot. [CHAR LIMIT=50] 
  Notification title displayed when we fail to take a screenshot. [CHAR LIMIT=50] 
  Notification title displayed when we fail to take a screenshot. [CHAR LIMIT=50] 
  Notification title displayed when we fail to take a screenshot. [CHAR LIMIT=50] 
          */
-        public static final int screenshot_failed_title=0x7f0a0174;
+        public static final int screenshot_failed_title=0x7f090174;
         /**  Notification text displayed when a screenshot is saved to the Gallery. [CHAR LIMIT=100] 
  Notification text displayed when a screenshot is saved to the Gallery. [CHAR LIMIT=100] 
  Notification text displayed when a screenshot is saved to the Gallery. [CHAR LIMIT=100] 
  Notification text displayed when a screenshot is saved to the Gallery. [CHAR LIMIT=100] 
  Notification text displayed when a screenshot is saved to the Gallery. [CHAR LIMIT=100] 
          */
-        public static final int screenshot_saved_text=0x7f0a0173;
+        public static final int screenshot_saved_text=0x7f090173;
         /**  Notification title displayed when a screenshot is saved to the Gallery. [CHAR LIMIT=50] 
  Notification title displayed when a screenshot is saved to the Gallery. [CHAR LIMIT=50] 
  Notification title displayed when a screenshot is saved to the Gallery. [CHAR LIMIT=50] 
  Notification title displayed when a screenshot is saved to the Gallery. [CHAR LIMIT=50] 
  Notification title displayed when a screenshot is saved to the Gallery. [CHAR LIMIT=50] 
          */
-        public static final int screenshot_saved_title=0x7f0a0172;
+        public static final int screenshot_saved_title=0x7f090172;
         /**  Notification text displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=100] 
  Notification text displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=100] 
  Notification text displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=100] 
  Notification text displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=100] 
  Notification text displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=100] 
          */
-        public static final int screenshot_saving_text=0x7f0a0171;
+        public static final int screenshot_saving_text=0x7f090171;
         /**  Notification ticker displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=30] 
  Notification ticker displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=30] 
  Notification ticker displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=30] 
  Notification ticker displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=30] 
  Notification ticker displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=30] 
          */
-        public static final int screenshot_saving_ticker=0x7f0a016f;
+        public static final int screenshot_saving_ticker=0x7f09016f;
         /**  Notification title displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=50] 
  Notification title displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=50] 
  Notification title displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=50] 
  Notification title displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=50] 
  Notification title displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=50] 
          */
-        public static final int screenshot_saving_title=0x7f0a0170;
-        public static final int select_application=0x7f0a00bd;
-        public static final int select_custom_activity_title=0x7f0a0003;
-        public static final int select_custom_app_title=0x7f0a0002;
+        public static final int screenshot_saving_title=0x7f090170;
+        public static final int select_application=0x7f0900bd;
+        public static final int select_custom_activity_title=0x7f090062;
+        public static final int select_custom_app_title=0x7f090061;
         /**  Package name for Settings app
          */
-        public static final int settings_package=0x7f0a001f;
+        public static final int settings_package=0x7f09007e;
         /**  Preference to show/hide embedded battery percentage [CHAR LIMIT=50] 
          */
-        public static final int show_battery_percentage=0x7f0a02c3;
+        public static final int show_battery_percentage=0x7f0902c3;
         /**  Summary for battery percentage preference [CHAR LIMIT=NONE] 
          */
-        public static final int show_battery_percentage_summary=0x7f0a02c4;
+        public static final int show_battery_percentage_summary=0x7f0902c4;
         /**  Show demo mode icons 
          */
-        public static final int show_demo_mode=0x7f0a02c9;
+        public static final int show_demo_mode=0x7f0902c9;
         /**  An explanation for the visual speed bump in the notifications, which will appear when you click on it. [CHAR LIMIT=50] 
  An explanation for the visual speed bump in the notifications, which will appear when you click on it. [CHAR LIMIT=50] 
  An explanation for the visual speed bump in the notifications, which will appear when you click on it. [CHAR LIMIT=50] 
          */
-        public static final int speed_bump_explanation=0x7f0a0263;
+        public static final int speed_bump_explanation=0x7f090263;
         /**  Shows up when there is a user SSL CA Cert installed on the
          device.  Indicates to the user that SSL traffic can be intercepted.
          If the text fits on one line (~14 chars), it should start with a
@@ -11334,17 +11334,17 @@ containing a value of this type.
          If the text fits on one line (~14 chars), it should start with a
          linebreak to position it correctly.  [CHAR LIMIT=45] 
          */
-        public static final int ssl_ca_cert_warning=0x7f0a025a;
+        public static final int ssl_ca_cert_warning=0x7f09025a;
         /**  Name of the launcher shortcut icon that allows dreams to be started immediately [CHAR LIMIT=20] 
  Name of the launcher shortcut icon that allows dreams to be started immediately [CHAR LIMIT=20] 
  Name of the launcher shortcut icon that allows dreams to be started immediately [CHAR LIMIT=20] 
  Name of the launcher shortcut icon that allows dreams to be started immediately [CHAR LIMIT=20] 
  Name of the launcher shortcut icon that allows dreams to be started immediately [CHAR LIMIT=20] 
          */
-        public static final int start_dreams=0x7f0a0215;
+        public static final int start_dreams=0x7f090215;
         /**  Name of status bar 
          */
-        public static final int status_bar=0x7f0a02c6;
+        public static final int status_bar=0x7f0902c6;
         /**  Content description for the button to dismiss Recent Apps (only present on large
          devices) 
  Content description for the button to dismiss Recent Apps (only present on large
@@ -11360,7 +11360,7 @@ containing a value of this type.
  Content description for the button to dismiss Recent Apps (only present on large
          devices) 
          */
-        public static final int status_bar_accessibility_dismiss_recents=0x7f0a0147;
+        public static final int status_bar_accessibility_dismiss_recents=0x7f090147;
         /**  Name of the airplane status bar icon. 
  Name of the alarm status bar icon. 
  Name of the work status bar icon. 
@@ -11698,10 +11698,10 @@ containing a value of this type.
  Name of the work status bar icon. 
  Name of the airplane status bar icon. 
          */
-        public static final int status_bar_airplane=0x7f0a02cd;
+        public static final int status_bar_airplane=0x7f0902cd;
         /**  Name of the alarm status bar icon. 
          */
-        public static final int status_bar_alarm=0x7f0a02cb;
+        public static final int status_bar_alarm=0x7f0902cb;
         /**  The text for the button in the notification window-shade that clears
          all of the currently visible notifications. [CHAR LIMIT=10]
  The text for the button in the notification window-shade that clears
@@ -11713,7 +11713,7 @@ containing a value of this type.
  The text for the button in the notification window-shade that clears
          all of the currently visible notifications. [CHAR LIMIT=10]
          */
-        public static final int status_bar_clear_all_button=0x7f0a0143;
+        public static final int status_bar_clear_all_button=0x7f090143;
         /**  For formatting day of week and date in DateView.  %1$s is DOW, %2$s is date.
          We show both (DOW on one line, then the date) but this can be overridden for locales as
          necessary.
@@ -11735,7 +11735,7 @@ containing a value of this type.
  For formatting day of week and date in DateView.  Day of week precedes date by default,
          but this may be overridden on a per-locale basis if necessary. 
          */
-        public static final int status_bar_date_formatter=0x7f0a0140;
+        public static final int status_bar_date_formatter=0x7f090140;
         /**  Name of the ethernet status bar icon. 
  VolumeUI activation dialog: warning message 
  VolumeUI activation dialog: allow button label 
@@ -11993,7 +11993,7 @@ containing a value of this type.
  Show demo mode icons 
  Name of the ethernet status bar icon. 
          */
-        public static final int status_bar_ethernet=0x7f0a02ca;
+        public static final int status_bar_ethernet=0x7f0902ca;
         /**  Weather string format in expanded statusbar header 
  Weather string format in expanded statusbar header 
  Weather string format in expanded statusbar header 
@@ -12077,14 +12077,14 @@ containing a value of this type.
  Content description of the data connection type 4G+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] 
  Weather string format in expanded statusbar header 
          */
-        public static final int status_bar_expanded_header_weather_format=0x7f0a00b7;
+        public static final int status_bar_expanded_header_weather_format=0x7f0900b7;
         /**  Title of a button to open the settings for input methods [CHAR LIMIT=30] 
  Title of a button to open the settings for input methods [CHAR LIMIT=30] 
  Title of a button to open the settings for input methods [CHAR LIMIT=30] 
  Title of a button to open the settings for input methods [CHAR LIMIT=30] 
  Title of a button to open the settings for input methods [CHAR LIMIT=30] 
          */
-        public static final int status_bar_input_method_settings_configure_input_methods=0x7f0a015d;
+        public static final int status_bar_input_method_settings_configure_input_methods=0x7f09015d;
         /**  The label for the group of notifications for recent events in the opened version of
          the status bar.  Recently received text messsages (SMS), emails, calendar alerts, etc.
          [CHAR LIMIT=40] 
@@ -12101,10 +12101,10 @@ containing a value of this type.
          the status bar.  Recently received text messsages (SMS), emails, calendar alerts, etc.
          [CHAR LIMIT=40] 
          */
-        public static final int status_bar_latest_events_title=0x7f0a014a;
+        public static final int status_bar_latest_events_title=0x7f09014a;
         /**  Separator for PLMN and SPN in network name. 
          */
-        public static final int status_bar_network_name_separator=0x7f0a015b;
+        public static final int status_bar_network_name_separator=0x7f09015b;
         /**  The label in the bar at the top of the status bar when there are no notifications
          showing.  [CHAR LIMIT=40]
  The label in the bar at the top of the status bar when there are no notifications
@@ -12120,7 +12120,7 @@ containing a value of this type.
  The label in the bar at the top of the status bar when there are no notifications
          showing.  [CHAR LIMIT=40]
          */
-        public static final int status_bar_no_notifications_title=0x7f0a0148;
+        public static final int status_bar_no_notifications_title=0x7f090148;
         /**  Message shown in the middle of the screen after clicking on the recent apps button
          when there are no recent apps to show. Also used for accessibility. [CHAR LIMIT=45]
  Message shown in the middle of the screen after clicking on the recent apps button
@@ -12128,7 +12128,7 @@ containing a value of this type.
  Message shown in the middle of the screen after clicking on the recent apps button
          when there are no recent apps to show. Also used for accessibility. [CHAR LIMIT=45]
          */
-        public static final int status_bar_no_recent_apps=0x7f0a0146;
+        public static final int status_bar_no_recent_apps=0x7f090146;
         /**  Content description of button in notification inspetor for application-provided settings
          for its own notifications [CHAR LIMIT=NONE] 
  Content description of button in notification inspetor for application-provided settings
@@ -12136,13 +12136,13 @@ containing a value of this type.
  Content description of button in notification inspetor for application-provided settings
          for its own notifications [CHAR LIMIT=NONE] 
          */
-        public static final int status_bar_notification_app_settings_title=0x7f0a020d;
+        public static final int status_bar_notification_app_settings_title=0x7f09020d;
         /**  Text to use when the number in a notification info is too large
          (greater than status_bar_notification_info_maxnum, defined in
          values/config.xml) and must be truncated.
          [CHAR LIMIT=4] 
          */
-        public static final int status_bar_notification_info_overflow=0x7f0a00b8;
+        public static final int status_bar_notification_info_overflow=0x7f0900b8;
         /**  Content description of button in notification inspector for system settings relating to
          notifications from this application [CHAR LIMIT=NONE] 
  Content description of button in notification inspector for system settings relating to
@@ -12150,7 +12150,7 @@ containing a value of this type.
  Content description of button in notification inspector for system settings relating to
          notifications from this application [CHAR LIMIT=NONE] 
          */
-        public static final int status_bar_notification_inspect_item_title=0x7f0a020c;
+        public static final int status_bar_notification_inspect_item_title=0x7f09020c;
         /**  The label for the group of notifications for ongoing events in the opened version of
          the status bar.  An ongoing call is the prime example of this.  The MP3 music player
          might be another example.   [CHAR LIMIT=40] 
@@ -12167,49 +12167,49 @@ containing a value of this type.
          the status bar.  An ongoing call is the prime example of this.  The MP3 music player
          might be another example.   [CHAR LIMIT=40] 
          */
-        public static final int status_bar_ongoing_events_title=0x7f0a0149;
+        public static final int status_bar_ongoing_events_title=0x7f090149;
         /**  Title shown in recents popup for inspecting an application's properties 
  Title shown in recents popup for inspecting an application's properties 
  Title shown in recents popup for inspecting an application's properties 
  Title shown in recents popup for inspecting an application's properties 
  Title shown in recents popup for inspecting an application's properties 
          */
-        public static final int status_bar_recent_inspect_item_title=0x7f0a0145;
+        public static final int status_bar_recent_inspect_item_title=0x7f090145;
         /**  Title shown in recents popup for removing an application from the list 
  Title shown in recents popup for removing an application from the list 
  Title shown in recents popup for removing an application from the list 
  Title shown in recents popup for removing an application from the list 
  Title shown in recents popup for removing an application from the list 
          */
-        public static final int status_bar_recent_remove_item_title=0x7f0a0144;
+        public static final int status_bar_recent_remove_item_title=0x7f090144;
         /**  Abbreviation / label for automatic brightness mode button. Should be all caps. [CHAR LIMIT=6] 
  Abbreviation / label for automatic brightness mode button. Should be all caps. [CHAR LIMIT=6] 
  Abbreviation / label for automatic brightness mode button. Should be all caps. [CHAR LIMIT=6] 
  Abbreviation / label for automatic brightness mode button. Should be all caps. [CHAR LIMIT=6] 
  Abbreviation / label for automatic brightness mode button. Should be all caps. [CHAR LIMIT=6] 
          */
-        public static final int status_bar_settings_auto_brightness_label=0x7f0a0159;
+        public static final int status_bar_settings_auto_brightness_label=0x7f090159;
         /**  Label in system panel saying the device will use the orientation sensor to rotate [CHAR LIMIT=30] 
  Label in system panel saying the device will use the orientation sensor to rotate [CHAR LIMIT=30] 
  Label in system panel saying the device will use the orientation sensor to rotate [CHAR LIMIT=30] 
  Label in system panel saying the device will use the orientation sensor to rotate [CHAR LIMIT=30] 
  Label in system panel saying the device will use the orientation sensor to rotate [CHAR LIMIT=30] 
          */
-        public static final int status_bar_settings_auto_rotation=0x7f0a0157;
+        public static final int status_bar_settings_auto_rotation=0x7f090157;
         /**  Abbreviation / label for mute brightness mode button. Should be all caps. [CHAR LIMIT=6] 
  Abbreviation / label for mute brightness mode button. Should be all caps. [CHAR LIMIT=6] 
  Abbreviation / label for mute brightness mode button. Should be all caps. [CHAR LIMIT=6] 
  Abbreviation / label for mute brightness mode button. Should be all caps. [CHAR LIMIT=6] 
  Abbreviation / label for mute brightness mode button. Should be all caps. [CHAR LIMIT=6] 
          */
-        public static final int status_bar_settings_mute_label=0x7f0a0158;
+        public static final int status_bar_settings_mute_label=0x7f090158;
         /**  Label in system panel saying the device will show notifications [CHAR LIMIT=30] 
  Label in system panel saying the device will show notifications [CHAR LIMIT=30] 
  Label in system panel saying the device will show notifications [CHAR LIMIT=30] 
  Label in system panel saying the device will show notifications [CHAR LIMIT=30] 
  Label in system panel saying the device will show notifications [CHAR LIMIT=30] 
          */
-        public static final int status_bar_settings_notifications=0x7f0a015a;
+        public static final int status_bar_settings_notifications=0x7f09015a;
         /**  Name of the button that links to the Settings app. [CHAR LIMIT=NONE] 
  Name of the button that links to the Settings app. [CHAR LIMIT=NONE] 
  First line of invalid_charger, used in the notification form.  [CHAR LIMIT=NONE]
@@ -12223,7 +12223,7 @@ containing a value of this type.
  Name of the button that links to the Settings app. [CHAR LIMIT=NONE] 
  Name of the button that links to the Settings app. [CHAR LIMIT=NONE] 
          */
-        public static final int status_bar_settings_settings_button=0x7f0a0155;
+        public static final int status_bar_settings_settings_button=0x7f090155;
         /**  Text to display underneath the graphical signal strength meter when
          no connection is available. [CHAR LIMIT=20] 
  Title of dialog shown when 2G-3G data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] 
@@ -12280,7 +12280,7 @@ containing a value of this type.
  Text to display underneath the graphical signal strength meter when
          no connection is available. [CHAR LIMIT=20] 
          */
-        public static final int status_bar_settings_signal_meter_disconnected=0x7f0a0206;
+        public static final int status_bar_settings_signal_meter_disconnected=0x7f090206;
         /**  Text to display underneath the graphical signal strength meter when
          it is displaying Wi-Fi status and Wi-Fi is connected to a network
          whose SSID is not available.
@@ -12302,54 +12302,54 @@ containing a value of this type.
          whose SSID is not available.
          [CHAR LIMIT=20] 
          */
-        public static final int status_bar_settings_signal_meter_wifi_nossid=0x7f0a0207;
+        public static final int status_bar_settings_signal_meter_wifi_nossid=0x7f090207;
         /**  Name of the button that links to the Wifi settings screen. [CHAR LIMIT=NONE] 
  Name of the button that links to the Wifi settings screen. [CHAR LIMIT=NONE] 
  Name of the button that links to the Wifi settings screen. [CHAR LIMIT=NONE] 
  Name of the button that links to the Wifi settings screen. [CHAR LIMIT=NONE] 
  Name of the button that links to the Wifi settings screen. [CHAR LIMIT=NONE] 
          */
-        public static final int status_bar_settings_wifi_button=0x7f0a0156;
+        public static final int status_bar_settings_wifi_button=0x7f090156;
         /**  Label of a toggle switch to disable use of the physical keyboard in favor of the IME. [CHAR LIMIT=25] 
  Label of a toggle switch to disable use of the physical keyboard in favor of the IME. [CHAR LIMIT=25] 
  Label of a toggle switch to disable use of the physical keyboard in favor of the IME. [CHAR LIMIT=25] 
  Label of a toggle switch to disable use of the physical keyboard in favor of the IME. [CHAR LIMIT=25] 
  Label of a toggle switch to disable use of the physical keyboard in favor of the IME. [CHAR LIMIT=25] 
          */
-        public static final int status_bar_use_physical_keyboard=0x7f0a015e;
+        public static final int status_bar_use_physical_keyboard=0x7f09015e;
         /**  Name of the work status bar icon. 
          */
-        public static final int status_bar_work=0x7f0a02cc;
+        public static final int status_bar_work=0x7f0902cc;
         /**  Alias used to reference framework "OK" string in keyguard.  
  Date format for display: should match the lockscreen in /policy.  
          */
-        public static final int system_ui_date_pattern=0x7f0a0057;
+        public static final int system_ui_date_pattern=0x7f090001;
         /**  Name of special SystemUI debug settings 
          */
-        public static final int system_ui_tuner=0x7f0a02c2;
+        public static final int system_ui_tuner=0x7f0902c2;
         /**  Title for USB accessory dialog.  Used when the name of the accessory cannot be determined.  [CHAR LIMIT=50] 
  Title for USB accessory dialog.  Used when the name of the accessory cannot be determined.  [CHAR LIMIT=50] 
  Title for USB accessory dialog.  Used when the name of the accessory cannot be determined.  [CHAR LIMIT=50] 
  Title for USB accessory dialog.  Used when the name of the accessory cannot be determined.  [CHAR LIMIT=50] 
  Title for USB accessory dialog.  Used when the name of the accessory cannot be determined.  [CHAR LIMIT=50] 
          */
-        public static final int title_usb_accessory=0x7f0a0164;
+        public static final int title_usb_accessory=0x7f090164;
         /**  Rotation lock toast text: shown when rotation lock is turned on in landscape orientation.
          
          */
-        public static final int toast_rotation_locked=0x7f0a02e2;
+        public static final int toast_rotation_locked=0x7f0902e2;
         /**  Warning for users entering the System UI tuner [CHAR LIMIT=NONE]
          */
-        public static final int tuner_persistent_warning=0x7f0a02da;
+        public static final int tuner_persistent_warning=0x7f0902da;
         /**  Toast describing tuner has been enabled [CHAR LIMIT=NONE] 
          */
-        public static final int tuner_toast=0x7f0a02dc;
+        public static final int tuner_toast=0x7f0902dc;
         /**  Warning for users entering the System UI tuner for the first time [CHAR LIMIT=NONE]
          */
-        public static final int tuner_warning=0x7f0a02d9;
+        public static final int tuner_warning=0x7f0902d9;
         /**  Title of warning when entering System UI tuner for first time [CHAR LIMIT=NONE] 
          */
-        public static final int tuner_warning_title=0x7f0a02d8;
+        public static final int tuner_warning_title=0x7f0902d8;
         /**  Click action label for accessibility for the unlock button. [CHAR LIMIT=NONE] 
  Content description of the unlock button when fingerpint is on (not shown on the screen). [CHAR LIMIT=NONE] 
  Accessibility action of the unlock button when fingerpint is on (not shown on the screen). [CHAR LIMIT=NONE] 
@@ -12361,69 +12361,69 @@ containing a value of this type.
  Accessibility action of the unlock button when fingerpint is on (not shown on the screen). [CHAR LIMIT=NONE] 
  Click action label for accessibility for the unlock button. [CHAR LIMIT=NONE] 
          */
-        public static final int unlock_label=0x7f0a0185;
+        public static final int unlock_label=0x7f090185;
         /**  Prompt for the USB accessory confirm dialog [CHAR LIMIT=80] 
  Prompt for the USB accessory confirm dialog [CHAR LIMIT=80] 
  Prompt for the USB accessory confirm dialog [CHAR LIMIT=80] 
  Prompt for the USB accessory confirm dialog [CHAR LIMIT=80] 
  Prompt for the USB accessory confirm dialog [CHAR LIMIT=80] 
          */
-        public static final int usb_accessory_confirm_prompt=0x7f0a0162;
+        public static final int usb_accessory_confirm_prompt=0x7f090162;
         /**  Prompt for the USB accessory permission dialog [CHAR LIMIT=80] 
  Prompt for the USB accessory permission dialog [CHAR LIMIT=80] 
  Prompt for the USB accessory permission dialog [CHAR LIMIT=80] 
  Prompt for the USB accessory permission dialog [CHAR LIMIT=80] 
  Prompt for the USB accessory permission dialog [CHAR LIMIT=80] 
          */
-        public static final int usb_accessory_permission_prompt=0x7f0a0160;
+        public static final int usb_accessory_permission_prompt=0x7f090160;
         /**  Prompt for the USB accessory URI dialog [CHAR LIMIT=80] 
  Prompt for the USB accessory URI dialog [CHAR LIMIT=80] 
  Prompt for the USB accessory URI dialog [CHAR LIMIT=80] 
  Prompt for the USB accessory URI dialog [CHAR LIMIT=80] 
  Prompt for the USB accessory URI dialog [CHAR LIMIT=80] 
          */
-        public static final int usb_accessory_uri_prompt=0x7f0a0163;
+        public static final int usb_accessory_uri_prompt=0x7f090163;
         /**  Option to always allow USB debugging from the attached computer 
  Option to always allow USB debugging from the attached computer 
  Option to always allow USB debugging from the attached computer 
  Option to always allow USB debugging from the attached computer 
  Option to always allow USB debugging from the attached computer 
          */
-        public static final int usb_debugging_always=0x7f0a016a;
+        public static final int usb_debugging_always=0x7f09016a;
         /**  Message of confirmation dialog for USB debugging 
  Message of confirmation dialog for USB debugging 
  Message of confirmation dialog for USB debugging 
  Message of confirmation dialog for USB debugging 
  Message of confirmation dialog for USB debugging 
          */
-        public static final int usb_debugging_message=0x7f0a0169;
+        public static final int usb_debugging_message=0x7f090169;
         /**  Message of notification shown when trying to enable USB debugging but a secondary user is the current foreground user. 
          */
-        public static final int usb_debugging_secondary_user_message=0x7f0a016c;
+        public static final int usb_debugging_secondary_user_message=0x7f09016c;
         /**  Title of notification shown when trying to enable USB debugging but a secondary user is the current foreground user. 
          */
-        public static final int usb_debugging_secondary_user_title=0x7f0a016b;
+        public static final int usb_debugging_secondary_user_title=0x7f09016b;
         /**  Title of confirmation dialog for USB debugging 
  Title of confirmation dialog for USB debugging 
  Title of confirmation dialog for USB debugging 
  Title of confirmation dialog for USB debugging 
  Title of confirmation dialog for USB debugging 
          */
-        public static final int usb_debugging_title=0x7f0a0168;
+        public static final int usb_debugging_title=0x7f090168;
         /**  Prompt for the USB device confirm dialog [CHAR LIMIT=80] 
  Prompt for the USB device confirm dialog [CHAR LIMIT=80] 
  Prompt for the USB device confirm dialog [CHAR LIMIT=80] 
  Prompt for the USB device confirm dialog [CHAR LIMIT=80] 
  Prompt for the USB device confirm dialog [CHAR LIMIT=80] 
          */
-        public static final int usb_device_confirm_prompt=0x7f0a0161;
+        public static final int usb_device_confirm_prompt=0x7f090161;
         /**  Prompt for the USB device permission dialog [CHAR LIMIT=80] 
  Prompt for the USB device permission dialog [CHAR LIMIT=80] 
  Prompt for the USB device permission dialog [CHAR LIMIT=80] 
  Prompt for the USB device permission dialog [CHAR LIMIT=80] 
  Prompt for the USB device permission dialog [CHAR LIMIT=80] 
          */
-        public static final int usb_device_permission_prompt=0x7f0a015f;
+        public static final int usb_device_permission_prompt=0x7f09015f;
         /**  Title for the USB function chooser in UsbPreferenceActivity. [CHAR LIMIT=30] 
  Title for the USB function chooser in UsbPreferenceActivity. [CHAR LIMIT=30] 
  Notification text displayed when we fail to take a screenshot. [CHAR LIMIT=100] 
@@ -12432,7 +12432,7 @@ containing a value of this type.
  Title for the USB function chooser in UsbPreferenceActivity. [CHAR LIMIT=30] 
  Title for the USB function chooser in UsbPreferenceActivity. [CHAR LIMIT=30] 
          */
-        public static final int usb_preference_title=0x7f0a0176;
+        public static final int usb_preference_title=0x7f090176;
         /**  Label for the MTP USB function in UsbPreferenceActivity. [CHAR LIMIT=50] 
  Label for the MTP USB function in UsbPreferenceActivity. [CHAR LIMIT=50] 
  Name of the status bar as seen in the applications info settings page. [CHAR LIMIT=12] 
@@ -12510,24 +12510,24 @@ containing a value of this type.
  Label for the MTP USB function in UsbPreferenceActivity. [CHAR LIMIT=50] 
  Label for the MTP USB function in UsbPreferenceActivity. [CHAR LIMIT=50] 
          */
-        public static final int use_mtp_button_title=0x7f0a0177;
+        public static final int use_mtp_button_title=0x7f090177;
         /**  Label for the PTP USB function in UsbPreferenceActivity. [CHAR LIMIT=50] 
  Label for the PTP USB function in UsbPreferenceActivity. [CHAR LIMIT=50] 
  Label for the PTP USB function in UsbPreferenceActivity. [CHAR LIMIT=50] 
  Label for the PTP USB function in UsbPreferenceActivity. [CHAR LIMIT=50] 
  Label for the PTP USB function in UsbPreferenceActivity. [CHAR LIMIT=50] 
          */
-        public static final int use_ptp_button_title=0x7f0a0178;
+        public static final int use_ptp_button_title=0x7f090178;
         /**  Label for the adding a new user in the user switcher [CHAR LIMIT=35] 
  Label for the adding a new user in the user switcher [CHAR LIMIT=35] 
  Label for the adding a new user in the user switcher [CHAR LIMIT=35] 
          */
-        public static final int user_add_user=0x7f0a0277;
+        public static final int user_add_user=0x7f090277;
         /**  Message for add user confirmation dialog - short version. [CHAR LIMIT=none] 
  Message for add user confirmation dialog - short version. [CHAR LIMIT=none] 
  Message for add user confirmation dialog - short version. [CHAR LIMIT=none] 
          */
-        public static final int user_add_user_message_short=0x7f0a0287;
+        public static final int user_add_user_message_short=0x7f090287;
         /**  Title for add user confirmation dialog [CHAR LIMIT=30] 
  Title of the notification shown to a new guest user [CHAR LIMIT=60] 
  Text of the notification shown to a new guest user [CHAR LIMIT=60] 
@@ -12538,127 +12538,127 @@ containing a value of this type.
  Remove action in the notification shown to a new guest user [CHAR LIMIT=30] 
  Title for add user confirmation dialog [CHAR LIMIT=30] 
          */
-        public static final int user_add_user_title=0x7f0a0286;
+        public static final int user_add_user_title=0x7f090286;
         /**  Name for a freshly added user [CHAR LIMIT=30] 
  Name for a freshly added user [CHAR LIMIT=30] 
  Name for a freshly added user [CHAR LIMIT=30] 
          */
-        public static final int user_new_user_name=0x7f0a0278;
+        public static final int user_new_user_name=0x7f090278;
         /**  Defines the implementation of the velocity tracker to be used for the panel expansion. Can
          be 'platform' or 'noisy' (i.e. for noisy touch screens). 
          */
-        public static final int velocity_tracker_impl=0x7f0a013e;
+        public static final int velocity_tracker_impl=0x7f09013e;
         /**  Click action label for accessibility for the voice assist button. This is not shown on-screen and is an accessibility label for the icon which launches the voice assist from the lock screen.[CHAR LIMIT=NONE] 
          */
-        public static final int voice_assist_label=0x7f0a0187;
+        public static final int voice_assist_label=0x7f090187;
         /**  Shows when people have clicked on the voice assist icon [CHAR LIMIT=60] 
          */
-        public static final int voice_hint=0x7f0a0267;
-        public static final int volume_stream_limited_dnd=0x7f0a02c0;
-        public static final int volume_stream_muted=0x7f0a02bc;
-        public static final int volume_stream_muted_dnd=0x7f0a02bf;
-        public static final int volume_stream_suppressed=0x7f0a02be;
-        public static final int volume_stream_vibrate=0x7f0a02bd;
-        public static final int volume_stream_vibrate_dnd=0x7f0a02c1;
+        public static final int voice_hint=0x7f090267;
+        public static final int volume_stream_limited_dnd=0x7f0902c0;
+        public static final int volume_stream_muted=0x7f0902bc;
+        public static final int volume_stream_muted_dnd=0x7f0902bf;
+        public static final int volume_stream_suppressed=0x7f0902be;
+        public static final int volume_stream_vibrate=0x7f0902bd;
+        public static final int volume_stream_vibrate_dnd=0x7f0902c1;
         /**  Button label for ending zen mode in the volume dialog 
          */
-        public static final int volume_zen_end_now=0x7f0a02ab;
+        public static final int volume_zen_end_now=0x7f0902ab;
         /**  VolumeUI restoration notification: text 
          */
-        public static final int volumeui_notification_text=0x7f0a02ba;
+        public static final int volumeui_notification_text=0x7f0902ba;
         /**  VolumeUI restoration notification: title 
          */
-        public static final int volumeui_notification_title=0x7f0a02b9;
+        public static final int volumeui_notification_title=0x7f0902b9;
         /**  VolumeUI activation dialog: allow button label 
          */
-        public static final int volumeui_prompt_allow=0x7f0a02b7;
+        public static final int volumeui_prompt_allow=0x7f0902b7;
         /**  VolumeUI activation dialog: deny button label 
          */
-        public static final int volumeui_prompt_deny=0x7f0a02b8;
+        public static final int volumeui_prompt_deny=0x7f0902b8;
         /**  VolumeUI activation dialog: warning message 
          */
-        public static final int volumeui_prompt_message=0x7f0a02b6;
+        public static final int volumeui_prompt_message=0x7f0902b6;
         /**  Footer vpn present text [CHAR LIMIT=50] 
  Footer vpn present text [CHAR LIMIT=50] 
  Footer vpn present text [CHAR LIMIT=50] 
          */
-        public static final int vpn_footer=0x7f0a0293;
+        public static final int vpn_footer=0x7f090293;
         /**  Summary for Connected wifi network without internet 
          */
-        public static final int wifi_connected_no_internet=0x7f0a0021;
+        public static final int wifi_connected_no_internet=0x7f090080;
         /**  Status for networks disabled for unknown reason 
          */
-        public static final int wifi_disabled_generic=0x7f0a0015;
+        public static final int wifi_disabled_generic=0x7f090074;
         /**  Status for networked disabled from a DNS or DHCP failure 
          */
-        public static final int wifi_disabled_network_failure=0x7f0a0016;
+        public static final int wifi_disabled_network_failure=0x7f090075;
         /**  Status for networks disabled from authentication failure (wrong password
          or certificate). 
          */
-        public static final int wifi_disabled_password_failure=0x7f0a0018;
+        public static final int wifi_disabled_password_failure=0x7f090077;
         /**  Status for networked disabled from a wifi association failure 
          */
-        public static final int wifi_disabled_wifi_failure=0x7f0a0017;
+        public static final int wifi_disabled_wifi_failure=0x7f090076;
         /**  Toast message when Wi-Fi cannot scan for networks 
          */
-        public static final int wifi_fail_to_scan=0x7f0a0005;
+        public static final int wifi_fail_to_scan=0x7f090064;
         /**  Summary for the remembered network but no internet connection was detected. 
          */
-        public static final int wifi_no_internet=0x7f0a001a;
+        public static final int wifi_no_internet=0x7f090079;
         /**  Summary for the remembered network but currently not in range. 
          */
-        public static final int wifi_not_in_range=0x7f0a0019;
+        public static final int wifi_not_in_range=0x7f090078;
         /**  Summary for the remembered network. 
          */
-        public static final int wifi_remembered=0x7f0a0014;
+        public static final int wifi_remembered=0x7f090073;
         /**  Do not translate.  Concise terminology for wifi with 802.1x EAP security 
          */
-        public static final int wifi_security_eap=0x7f0a0012;
+        public static final int wifi_security_eap=0x7f090071;
         /**  Used in Wi-Fi settings dialogs when Wi-Fi does not have any security. 
          */
-        public static final int wifi_security_none=0x7f0a000c;
+        public static final int wifi_security_none=0x7f09006b;
         /**  Do not translate.  Concise terminology for Passpoint network 
          */
-        public static final int wifi_security_passpoint=0x7f0a0013;
+        public static final int wifi_security_passpoint=0x7f090072;
         /**  Do not translate.  Terminology for wifi with unknown PSK type 
          */
-        public static final int wifi_security_psk_generic=0x7f0a0011;
+        public static final int wifi_security_psk_generic=0x7f090070;
         /**  Do not translate.  Concise terminology for wifi with 802.1x EAP security 
          */
-        public static final int wifi_security_short_eap=0x7f0a000b;
+        public static final int wifi_security_short_eap=0x7f09006a;
         /**  Do not translate.  Concise terminology for wifi with unknown PSK type 
          */
-        public static final int wifi_security_short_psk_generic=0x7f0a000a;
+        public static final int wifi_security_short_psk_generic=0x7f090069;
         /**  Do not translate.  Concise terminology for wifi with WEP security 
          */
-        public static final int wifi_security_short_wep=0x7f0a0006;
+        public static final int wifi_security_short_wep=0x7f090065;
         /**  Do not translate.  Concise terminology for wifi with WPA security 
          */
-        public static final int wifi_security_short_wpa=0x7f0a0007;
+        public static final int wifi_security_short_wpa=0x7f090066;
         /**  Do not translate.  Concise terminology for wifi with WPA2 security 
          */
-        public static final int wifi_security_short_wpa2=0x7f0a0008;
+        public static final int wifi_security_short_wpa2=0x7f090067;
         /**  Do not translate.  Concise terminology for wifi with both WPA/WPA2 security 
          */
-        public static final int wifi_security_short_wpa_wpa2=0x7f0a0009;
+        public static final int wifi_security_short_wpa_wpa2=0x7f090068;
         /**  Do not translate.  Terminology for wifi with WEP security 
          */
-        public static final int wifi_security_wep=0x7f0a000d;
+        public static final int wifi_security_wep=0x7f09006c;
         /**  Do not translate.  Terminology for wifi with WPA security 
          */
-        public static final int wifi_security_wpa=0x7f0a000e;
+        public static final int wifi_security_wpa=0x7f09006d;
         /**  Do not translate.  Terminology for wifi with WPA2 security 
          */
-        public static final int wifi_security_wpa2=0x7f0a000f;
+        public static final int wifi_security_wpa2=0x7f09006e;
         /**  Do not translate.  Terminology for wifi with both WPA/WPA2 security, or unknown 
          */
-        public static final int wifi_security_wpa_wpa2=0x7f0a0010;
+        public static final int wifi_security_wpa_wpa2=0x7f09006f;
         /**  Warning text when an alarm might be silenced by Do Not Disturb due to a time-based condition [CHAR LIMIT=NONE] 
          */
-        public static final int zen_alarm_warning=0x7f0a02d2;
+        public static final int zen_alarm_warning=0x7f0902d2;
         /**  Warning text when an alarm might be silenced by Do Not Disturb [CHAR LIMIT=NONE] 
          */
-        public static final int zen_alarm_warning_indef=0x7f0a02d1;
+        public static final int zen_alarm_warning_indef=0x7f0902d1;
         /**  Accessibility string for current zen mode and selected exit condition. A template that simply concatenates existing mode string and the current condition description. [CHAR LIMIT=20] 
  Text for the button to expand the notifications to show notification children [CHAR LIMIT=20] 
  Text for the button to expand the notifications to hide notification children [CHAR LIMIT=20] 
@@ -12667,19 +12667,19 @@ containing a value of this type.
  Text for the button to expand the notifications to hide notification children [CHAR LIMIT=20] 
  Accessibility string for current zen mode and selected exit condition. A template that simply concatenates existing mode string and the current condition description. [CHAR LIMIT=20] 
          */
-        public static final int zen_mode_and_condition=0x7f0a02aa;
+        public static final int zen_mode_and_condition=0x7f0902aa;
         /**  Zen mode: Priority only customization button label 
          */
-        public static final int zen_priority_customize_button=0x7f0a025f;
+        public static final int zen_priority_customize_button=0x7f09025f;
         /**  Zen mode: Priority only introduction message on first use 
          */
-        public static final int zen_priority_introduction=0x7f0a025e;
+        public static final int zen_priority_introduction=0x7f09025e;
         /**  Zen mode: Total silence introduction message on first use (non-voice capable devices) 
          */
-        public static final int zen_silence_introduction=0x7f0a0261;
+        public static final int zen_silence_introduction=0x7f090261;
         /**  Zen mode: Total silence introduction message on first use (voice capable devices) 
          */
-        public static final int zen_silence_introduction_voice=0x7f0a0260;
+        public static final int zen_silence_introduction_voice=0x7f090260;
     }
     public static final class style {
         public static final int Animation=0x7f0f002e;
