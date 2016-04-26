@@ -3047,7 +3047,7 @@ containing a value of this type.
         /**  Alias used to reference one of two possible layouts in keyguard.  
  Alias used to reference one of two possible layouts in keyguard.  
          */
-        public static final int keyguard_eca=0x7f04005d;
+        public static final int keyguard_eca=0x7f04005e;
         public static final int keyguard_emergency_carrier_area=0x7f040006;
         public static final int keyguard_host_view=0x7f040007;
         public static final int keyguard_message_area=0x7f040008;
@@ -3129,12 +3129,13 @@ containing a value of this type.
         public static final int super_status_bar=0x7f040054;
         public static final int system_icons=0x7f040055;
         public static final int tuner_qs=0x7f040056;
-        public static final int unlock_fab=0x7f040057;
-        public static final int volume_dialog=0x7f040058;
-        public static final int volume_dialog_row=0x7f040059;
-        public static final int volume_zen_footer=0x7f04005a;
-        public static final int zen_mode_condition=0x7f04005b;
-        public static final int zen_mode_panel=0x7f04005c;
+        public static final int unknown_layout=0x7f040057;
+        public static final int unlock_fab=0x7f040058;
+        public static final int volume_dialog=0x7f040059;
+        public static final int volume_dialog_row=0x7f04005a;
+        public static final int volume_zen_footer=0x7f04005b;
+        public static final int zen_mode_condition=0x7f04005c;
+        public static final int zen_mode_panel=0x7f04005d;
     }
     public static final class menu {
         public static final int recent_popup_menu=0x7f120000;
@@ -12341,7 +12342,7 @@ containing a value of this type.
         /**  Rotation lock toast text: shown when rotation lock is turned on in landscape orientation.
          
          */
-        public static final int toast_rotation_locked=0x7f0902e4;
+        public static final int toast_rotation_locked=0x7f0902e5;
         /**  Warning for users entering the System UI tuner [CHAR LIMIT=NONE]
          */
         public static final int tuner_persistent_warning=0x7f0902da;
@@ -12354,6 +12355,7 @@ containing a value of this type.
         /**  Title of warning when entering System UI tuner for first time [CHAR LIMIT=NONE] 
          */
         public static final int tuner_warning_title=0x7f0902d8;
+        public static final int unknown_strings=0x7f0902e4;
         /**  Click action label for accessibility for the unlock button. [CHAR LIMIT=NONE] 
  Content description of the unlock button when fingerpint is on (not shown on the screen). [CHAR LIMIT=NONE] 
  Accessibility action of the unlock button when fingerpint is on (not shown on the screen). [CHAR LIMIT=NONE] 
