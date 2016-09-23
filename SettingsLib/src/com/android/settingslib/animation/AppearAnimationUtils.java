@@ -71,7 +71,7 @@ public class AppearAnimationUtils implements AppearAnimationCreator<View> {
 
     public <T> void startAnimation2d(T[][] objects, final Runnable finishListener,
             AppearAnimationCreator<T> creator) {
-        AppearAnimationProperties properties = getDelays2d(objects);
+        AppearAnimationProperties properties = getDelays(objects);
         startAnimations(properties, objects, finishListener, creator);
     }
 
@@ -147,7 +147,7 @@ public class AppearAnimationUtils implements AppearAnimationCreator<View> {
         return mProperties;
     }
 
-    private <T> AppearAnimationProperties getDelays2d(T[][] items) {
+    private <T> AppearAnimationProperties getDelays(T[][] items) {
         long maxDelay = -1;
         mProperties.maxDelayColIndex = -1;
         mProperties.maxDelayRowIndex = -1;

@@ -5,4 +5,8 @@
 <classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 <classpathentry kind="output" path="bin"/>
 <classpathentry kind="lib" path="/sdcard/AppProjects/.MOD/SystemUI/Libs/org.cyanogenmod.platform.jar"/>
+<classpathentry kind="lib" path="/storage/emulated/0/AppProjects/SystemUI/Libs/org.cyanogenmod.platform.jar"/>
+<classpathentry kind="lib" path="/storage/emulated/0/AppProjects/SystemUI/Libs/support.annotations.jar"/>
+<classpathentry kind="lib" path="/storage/emulated/0/AppProjects/SystemUI/Libs/support.v4.jar"/>
+<classpathentry kind="lib" path="/storage/emulated/0/AppProjects/SystemUI/Libs/support.v7:palette.jar"/>
 </classpath>

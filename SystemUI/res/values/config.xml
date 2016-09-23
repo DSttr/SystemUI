@@ -297,5 +297,11 @@
     <!-- Duration of the expansion animation in the volume dialog -->
     <item name="volume_expand_animation_duration" type="integer">300</item>
 
+    <!-- Allow Flashlight service to use wakelock -->
+    <bool name="flashlight_use_wakelock">false</bool>
+
+    <!-- Allow device to be configured to show screen on hints on the lock screen -->
+    <bool name="config_showScreenOnLockScreenHints">false</bool>
+
 </resources>
 

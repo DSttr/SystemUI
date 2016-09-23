@@ -40,7 +40,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TimeZone;
 import java.util.TreeSet;
-import java.io.*;
 
 public class ZoneGetter {
     private static final String TAG = "ZoneGetter";
@@ -51,7 +50,8 @@ public class ZoneGetter {
     public static final String KEY_DISPLAYNAME = "name";  // value: String
     public static final String KEY_GMT = "gmt";  // value: String
     public static final String KEY_OFFSET = "offset";  // value: int (Integer)
-
+    private static final String XML_ATTR_ID = "id";
+    private static final String XML_ATTR_LOCALIZE_IN_PICKER = "localizeInPicker";
     private ZoneGetter() {}
 
     public static String getTimeZoneOffsetAndName(TimeZone tz, Date now) {
@@ -86,7 +86,7 @@ public class ZoneGetter {
         // selecting the wrong olson ids.
 
         // Get the list of olson ids to display to the user.
-        List<String> olsonIdsToDisplay = readTimezonesToDisplay(context);
+        List<ZoneInfo> olsonIdsToDisplay = readTimezonesToDisplay(context);
 
         // Create a lookup of local zone IDs.
         Set<String> localZoneIds = new TreeSet<String>();
@@ -98,9 +98,9 @@ public class ZoneGetter {
         // be ambiguous.
         Set<String> localZoneNames = new TreeSet<String>();
         boolean localLongNamesAreAmbiguous = false;
-        for (String olsonId : olsonIdsToDisplay) {
-            if (localZoneIds.contains(olsonId)) {
-                TimeZone tz = TimeZone.getTimeZone(olsonId);
+        for (ZoneInfo zoneInfo : olsonIdsToDisplay) {
+            if (localZoneIds.contains(zoneInfo.mOlsonId) && zoneInfo.mLocalizeInPicker) {
+                TimeZone tz = TimeZone.getTimeZone(zoneInfo.mOlsonId);
                 String zoneLongName = getZoneLongName(locale, tz, now);
                 boolean longNameIsUnique = localZoneNames.add(zoneLongName);
                 if (!longNameIsUnique) {
@@ -112,12 +112,13 @@ public class ZoneGetter {
 
         // Generate the list of zone entries to return.
         List<Map<String, Object>> zones = new ArrayList<Map<String, Object>>();
-        for (String olsonId : olsonIdsToDisplay) {
-            final TimeZone tz = TimeZone.getTimeZone(olsonId);
+        for (ZoneInfo zoneInfo: olsonIdsToDisplay) {
+            final TimeZone tz = TimeZone.getTimeZone(zoneInfo.mOlsonId);
             // Exemplar location display is the default. The only time we intend to display the long
             // name is when the olsonId is local AND long names are not ambiguous.
-            boolean isLocalZoneId = localZoneIds.contains(olsonId);
-            boolean preferLongName = isLocalZoneId && !localLongNamesAreAmbiguous;
+            boolean isLocalZoneId = localZoneIds.contains(zoneInfo.mOlsonId);
+            boolean preferLongName = isLocalZoneId && !localLongNamesAreAmbiguous
+                    && zoneInfo.mLocalizeInPicker;
             String displayName = getZoneDisplayName(locale, tz, now, preferLongName);
 
             String gmtOffsetString = getGmtOffsetString(locale, tz, now);
@@ -163,98 +164,36 @@ public class ZoneGetter {
         return TimeZoneNames.getExemplarLocation(locale.toString(), tz.getID());
     }
 
-    private static List<String> readTimezonesToDisplay(Context context) {
-        List<String> olsonIds = new ArrayList<String>();
+    private static List<ZoneInfo> readTimezonesToDisplay(Context context) {
+        List<ZoneInfo> olsonIds = new ArrayList<>();
         try (XmlResourceParser xrp = context.getResources().getXml(R.xml.timezones)) {
-            try
-			{
-				while (xrp.next() != XmlResourceParser.START_TAG)
-				{
-					continue;
-				}
-			}
-			catch (IOException e)
-			{}
-			catch (XmlPullParserException e)
-			{}
-            try
-			{
-				xrp.next();
-			}
-			catch (IOException e)
-			{}
-			catch (XmlPullParserException e)
-			{}
-            try
-			{
-				while (xrp.getEventType() != XmlResourceParser.END_TAG)
-				{
-					try
-					{
-						while (xrp.getEventType() != XmlResourceParser.START_TAG)
-						{
-							try
-							{
-								if (xrp.getEventType() == XmlResourceParser.END_DOCUMENT)
-								{
-									return olsonIds;
-								}
-							}
-							catch (XmlPullParserException e)
-							{}
-							try
-							{
-								xrp.next();
-							}
-							catch (IOException e)
-							{}
-							catch (XmlPullParserException e)
-							{}
-						}
-					}
-					catch (XmlPullParserException e)
-					{}
-					if (xrp.getName().equals(XMLTAG_TIMEZONE))
-					{
-						String olsonId = xrp.getAttributeValue(0);
-						olsonIds.add(olsonId);
-					}
-					try
-					{
-						while (xrp.getEventType() != XmlResourceParser.END_TAG)
-						{
-							try
-							{
-								xrp.next();
-							}
-							catch (IOException e)
-							{}
-							catch (XmlPullParserException e)
-							{}
-						}
-					}
-					catch (XmlPullParserException e)
-					{}
-					try
-					{
-						xrp.next();
-					}
-					catch (IOException e)
-					{}
-					catch (XmlPullParserException e)
-					{}
-				}
-			}
-			catch (XmlPullParserException e)
-			{}
+            while (xrp.next() != XmlResourceParser.START_TAG) {
+                continue;
+            }
+            xrp.next();
+            while (xrp.getEventType() != XmlResourceParser.END_TAG) {
+                while (xrp.getEventType() != XmlResourceParser.START_TAG) {
+                    if (xrp.getEventType() == XmlResourceParser.END_DOCUMENT) {
+                        return olsonIds;
+                    }
+                    xrp.next();
+                }
+                if (xrp.getName().equals(XMLTAG_TIMEZONE)) {
+                    String olsonId = xrp.getAttributeValue(null, XML_ATTR_ID);
+                    boolean localize = xrp.getAttributeBooleanValue(null,
+                            XML_ATTR_LOCALIZE_IN_PICKER, true);
+                    olsonIds.add(new ZoneInfo(olsonId, localize));
+                }
+                while (xrp.getEventType() != XmlResourceParser.END_TAG) {
+                    xrp.next();
+                }
+                xrp.next();
+            }
+        } catch (XmlPullParserException xppe) {
+            Log.e(TAG, "Ill-formatted timezones.xml file");
+        } catch (java.io.IOException ioe) {
+            Log.e(TAG, "Unable to read timezones.xml file");
         }
-		
-		/*catch (XmlPullParserException xppe) {
-         *Log.e(TAG, "Ill-formatted timezones.xml file");
-         *} catch (java.io.IOException ioe) {
-         *Log.e(TAG, "Unable to read timezones.xml file");
-         *}*/
-		 
         return olsonIds;
     }
 
@@ -276,5 +215,20 @@ public class ZoneGetter {
         gmtString = bidiFormatter.unicodeWrap(gmtString,
                 isRtl ? TextDirectionHeuristics.RTL : TextDirectionHeuristics.LTR);
         return gmtString;
+    }
+
+    private static class ZoneInfo {
+        String mOlsonId;
+        boolean mLocalizeInPicker;
+
+        public ZoneInfo(String olsonId) {
+            mOlsonId = olsonId;
+            mLocalizeInPicker = false;
+        }
+
+        public ZoneInfo(String olsonId, boolean localizeInPicker) {
+            mOlsonId = olsonId;
+            mLocalizeInPicker = localizeInPicker;
+        }
     }
 }

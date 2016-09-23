@@ -135,8 +135,10 @@ public class KeyguardPatternView extends LinearLayout implements KeyguardSecurit
         mLockPatternView.setLockPatternUtils(mLockPatternUtils);
         mLockPatternView.setLockPatternSize(mLockPatternUtils.getLockPatternSize(KeyguardUpdateMonitor.getCurrentUser()));
 
-        mLockPatternView.setVisibleDots(mLockPatternUtils.isVisibleDotsEnabled());
-        mLockPatternView.setShowErrorPath(mLockPatternUtils.isShowErrorPath());
+        mLockPatternView.setVisibleDots(mLockPatternUtils.isVisibleDotsEnabled(
+                KeyguardUpdateMonitor.getCurrentUser()));
+        mLockPatternView.setShowErrorPath(mLockPatternUtils.isShowErrorPath(
+                KeyguardUpdateMonitor.getCurrentUser()));
 
         // stealth mode will be the same for the life of this screen
         mLockPatternView.setInStealthMode(!mLockPatternUtils.isVisiblePatternEnabled(
@@ -260,6 +262,7 @@ public class KeyguardPatternView extends LinearLayout implements KeyguardSecurit
 
         private void onPatternChecked(boolean matched, int timeoutMs, boolean isValidPattern) {
             if (matched) {
+                mLockPatternUtils.sanitizePassword();
                 mCallback.reportUnlockAttempt(true, 0);
                 mLockPatternView.setDisplayMode(LockPatternView.DisplayMode.Correct);
                 mCallback.dismiss(true);

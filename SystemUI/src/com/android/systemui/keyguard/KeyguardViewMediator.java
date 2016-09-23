@@ -53,6 +53,7 @@ import android.util.EventLog;
 import android.util.Log;
 import android.util.Slog;
 import android.view.IWindowManager;
+import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManagerGlobal;
 import android.view.WindowManagerPolicy;
@@ -61,6 +62,7 @@ import android.view.animation.AnimationUtils;
 
 import com.android.systemui.cm.UserContentObserver;
 import com.android.systemui.qs.tiles.LockscreenToggleTile;
+import com.android.systemui.statusbar.StatusBarState;
 import cyanogenmod.app.Profile;
 import cyanogenmod.app.ProfileManager;
 
@@ -151,6 +153,8 @@ public class KeyguardViewMediator extends SystemUI {
             "com.android.internal.action.KEYGUARD_SERVICE_STATE_CHANGED";
     private static final String KEYGUARD_SERVICE_EXTRA_ACTIVE = "active";
 
+    private static final String DECRYPT_STATE = "trigger_restart_framework";
+
     // used for handler messages
     private static final int SHOW = 2;
     private static final int HIDE = 3;
@@ -171,6 +175,7 @@ public class KeyguardViewMediator extends SystemUI {
     private static final int NOTIFY_SCREEN_TURNED_ON = 22;
     private static final int NOTIFY_SCREEN_TURNED_OFF = 23;
     private static final int NOTIFY_STARTED_GOING_TO_SLEEP = 24;
+    private static final int NOTIFY_KEYGUARD_PANEL_FOCUS_CHANGED = 25;
 
     /**
      * The default amount of time we stay awake (used for all key input)
@@ -251,6 +256,8 @@ public class KeyguardViewMediator extends SystemUI {
 
     // true if the keyguard is hidden by another window
     private boolean mOccluded = false;
+
+    private boolean mKeyguardPanelFocused = false;
 
     /**
      * Helps remember whether the screen has turned on since the last time
@@ -343,10 +350,14 @@ public class KeyguardViewMediator extends SystemUI {
      */
     private boolean mPendingLock;
 
+    private boolean mCryptKeeperEnabled = true;
+
     private boolean mWakeAndUnlocking;
     private IKeyguardDrawnCallback mDrawnCallback;
 
     private LockscreenEnabledSettingsObserver mSettingsObserver;
+    private PhoneStatusBar mStatusBar;
+
     public static class LockscreenEnabledSettingsObserver extends UserContentObserver {
 
         private static final String KEY_ENABLED = "lockscreen_enabled";
@@ -476,21 +487,20 @@ public class KeyguardViewMediator extends SystemUI {
                     // only force lock screen in case of missing sim if user hasn't
                     // gone through setup wizard
                     synchronized (this) {
-                        if (shouldWaitForProvisioning()) {
-                            if (!mShowing) {
-                                if (DEBUG_SIM_STATES) Log.d(TAG, "ICC_ABSENT isn't showing,"
-                                        + " we need to show the keyguard since the "
-                                        + "device isn't provisioned yet.");
-                                doKeyguardLocked(null);
-                            } else {
-                                resetStateLocked();
-                            }
+                        if (shouldWaitForProvisioning() && !mShowing) {
+                            if (DEBUG_SIM_STATES) Log.d(TAG, "ICC_ABSENT isn't showing,"
+                                    + " we need to show the keyguard since the "
+                                    + "device isn't provisioned yet.");
+                            doKeyguardLocked(null);
+                        } else {
+                            resetStateLocked();
                         }
                     }
                     break;
                 case PIN_REQUIRED:
                 case PUK_REQUIRED:
                     synchronized (this) {
+                        mStatusBar.hideHeadsUp();
                         if (!mShowing) {
                             if (DEBUG_SIM_STATES) Log.d(TAG,
                                     "INTENT_VALUE_ICC_LOCKED and keygaurd isn't "
@@ -632,6 +642,7 @@ public class KeyguardViewMediator extends SystemUI {
                 android.Manifest.permission.CONTROL_KEYGUARD, null);
         mContext.registerReceiver(mBroadcastReceiver, new IntentFilter(KEYGUARD_SERVICE_ACTION_STATE_CHANGE),
                 android.Manifest.permission.CONTROL_KEYGUARD, null);
+        mContext.registerReceiver(mBroadcastReceiver, new IntentFilter(TelephonyManager.ACTION_PHONE_STATE_CHANGED));
 
         mKeyguardDisplayManager = new KeyguardDisplayManager(mContext);
 
@@ -920,6 +931,17 @@ public class KeyguardViewMediator extends SystemUI {
         return false;
     }
 
+    private boolean isCryptKeeperEnabled() {
+        if (!mCryptKeeperEnabled) {
+            // once it's disabled, it's disabled.
+            return false;
+        }
+        final String state = SystemProperties.get("vold.decrypt");
+        mCryptKeeperEnabled = !"".equals(state) && !DECRYPT_STATE.equals(state);
+        if (DEBUG) Log.w(TAG, "updated crypt keeper state to: " + mCryptKeeperEnabled);
+        return mCryptKeeperEnabled;
+    }
+
     /**
      * A dream started.  We should lock after the usual screen-off lock timeout but only
      * if there is a secure lock pattern.
@@ -1186,6 +1208,14 @@ public class KeyguardViewMediator extends SystemUI {
             return;
         }
 
+        // Ugly hack to ensure keyguard is not shown on top of the CryptKeeper which prevents
+        // a user from being able to decrypt their device.
+        if (isCryptKeeperEnabled()) {
+            if (DEBUG) Log.d(TAG, "doKeyguard: not showing because CryptKeeper is enabled");
+            resetStateLocked();
+            return;
+        }
+
         // if the setup wizard hasn't run yet, don't show
         final boolean requireSim = !SystemProperties.getBoolean("keyguard.no_require_sim", false);
         final boolean absent = SubscriptionManager.isValidSubscriptionId(
@@ -1265,6 +1295,36 @@ public class KeyguardViewMediator extends SystemUI {
 
     public void dismiss() {
         mHandler.sendEmptyMessage(DISMISS);
+    }
+
+    public void showKeyguard() {
+        // This is to prevent left edge from interfering
+        // with affordances.
+        if (mStatusBar.isAffordanceSwipeInProgress()
+                || mStatusBar.getBarState() == StatusBarState.KEYGUARD) {
+            return;
+        }
+
+        // Disable edge detector once we're back on lockscreen
+        try {
+            WindowManagerGlobal.getWindowManagerService()
+                    .setLiveLockscreenEdgeDetector(false);
+        } catch (RemoteException e){
+            Log.e(TAG, e.getMessage());
+        }
+
+        mHandler.post(new Runnable() {
+            @Override
+            public void run() {
+                // Hide status bar window to avoid flicker,
+                // slideNotificationPanelIn will make it visible later.
+                mStatusBar.getStatusBarWindow().setVisibility(View.INVISIBLE);
+                // Get the keyguard into the correct state by calling mStatusBar.showKeyguard()
+                mStatusBar.showKeyguard();
+                // Now have the notification panel slid back into view
+                mStatusBar.slideNotificationPanelIn();
+            }
+        });
     }
 
     /**
@@ -1379,6 +1439,9 @@ public class KeyguardViewMediator extends SystemUI {
                 } else {
                     mSettingsObserver.unobserve();
                 }
+            } else if (TelephonyManager.ACTION_PHONE_STATE_CHANGED.equals(intent.getAction())) {
+                mPhoneState = intent.getStringExtra(TelephonyManager.EXTRA_STATE);
+                if (DEBUG) Log.d(TAG, "phone state change, new state: " + mPhoneState);
             }
         }
     };
@@ -1457,6 +1520,9 @@ public class KeyguardViewMediator extends SystemUI {
                     // Fall through.
                 case ON_ACTIVITY_DRAWN:
                     handleOnActivityDrawn();
+                    break;
+                case NOTIFY_KEYGUARD_PANEL_FOCUS_CHANGED:
+                    notifyKeyguardPanelFocusChanged(msg.arg1 != 0);
                     break;
             }
         }
@@ -1838,6 +1904,7 @@ public class KeyguardViewMediator extends SystemUI {
             FingerprintUnlockController fingerprintUnlockController) {
         mStatusBarKeyguardViewManager.registerStatusBar(phoneStatusBar, container,
                 statusBarWindowManager, scrimController, fingerprintUnlockController);
+        mStatusBar = phoneStatusBar;
         return mStatusBarKeyguardViewManager;
     }
 
@@ -1908,6 +1975,31 @@ public class KeyguardViewMediator extends SystemUI {
         }
     }
 
+    public void setKeyguardPanelFocused(boolean focused) {
+        if (DEBUG) Log.d(TAG, "setSlideOffset " + focused);
+        mHandler.removeMessages(NOTIFY_KEYGUARD_PANEL_FOCUS_CHANGED);
+        Message msg = mHandler.obtainMessage(NOTIFY_KEYGUARD_PANEL_FOCUS_CHANGED,
+                focused ? 1 : 0, 0);
+        mHandler.sendMessage(msg);
+    }
+
+    public void notifyKeyguardPanelFocusChanged(boolean focused) {
+        if (focused != mKeyguardPanelFocused) {
+            mKeyguardPanelFocused = focused;
+            int size = mKeyguardStateCallbacks.size();
+            for (int i = size - 1; i >= 0; i--) {
+                try {
+                    mKeyguardStateCallbacks.get(i).onKeyguardPanelFocusChanged(focused);
+                } catch (RemoteException e) {
+                    Slog.w(TAG, "Failed to call onShowingStateChanged", e);
+                    if (e instanceof DeadObjectException) {
+                        mKeyguardStateCallbacks.remove(i);
+                    }
+                }
+            }
+        }
+    }
+
     public void addStateMonitorCallback(IKeyguardStateCallback callback) {
         synchronized (this) {
             mKeyguardStateCallbacks.add(callback);
@@ -1915,6 +2007,7 @@ public class KeyguardViewMediator extends SystemUI {
                 callback.onSimSecureStateChanged(mUpdateMonitor.isSimPinSecure());
                 callback.onShowingStateChanged(mShowing);
                 callback.onInputRestrictedStateChanged(mInputRestricted);
+                callback.onKeyguardPanelFocusChanged(mKeyguardPanelFocused);
             } catch (RemoteException e) {
                 Slog.w(TAG, "Failed to call onShowingStateChanged or onSimSecureStateChanged or onInputRestrictedStateChanged", e);
             }

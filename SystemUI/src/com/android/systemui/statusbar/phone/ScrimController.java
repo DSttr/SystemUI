@@ -45,9 +45,9 @@ public class ScrimController implements ViewTreeObserver.OnPreDrawListener,
     public static final long ANIMATION_DURATION = 220;
     public static final Interpolator KEYGUARD_FADE_OUT_INTERPOLATOR
             = new PathInterpolator(0f, 0, 0.7f, 1f);
+    public static final float SCRIM_BEHIND_ALPHA_KEYGUARD = 0.45f;
 
     private static final float SCRIM_BEHIND_ALPHA = 0.62f;
-    private static final float SCRIM_BEHIND_ALPHA_KEYGUARD = 0.45f;
     private static final float SCRIM_BEHIND_ALPHA_UNLOCKING = 0.2f;
     private static final float SCRIM_IN_FRONT_ALPHA = 0.75f;
     private static final int TAG_KEY_ANIM = R.id.scrim;
@@ -255,7 +255,7 @@ public class ScrimController implements ViewTreeObserver.OnPreDrawListener,
         }
     }
 
-    private void setScrimBehindColor(float alpha) {
+    public void setScrimBehindColor(float alpha) {
         setScrimColor(mScrimBehind, alpha);
     }
 
@@ -436,7 +436,7 @@ public class ScrimController implements ViewTreeObserver.OnPreDrawListener,
             if (animate || alpha == mCurrentHeadsUpAlpha) {
                 previousAnimator.cancel();
             } else {
-                animEndValue = StackStateAnimator.getChildTag2(mHeadsUpScrim, TAG_HUN_END_ALPHA);
+                animEndValue = StackStateAnimator.getChildTag(mHeadsUpScrim, TAG_HUN_END_ALPHA);
             }
         }
         if (alpha != mCurrentHeadsUpAlpha && alpha != animEndValue) {
@@ -446,9 +446,9 @@ public class ScrimController implements ViewTreeObserver.OnPreDrawListener,
                 mHeadsUpScrim.setTag(TAG_HUN_END_ALPHA, alpha);
             } else {
                 if (previousAnimator != null) {
-                    float previousStartValue = StackStateAnimator.getChildTag2(mHeadsUpScrim,
+                    float previousStartValue = StackStateAnimator.getChildTag(mHeadsUpScrim,
                             TAG_HUN_START_ALPHA);
-                    float previousEndValue = StackStateAnimator.getChildTag2(mHeadsUpScrim,
+                    float previousEndValue = StackStateAnimator.getChildTag(mHeadsUpScrim,
                            TAG_HUN_END_ALPHA);
                     // we need to increase all animation keyframes of the previous animator by the
                     // relative change to the end value

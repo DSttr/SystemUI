@@ -104,6 +104,9 @@
     <string name="quick_settings_profiles_off">Profiles disabled</string>
     <string name="quick_settings_heads_up_label">Heads up</string>
     <string name="quick_settings_battery_saver_label">Battery saver</string>
+    <!-- quick settings battery saver label to show when device is charging and tile is disabled -->
+    <string name="quick_settings_battery_saver_label_charging">Battery saver (charging)</string>
+    <string name="quick_settings_caffeine_label">Caffeine</string>
 
     <!-- Content description of the sync tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] -->
     <string name="accessibility_quick_settings_sync_off">Sync off.</string>
@@ -182,6 +185,11 @@
     <!-- Announcement made when heads up changes to on (not shown on the screen). [CHAR LIMIT=NONE] -->
     <string name="accessibility_quick_settings_heads_up_changed_on">Heads up turned on.</string>
 
+    <!-- Content description of the caffeine tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_caffeine_off">Caffeine off.</string>
+    <!-- Content description of the caffeine tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_caffeine_on">Caffeine on.</string>
+
     <!-- Content description of the battery saver tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] -->
     <string name="accessibility_quick_settings_battery_saver_off">Battery saver off.</string>
     <!-- Content description of the battery saver tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] -->
@@ -198,19 +206,9 @@
     <string name="dynamic_qs_tile_ime_selector_label">IME selector</string>
     <string name="dynamic_qs_tile_su_label">Root access</string>
     <string name="dynamic_qs_tile_adb_label" translatable="false">ADB</string>
+    <string name="dynamic_qs_tile_live_display_label" translatable="false">LiveDisplay</string>
+    <string name="dynamic_qs_tile_themes_label">Themes</string>
 
-    <!-- LiveDisplay strings -->
-    <string name="live_display_title" translatable="false">LiveDisplay</string>
-    <string name="accessibility_quick_settings_live_display_off">LiveDisplay off.</string>
-    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: auto mode.</string>
-    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: day mode.</string>
-    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: night mode.</string>
-    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: outdoor mode.</string>
-    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay turned off.</string>
-    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay changed to auto mode.</string>
-    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay changed to day mode.</string>
-    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay changed to night mode.</string>
-    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay changed to outdoor mode.</string>
     <string name="quick_settings_title_advanced_location">Tri-state location</string>
 
     <!-- Content description of the location tile in quick settings when on, battery saving mode (not shown on the screen). [CHAR LIMIT=NONE] -->
@@ -247,16 +245,39 @@
     <string name="quick_settings_tile_flashlight_not_title">Flashlight is on</string>
     <string name="quick_settings_tile_flashlight_not_summary">Tap to turn off</string>
 
+    <!-- Wi-Fi hotspot label when enabled -->
+    <plurals name="wifi_hotspot_connected_clients_label">
+        <item quantity="one">%1$d client</item>
+        <item quantity="other">%1$d clients</item>
+    </plurals>
+
     <!-- CellularTile data sim not configured state string -->
     <string name="data_sim_not_configured">No data SIM</string>
-	<string name="accessibility_dock_battery_level">Dok Battery <xliff:g id="number">%d</xliff:g> persent.</string>
-	<!-- Play queue -->
-	<string name="play_queue_extention">Wys speel ry</string>
-	<!-- Content description of the caffeine tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] -->
-	<string name="accessibility_quick_settings_caffeine_off">Kafeïen af.</string>
-	<!-- Content description of the caffeine tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] -->
-	<string name="accessibility_quick_settings_caffeine_on">Kafeïen aan.</string>
-	<!-- Content description of the battery saver tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] -->
-	<string name="quick_settings_caffeine_label">Kafeïen</string>
-	 <string name="quick_settings_battery_saver_label_charging">Battery bespaarder (laai)</string>
+
+    <!-- Content description of the dock battery level icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_dock_battery_level">Dock battery <xliff:g id="number">%d</xliff:g> percent.</string>
+
+   <!-- Play queue -->
+   <string name="play_queue_extention">Show play queue</string>
+
+    <!-- Path data for portrait battery -->
+    <string name="battery_portrait_path_full" translatable="false">M 5 2 H 19 V 21 H 5 V 2 Z</string>
+    <string name="battery_portrait_path_empty" translatable="false">M 5 21 H 19 V 21 H 5 V 21 Z</string>
+    <string name="battery_portrait_clip_path" translatable="false">M6,21V4h3V2h6v2h3v17H6z</string>
+
+    <!-- Path data for landscape battery -->
+    <string name="battery_landscape_path_full" translatable="false">M 1 4 H 25 V 20 H 1 V 4 Z</string>
+    <string name="battery_landscape_path_empty" translatable="false">M 1 4 H 1 V 20 H 1 V 4 Z</string>
+    <string name="battery_landscape_clip_path" translatable="false">M25,16h-2v4H1V4h22v4h2V16z</string>
+
+    <!-- Path data for circle battery -->
+    <string name="battery_circle_path" translatable="false">M 12 3.5 C 16.6944203736 3.5 20.5 7.30557962644 20.5 12 C 20.5 16.6944203736 16.6944203736 20.5 12 20.5 C 7.30557962644 20.5 3.5 16.6944203736 3.5 12 C 3.5 7.30557962644 7.30557962644 3.5 12 3.5 Z</string>
+
+    <!-- Weather string format in keyguard -->
+    <string name="keyguard_status_view_weather_format"><xliff:g id="temp">%1$s</xliff:g> <xliff:g id="condition">%2$s</xliff:g></string>
+
+    <string name="expand_hint">Swipe down to expand</string>
+    <string name="swipe_left_hint">Swipe left to <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="swipe_right_hint">Swipe right to notifications</string>
+
 </resources>

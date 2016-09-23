@@ -239,20 +239,14 @@ public class StorageNotification extends SystemUI {
     }
 
     private void onVolumeStateChangedInternal(VolumeInfo vol) {
-        /*switch (vol.getType()) {
+        switch (vol.getType()) {
             case VolumeInfo.TYPE_PRIVATE:
                 onPrivateVolumeStateChangedInternal(vol);
                 break;
             case VolumeInfo.TYPE_PUBLIC:
                 onPublicVolumeStateChangedInternal(vol);
                 break;
-        }*/
-		
-		if (vol.getType()==VolumeInfo.TYPE_PRIVATE){
-			onPrivateVolumeStateChangedInternal(vol);
-		}else if(vol.getType()==VolumeInfo.TYPE_PUBLIC){
-		onPublicVolumeStateChangedInternal(vol);
-		}
+        }
     }
 
     private void onPrivateVolumeStateChangedInternal(VolumeInfo vol) {
@@ -333,7 +327,7 @@ public class StorageNotification extends SystemUI {
 
         // Don't annoy when user dismissed in past.  (But make sure the disk is adoptable; we
         // used to allow snoozing non-adoptable disks too.)
-        if (rec.isSnoozed() && disk.isAdoptable()) {
+        if (rec == null || (rec.isSnoozed() && disk.isAdoptable())) {
             return null;
         }
 
@@ -370,6 +364,11 @@ public class StorageNotification extends SystemUI {
                     .setContentIntent(browseIntent)
                     .setCategory(Notification.CATEGORY_SYSTEM)
                     .setPriority(Notification.PRIORITY_LOW);
+            // USB disks notification can be persistent
+            if (disk.isUsb()) {
+                builder.setOngoing(mContext.getResources().getBoolean(
+                        R.bool.config_persistUsbDriveNotification));
+            }
             // Non-adoptable disks can't be snoozed.
             if (disk.isAdoptable()) {
                 builder.setDeleteIntent(buildSnoozeIntent(vol.getFsUuid()));
@@ -604,7 +603,7 @@ public class StorageNotification extends SystemUI {
 
     private PendingIntent buildVolumeSettingsPendingIntent(VolumeInfo vol) {
         final Intent intent = new Intent();
-        /*switch (vol.getType()) {
+        switch (vol.getType()) {
             case VolumeInfo.TYPE_PRIVATE:
                 intent.setClassName("com.android.settings",
                         "com.android.settings.Settings$PrivateVolumeSettingsActivity");
@@ -615,14 +614,7 @@ public class StorageNotification extends SystemUI {
                 break;
             default:
                 return null;
-        }*/
-		if (vol.getType()==VolumeInfo.TYPE_PRIVATE) {
-			intent.setClassName("com.android.settings",
-								"com.android.settings.Settings$PrivateVolumeSettingsActivity");
-		}else if(vol.getType()== VolumeInfo.TYPE_PUBLIC){
-			intent.setClassName("com.android.settings",
-								"com.android.settings.Settings$PublicVolumeSettingsActivity");
-		}
+        }
         intent.putExtra(VolumeInfo.EXTRA_VOLUME_ID, vol.getId());
 
         final int requestKey = vol.getId().hashCode();
